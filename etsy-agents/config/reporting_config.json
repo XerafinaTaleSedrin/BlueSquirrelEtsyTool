@@ -1,0 +1,164 @@
+{
+  "reporting_schedule": {
+    "daily": {
+      "enabled": true,
+      "time": "09:00",
+      "auto_generate": false,
+      "email_recipients": []
+    },
+    "weekly": {
+      "enabled": true,
+      "day": "Monday",
+      "time": "09:00",
+      "auto_generate": true,
+      "email_recipients": []
+    },
+    "monthly": {
+      "enabled": true,
+      "day": 1,
+      "time": "09:00",
+      "auto_generate": true,
+      "email_recipients": []
+    }
+  },
+  "alert_thresholds": {
+    "revenue_decline": -0.15,
+    "view_decline": -0.20,
+    "conversion_decline": -0.25,
+    "critical_listing_count": 3,
+    "opportunity_pipeline_low": 2
+  },
+  "dashboard_preferences": {
+    "max_opportunities_display": 5,
+    "max_actions_display": 3,
+    "max_top_performers": 3,
+    "chart_type": "text",
+    "include_historical_comparison": true,
+    "show_competitor_benchmarks": false
+  },
+  "executive_summary": {
+    "performance_status_rules": {
+      "excellent": {
+        "revenue_growth": 0.10,
+        "view_growth": 0.15,
+        "conversion_stable": true
+      },
+      "good": {
+        "revenue_growth": 0.0,
+        "view_growth": 0.05,
+        "conversion_decline_max": -0.05
+      },
+      "needs_attention": {
+        "revenue_decline_max": -0.10,
+        "view_decline_max": -0.15
+      }
+    },
+    "key_metrics_priority": [
+      "revenue",
+      "views",
+      "conversion_rate",
+      "seo_health",
+      "opportunities"
+    ]
+  },
+  "report_formats": {
+    "json": {
+      "enabled": true,
+      "detailed": true,
+      "include_raw_data": false
+    },
+    "markdown": {
+      "enabled": true,
+      "executive_summary_only": false,
+      "include_charts": false
+    },
+    "html": {
+      "enabled": false,
+      "template_path": "",
+      "interactive": false
+    },
+    "csv": {
+      "enabled": false,
+      "data_export_only": true
+    }
+  },
+  "integration_settings": {
+    "seo_agent_data": {
+      "required": true,
+      "fallback_behavior": "use_cached_data",
+      "max_age_hours": 24
+    },
+    "market_research_data": {
+      "required": true,
+      "fallback_behavior": "generate_placeholder",
+      "max_age_hours": 168
+    },
+    "external_apis": {
+      "etsy_api": {
+        "enabled": false,
+        "rate_limit_per_hour": 100,
+        "retry_attempts": 3
+      },
+      "google_analytics": {
+        "enabled": false,
+        "property_id": ""
+      }
+    }
+  },
+  "business_goals": {
+    "monthly_targets": {
+      "revenue_growth_percent": 15,
+      "view_growth_percent": 10,
+      "conversion_rate_target": 0.045,
+      "new_listings": 3,
+      "seo_improvements": 5
+    },
+    "quarterly_targets": {
+      "revenue_growth_percent": 50,
+      "market_expansion_categories": 2,
+      "capability_improvements": 3
+    }
+  },
+  "action_prioritization": {
+    "high_priority_criteria": [
+      "critical_seo_issues",
+      "revenue_decline",
+      "quick_win_opportunities"
+    ],
+    "medium_priority_criteria": [
+      "optimization_opportunities",
+      "market_research",
+      "capability_building"
+    ],
+    "low_priority_criteria": [
+      "long_term_planning",
+      "experimental_opportunities",
+      "documentation"
+    ]
+  },
+  "notification_settings": {
+    "critical_alerts": {
+      "enabled": true,
+      "methods": ["console", "file"],
+      "conditions": [
+        "revenue_decline_critical",
+        "multiple_listings_failing",
+        "api_connection_failure"
+      ]
+    },
+    "weekly_summaries": {
+      "enabled": true,
+      "methods": ["file"],
+      "include_attachments": false
+    }
+  },
+  "historical_data": {
+    "retention_period_days": 365,
+    "backup_frequency": "weekly",
+    "comparison_periods": [
+      "week_over_week",
+      "month_over_month",
+      "year_over_year"
+    ]
+  }
+}

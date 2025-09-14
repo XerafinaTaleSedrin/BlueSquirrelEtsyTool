@@ -1,0 +1,71 @@
+{
+  "thresholds": {
+    "green_growth": 0.05,
+    "yellow_decline": -0.10,
+    "red_decline": -0.20
+  },
+  "scoring_weights": {
+    "search_visibility": 0.25,
+    "ctr": 0.20,
+    "conversion": 0.25,
+    "favorites": 0.15,
+    "keywords": 0.15
+  },
+  "target_metrics": {
+    "min_ctr": 0.02,
+    "target_conversion": 0.03,
+    "min_visibility": 0.10,
+    "optimal_photos": 10,
+    "max_tags": 13
+  },
+  "monitoring_schedule": {
+    "daily_check": {
+      "enabled": true,
+      "time": "09:00",
+      "duration_minutes": 2
+    },
+    "weekly_review": {
+      "enabled": true,
+      "day": "Monday",
+      "time": "09:00",
+      "duration_minutes": 15
+    },
+    "monthly_analysis": {
+      "enabled": true,
+      "day": 1,
+      "time": "10:00",
+      "duration_minutes": 60
+    }
+  },
+  "seo_best_practices": {
+    "title_optimization": {
+      "max_length": 140,
+      "include_keywords": true,
+      "avoid_keyword_stuffing": true,
+      "include_benefits": true
+    },
+    "tag_optimization": {
+      "use_all_13_tags": true,
+      "include_long_tail": true,
+      "mix_broad_and_specific": true,
+      "avoid_duplicates": true
+    },
+    "photo_optimization": {
+      "min_photos": 5,
+      "optimal_photos": 10,
+      "first_photo_critical": true,
+      "lifestyle_shots": true
+    }
+  },
+  "competitor_analysis": {
+    "track_top_competitors": 5,
+    "keywords_to_monitor": 20,
+    "price_comparison": true,
+    "photo_analysis": true
+  },
+  "alerts": {
+    "critical_ctr_drop": 0.015,
+    "critical_conversion_drop": 0.02,
+    "ranking_drop_positions": 10
+  }
+}

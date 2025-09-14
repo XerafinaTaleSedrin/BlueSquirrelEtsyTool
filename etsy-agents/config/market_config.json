@@ -1,0 +1,133 @@
+{
+  "capability_constraints": {
+    "excluded_categories": [
+      "woodworking",
+      "metalworking",
+      "glass blowing",
+      "pottery wheel",
+      "jewelry casting",
+      "leather working",
+      "screen printing",
+      "automotive",
+      "electronics repair",
+      "heavy machinery"
+    ],
+    "preferred_categories": [
+      "digital products",
+      "printables",
+      "simple crafts",
+      "planning",
+      "stickers",
+      "cards",
+      "simple sewing",
+      "knitting",
+      "crochet",
+      "paper crafts",
+      "organizational tools"
+    ]
+  },
+  "user_capabilities": {
+    "skills": [
+      "digital_design",
+      "basic_sewing",
+      "writing",
+      "planning",
+      "organization",
+      "customer_service",
+      "basic_photography"
+    ],
+    "tools_available": [
+      "computer",
+      "printer",
+      "basic_sewing_supplies",
+      "design_software",
+      "camera/phone",
+      "cutting_mat",
+      "craft_knife"
+    ],
+    "tools_not_available": [
+      "woodworking_tools",
+      "pottery_wheel",
+      "metalworking_equipment",
+      "advanced_machinery",
+      "professional_photo_studio",
+      "vinyl_cutter",
+      "embroidery_machine"
+    ],
+    "time_availability": {
+      "quick_wins": 2,
+      "weekend_projects": 8,
+      "major_initiatives": 40,
+      "long_term_strategy": 100
+    },
+    "budget_constraints": {
+      "materials_per_month": 200,
+      "tools_one_time": 500,
+      "marketing_per_month": 100
+    }
+  },
+  "scoring_system": {
+    "effort_weights": {
+      "research_time": 0.2,
+      "skill_learning": 0.3,
+      "material_cost": 0.2,
+      "production_time": 0.3
+    },
+    "impact_factors": {
+      "market_size": 0.4,
+      "competition": 0.3,
+      "profit_margin": 0.3
+    },
+    "confidence_factors": {
+      "skill_match": 0.4,
+      "market_data_quality": 0.3,
+      "competition_analysis": 0.3
+    }
+  },
+  "rice_scoring": {
+    "reach_multipliers": {
+      "search_volume_1000": 1,
+      "search_volume_5000": 2,
+      "search_volume_10000": 3,
+      "search_volume_20000": 4,
+      "search_volume_50000": 5
+    },
+    "impact_scale": {
+      "low_price_margin": 1,
+      "medium_price_margin": 3,
+      "high_price_margin": 5
+    }
+  },
+  "market_research": {
+    "keyword_sources": [
+      "etsy_search",
+      "google_trends",
+      "pinterest_trends",
+      "seasonal_analysis"
+    ],
+    "competitor_analysis": {
+      "top_performers_to_analyze": 10,
+      "price_range_analysis": true,
+      "photo_style_analysis": true,
+      "keyword_gap_analysis": true
+    },
+    "seasonal_tracking": {
+      "track_holidays": true,
+      "track_seasons": true,
+      "advance_planning_months": 3
+    }
+  },
+  "opportunity_filters": {
+    "min_search_volume": 100,
+    "max_competition_difficulty": 8,
+    "min_average_price": 5.0,
+    "max_skill_learning_curve": 4,
+    "exclude_trademark_risks": true
+  },
+  "reporting_preferences": {
+    "max_opportunities_per_report": 20,
+    "group_by_timeline": true,
+    "include_capability_gaps": true,
+    "priority_score_threshold": 2.0
+  }
+}

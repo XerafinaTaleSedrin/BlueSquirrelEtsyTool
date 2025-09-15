@@ -1,0 +1,41 @@
+{
+  "agent_name": "keyword_optimizer",
+  "version": "1.0.0",
+  "description": "Analyzes existing keywords and suggests replacements/removals for optimal SEO performance",
+  "capabilities": [
+    "keyword_performance_analysis",
+    "replacement_suggestions",
+    "portfolio_gap_identification",
+    "quick_win_identification",
+    "strategic_recommendations"
+  ],
+  "analysis_parameters": {
+    "relevance_threshold": 5,
+    "overuse_threshold": 0.7,
+    "high_priority_changes_threshold": 5,
+    "max_replacement_suggestions": 3,
+    "max_additional_suggestions": 5
+  },
+  "keyword_categories": {
+    "high_value_niche": ["bureaucrat", "civil servant", "deep state", "opsec", "rogue", "transparency"],
+    "product_descriptors": ["shirt", "tee", "sticker", "decal", "mug", "hat", "cap"],
+    "target_audience": ["government worker", "federal employee", "civil servant", "diplomat"],
+    "low_value_descriptors": ["beautiful", "perfect", "amazing", "awesome", "great", "best"],
+    "trending_political": ["accountability", "oversight", "whistleblower", "classified", "security"]
+  },
+  "competition_levels": {
+    "high": ["political", "funny", "resist", "protest", "gift", "t shirt", "clothing"],
+    "medium": ["government", "humor", "federal employee", "sticker", "hat", "retirement gift"],
+    "low": ["bureaucrat", "civil servant", "deep state", "opsec", "satire", "witty", "decal"]
+  },
+  "seasonal_keywords": {
+    "q4_2025": ["election prep", "political gift", "democracy defender", "voting rights"],
+    "current": ["budget season", "oversight", "transparency", "accountability"]
+  },
+  "output_format": {
+    "portfolio_analysis": true,
+    "individual_listing_recommendations": true,
+    "quick_wins_identification": true,
+    "strategic_roadmap": true
+  }
+}

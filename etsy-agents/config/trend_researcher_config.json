@@ -1,0 +1,124 @@
+{
+  "agent_name": "trend_researcher",
+  "version": "1.0.0",
+  "description": "Researches Etsy trends from specialized websites and sources for market intelligence",
+  "research_scope": {
+    "time_period": "last_90_days",
+    "focus_niche": "political_satire_government_humor",
+    "geographic_focus": "united_states_primarily",
+    "update_frequency": "weekly"
+  },
+  "data_sources": {
+    "primary_sources": [
+      {
+        "name": "etsy_official",
+        "url": "blog.etsy.com/trends",
+        "reliability": "high",
+        "speciality": "official_trend_reports"
+      },
+      {
+        "name": "marmalead",
+        "url": "marmalead.com",
+        "reliability": "high",
+        "speciality": "etsy_seo_keyword_trends"
+      },
+      {
+        "name": "erank",
+        "url": "erank.com",
+        "reliability": "high",
+        "speciality": "market_analysis_tracking"
+      }
+    ],
+    "secondary_sources": [
+      {
+        "name": "etsy_seller_blogs",
+        "reliability": "medium",
+        "speciality": "seller_insights"
+      },
+      {
+        "name": "social_media_trends",
+        "reliability": "medium",
+        "speciality": "viral_content_drivers"
+      },
+      {
+        "name": "ecommerce_research",
+        "reliability": "medium",
+        "speciality": "general_ecommerce_trends"
+      }
+    ]
+  },
+  "research_parameters": {
+    "keyword_trend_threshold": 25,
+    "category_growth_threshold": 20,
+    "minimum_data_points": 3,
+    "confidence_levels": ["high", "medium", "low"],
+    "seasonal_analysis_months": 12
+  },
+  "target_categories": [
+    "political_satire_apparel",
+    "government_employee_gifts",
+    "digital_political_art",
+    "cybersecurity_humor",
+    "nato_military_alphabet",
+    "protest_resistance_gear",
+    "civil_servant_merchandise"
+  ],
+  "monitoring_keywords": [
+    "government_humor",
+    "civil_servant_gift",
+    "political_statement",
+    "bureaucrat_humor",
+    "resistance_gear",
+    "federal_employee",
+    "cyber_security",
+    "transparency",
+    "accountability",
+    "public_service"
+  ],
+  "seasonal_events": [
+    {
+      "name": "cybersecurity_awareness_month",
+      "period": "october",
+      "impact": "high",
+      "preparation_time": "6_weeks"
+    },
+    {
+      "name": "election_cycle",
+      "period": "q4_election_years",
+      "impact": "very_high",
+      "preparation_time": "3_months"
+    },
+    {
+      "name": "tax_season",
+      "period": "january_april",
+      "impact": "medium",
+      "preparation_time": "8_weeks"
+    },
+    {
+      "name": "government_fiscal_year",
+      "period": "october_september",
+      "impact": "medium",
+      "preparation_time": "ongoing"
+    }
+  ],
+  "competitor_analysis": {
+    "track_competitors": true,
+    "competitor_count_threshold": 50,
+    "market_saturation_levels": ["low", "medium", "high", "oversaturated"],
+    "price_point_analysis": true,
+    "differentiation_opportunities": true
+  },
+  "output_formats": {
+    "trend_report": true,
+    "keyword_recommendations": true,
+    "seasonal_forecasts": true,
+    "competitive_intelligence": true,
+    "social_media_insights": true
+  },
+  "alert_thresholds": {
+    "rapid_growth": 50,
+    "rapid_decline": -25,
+    "new_trend_emergence": 100,
+    "competitor_surge": 30
+  }
+}

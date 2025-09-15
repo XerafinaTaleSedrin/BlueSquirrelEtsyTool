@@ -1,0 +1,131 @@
+{
+  "agent_name": "product_expander",
+  "version": "1.0.0",
+  "description": "Suggests new products within political satire niche focusing on POD and digital opportunities",
+  "expansion_focus": {
+    "primary_categories": [
+      "print_on_demand_apparel",
+      "digital_downloads",
+      "pod_accessories",
+      "home_office_decor"
+    ],
+    "target_niches": [
+      "government_humor",
+      "civil_service_pride",
+      "cybersecurity_satire",
+      "political_accountability",
+      "military_nato_humor"
+    ],
+    "audience_segments": [
+      "federal_employees",
+      "state_local_workers",
+      "government_contractors",
+      "policy_professionals",
+      "it_cybersecurity",
+      "military_veterans",
+      "advocacy_groups"
+    ]
+  },
+  "pod_platforms": {
+    "preferred_platforms": ["printful", "printify", "gooten"],
+    "product_types": {
+      "apparel": ["t_shirts", "hoodies", "tank_tops", "polo_shirts", "sweatshirts"],
+      "accessories": ["mugs", "water_bottles", "tote_bags", "phone_cases", "mousepads", "badge_holders"],
+      "headwear": ["baseball_caps", "beanies", "trucker_hats"],
+      "home_decor": ["wall_art", "throw_pillows", "blankets", "desk_accessories"]
+    },
+    "quality_standards": {
+      "minimum_rating": 4.0,
+      "preferred_materials": ["organic_cotton", "sustainable_materials"],
+      "fulfillment_time": "under_7_days"
+    }
+  },
+  "digital_products": {
+    "format_preferences": {
+      "printable_art": ["pdf", "png", "jpg"],
+      "social_media": ["png", "psd", "canva_template"],
+      "documents": ["pdf", "docx", "pptx"],
+      "graphics": ["svg", "eps", "ai"]
+    },
+    "size_standards": {
+      "print_sizes": ["8x10", "11x14", "16x20", "24x36"],
+      "social_media": ["instagram_post", "facebook_cover", "linkedin_banner"],
+      "presentation": ["slide_16_9", "slide_4_3"]
+    },
+    "pricing_strategy": {
+      "simple_graphics": "$2-5",
+      "template_sets": "$5-12",
+      "comprehensive_bundles": "$15-25",
+      "professional_tools": "$20-40"
+    }
+  },
+  "opportunity_scoring": {
+    "factors": {
+      "demand_level": {"weight": 0.3, "scale": "1-10"},
+      "competition_level": {"weight": 0.2, "scale": "reverse_1-10"},
+      "profit_margin": {"weight": 0.25, "scale": "percentage"},
+      "time_to_market": {"weight": 0.15, "scale": "reverse_time"},
+      "skill_alignment": {"weight": 0.1, "scale": "1-10"}
+    },
+    "thresholds": {
+      "high_priority": 8.5,
+      "medium_priority": 7.0,
+      "low_priority": 5.0
+    }
+  },
+  "variation_strategies": {
+    "demographic_targeting": {
+      "government_levels": ["federal", "state", "local"],
+      "departments": ["state", "defense", "treasury", "commerce", "homeland_security"],
+      "roles": ["manager", "analyst", "specialist", "contractor"]
+    },
+    "seasonal_adaptations": {
+      "q4_holidays": "political_holiday_themes",
+      "cybersecurity_month": "security_awareness_focus",
+      "tax_season": "irs_government_humor",
+      "fiscal_year_end": "budget_process_humor"
+    },
+    "experience_levels": {
+      "new_employees": "onboarding_focused",
+      "mid_career": "process_humor",
+      "senior_employees": "leadership_perspective",
+      "retirees": "career_reflection"
+    }
+  },
+  "bundle_strategies": {
+    "starter_packs": {
+      "target": "new_government_employees",
+      "components": 5,
+      "discount": "25%"
+    },
+    "professional_toolkits": {
+      "target": "specialized_roles",
+      "components": 6,
+      "discount": "30%"
+    },
+    "seasonal_collections": {
+      "target": "holiday_gift_buyers",
+      "components": 4,
+      "discount": "20%"
+    }
+  },
+  "implementation_timeline": {
+    "immediate": "1-2_weeks",
+    "short_term": "3-8_weeks",
+    "medium_term": "2-4_months",
+    "long_term": "6_months_plus"
+  },
+  "success_metrics": {
+    "revenue_growth": "target_percentage_increase",
+    "product_diversity": "category_expansion_count",
+    "customer_acquisition": "new_customer_percentage",
+    "repeat_purchases": "cross_sell_success_rate",
+    "profit_margins": "maintained_target_margins"
+  },
+  "risk_mitigation": {
+    "market_validation": "pre_launch_surveys",
+    "a_b_testing": "design_variations",
+    "inventory_management": "pod_digital_only_start",
+    "customer_feedback": "rapid_iteration_cycles"
+  }
+}

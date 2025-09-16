@@ -1,6 +1,6 @@
 {
   "analysis_metadata": {
-    "generated_timestamp": "2025-09-15 19:58:44",
+    "generated_timestamp": "2025-09-16 09:47:03",
     "agents_used": [
       "base_seo",
       "keyword_optimizer",
@@ -30,7 +30,7 @@
   "agent_analyses": {
     "base_seo_analysis": {
       "shop_name": "EcureuilBleu",
-      "analysis_date": "2025-09-15",
+      "analysis_date": "2025-09-16",
       "total_listings": 17,
       "total_sales": 0,
       "avg_rating": 0.0,
@@ -1194,6 +1194,15 @@
           "reasoning": "High relevance (9/10), stable trend. Strong performer."
         },
         {
+          "keyword": "gift",
+          "frequency_across_listings": 4,
+          "estimated_competition": "High",
+          "relevance_score": 8,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "High relevance (8/10), stable trend. Strong performer."
+        },
+        {
           "keyword": "protest",
           "frequency_across_listings": 4,
           "estimated_competition": "High",
@@ -1207,610 +1216,7 @@
           "reasoning": "Moderate performance. Monitor and optimize placement."
         },
         {
-          "keyword": "gift",
-          "frequency_across_listings": 4,
-          "estimated_competition": "High",
-          "relevance_score": 8,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "High relevance (8/10), stable trend. Strong performer."
-        },
-        {
-          "keyword": "dissent_statement",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "national_security",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "government_irony",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "political_protest",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "political_t-shirt",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "political_tee",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "usg",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "subversive_statement",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "justice",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "political_action_tee",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "graphic_protest_tee",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "resist_persist_tee",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "casual_statement_hat",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "usaid_shirt",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "dnd_healing_cards",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "public_service_gift",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "save_usaid_hat",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "dissent",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "public_sector_gift",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "political_bumper",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "state",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "civil_servant_gift",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "defy_persist_shirt",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "daily_protest_gear",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "resist_persist_defy",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "civil_rights_tee",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "defend_constitution",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "potion_card_dnd",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "federal_worker_gift",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "unisex_activist_tee",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "international_aid",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "protect_constitution",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "rpg_potion_card",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "it_security_humor",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "save_democracy_hat",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "gift_for_bureaucrat",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "it_security_gift",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "healing_potion_5e",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "political_humor_hat",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
           "keyword": "dnd_accessories",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "march_t_shirt",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "healing_potion_kit",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "government_gift",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "resist_t_shirt",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "save_our_constitutio",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "government_employee",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "usaid_employee_gift",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "nato_alphabet_shirt",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "democrat_hat",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "rogue_bureaucrat_hat",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "opsec_fail_meme",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "minimalist_activist",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "political_ball_cap",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "5e_potion_deck",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "federal_employee_hat",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "dissent_shirt",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "american_dissent",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "development_protest",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "education",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "tech_satire_gift",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "tabletop_game_aid",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "opsec_irony_sticker",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "organizing_apparel",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "political_sticker",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "anti-fascist_tee",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "defy",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "government_satire",
           "frequency_across_listings": 1,
           "estimated_competition": "Unknown",
           "relevance_score": 5,
@@ -1828,133 +1234,7 @@
           "reasoning": "Moderate performance. Monitor and optimize placement."
         },
         {
-          "keyword": "dnd_card_print",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "dungeons_dragons",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "march_ready_t-shirt",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "security_fail_meme",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "protest_resist_cap",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "protest_t-shirt",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "dnd_instant_download",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "political_satire",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "protest_shirt",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "department_of",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "statement_accessory",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "anti_maga",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "fantasy_potion",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "dancing_fox_protest",
-          "frequency_across_listings": 1,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "political_humor",
+          "keyword": "unisex_activist_tee",
           "frequency_across_listings": 1,
           "estimated_competition": "Unknown",
           "relevance_score": 5,
@@ -1972,7 +1252,241 @@
           "reasoning": "Moderate performance. Monitor and optimize placement."
         },
         {
-          "keyword": "unique_political",
+          "keyword": "graphic_protest_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "minimalist_activist",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "healing_potion_kit",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "resist_persist_defy",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "save_usaid_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_humor_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "rpg_potion_card",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dissent_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "opsec_irony_sticker",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "it_security_humor",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "resist_t_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "usaid_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_protest",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "resist_persist_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dissent_statement",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "democrat_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "usg",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "tabletop_game_aid",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "civil_rights_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "protect_constitution",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_sticker",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "fantasy_potion",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "5e_potion_deck",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "defend_constitution",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "international_aid",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "march_ready_t-shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dnd_instant_download",
           "frequency_across_listings": 1,
           "estimated_competition": "Unknown",
           "relevance_score": 5,
@@ -1990,8 +1504,8 @@
           "reasoning": "Moderate performance. Monitor and optimize placement."
         },
         {
-          "keyword": "stop_doge",
-          "frequency_across_listings": 2,
+          "keyword": "healing_potion_5e",
+          "frequency_across_listings": 1,
           "estimated_competition": "Unknown",
           "relevance_score": 5,
           "replacement_suggestions": [],
@@ -1999,8 +1513,8 @@
           "reasoning": "Moderate performance. Monitor and optimize placement."
         },
         {
-          "keyword": "save_usaid",
-          "frequency_across_listings": 2,
+          "keyword": "defy_persist_shirt",
+          "frequency_across_listings": 1,
           "estimated_competition": "Unknown",
           "relevance_score": 5,
           "replacement_suggestions": [],
@@ -2008,8 +1522,467 @@
           "reasoning": "Moderate performance. Monitor and optimize placement."
         },
         {
-          "keyword": "stand_up_fight_back",
-          "frequency_across_listings": 2,
+          "keyword": "state",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "department_of",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "save_our_constitutio",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "federal_employee_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "anti_maga",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "tech_satire_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dancing_fox_protest",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_t-shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_action_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "security_fail_meme",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "protest_t-shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dnd_card_print",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "casual_statement_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_humor",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "potion_card_dnd",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "development_protest",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dnd_healing_cards",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "government_irony",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_satire",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_ball_cap",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "defy",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "justice",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "nato_alphabet_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "government_employee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "march_t_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "daily_protest_gear",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "subversive_statement",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "civil_servant_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dungeons_dragons",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dissent",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "public_service_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "government_satire",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "protest_resist_cap",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "opsec_fail_meme",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "save_democracy_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "unique_political",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "education",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "protest_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "usaid_employee_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "it_security_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "statement_accessory",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_bumper",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "anti-fascist_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "government_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "organizing_apparel",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "public_sector_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "rogue_bureaucrat_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "federal_worker_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "american_dissent",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "gift_for_bureaucrat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "national_security",
+          "frequency_across_listings": 1,
           "estimated_competition": "Unknown",
           "relevance_score": 5,
           "replacement_suggestions": [],
@@ -2018,60 +1991,6 @@
         },
         {
           "keyword": "civil_servant_shirt",
-          "frequency_across_listings": 2,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "statement_shirt",
-          "frequency_across_listings": 2,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "government_protest",
-          "frequency_across_listings": 2,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "subtle_political_art",
-          "frequency_across_listings": 2,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "usa_protest_gear",
-          "frequency_across_listings": 2,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "quiet_resistance",
-          "frequency_across_listings": 2,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "foreign_service_tee",
           "frequency_across_listings": 2,
           "estimated_competition": "Unknown",
           "relevance_score": 5,
@@ -2098,7 +2017,88 @@
           "reasoning": "Moderate performance. Monitor and optimize placement."
         },
         {
+          "keyword": "save_usaid",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
           "keyword": "activist_apparel",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "statement_shirt",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "foreign_service_tee",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "usa_protest_gear",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "quiet_resistance",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "subtle_political_art",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "stand_up_fight_back",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "government_protest",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "stop_doge",
           "frequency_across_listings": 2,
           "estimated_competition": "Unknown",
           "relevance_score": 5,
@@ -2109,6 +2109,15 @@
         {
           "keyword": "diplomat_gift",
           "frequency_across_listings": 3,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "usaid",
+          "frequency_across_listings": 4,
           "estimated_competition": "Unknown",
           "relevance_score": 5,
           "replacement_suggestions": [],
@@ -2134,7 +2143,7 @@
           "reasoning": "Moderate performance. Monitor and optimize placement."
         },
         {
-          "keyword": "usaid",
+          "keyword": "persist",
           "frequency_across_listings": 4,
           "estimated_competition": "Unknown",
           "relevance_score": 5,
@@ -2144,15 +2153,6 @@
         },
         {
           "keyword": "save_democracy",
-          "frequency_across_listings": 4,
-          "estimated_competition": "Unknown",
-          "relevance_score": 5,
-          "replacement_suggestions": [],
-          "action_recommendation": "Keep",
-          "reasoning": "Moderate performance. Monitor and optimize placement."
-        },
-        {
-          "keyword": "persist",
           "frequency_across_listings": 4,
           "estimated_competition": "Unknown",
           "relevance_score": 5,
@@ -2637,7 +2637,7 @@
     },
     "trends_research": {
       "report_metadata": {
-        "generated_date": "2025-09-15 19:58",
+        "generated_date": "2025-09-16 09:47",
         "research_period": "Last 90 days",
         "sources_consulted": 6,
         "focus_niche": "Political Satire/Government Humor"

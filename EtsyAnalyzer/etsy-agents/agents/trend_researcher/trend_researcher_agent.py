@@ -5,8 +5,11 @@ Searches specialized Etsy trend websites and studies for market intelligence
 """
 
 import json
-import requests
 from dataclasses import dataclass, asdict
+try:
+    import requests
+except ImportError:
+    requests = None
 from typing import List, Dict, Optional
 from datetime import datetime, timedelta
 

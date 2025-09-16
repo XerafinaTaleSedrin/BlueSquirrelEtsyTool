@@ -9,10 +9,12 @@ import sys
 import os
 from datetime import datetime
 
-# Add agent paths to system path
-sys.path.append('etsy-agents/agents/keyword_optimizer')
-sys.path.append('etsy-agents/agents/trend_researcher')
-sys.path.append('etsy-agents/agents/product_expander')
+# Get the current directory and set up paths
+current_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.join(current_dir, 'etsy-agents/agents/keyword_optimizer'))
+sys.path.append(os.path.join(current_dir, 'etsy-agents/agents/trend_researcher'))
+sys.path.append(os.path.join(current_dir, 'etsy-agents/agents/product_expander'))
+sys.path.append(current_dir)
 
 from keyword_optimizer_agent import KeywordOptimizerAgent
 from trend_researcher_agent import EtsyTrendsResearchAgent

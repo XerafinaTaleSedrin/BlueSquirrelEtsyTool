@@ -1,0 +1,3072 @@
+{
+  "analysis_metadata": {
+    "generated_timestamp": "2025-09-15 19:58:44",
+    "agents_used": [
+      "base_seo",
+      "keyword_optimizer",
+      "trends_researcher",
+      "product_expander"
+    ],
+    "total_listings_analyzed": 17,
+    "analysis_scope": "comprehensive_multi_agent"
+  },
+  "executive_summary": {
+    "overall_shop_health": {
+      "status": "Good",
+      "seo_score": "73.2/100",
+      "keyword_efficiency": "80.8%",
+      "optimization_potential": "Medium"
+    },
+    "key_opportunities": [
+      "Add trending keyword: government humor",
+      "Expand into: Political Satire Apparel",
+      "Launch: Federal Employee ID Badge Holder"
+    ],
+    "immediate_actions": [
+      "📈 Add trending keywords: government humor, civil servant, bureaucrat gift"
+    ],
+    "strategic_focus": "Digital Product Expansion"
+  },
+  "agent_analyses": {
+    "base_seo_analysis": {
+      "shop_name": "EcureuilBleu",
+      "analysis_date": "2025-09-15",
+      "total_listings": 17,
+      "total_sales": 0,
+      "avg_rating": 0.0,
+      "listings": [
+        {
+          "title": "Currently Clean on OPSEC Embroidered Hat | Rogue Bureaucrat Satire | Snarky Dad Cap | Political Irony Gift",
+          "price": 20.0,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "Government_Satire",
+            "Political_Humor",
+            "IT_Security_Gift",
+            "OPSEC_Fail_Meme",
+            "Civil_Servant_Gift",
+            "Rogue_Bureaucrat_Hat",
+            "Protest_Resist_Cap",
+            "Statement_Accessory",
+            "Save_Democracy"
+          ],
+          "category": "General",
+          "photos_count": 8,
+          "description_length": 1688,
+          "seo_score": 60.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Currently Clean on OPSEC Sticker | Ironic Gov Scandal Decal | Political Satire | Cybersecurity Meme | Rogue Bureaucrat Gift",
+          "price": 5.5,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "Political_Satire",
+            "Security_Fail_Meme",
+            "OPSEC_Irony_Sticker",
+            "Scandal_Humor",
+            "Tech_Satire_Gift",
+            "IT_Security_Humor",
+            "Federal_Worker_Gift",
+            "Government_Irony",
+            "Rogue_Bureaucrat"
+          ],
+          "category": "General",
+          "photos_count": 10,
+          "description_length": 789,
+          "seo_score": 60.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Foxtrot Delta Tango Bumper Sticker – Dancing Fox Protest | Cheeky Political Art | Bumper Sticker",
+          "price": 10.0,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "FDT",
+            "foxtrot_delta_tango",
+            "Diplomat_gift",
+            "Federal_Employee",
+            "quiet_resistance",
+            "subtle_political_art",
+            "modern_protest",
+            "American_dissent",
+            "Daily_protest_gear",
+            "Political_bumper"
+          ],
+          "category": "General",
+          "photos_count": 2,
+          "description_length": 814,
+          "seo_score": 60.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Foxtrot Delta Tango Calligraphy Shirt – Subtle Protest Tee | Elegant Script Statement | Political Art Shirt | FDT T-Shirt",
+          "price": 15.0,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "FDT",
+            "foxtrot_delta_tango",
+            "SaveDemocracy",
+            "Diplomat_gift",
+            "Protest_T-Shirt",
+            "Federal_Employee",
+            "nato_alphabet_shirt",
+            "quiet_resistance",
+            "subtle_political_art",
+            "minimalist_activist",
+            "modern_protest"
+          ],
+          "category": "General",
+          "photos_count": 8,
+          "description_length": 1445,
+          "seo_score": 80.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Foxtrot Delta Tango Sticker – Dancing Fox Protest Decal | Cheeky Political Art | Waterproof Vinyl for Laptop, Journal, or Water Bottle",
+          "price": 5.5,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "usa_protest_gear",
+            "foxtrot_delta_tango",
+            "FDT",
+            "Resist",
+            "political_sticker",
+            "Dancing_Fox_Protest",
+            "Government_employee",
+            "Diplomat_gift",
+            "SaveDemocracy"
+          ],
+          "category": "General",
+          "photos_count": 10,
+          "description_length": 793,
+          "seo_score": 60.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Foxtrot Delta Tango T-Shirt – Dancing Fox Protest Tee | Cheeky Political Slogan Shirt | Anthropomorphic Foxes in Delta Triangle",
+          "price": 15.0,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "usa_protest_gear",
+            "foxtrot_delta_tango",
+            "FDT",
+            "Resist",
+            "protest_shirt",
+            "subversive_statement",
+            "SaveDemocracy"
+          ],
+          "category": "General",
+          "photos_count": 9,
+          "description_length": 1424,
+          "seo_score": 60.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Rogue Bureaucrat - Mug",
+          "price": 9.5,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "Rogue_Bureaucrat",
+            "Resist",
+            "USG",
+            "Save_Democracy",
+            "STOP_DOGE",
+            "Protest_Gear",
+            "Stand_Up_Fight_Back",
+            "Public_Service_gift",
+            "Protect_Constitution",
+            "Save_USAID",
+            "Federal_Employee"
+          ],
+          "category": "General",
+          "photos_count": 10,
+          "description_length": 1320,
+          "seo_score": 80.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Currently Clean on OPSEC - T-shirt",
+          "price": 15.0,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "Persist",
+            "Dissent",
+            "Defy",
+            "Federal_Employee",
+            "Public_Service",
+            "Save_Democracy",
+            "Protest_Gear",
+            "STOP_DOGE",
+            "save_our_constitutio",
+            "stand_up_fight_back",
+            "national_security",
+            "anti_MAGA"
+          ],
+          "category": "General",
+          "photos_count": 6,
+          "description_length": 767,
+          "seo_score": 80.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Dissent Defy Resist Persist Vote T-Shirt | Fuel the Fire Protest Shirt | Political Activism Tee | Civil Rights Graphic Shirt",
+          "price": 15.0,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "Political_Protest",
+            "Civil_Rights_Tee",
+            "Resist_T_Shirt",
+            "Dissent_Shirt",
+            "Activist_Apparel",
+            "Anti-Fascist_Tee",
+            "Graphic_Protest_Tee",
+            "Statement_Shirt",
+            "March_T_Shirt",
+            "Rogue_Bureaucrat",
+            "Political_Tee",
+            "Defy_Persist_Shirt"
+          ],
+          "category": "General",
+          "photos_count": 3,
+          "description_length": 1467,
+          "seo_score": 70.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "USAID Rogue Bureaucrat T-Shirt | Political Activist Tee | Government Protest Shirt | Foreign Service Political Statement Apparel",
+          "price": 21.0,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "Rogue_Bureaucrat",
+            "USAID_Shirt",
+            "Foreign_Service_Tee",
+            "Development_Protest",
+            "Civil_Servant_Shirt",
+            "Government_Protest",
+            "Political_T-Shirt",
+            "USAID_employee_gift",
+            "International_Aid",
+            "Public_Service",
+            "Dissent_Statement",
+            "Activist_Apparel",
+            "Save_USAID"
+          ],
+          "category": "General",
+          "photos_count": 9,
+          "description_length": 2124,
+          "seo_score": 100.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Public Service is a Public Good - Reclaim the Red Hat",
+          "price": 18.0,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "Rogue_Bureaucrat",
+            "Public_Service",
+            "Resist",
+            "Federal_Employee",
+            "USAID",
+            "Gift",
+            "Protest",
+            "Persist",
+            "SaveDemocracy"
+          ],
+          "category": "General",
+          "photos_count": 5,
+          "description_length": 695,
+          "seo_score": 60.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Public Service is a Public Good - Can-shaped glass",
+          "price": 14.5,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "Rogue_Bureaucrat",
+            "Public_Service",
+            "Resist",
+            "Federal_Employee",
+            "USAID",
+            "Gift",
+            "Protest",
+            "Persist",
+            "SaveDemocracy"
+          ],
+          "category": "General",
+          "photos_count": 6,
+          "description_length": 312,
+          "seo_score": 60.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Rogue Bureaucrat Embroidered Hat - Take Back The Hat | Funny Political Statement Cap | Adjustable Cotton Dad Hat",
+          "price": 18.0,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "Political_Humor_Hat",
+            "Casual_Statement_Hat",
+            "Political_Ball_Cap",
+            "Rogue_Bureaucrat",
+            "Government_Gift",
+            "Fired_Worker_Gift",
+            "Gift_for_Bureaucrat",
+            "Unique_Political",
+            "Democrat_Hat",
+            "Federal_Employee_Hat",
+            "Resist_Persist_Defy",
+            "Save_Democracy_Hat",
+            "Save_USAID_hat"
+          ],
+          "category": "General",
+          "photos_count": 9,
+          "description_length": 1315,
+          "seo_score": 100.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Rogue Bureaucrat - Can-shaped glass",
+          "price": 14.5,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "Rogue_Bureaucrat",
+            "Resist",
+            "Federal_Employee",
+            "USAID",
+            "Public_Service",
+            "Gift",
+            "Protest",
+            "Persist"
+          ],
+          "category": "General",
+          "photos_count": 6,
+          "description_length": 296,
+          "seo_score": 55.00000000000001,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Public Service is a Public Good",
+          "price": 15.0,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "Rogue_Bureaucrat",
+            "Resist",
+            "USAID",
+            "Federal_Employee",
+            "Public_Service",
+            "Gift",
+            "Protest",
+            "Department_of",
+            "State",
+            "Education",
+            "Justice"
+          ],
+          "category": "General",
+          "photos_count": 8,
+          "description_length": 873,
+          "seo_score": 80.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Rogue Bureaucrat - Universal Federal Service Activist Tee (No Seal) | Government Worker Protest T-Shirt | Unisex Political Statement Apparel",
+          "price": 15.0,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "Rogue_Bureaucrat",
+            "Foreign_Service_Tee",
+            "Civil_Servant_Shirt",
+            "Government_Protest",
+            "Unisex_Activist_Tee",
+            "Public_Sector_Gift",
+            "Organizing_Apparel",
+            "March_Ready_T-shirt",
+            "Statement_Shirt",
+            "Resist_Persist_Tee",
+            "Political_Action_Tee",
+            "Save_Democracy",
+            "Defend_Constitution"
+          ],
+          "category": "General",
+          "photos_count": 10,
+          "description_length": 1852,
+          "seo_score": 90.0,
+          "conversion_rate": 0.0
+        },
+        {
+          "title": "Printable DnD 5e Healing Potion Cards – Standard, Greater, Superior – Digital Download",
+          "price": 3.0,
+          "views": 0,
+          "favorites": 0,
+          "sales": 0,
+          "tags": [
+            "dnd_healing_cards",
+            "potion_card_dnd",
+            "healing_potion_5e",
+            "dungeons_dragons",
+            "rpg_potion_card",
+            "dnd_card_print",
+            "dnd_instant_download",
+            "healing_potion_kit",
+            "5e_potion_deck",
+            "dnd_accessories",
+            "tabletop_game_aid",
+            "printable_5e_card",
+            "fantasy_potion"
+          ],
+          "category": "General",
+          "photos_count": 4,
+          "description_length": 1048,
+          "seo_score": 90.0,
+          "conversion_rate": 0.0
+        }
+      ],
+      "seo_optimizations": [
+        {
+          "current_title": "Currently Clean on OPSEC Embroidered Hat | Rogue Bureaucrat Satire | Snarky Dad Cap | Political Irony Gift",
+          "optimized_title": "Currently Clean on OPSEC Embroidered Hat | Rogue Bureaucrat Satire | Snarky Dad Cap | Political Irony Gift",
+          "current_tags": [
+            "Government_Satire",
+            "Political_Humor",
+            "IT_Security_Gift",
+            "OPSEC_Fail_Meme",
+            "Civil_Servant_Gift",
+            "Rogue_Bureaucrat_Hat",
+            "Protest_Resist_Cap",
+            "Statement_Accessory",
+            "Save_Democracy"
+          ],
+          "optimized_tags": [
+            "Government_Satire",
+            "Political_Humor",
+            "IT_Security_Gift",
+            "OPSEC_Fail_Meme",
+            "Civil_Servant_Gift",
+            "Rogue_Bureaucrat_Hat",
+            "Protest_Resist_Cap",
+            "Statement_Accessory",
+            "Save_Democracy",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Currently Clean on OPSEC Sticker | Ironic Gov Scandal Decal | Political Satire | Cybersecurity Meme | Rogue Bureaucrat Gift",
+          "optimized_title": "Currently Clean on OPSEC Sticker | Ironic Gov Scandal Decal | Political Satire | Cybersecurity Meme | Rogue Bureaucrat Gift",
+          "current_tags": [
+            "Political_Satire",
+            "Security_Fail_Meme",
+            "OPSEC_Irony_Sticker",
+            "Scandal_Humor",
+            "Tech_Satire_Gift",
+            "IT_Security_Humor",
+            "Federal_Worker_Gift",
+            "Government_Irony",
+            "Rogue_Bureaucrat"
+          ],
+          "optimized_tags": [
+            "Political_Satire",
+            "Security_Fail_Meme",
+            "OPSEC_Irony_Sticker",
+            "Scandal_Humor",
+            "Tech_Satire_Gift",
+            "IT_Security_Humor",
+            "Federal_Worker_Gift",
+            "Government_Irony",
+            "Rogue_Bureaucrat",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Foxtrot Delta Tango Bumper Sticker – Dancing Fox Protest | Cheeky Political Art | Bumper Sticker",
+          "optimized_title": "Foxtrot Delta Tango Bumper Sticker – Dancing Fox Protest | Cheeky Political Art | Bumper Sticker",
+          "current_tags": [
+            "FDT",
+            "foxtrot_delta_tango",
+            "Diplomat_gift",
+            "Federal_Employee",
+            "quiet_resistance",
+            "subtle_political_art",
+            "modern_protest",
+            "American_dissent",
+            "Daily_protest_gear",
+            "Political_bumper"
+          ],
+          "optimized_tags": [
+            "FDT",
+            "foxtrot_delta_tango",
+            "Diplomat_gift",
+            "Federal_Employee",
+            "quiet_resistance",
+            "subtle_political_art",
+            "modern_protest",
+            "American_dissent",
+            "Daily_protest_gear",
+            "Political_bumper",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Foxtrot Delta Tango Calligraphy Shirt – Subtle Protest Tee | Elegant Script Statement | Political Art Shirt | FDT T-Shirt",
+          "optimized_title": "Foxtrot Delta Tango Calligraphy Shirt – Subtle Protest Tee | Elegant Script Statement | Political Art Shirt | FDT T-Shirt",
+          "current_tags": [
+            "FDT",
+            "foxtrot_delta_tango",
+            "SaveDemocracy",
+            "Diplomat_gift",
+            "Protest_T-Shirt",
+            "Federal_Employee",
+            "nato_alphabet_shirt",
+            "quiet_resistance",
+            "subtle_political_art",
+            "minimalist_activist",
+            "modern_protest"
+          ],
+          "optimized_tags": [
+            "FDT",
+            "foxtrot_delta_tango",
+            "SaveDemocracy",
+            "Diplomat_gift",
+            "Protest_T-Shirt",
+            "Federal_Employee",
+            "nato_alphabet_shirt",
+            "quiet_resistance",
+            "subtle_political_art",
+            "minimalist_activist",
+            "modern_protest",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Foxtrot Delta Tango Sticker – Dancing Fox Protest Decal | Cheeky Political Art | Waterproof Vinyl for Laptop, Journal, or Water Bottle",
+          "optimized_title": "Foxtrot Delta Tango Sticker – Dancing Fox Protest Decal | Cheeky Political Art | Waterproof Vinyl for Laptop, Journal, or Water Bottle",
+          "current_tags": [
+            "usa_protest_gear",
+            "foxtrot_delta_tango",
+            "FDT",
+            "Resist",
+            "political_sticker",
+            "Dancing_Fox_Protest",
+            "Government_employee",
+            "Diplomat_gift",
+            "SaveDemocracy"
+          ],
+          "optimized_tags": [
+            "usa_protest_gear",
+            "foxtrot_delta_tango",
+            "FDT",
+            "Resist",
+            "political_sticker",
+            "Dancing_Fox_Protest",
+            "Government_employee",
+            "Diplomat_gift",
+            "SaveDemocracy",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Foxtrot Delta Tango T-Shirt – Dancing Fox Protest Tee | Cheeky Political Slogan Shirt | Anthropomorphic Foxes in Delta Triangle",
+          "optimized_title": "Foxtrot Delta Tango T-Shirt – Dancing Fox Protest Tee | Cheeky Political Slogan Shirt | Anthropomorphic Foxes in Delta Triangle",
+          "current_tags": [
+            "usa_protest_gear",
+            "foxtrot_delta_tango",
+            "FDT",
+            "Resist",
+            "protest_shirt",
+            "subversive_statement",
+            "SaveDemocracy"
+          ],
+          "optimized_tags": [
+            "usa_protest_gear",
+            "foxtrot_delta_tango",
+            "FDT",
+            "Resist",
+            "protest_shirt",
+            "subversive_statement",
+            "SaveDemocracy",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Rogue Bureaucrat - Mug",
+          "optimized_title": "Rogue Bureaucrat - Mug",
+          "current_tags": [
+            "Rogue_Bureaucrat",
+            "Resist",
+            "USG",
+            "Save_Democracy",
+            "STOP_DOGE",
+            "Protest_Gear",
+            "Stand_Up_Fight_Back",
+            "Public_Service_gift",
+            "Protect_Constitution",
+            "Save_USAID",
+            "Federal_Employee"
+          ],
+          "optimized_tags": [
+            "Rogue_Bureaucrat",
+            "Resist",
+            "USG",
+            "Save_Democracy",
+            "STOP_DOGE",
+            "Protest_Gear",
+            "Stand_Up_Fight_Back",
+            "Public_Service_gift",
+            "Protect_Constitution",
+            "Save_USAID",
+            "Federal_Employee",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Currently Clean on OPSEC - T-shirt",
+          "optimized_title": "Currently Clean on OPSEC - T-shirt",
+          "current_tags": [
+            "Persist",
+            "Dissent",
+            "Defy",
+            "Federal_Employee",
+            "Public_Service",
+            "Save_Democracy",
+            "Protest_Gear",
+            "STOP_DOGE",
+            "save_our_constitutio",
+            "stand_up_fight_back",
+            "national_security",
+            "anti_MAGA"
+          ],
+          "optimized_tags": [
+            "Persist",
+            "Dissent",
+            "Defy",
+            "Federal_Employee",
+            "Public_Service",
+            "Save_Democracy",
+            "Protest_Gear",
+            "STOP_DOGE",
+            "save_our_constitutio",
+            "stand_up_fight_back",
+            "national_security",
+            "anti_MAGA",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Dissent Defy Resist Persist Vote T-Shirt | Fuel the Fire Protest Shirt | Political Activism Tee | Civil Rights Graphic Shirt",
+          "optimized_title": "Dissent Defy Resist Persist Vote T-Shirt | Fuel the Fire Protest Shirt | Political Activism Tee | Civil Rights Graphic Shirt",
+          "current_tags": [
+            "Political_Protest",
+            "Civil_Rights_Tee",
+            "Resist_T_Shirt",
+            "Dissent_Shirt",
+            "Activist_Apparel",
+            "Anti-Fascist_Tee",
+            "Graphic_Protest_Tee",
+            "Statement_Shirt",
+            "March_T_Shirt",
+            "Rogue_Bureaucrat",
+            "Political_Tee",
+            "Defy_Persist_Shirt"
+          ],
+          "optimized_tags": [
+            "Political_Protest",
+            "Civil_Rights_Tee",
+            "Resist_T_Shirt",
+            "Dissent_Shirt",
+            "Activist_Apparel",
+            "Anti-Fascist_Tee",
+            "Graphic_Protest_Tee",
+            "Statement_Shirt",
+            "March_T_Shirt",
+            "Rogue_Bureaucrat",
+            "Political_Tee",
+            "Defy_Persist_Shirt",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "USAID Rogue Bureaucrat T-Shirt | Political Activist Tee | Government Protest Shirt | Foreign Service Political Statement Apparel",
+          "optimized_title": "USAID Rogue Bureaucrat T-Shirt | Political Activist Tee | Government Protest Shirt | Foreign Service Political Statement Apparel",
+          "current_tags": [
+            "Rogue_Bureaucrat",
+            "USAID_Shirt",
+            "Foreign_Service_Tee",
+            "Development_Protest",
+            "Civil_Servant_Shirt",
+            "Government_Protest",
+            "Political_T-Shirt",
+            "USAID_employee_gift",
+            "International_Aid",
+            "Public_Service",
+            "Dissent_Statement",
+            "Activist_Apparel",
+            "Save_USAID"
+          ],
+          "optimized_tags": [
+            "Rogue_Bureaucrat",
+            "USAID_Shirt",
+            "Foreign_Service_Tee",
+            "Development_Protest",
+            "Civil_Servant_Shirt",
+            "Government_Protest",
+            "Political_T-Shirt",
+            "USAID_employee_gift",
+            "International_Aid",
+            "Public_Service",
+            "Dissent_Statement",
+            "Activist_Apparel",
+            "Save_USAID",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Public Service is a Public Good - Reclaim the Red Hat",
+          "optimized_title": "Public Service is a Public Good - Reclaim the Red Hat",
+          "current_tags": [
+            "Rogue_Bureaucrat",
+            "Public_Service",
+            "Resist",
+            "Federal_Employee",
+            "USAID",
+            "Gift",
+            "Protest",
+            "Persist",
+            "SaveDemocracy"
+          ],
+          "optimized_tags": [
+            "Rogue_Bureaucrat",
+            "Public_Service",
+            "Resist",
+            "Federal_Employee",
+            "USAID",
+            "Gift",
+            "Protest",
+            "Persist",
+            "SaveDemocracy",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Public Service is a Public Good - Can-shaped glass",
+          "optimized_title": "Public Service is a Public Good - Can-shaped glass",
+          "current_tags": [
+            "Rogue_Bureaucrat",
+            "Public_Service",
+            "Resist",
+            "Federal_Employee",
+            "USAID",
+            "Gift",
+            "Protest",
+            "Persist",
+            "SaveDemocracy"
+          ],
+          "optimized_tags": [
+            "Rogue_Bureaucrat",
+            "Public_Service",
+            "Resist",
+            "Federal_Employee",
+            "USAID",
+            "Gift",
+            "Protest",
+            "Persist",
+            "SaveDemocracy",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Rogue Bureaucrat Embroidered Hat - Take Back The Hat | Funny Political Statement Cap | Adjustable Cotton Dad Hat",
+          "optimized_title": "Rogue Bureaucrat Embroidered Hat - Take Back The Hat | Funny Political Statement Cap | Adjustable Cotton Dad Hat",
+          "current_tags": [
+            "Political_Humor_Hat",
+            "Casual_Statement_Hat",
+            "Political_Ball_Cap",
+            "Rogue_Bureaucrat",
+            "Government_Gift",
+            "Fired_Worker_Gift",
+            "Gift_for_Bureaucrat",
+            "Unique_Political",
+            "Democrat_Hat",
+            "Federal_Employee_Hat",
+            "Resist_Persist_Defy",
+            "Save_Democracy_Hat",
+            "Save_USAID_hat"
+          ],
+          "optimized_tags": [
+            "Political_Humor_Hat",
+            "Casual_Statement_Hat",
+            "Political_Ball_Cap",
+            "Rogue_Bureaucrat",
+            "Government_Gift",
+            "Fired_Worker_Gift",
+            "Gift_for_Bureaucrat",
+            "Unique_Political",
+            "Democrat_Hat",
+            "Federal_Employee_Hat",
+            "Resist_Persist_Defy",
+            "Save_Democracy_Hat",
+            "Save_USAID_hat",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Rogue Bureaucrat - Can-shaped glass",
+          "optimized_title": "Rogue Bureaucrat - Can-shaped glass",
+          "current_tags": [
+            "Rogue_Bureaucrat",
+            "Resist",
+            "Federal_Employee",
+            "USAID",
+            "Public_Service",
+            "Gift",
+            "Protest",
+            "Persist"
+          ],
+          "optimized_tags": [
+            "Rogue_Bureaucrat",
+            "Resist",
+            "Federal_Employee",
+            "USAID",
+            "Public_Service",
+            "Gift",
+            "Protest",
+            "Persist",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.HIGH",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Public Service is a Public Good",
+          "optimized_title": "Public Service is a Public Good",
+          "current_tags": [
+            "Rogue_Bureaucrat",
+            "Resist",
+            "USAID",
+            "Federal_Employee",
+            "Public_Service",
+            "Gift",
+            "Protest",
+            "Department_of",
+            "State",
+            "Education",
+            "Justice"
+          ],
+          "optimized_tags": [
+            "Rogue_Bureaucrat",
+            "Resist",
+            "USAID",
+            "Federal_Employee",
+            "Public_Service",
+            "Gift",
+            "Protest",
+            "Department_of",
+            "State",
+            "Education",
+            "Justice",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Rogue Bureaucrat - Universal Federal Service Activist Tee (No Seal) | Government Worker Protest T-Shirt | Unisex Political Statement Apparel",
+          "optimized_title": "Rogue Bureaucrat - Universal Federal Service Activist Tee (No Seal) | Government Worker Protest T-Shirt | Unisex Political Statement Apparel",
+          "current_tags": [
+            "Rogue_Bureaucrat",
+            "Foreign_Service_Tee",
+            "Civil_Servant_Shirt",
+            "Government_Protest",
+            "Unisex_Activist_Tee",
+            "Public_Sector_Gift",
+            "Organizing_Apparel",
+            "March_Ready_T-shirt",
+            "Statement_Shirt",
+            "Resist_Persist_Tee",
+            "Political_Action_Tee",
+            "Save_Democracy",
+            "Defend_Constitution"
+          ],
+          "optimized_tags": [
+            "Rogue_Bureaucrat",
+            "Foreign_Service_Tee",
+            "Civil_Servant_Shirt",
+            "Government_Protest",
+            "Unisex_Activist_Tee",
+            "Public_Sector_Gift",
+            "Organizing_Apparel",
+            "March_Ready_T-shirt",
+            "Statement_Shirt",
+            "Resist_Persist_Tee",
+            "Political_Action_Tee",
+            "Save_Democracy",
+            "Defend_Constitution",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        },
+        {
+          "current_title": "Printable DnD 5e Healing Potion Cards – Standard, Greater, Superior – Digital Download",
+          "optimized_title": "Printable DnD 5e Healing Potion Cards – Standard, Greater, Superior – Digital Download",
+          "current_tags": [
+            "dnd_healing_cards",
+            "potion_card_dnd",
+            "healing_potion_5e",
+            "dungeons_dragons",
+            "rpg_potion_card",
+            "dnd_card_print",
+            "dnd_instant_download",
+            "healing_potion_kit",
+            "5e_potion_deck",
+            "dnd_accessories",
+            "tabletop_game_aid",
+            "printable_5e_card",
+            "fantasy_potion"
+          ],
+          "optimized_tags": [
+            "dnd_healing_cards",
+            "potion_card_dnd",
+            "healing_potion_5e",
+            "dungeons_dragons",
+            "rpg_potion_card",
+            "dnd_card_print",
+            "dnd_instant_download",
+            "healing_potion_kit",
+            "5e_potion_deck",
+            "dnd_accessories",
+            "tabletop_game_aid",
+            "printable_5e_card",
+            "fantasy_potion",
+            "suggested_keyword_1",
+            "suggested_keyword_2"
+          ],
+          "keyword_opportunities": [
+            "Add specific material/color descriptors",
+            "Include size/dimension information",
+            "Add seasonal/occasion keywords",
+            "Include style/aesthetic descriptors"
+          ],
+          "estimated_impact": "10-25% increase in views",
+          "priority": "Priority.MEDIUM",
+          "implementation_effort": "Low (30 minutes)"
+        }
+      ],
+      "market_opportunities": [
+        {
+          "category": "Digital Products",
+          "product_idea": "Create digital templates/printables based on existing physical products",
+          "demand_score": 9,
+          "competition_score": 4,
+          "effort_required": "Low - Basic design skills needed",
+          "estimated_revenue": "$200-500/month potential",
+          "timeline": "2-4 weeks",
+          "opportunity_type": "OpportunityType.MARKET_EXPANSION",
+          "priority": "Priority.HIGH"
+        },
+        {
+          "category": "Personalization Services",
+          "product_idea": "Add custom/personalized versions of bestselling products",
+          "demand_score": 8,
+          "competition_score": 5,
+          "effort_required": "Medium - Requires customer interaction systems",
+          "estimated_revenue": "30-50% price premium possible",
+          "timeline": "4-6 weeks",
+          "opportunity_type": "OpportunityType.PRODUCT_IMPROVEMENT",
+          "priority": "Priority.HIGH"
+        },
+        {
+          "category": "Seasonal Products",
+          "product_idea": "Develop holiday-specific versions for Q4 2025",
+          "demand_score": 7,
+          "competition_score": 6,
+          "effort_required": "Medium - Seasonal design work",
+          "estimated_revenue": "40% of annual sales in Q4",
+          "timeline": "Start by August 2025",
+          "opportunity_type": "OpportunityType.SEASONAL_OPPORTUNITY",
+          "priority": "Priority.MEDIUM"
+        }
+      ]
+    },
+    "keyword_optimization": {
+      "portfolio_summary": {
+        "total_listings": 17,
+        "total_unique_keywords": 112,
+        "avg_keywords_per_listing": 10.5,
+        "high_priority_optimizations": 0
+      },
+      "keyword_analyses": [
+        {
+          "keyword": "resist",
+          "frequency_across_listings": 7,
+          "estimated_competition": "High",
+          "relevance_score": 9,
+          "replacement_suggestions": [
+            "resistance gear",
+            "activist",
+            "dissent"
+          ],
+          "action_recommendation": "Keep",
+          "reasoning": "High relevance (9/10), stable trend. Strong performer."
+        },
+        {
+          "keyword": "protest",
+          "frequency_across_listings": 4,
+          "estimated_competition": "High",
+          "relevance_score": 8,
+          "replacement_suggestions": [
+            "resistance gear",
+            "activist apparel",
+            "dissent"
+          ],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "gift",
+          "frequency_across_listings": 4,
+          "estimated_competition": "High",
+          "relevance_score": 8,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "High relevance (8/10), stable trend. Strong performer."
+        },
+        {
+          "keyword": "dissent_statement",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "national_security",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "government_irony",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_protest",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_t-shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "usg",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "subversive_statement",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "justice",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_action_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "graphic_protest_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "resist_persist_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "casual_statement_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "usaid_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dnd_healing_cards",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "public_service_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "save_usaid_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dissent",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "public_sector_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_bumper",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "state",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "civil_servant_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "defy_persist_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "daily_protest_gear",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "resist_persist_defy",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "civil_rights_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "defend_constitution",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "potion_card_dnd",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "federal_worker_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "unisex_activist_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "international_aid",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "protect_constitution",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "rpg_potion_card",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "it_security_humor",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "save_democracy_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "gift_for_bureaucrat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "it_security_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "healing_potion_5e",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_humor_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dnd_accessories",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "march_t_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "healing_potion_kit",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "government_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "resist_t_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "save_our_constitutio",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "government_employee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "usaid_employee_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "nato_alphabet_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "democrat_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "rogue_bureaucrat_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "opsec_fail_meme",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "minimalist_activist",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_ball_cap",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "5e_potion_deck",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "federal_employee_hat",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dissent_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "american_dissent",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "development_protest",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "education",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "tech_satire_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "tabletop_game_aid",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "opsec_irony_sticker",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "organizing_apparel",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_sticker",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "anti-fascist_tee",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "defy",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "government_satire",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "scandal_humor",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dnd_card_print",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dungeons_dragons",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "march_ready_t-shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "security_fail_meme",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "protest_resist_cap",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "protest_t-shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dnd_instant_download",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_satire",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "protest_shirt",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "department_of",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "statement_accessory",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "anti_maga",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "fantasy_potion",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "dancing_fox_protest",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "political_humor",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "printable_5e_card",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "unique_political",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "fired_worker_gift",
+          "frequency_across_listings": 1,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "stop_doge",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "save_usaid",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "stand_up_fight_back",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "civil_servant_shirt",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "statement_shirt",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "government_protest",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "subtle_political_art",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "usa_protest_gear",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "quiet_resistance",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "foreign_service_tee",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "modern_protest",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "protest_gear",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "activist_apparel",
+          "frequency_across_listings": 2,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "diplomat_gift",
+          "frequency_across_listings": 3,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "fdt",
+          "frequency_across_listings": 4,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "foxtrot_delta_tango",
+          "frequency_across_listings": 4,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "usaid",
+          "frequency_across_listings": 4,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "save_democracy",
+          "frequency_across_listings": 4,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "persist",
+          "frequency_across_listings": 4,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "savedemocracy",
+          "frequency_across_listings": 5,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "public_service",
+          "frequency_across_listings": 6,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "federal_employee",
+          "frequency_across_listings": 8,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        },
+        {
+          "keyword": "rogue_bureaucrat",
+          "frequency_across_listings": 10,
+          "estimated_competition": "Unknown",
+          "relevance_score": 5,
+          "replacement_suggestions": [],
+          "action_recommendation": "Keep",
+          "reasoning": "Moderate performance. Monitor and optimize placement."
+        }
+      ],
+      "listing_optimizations": [
+        {
+          "listing_title": "Currently Clean on OPSEC Embroidered Hat | Rogue Bureaucrat Satire | Snarky Dad Cap | Political Irony Gift",
+          "current_keywords": [
+            "Government_Satire",
+            "Political_Humor",
+            "IT_Security_Gift",
+            "OPSEC_Fail_Meme",
+            "Civil_Servant_Gift",
+            "Rogue_Bureaucrat_Hat",
+            "Protest_Resist_Cap",
+            "Statement_Accessory",
+            "Save_Democracy"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [
+            "cybersecurity",
+            "IT security",
+            "security humor"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Currently Clean on OPSEC Sticker | Ironic Gov Scandal Decal | Political Satire | Cybersecurity Meme | Rogue Bureaucrat Gift",
+          "current_keywords": [
+            "Political_Satire",
+            "Security_Fail_Meme",
+            "OPSEC_Irony_Sticker",
+            "Scandal_Humor",
+            "Tech_Satire_Gift",
+            "IT_Security_Humor",
+            "Federal_Worker_Gift",
+            "Government_Irony",
+            "Rogue_Bureaucrat"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [
+            "cybersecurity",
+            "IT security",
+            "security humor"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Foxtrot Delta Tango Bumper Sticker – Dancing Fox Protest | Cheeky Political Art | Bumper Sticker",
+          "current_keywords": [
+            "FDT",
+            "foxtrot_delta_tango",
+            "Diplomat_gift",
+            "Federal_Employee",
+            "quiet_resistance",
+            "subtle_political_art",
+            "modern_protest",
+            "American_dissent",
+            "Daily_protest_gear",
+            "Political_bumper"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [
+            "military alphabet",
+            "nato phonetic",
+            "diplomat gift"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Foxtrot Delta Tango Calligraphy Shirt – Subtle Protest Tee | Elegant Script Statement | Political Art Shirt | FDT T-Shirt",
+          "current_keywords": [
+            "FDT",
+            "foxtrot_delta_tango",
+            "SaveDemocracy",
+            "Diplomat_gift",
+            "Protest_T-Shirt",
+            "Federal_Employee",
+            "nato_alphabet_shirt",
+            "quiet_resistance",
+            "subtle_political_art",
+            "minimalist_activist",
+            "modern_protest"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [
+            "military alphabet",
+            "nato phonetic",
+            "diplomat gift"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Foxtrot Delta Tango Sticker – Dancing Fox Protest Decal | Cheeky Political Art | Waterproof Vinyl for Laptop, Journal, or Water Bottle",
+          "current_keywords": [
+            "usa_protest_gear",
+            "foxtrot_delta_tango",
+            "FDT",
+            "Resist",
+            "political_sticker",
+            "Dancing_Fox_Protest",
+            "Government_employee",
+            "Diplomat_gift",
+            "SaveDemocracy"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [
+            "military alphabet",
+            "nato phonetic",
+            "diplomat gift"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Foxtrot Delta Tango T-Shirt – Dancing Fox Protest Tee | Cheeky Political Slogan Shirt | Anthropomorphic Foxes in Delta Triangle",
+          "current_keywords": [
+            "usa_protest_gear",
+            "foxtrot_delta_tango",
+            "FDT",
+            "Resist",
+            "protest_shirt",
+            "subversive_statement",
+            "SaveDemocracy"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [
+            "military alphabet",
+            "nato phonetic",
+            "diplomat gift"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Rogue Bureaucrat - Mug",
+          "current_keywords": [
+            "Rogue_Bureaucrat",
+            "Resist",
+            "USG",
+            "Save_Democracy",
+            "STOP_DOGE",
+            "Protest_Gear",
+            "Stand_Up_Fight_Back",
+            "Public_Service_gift",
+            "Protect_Constitution",
+            "Save_USAID",
+            "Federal_Employee"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [
+            "civil servant",
+            "federal worker",
+            "government humor"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Currently Clean on OPSEC - T-shirt",
+          "current_keywords": [
+            "Persist",
+            "Dissent",
+            "Defy",
+            "Federal_Employee",
+            "Public_Service",
+            "Save_Democracy",
+            "Protest_Gear",
+            "STOP_DOGE",
+            "save_our_constitutio",
+            "stand_up_fight_back",
+            "national_security",
+            "anti_MAGA"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [
+            "cybersecurity",
+            "IT security",
+            "security humor"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Dissent Defy Resist Persist Vote T-Shirt | Fuel the Fire Protest Shirt | Political Activism Tee | Civil Rights Graphic Shirt",
+          "current_keywords": [
+            "Political_Protest",
+            "Civil_Rights_Tee",
+            "Resist_T_Shirt",
+            "Dissent_Shirt",
+            "Activist_Apparel",
+            "Anti-Fascist_Tee",
+            "Graphic_Protest_Tee",
+            "Statement_Shirt",
+            "March_T_Shirt",
+            "Rogue_Bureaucrat",
+            "Political_Tee",
+            "Defy_Persist_Shirt"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [
+            "activist gear",
+            "statement piece",
+            "political art"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "USAID Rogue Bureaucrat T-Shirt | Political Activist Tee | Government Protest Shirt | Foreign Service Political Statement Apparel",
+          "current_keywords": [
+            "Rogue_Bureaucrat",
+            "USAID_Shirt",
+            "Foreign_Service_Tee",
+            "Development_Protest",
+            "Civil_Servant_Shirt",
+            "Government_Protest",
+            "Political_T-Shirt",
+            "USAID_employee_gift",
+            "International_Aid",
+            "Public_Service",
+            "Dissent_Statement",
+            "Activist_Apparel",
+            "Save_USAID"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [
+            "civil servant",
+            "federal worker",
+            "government humor"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Public Service is a Public Good - Reclaim the Red Hat",
+          "current_keywords": [
+            "Rogue_Bureaucrat",
+            "Public_Service",
+            "Resist",
+            "Federal_Employee",
+            "USAID",
+            "Gift",
+            "Protest",
+            "Persist",
+            "SaveDemocracy"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {
+            "Protest": "resistance gear"
+          },
+          "keywords_to_add": [
+            "civic engagement",
+            "democracy defender",
+            "public sector"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Public Service is a Public Good - Can-shaped glass",
+          "current_keywords": [
+            "Rogue_Bureaucrat",
+            "Public_Service",
+            "Resist",
+            "Federal_Employee",
+            "USAID",
+            "Gift",
+            "Protest",
+            "Persist",
+            "SaveDemocracy"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {
+            "Protest": "resistance gear"
+          },
+          "keywords_to_add": [
+            "civic engagement",
+            "democracy defender",
+            "public sector"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Rogue Bureaucrat Embroidered Hat - Take Back The Hat | Funny Political Statement Cap | Adjustable Cotton Dad Hat",
+          "current_keywords": [
+            "Political_Humor_Hat",
+            "Casual_Statement_Hat",
+            "Political_Ball_Cap",
+            "Rogue_Bureaucrat",
+            "Government_Gift",
+            "Fired_Worker_Gift",
+            "Gift_for_Bureaucrat",
+            "Unique_Political",
+            "Democrat_Hat",
+            "Federal_Employee_Hat",
+            "Resist_Persist_Defy",
+            "Save_Democracy_Hat",
+            "Save_USAID_hat"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [
+            "civil servant",
+            "federal worker",
+            "government humor"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Rogue Bureaucrat - Can-shaped glass",
+          "current_keywords": [
+            "Rogue_Bureaucrat",
+            "Resist",
+            "Federal_Employee",
+            "USAID",
+            "Public_Service",
+            "Gift",
+            "Protest",
+            "Persist"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {
+            "Protest": "resistance gear"
+          },
+          "keywords_to_add": [
+            "civil servant",
+            "federal worker",
+            "government humor"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Public Service is a Public Good",
+          "current_keywords": [
+            "Rogue_Bureaucrat",
+            "Resist",
+            "USAID",
+            "Federal_Employee",
+            "Public_Service",
+            "Gift",
+            "Protest",
+            "Department_of",
+            "State",
+            "Education",
+            "Justice"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {
+            "Protest": "resistance gear"
+          },
+          "keywords_to_add": [
+            "civic engagement",
+            "democracy defender",
+            "public sector"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Rogue Bureaucrat - Universal Federal Service Activist Tee (No Seal) | Government Worker Protest T-Shirt | Unisex Political Statement Apparel",
+          "current_keywords": [
+            "Rogue_Bureaucrat",
+            "Foreign_Service_Tee",
+            "Civil_Servant_Shirt",
+            "Government_Protest",
+            "Unisex_Activist_Tee",
+            "Public_Sector_Gift",
+            "Organizing_Apparel",
+            "March_Ready_T-shirt",
+            "Statement_Shirt",
+            "Resist_Persist_Tee",
+            "Political_Action_Tee",
+            "Save_Democracy",
+            "Defend_Constitution"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [
+            "civil servant",
+            "federal worker",
+            "government humor"
+          ],
+          "optimization_priority": "Medium",
+          "expected_improvement": "15-25% improvement expected"
+        },
+        {
+          "listing_title": "Printable DnD 5e Healing Potion Cards – Standard, Greater, Superior – Digital Download",
+          "current_keywords": [
+            "dnd_healing_cards",
+            "potion_card_dnd",
+            "healing_potion_5e",
+            "dungeons_dragons",
+            "rpg_potion_card",
+            "dnd_card_print",
+            "dnd_instant_download",
+            "healing_potion_kit",
+            "5e_potion_deck",
+            "dnd_accessories",
+            "tabletop_game_aid",
+            "printable_5e_card",
+            "fantasy_potion"
+          ],
+          "keywords_to_remove": [],
+          "keywords_to_replace": {},
+          "keywords_to_add": [],
+          "optimization_priority": "Low",
+          "expected_improvement": "5-15% improvement expected"
+        }
+      ],
+      "portfolio_gaps": [
+        "deep state",
+        "transparency",
+        "accountability",
+        "oversight",
+        "whistleblower",
+        "classified",
+        "security clearance",
+        "insider"
+      ],
+      "quick_wins": [],
+      "strategic_recommendations": [
+        "Trend Alignment: Focus on government/bureaucrat niche keywords with rising trends"
+      ]
+    },
+    "trends_research": {
+      "report_metadata": {
+        "generated_date": "2025-09-15 19:58",
+        "research_period": "Last 90 days",
+        "sources_consulted": 6,
+        "focus_niche": "Political Satire/Government Humor"
+      },
+      "executive_summary": {
+        "market_health": "Strong growth in political humor niche",
+        "key_opportunities": [
+          "Government employee gifts (+38% growth)",
+          "Digital political art (+67% growth)",
+          "Cybersecurity humor (+42% growth)"
+        ],
+        "threats": [
+          "Oversaturation in general political merchandise",
+          "Platform policy changes around political content"
+        ],
+        "recommended_actions": [
+          "Focus on non-partisan government humor",
+          "Expand digital product offerings",
+          "Target cybersecurity awareness season"
+        ]
+      },
+      "detailed_findings": {
+        "hot_keywords_last_90_days": [
+          "TrendData(keyword='government humor', trend_direction='Rising', search_volume_change='+45%', competition_level='Medium', seasonal_pattern='Steady growth', source='eRank Market Data', confidence='High', last_updated='2025-09-10')",
+          "TrendData(keyword='civil servant gift', trend_direction='Rising', search_volume_change='+38%', competition_level='Low', seasonal_pattern='Q4 spike expected', source='Marmalead Keyword Tracker', confidence='High', last_updated='2025-09-12')",
+          "TrendData(keyword='political statement', trend_direction='Stable', search_volume_change='+12%', competition_level='High', seasonal_pattern='Election cycle dependent', source='Etsy Official Trends', confidence='Medium', last_updated='2025-09-08')",
+          "TrendData(keyword='bureaucrat humor', trend_direction='Rising', search_volume_change='+67%', competition_level='Low', seasonal_pattern='New trend emerging', source='Social Media Analysis', confidence='Medium', last_updated='2025-09-14')",
+          "TrendData(keyword='resistance gear', trend_direction='Declining', search_volume_change='-15%', competition_level='High', seasonal_pattern='Post-election decline', source='eRank Market Data', confidence='High', last_updated='2025-09-11')",
+          "TrendData(keyword='federal employee', trend_direction='Rising', search_volume_change='+29%', competition_level='Medium', seasonal_pattern='Government fiscal year cycle', source='Etsy Seller Community', confidence='Medium', last_updated='2025-09-09')",
+          "TrendData(keyword='cyber security', trend_direction='Rising', search_volume_change='+42%', competition_level='Medium', seasonal_pattern='Cybersecurity awareness month boost', source='Industry Report Analysis', confidence='High', last_updated='2025-09-13')",
+          "TrendData(keyword='transparency', trend_direction='Rising', search_volume_change='+31%', competition_level='Low', seasonal_pattern='Government oversight news cycle', source='News Trend Correlation', confidence='Medium', last_updated='2025-09-12')"
+        ],
+        "category_trends": [
+          "CategoryTrend(category_name='Political Satire Apparel', growth_rate='+45%', demand_level='High', opportunity_score=8.5, key_products=['Graphic T-shirts', 'Hoodies', 'Hats', 'Stickers'], target_demographics=['Government employees', 'Political enthusiasts', 'Millennials', 'Gen X'], price_trends='Premium pricing accepted for clever designs', source='Marmalead Category Analysis')",
+          "CategoryTrend(category_name='Government Employee Gifts', growth_rate='+38%', demand_level='High', opportunity_score=9.2, key_products=['Mugs', 'Desk accessories', 'Retirement gifts', 'Promotion gifts'], target_demographics=['Federal workers', 'State employees', 'Civil servants', 'Military'], price_trends='Mid-range pricing ($15-40) performing well', source='Etsy Trends Report')",
+          "CategoryTrend(category_name='Digital Political Art', growth_rate='+67%', demand_level='Very High', opportunity_score=9.8, key_products=['Printable posters', 'Digital stickers', 'Social media graphics', 'Memes'], target_demographics=['Social media users', 'Activists', 'Content creators', 'Younger demographics'], price_trends='Low price, high volume model successful', source='Digital Download Trend Analysis')",
+          "CategoryTrend(category_name='Cybersecurity Humor', growth_rate='+42%', demand_level='Medium', opportunity_score=7.8, key_products=['T-shirts', 'Stickers', 'Mugs', 'IT accessories'], target_demographics=['IT professionals', 'Cybersecurity workers', 'Tech enthusiasts'], price_trends='Tech workers willing to pay premium', source='Niche Market Research')",
+          "CategoryTrend(category_name='NATO/Military Alphabet', growth_rate='+29%', demand_level='Medium', opportunity_score=7.3, key_products=['Educational items', 'Novelty gifts', 'Communication tools'], target_demographics=['Military families', 'Veterans', 'Radio enthusiasts', 'Educators'], price_trends='Steady demand across price ranges', source='Military Community Trends')"
+        ],
+        "political_niche_insights": {
+          "niche_health": "Strong and growing",
+          "competition_analysis": {
+            "total_competitors": "~2,500 active shops",
+            "top_tier_competitors": "~50 shops with >1000 sales",
+            "market_saturation": "Low-Medium",
+            "differentiation_opportunities": "High"
+          },
+          "buyer_behavior": {
+            "average_order_value": "$25-35",
+            "repeat_purchase_rate": "23%",
+            "seasonal_buying_patterns": "Q4 spike, election year boost",
+            "price_sensitivity": "Low for unique/clever designs"
+          },
+          "trending_subtopics": [
+            "Government transparency",
+            "Civil service pride",
+            "Bureaucratic humor",
+            "Deep state satire",
+            "Federal worker rights",
+            "Political accountability"
+          ],
+          "emerging_keywords": [
+            "oversight committee",
+            "whistleblower protection",
+            "government ethics",
+            "public service pride",
+            "administrative state",
+            "regulatory capture"
+          ],
+          "content_strategies": [
+            "Timely references to current events",
+            "Inside jokes for government workers",
+            "Professional-looking designs for workplace wear",
+            "Subtle messaging for broad appeal"
+          ]
+        },
+        "seasonal_forecasts": [
+          "SeasonalForecast(season='Q4 2025 (Oct-Dec)', predicted_trends=['Holiday political gifts', 'Election preparation merchandise', 'Year-end government humor', 'Political stocking stuffers'], opportunity_keywords=['political holiday', 'election prep', 'government gift', 'political stocking', 'democracy ornament'], preparation_timeline='Start production by October 1st', expected_demand_increase='40-60% above baseline', source='Historical Etsy Data + Political Calendar')",
+          "SeasonalForecast(season='Cybersecurity Awareness Month (October)', predicted_trends=['IT security humor spike', 'OPSEC awareness content', 'Cybersecurity professional gifts'], opportunity_keywords=['cyber awareness', 'security month', 'IT professional', 'OPSEC training'], preparation_timeline='Launch by September 25th', expected_demand_increase='200% for cyber-related items', source='Industry Event Calendar')",
+          "SeasonalForecast(season='Tax Season 2026 (Jan-Apr)', predicted_trends=['Government worker appreciation', 'IRS humor surge', 'Public service recognition'], opportunity_keywords=['tax season', 'IRS humor', 'government service', 'public servant'], preparation_timeline='Prepare for January launch', expected_demand_increase='25-35% for government themes', source='Historical Seasonal Patterns')"
+        ],
+        "competitor_analysis": {
+          "market_leaders": {
+            "characteristics": [
+              "Broad political appeal",
+              "High production values",
+              "Strong social media presence",
+              "Rapid response to current events"
+            ],
+            "weaknesses": [
+              "Often too partisan",
+              "Less focus on government worker niche",
+              "Generic messaging",
+              "Higher price points"
+            ]
+          },
+          "niche_opportunities": [
+            "Non-partisan government humor",
+            "Professional workplace appropriate designs",
+            "Federal employee specific references",
+            "Bureaucratic process satire",
+            "Civil service pride merchandise"
+          ],
+          "underserved_markets": [
+            "Government contractors",
+            "State and local employees",
+            "Regulatory agency workers",
+            "Policy professionals",
+            "Think tank employees"
+          ],
+          "competitive_advantages": [
+            "Specific government knowledge",
+            "Professional quality designs",
+            "Workplace appropriate humor",
+            "Federal employee focus"
+          ]
+        },
+        "social_media_drivers": {
+          "pinterest_trends": [
+            "Government memes gaining traction",
+            "Political humor boards growing",
+            "Federal employee gift guides trending"
+          ],
+          "tiktok_influences": [
+            "Government worker day-in-the-life content",
+            "Political satire short videos",
+            "Federal employee storytelling"
+          ],
+          "trending_hashtags": [
+            "#GovernmentWorkerLife",
+            "#FederalEmployeeHumor",
+            "#CivilServicePride",
+            "#BureaucratLife",
+            "#PublicServicePride"
+          ],
+          "viral_content_themes": [
+            "Government meeting bingo",
+            "Federal acronym confusion",
+            "Bureaucratic process humor",
+            "Government efficiency jokes"
+          ]
+        }
+      },
+      "keyword_recommendations": {
+        "immediate_add": [
+          "government humor",
+          "civil servant",
+          "bureaucrat gift"
+        ],
+        "seasonal_prep": [
+          "political holiday",
+          "election prep",
+          "cyber awareness"
+        ],
+        "long_term_watch": [
+          "transparency",
+          "accountability",
+          "oversight"
+        ]
+      },
+      "competitive_intelligence": {
+        "market_leaders": {
+          "characteristics": [
+            "Broad political appeal",
+            "High production values",
+            "Strong social media presence",
+            "Rapid response to current events"
+          ],
+          "weaknesses": [
+            "Often too partisan",
+            "Less focus on government worker niche",
+            "Generic messaging",
+            "Higher price points"
+          ]
+        },
+        "niche_opportunities": [
+          "Non-partisan government humor",
+          "Professional workplace appropriate designs",
+          "Federal employee specific references",
+          "Bureaucratic process satire",
+          "Civil service pride merchandise"
+        ],
+        "underserved_markets": [
+          "Government contractors",
+          "State and local employees",
+          "Regulatory agency workers",
+          "Policy professionals",
+          "Think tank employees"
+        ],
+        "competitive_advantages": [
+          "Specific government knowledge",
+          "Professional quality designs",
+          "Workplace appropriate humor",
+          "Federal employee focus"
+        ]
+      },
+      "action_plan": {
+        "week_1": "Add trending government humor keywords",
+        "month_1": "Develop cybersecurity awareness products",
+        "quarter_1": "Launch digital political art line",
+        "ongoing": "Monitor social media trends for new opportunities"
+      }
+    },
+    "product_expansion": {
+      "current_portfolio_analysis": {
+        "current_categories": {
+          "headwear": 3,
+          "stickers": 3,
+          "apparel": 6,
+          "drinkware": 3
+        },
+        "design_themes": {
+          "cybersecurity": 3,
+          "nato_humor": 4,
+          "bureaucrat_humor": 5
+        },
+        "target_audiences": "set()",
+        "price_points": [
+          20.0,
+          5.5,
+          10.0,
+          15.0,
+          5.5,
+          15.0,
+          9.5,
+          15.0,
+          15.0,
+          21.0,
+          18.0,
+          14.5,
+          18.0,
+          14.5,
+          15.0,
+          15.0,
+          3.0
+        ],
+        "successful_patterns": [],
+        "gaps_identified": [
+          "accessories",
+          "digital_downloads",
+          "home_decor"
+        ]
+      },
+      "expansion_priorities": {
+        "immediate_launch": [
+          "ProductOpportunity(product_name='Federal Employee ID Badge Holder', product_category='POD Accessories', description='Professional badge holder with subtle government humor for daily workplace use', target_audience=['federal_employees', 'state_workers', 'contractors'], estimated_demand='High', competition_level='Medium', profit_margin='High (75%)', startup_cost='None', time_to_market='2 weeks', required_skills=['product_design', 'workplace_appropriateness'], opportunity_score=8.7, seasonal_demand='Steady with new hire spikes', pricing_range='$12-18')",
+          "ProductOpportunity(product_name='Government Meeting Bingo Hoodie', product_category='POD Apparel', description='Comfortable hoodie with a subtle government meeting bingo card design for federal employees', target_audience=['federal_employees', 'contractors', 'policy_professionals'], estimated_demand='High', competition_level='Low', profit_margin='High (65-70%)', startup_cost='None', time_to_market='1-2 weeks', required_skills=['graphic_design', 'government_knowledge'], opportunity_score=8.5, seasonal_demand='Higher in fall/winter', pricing_range='$35-45')",
+          "ProductOpportunity(product_name='Government Meeting Bingo Printable Set', product_category='Digital Download', description='Set of 5 different government meeting bingo cards with common phrases and situations', target_audience=['federal_employees', 'contractors', 'managers'], estimated_demand='High', competition_level='Very Low', profit_margin='Very High (95%)', startup_cost='None', time_to_market='3-5 days', required_skills=['graphic_design', 'government_meeting_experience'], opportunity_score=9.5, seasonal_demand='Steady year-round', pricing_range='$3-8')",
+          "ProductOpportunity(product_name='Civil Service Career Milestone Certificates', product_category='Digital Download', description='Customizable certificates for government service milestones (5, 10, 20, 30 years)', target_audience=['government_supervisors', 'hr_departments', 'career_civil_servants'], estimated_demand='High', competition_level='Very Low', profit_margin='Very High (95%)', startup_cost='None', time_to_market='1 week', required_skills=['certificate_design', 'government_career_knowledge'], opportunity_score=9.2, seasonal_demand='End of fiscal year spike', pricing_range='$5-12')",
+          "ProductOpportunity(product_name='Cybersecurity Awareness Poster Set', product_category='Digital Download', description='Professional poster set for cybersecurity awareness campaigns in government offices', target_audience=['it_departments', 'security_officers', 'training_coordinators'], estimated_demand='High', competition_level='Low', profit_margin='Very High (95%)', startup_cost='None', time_to_market='1-2 weeks', required_skills=['poster_design', 'cybersecurity_knowledge'], opportunity_score=9.0, seasonal_demand='Cybersecurity Awareness Month spike', pricing_range='$5-10')"
+        ],
+        "medium_term": [
+          "ProductOpportunity(product_name='Civil Service Pride Polo Shirt', product_category='POD Apparel', description='Professional polo shirt with subtle civil service pride messaging for workplace wear', target_audience=['civil_servants', 'government_managers', 'policy_professionals'], estimated_demand='High', competition_level='Low', profit_margin='Medium (60%)', startup_cost='None', time_to_market='2 weeks', required_skills=['professional_design', 'government_culture_knowledge'], opportunity_score=8.2, seasonal_demand='Steady year-round', pricing_range='$30-40')",
+          "ProductOpportunity(product_name='Government Acronym Decoder Mousepad', product_category='POD Accessories', description='Desk mousepad with common government acronyms and their meanings for new federal employees', target_audience=['new_federal_employees', 'contractors', 'interns'], estimated_demand='Medium', competition_level='Very Low', profit_margin='High (70%)', startup_cost='None', time_to_market='1 week', required_skills=['graphic_design', 'government_knowledge'], opportunity_score=8.0, seasonal_demand='Higher during onboarding seasons', pricing_range='$15-22')",
+          "ProductOpportunity(product_name='NATO Phonetic Alphabet Learning Tank Top', product_category='POD Apparel', description='Stylish tank top with NATO phonetic alphabet for military families and communication enthusiasts', target_audience=['military_families', 'veterans', 'radio_enthusiasts', 'pilots'], estimated_demand='Medium', competition_level='Low', profit_margin='High (70%)', startup_cost='None', time_to_market='1 week', required_skills=['graphic_design', 'military_knowledge'], opportunity_score=7.8, seasonal_demand='Higher in spring/summer', pricing_range='$22-28')",
+          "ProductOpportunity(product_name='Cybersecurity Awareness Water Bottle', product_category='POD Accessories', description='Insulated water bottle with OPSEC reminders and cybersecurity humor for IT professionals', target_audience=['it_professionals', 'cybersecurity_workers', 'tech_enthusiasts'], estimated_demand='Medium', competition_level='Low', profit_margin='Medium (55%)', startup_cost='None', time_to_market='2-3 weeks', required_skills=['product_design', 'cybersecurity_knowledge'], opportunity_score=7.5, seasonal_demand='Cybersecurity Awareness Month spike', pricing_range='$25-35')",
+          "ProductOpportunity(product_name='Political Advocacy Instagram Story Templates', product_category='Digital Download', description='Professional Instagram story templates for political advocacy and civic engagement', target_audience=['advocacy_groups', 'political_campaigns', 'civic_organizations'], estimated_demand='High', competition_level='Medium', profit_margin='Very High (95%)', startup_cost='None', time_to_market='1-2 weeks', required_skills=['social_media_design', 'political_messaging'], opportunity_score=8.3, seasonal_demand='Higher during election cycles', pricing_range='$6-12')",
+          "ProductOpportunity(product_name='Government Employee LinkedIn Banner Templates', product_category='Digital Download', description='Professional LinkedIn banner templates specifically designed for government employees', target_audience=['federal_employees', 'state_workers', 'policy_professionals'], estimated_demand='Medium', competition_level='Low', profit_margin='Very High (95%)', startup_cost='None', time_to_market='1 week', required_skills=['social_media_design', 'professional_branding'], opportunity_score=8.0, seasonal_demand='Steady', pricing_range='$4-8')"
+        ],
+        "long_term_exploration": [
+          "ProductOpportunity(product_name='Government Efficiency Paradox Wall Art', product_category='POD Home Decor', description='Framed art piece with clever visualization of government efficiency paradoxes for office decoration', target_audience=['government_workers', 'policy_researchers', 'political_scientists'], estimated_demand='Medium', competition_level='Low', profit_margin='High (65%)', startup_cost='None', time_to_market='2-3 weeks', required_skills=['artistic_design', 'political_knowledge'], opportunity_score=7.3, seasonal_demand='Steady', pricing_range='$20-45')",
+          "ProductOpportunity(product_name='Democracy Defender Throw Pillow', product_category='POD Home Decor', description='Comfortable throw pillow with inspirational democracy themes for home or office', target_audience=['civil_servants', 'activists', 'political_enthusiasts'], estimated_demand='Medium', competition_level='Medium', profit_margin='Medium (55%)', startup_cost='None', time_to_market='2 weeks', required_skills=['textile_design', 'political_messaging'], opportunity_score=7.0, seasonal_demand='Higher around elections', pricing_range='$25-35')"
+        ]
+      },
+      "product_variations": [
+        "ProductVariation(base_product='Currently Clean on OPSEC Embroidered Hat | Rogue Bureaucrat Satire | Snarky Dad Cap | Political Irony Gift', variation_type='Department Specific', description='Specific department versions (State, Treasury, Commerce, etc.)', additional_effort='Medium', potential_sales_increase='25-40%', implementation_priority='Medium')",
+        "ProductVariation(base_product='Currently Clean on OPSEC Sticker | Ironic Gov Scandal Decal | Political Satire | Cybersecurity Meme | Rogue Bureaucrat Gift', variation_type='Department Specific', description='Specific department versions (State, Treasury, Commerce, etc.)', additional_effort='Medium', potential_sales_increase='25-40%', implementation_priority='Medium')",
+        "ProductVariation(base_product='Rogue Bureaucrat - Mug', variation_type='Department Specific', description='Specific department versions (State, Treasury, Commerce, etc.)', additional_effort='Medium', potential_sales_increase='25-40%', implementation_priority='Medium')",
+        "ProductVariation(base_product='USAID Rogue Bureaucrat T-Shirt | Political Activist Tee | Government Protest Shirt | Foreign Service Political Statement Apparel', variation_type='Department Specific', description='Specific department versions (State, Treasury, Commerce, etc.)', additional_effort='Medium', potential_sales_increase='25-40%', implementation_priority='Medium')",
+        "ProductVariation(base_product='Rogue Bureaucrat Embroidered Hat - Take Back The Hat | Funny Political Statement Cap | Adjustable Cotton Dad Hat', variation_type='Department Specific', description='Specific department versions (State, Treasury, Commerce, etc.)', additional_effort='Medium', potential_sales_increase='25-40%', implementation_priority='Medium')",
+        "ProductVariation(base_product='Rogue Bureaucrat - Can-shaped glass', variation_type='Department Specific', description='Specific department versions (State, Treasury, Commerce, etc.)', additional_effort='Medium', potential_sales_increase='25-40%', implementation_priority='Medium')",
+        "ProductVariation(base_product='Rogue Bureaucrat - Universal Federal Service Activist Tee (No Seal) | Government Worker Protest T-Shirt | Unisex Political Statement Apparel', variation_type='Department Specific', description='Specific department versions (State, Treasury, Commerce, etc.)', additional_effort='Medium', potential_sales_increase='25-40%', implementation_priority='Medium')",
+        "ProductVariation(base_product='Currently Clean on OPSEC Embroidered Hat | Rogue Bureaucrat Satire | Snarky Dad Cap | Political Irony Gift', variation_type='Experience Level', description='Versions for different clearance levels or experience', additional_effort='Medium', potential_sales_increase='25-35%', implementation_priority='Medium')",
+        "ProductVariation(base_product='Currently Clean on OPSEC Sticker | Ironic Gov Scandal Decal | Political Satire | Cybersecurity Meme | Rogue Bureaucrat Gift', variation_type='Experience Level', description='Versions for different clearance levels or experience', additional_effort='Medium', potential_sales_increase='25-35%', implementation_priority='Medium')",
+        "ProductVariation(base_product='Currently Clean on OPSEC - T-shirt', variation_type='Experience Level', description='Versions for different clearance levels or experience', additional_effort='Medium', potential_sales_increase='25-35%', implementation_priority='Medium')"
+      ],
+      "digital_product_suites": [
+        "DigitalProductSuite(suite_name='New Federal Employee Starter Pack', products_included=['Government Acronym Decoder Guide', 'Federal Meeting Bingo Cards', 'Civil Service Milestone Certificates', 'Professional LinkedIn Banner Templates', 'Office Appropriate Humor Cheat Sheet'], bundle_price_strategy='25% discount vs individual', individual_vs_bundle_approach='Offer both with clear value proposition', cross_selling_opportunities=['Government humor apparel', 'Professional accessories', 'Office decor items'], upselling_potential='High - natural progression to physical products')",
+        "DigitalProductSuite(suite_name='Cybersecurity Professional Toolkit', products_included=['OPSEC Failure Awareness Posters', 'Security Meeting Bingo Cards', 'Cybersecurity Milestone Certificates', 'IT Professional Social Media Templates', 'Security Protocol Flowcharts'], bundle_price_strategy='30% discount vs individual', individual_vs_bundle_approach='Bundle-first approach with individual options', cross_selling_opportunities=['Cybersecurity humor apparel', 'Tech accessories', 'Water bottles and desk items'], upselling_potential='Medium - tech professionals value quality tools')"
+      ],
+      "implementation_timeline": {
+        "week_1_2": "Launch top 2 digital downloads",
+        "week_3_4": "Add 2 high-priority POD products",
+        "month_2": "Implement top product variations",
+        "month_3": "Launch first digital product suite",
+        "quarter_2": "Expand to medium-term opportunities"
+      },
+      "resource_requirements": {
+        "design_time": "10-15 hours/week for first month",
+        "market_research": "5 hours/week ongoing",
+        "customer_feedback_analysis": "3 hours/week",
+        "inventory_management": "Minimal with POD/digital"
+      },
+      "success_metrics": {
+        "revenue_targets": "30% increase in Q1, 60% in Q2",
+        "product_diversity": "Double current category count",
+        "customer_satisfaction": "Maintain 4.5+ star average",
+        "market_expansion": "Reach new customer segments"
+      }
+    }
+  },
+  "cross_agent_insights": {
+    "keyword_trend_gaps": [
+      "government humor",
+      "civil servant gift",
+      "political statement",
+      "bureaucrat humor",
+      "resistance gear"
+    ],
+    "category_expansion_opportunities": [
+      {
+        "category": "Digital Political Art",
+        "growth_rate": "+67%",
+        "opportunity_score": 9.8
+      },
+      {
+        "category": "Government Employee Gifts",
+        "growth_rate": "+38%",
+        "opportunity_score": 9.2
+      },
+      {
+        "category": "Political Satire Apparel",
+        "growth_rate": "+45%",
+        "opportunity_score": 8.5
+      }
+    ],
+    "product_keyword_synergies": [],
+    "top_opportunities": [
+      "Add trending keyword: government humor",
+      "Expand into: Political Satire Apparel",
+      "Launch: Federal Employee ID Badge Holder"
+    ]
+  },
+  "priority_action_plan": {
+    "immediate": [
+      "📈 Add trending keywords: government humor, civil servant, bureaucrat gift"
+    ],
+    "short_term": [
+      "🚀 Launch: Federal Employee ID Badge Holder - 2 weeks",
+      "🚀 Launch: Government Meeting Bingo Hoodie - 1-2 weeks",
+      "🗓️ Prepare for: Q4 2025 (Oct-Dec)"
+    ],
+    "medium_term": [
+      "Trend Alignment: Focus on government/bureaucrat niche keywords with rising trends",
+      "📦 Develop: Civil Service Pride Polo Shirt",
+      "📦 Develop: Government Acronym Decoder Mousepad",
+      "📦 Develop: NATO Phonetic Alphabet Learning Tank Top"
+    ]
+  },
+  "strategic_roadmap": {
+    "primary_focus": "Digital Product Expansion",
+    "strategic_phases": {
+      "phase_1_optimization": {
+        "timeline": "Next 2 months",
+        "focus": "Optimize existing portfolio",
+        "key_actions": [
+          "Complete keyword optimization across all listings",
+          "Implement top trending keywords",
+          "Launch 2-3 high-priority digital products"
+        ]
+      },
+      "phase_2_expansion": {
+        "timeline": "Months 3-6",
+        "focus": "Strategic product expansion",
+        "key_actions": [
+          "Launch POD product line",
+          "Develop digital product suites",
+          "Enter trending categories"
+        ]
+      },
+      "phase_3_scaling": {
+        "timeline": "Months 7-12",
+        "focus": "Scale and diversify",
+        "key_actions": [
+          "Expand to new customer segments",
+          "Develop premium product lines",
+          "Build brand recognition in niche"
+        ]
+      }
+    },
+    "success_metrics": {
+      "revenue_target": "100% increase in 12 months",
+      "product_diversity": "Double current category count",
+      "market_position": "Top 3 in government humor niche"
+    }
+  },
+  "integrated_recommendations": {
+    "seo_keyword_strategy": {
+      "immediate_keywords_to_add": [
+        "government humor",
+        "civil servant",
+        "bureaucrat gift"
+      ],
+      "keywords_to_remove": [],
+      "long_tail_opportunities": [
+        "government worker gift",
+        "cyber security humor",
+        "federal employee"
+      ],
+      "seasonal_timing": "Add election/holiday keywords by October 1st"
+    },
+    "product_development_strategy": {
+      "digital_first_approach": "Launch 3 digital products before POD expansion",
+      "pod_priorities": [
+        "Federal Employee ID Badge Holder",
+        "Government Meeting Bingo Hoodie",
+        "Government Meeting Bingo Printable Set"
+      ],
+      "bundle_opportunities": [
+        "New Federal Employee Starter Pack",
+        "Cybersecurity Professional Toolkit"
+      ],
+      "variation_strategy": "Create agency-specific versions of successful products"
+    },
+    "market_positioning": {
+      "niche_focus": "Government employee humor and cybersecurity",
+      "competitive_advantage": "Insider knowledge and workplace-appropriate designs",
+      "target_expansion": [
+        "government contractors",
+        "policy professionals",
+        "IT security workers"
+      ],
+      "pricing_strategy": "Premium pricing for specialized knowledge"
+    },
+    "growth_timeline": {
+      "30_days": "Complete keyword optimization, launch 2 digital products",
+      "60_days": "Add 3 POD products, implement trending keywords",
+      "90_days": "Launch product bundles, expand to new categories",
+      "6_months": "Achieve portfolio diversification and market position goals"
+    }
+  }
+}

@@ -518,8 +518,8 @@ if __name__ == '__main__':
     os.makedirs('static/css', exist_ok=True)
     os.makedirs('static/js', exist_ok=True)
 
-    print("🚀 Starting EtsyAnalyzer Workflow Dashboard...")
-    print("📊 Access your dashboard at: http://localhost:5000")
-    print("🔧 Workflow management interface ready!")
+    print("Starting EtsyAnalyzer Workflow Dashboard...")
+    print("Access your dashboard at: http://localhost:5000")
+    print("Workflow management interface ready!")
 
     app.run(debug=True, host='0.0.0.0', port=5000)

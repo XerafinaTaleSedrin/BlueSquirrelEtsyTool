@@ -21,21 +21,21 @@
 
 /* Base body styling */
 body {
-    background-color: var(--amber);
-    color: var(--text-primary);
+    background-color: var(--amber) !important;
+    color: var(--text-primary) !important;
 }
 
 /* Card styling */
 .card {
-    background-color: var(--amber-dark);
-    border: 1px solid var(--border-light);
-    color: var(--text-primary);
+    background-color: var(--amber-dark) !important;
+    border: 1px solid var(--border-light) !important;
+    color: var(--text-primary) !important;
 }
 
 .card-header {
-    background-color: var(--sage-light);
-    color: var(--text-primary);
-    border-bottom: 1px solid var(--border-light);
+    background-color: var(--sage-light) !important;
+    color: var(--text-primary) !important;
+    border-bottom: 1px solid var(--border-light) !important;
 }
 
 /* Button styling */
@@ -119,15 +119,15 @@ body {
 
 /* Form controls */
 .form-control {
-    background-color: var(--amber-light);
-    border-color: var(--border-light);
-    color: var(--text-primary);
+    background-color: var(--amber-light) !important;
+    border-color: var(--border-light) !important;
+    color: var(--text-primary) !important;
 }
 
 .form-control:focus {
-    background-color: var(--amber-light);
-    border-color: var(--sage-green);
-    box-shadow: 0 0 0 0.2rem rgba(124, 152, 133, 0.25);
+    background-color: var(--amber-light) !important;
+    border-color: var(--sage-green) !important;
+    box-shadow: 0 0 0 0.2rem rgba(124, 152, 133, 0.25) !important;
 }
 
 /* Badge styling */

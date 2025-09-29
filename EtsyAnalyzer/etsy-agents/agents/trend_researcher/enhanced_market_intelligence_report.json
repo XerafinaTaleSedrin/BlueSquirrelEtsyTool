@@ -1,0 +1,16 @@
+{
+  "report_metadata": {
+    "generated_timestamp": "2025-09-18T18:55:06.973963",
+    "analysis_period": "Last 3 months",
+    "data_sources": [
+      "google_trends_api",
+      "etsy_trending_scrape"
+    ],
+    "keywords_analyzed": 12,
+    "confidence_level": "High - Real API Data"
+  },
+  "google_trends_analysis": [
+    {
+      "keyword": "government humor",
+      "search_volume": 1,
+      "interest_over_time": {

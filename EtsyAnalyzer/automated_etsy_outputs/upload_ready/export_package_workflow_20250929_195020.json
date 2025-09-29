@@ -1,0 +1,17 @@
+{
+  "workflow_id": "workflow_20250929_195020",
+  "export_timestamp": "2025-09-29T19:50:28.172840",
+  "csv_upload_files": [
+    "automated_etsy_outputs\\listings\\csv_uploads\\etsy_upload_20250929_195027.csv"
+  ],
+  "total_products": 0,
+  "quality_score": 83.5,
+  "ready_for_upload": true,
+  "next_steps": [
+    "Review generated content for accuracy",
+    "Prepare design images at 300 DPI",
+    "Upload CSV files to Etsy",
+    "Set up Printful integration",
+    "Monitor performance and optimize"
+  ]
+}

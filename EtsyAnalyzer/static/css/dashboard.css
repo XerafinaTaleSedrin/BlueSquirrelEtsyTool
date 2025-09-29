@@ -1,0 +1,526 @@
+/* EtsyAnalyzer Workflow Dashboard Styles - Eye-Saver Palette */
+
+/* Eye-Saver Color Variables */
+:root {
+    --sage-green: #7C9885;
+    --sage-light: #9FB3A8;
+    --sage-dark: #5F7466;
+    --cream: #FDF7E8;
+    --cream-light: #FFFBF3;
+    --cream-dark: #F5EDD8;
+    --muted-blue: #6B8CAE;
+    --muted-blue-light: #8DA8C7;
+    --muted-blue-dark: #4A6B8A;
+    --soft-gray: #B8C5B0;
+    --text-primary: #2D4B3A;
+    --text-secondary: #4A6B56;
+    --border-light: #E1E8DD;
+    --shadow-soft: rgba(124, 152, 133, 0.15);
+}
+
+/* Base body styling */
+body {
+    background-color: var(--cream);
+    color: var(--text-primary);
+}
+
+/* Card styling */
+.card {
+    background-color: var(--cream-light);
+    border: 1px solid var(--border-light);
+    color: var(--text-primary);
+}
+
+.card-header {
+    background-color: var(--sage-light);
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border-light);
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: var(--sage-green);
+    border-color: var(--sage-green);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--sage-dark);
+    border-color: var(--sage-dark);
+}
+
+.btn-secondary {
+    background-color: var(--muted-blue);
+    border-color: var(--muted-blue);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: var(--muted-blue-dark);
+    border-color: var(--muted-blue-dark);
+}
+
+.btn-outline-primary {
+    color: var(--sage-green);
+    border-color: var(--sage-green);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--sage-green);
+    border-color: var(--sage-green);
+}
+
+/* Alert styling */
+.alert-info {
+    background-color: var(--cream-dark);
+    border-color: var(--sage-light);
+    color: var(--text-primary);
+}
+
+.alert-success {
+    background-color: #E8F5E8;
+    border-color: var(--sage-green);
+    color: var(--sage-dark);
+}
+
+.alert-warning {
+    background-color: #FFF3CD;
+    border-color: #E6B800;
+    color: #856404;
+}
+
+.alert-danger {
+    background-color: #F8D7DA;
+    border-color: #DC3545;
+    color: #721C24;
+}
+
+/* Navbar styling */
+.navbar-dark, .bg-primary {
+    background-color: var(--sage-green) !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: var(--sage-dark);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.navbar-text {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Form controls */
+.form-control {
+    background-color: var(--cream-light);
+    border-color: var(--border-light);
+    color: var(--text-primary);
+}
+
+.form-control:focus {
+    background-color: var(--cream-light);
+    border-color: var(--sage-green);
+    box-shadow: 0 0 0 0.2rem rgba(124, 152, 133, 0.25);
+}
+
+/* Badge styling */
+.badge-primary {
+    background-color: var(--sage-green);
+}
+
+.badge-secondary {
+    background-color: var(--muted-blue);
+}
+
+.badge-success {
+    background-color: var(--sage-dark);
+}
+
+/* Text colors */
+.text-muted {
+    color: var(--text-secondary) !important;
+}
+
+/* Workflow Steps */
+.workflow-steps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+    flex: 1;
+    min-width: 150px;
+}
+
+.step.completed {
+    opacity: 1;
+}
+
+.step-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--cream-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+    color: var(--text-secondary);
+}
+
+.step.completed .step-icon {
+    background: var(--sage-green);
+    color: white;
+}
+
+.step-icon i {
+    font-size: 1.5rem;
+}
+
+.step-content h6 {
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+.step-content p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+
+.step-connector {
+    height: 2px;
+    background: var(--border-light);
+    flex: 0.5;
+    min-width: 30px;
+    margin: 0 0.5rem;
+}
+
+.step.completed + .step-connector {
+    background: var(--sage-green);
+}
+
+/* Responsive workflow steps */
+@media (max-width: 768px) {
+    .workflow-steps {
+        flex-direction: column;
+    }
+
+    .step-connector {
+        height: 30px;
+        width: 2px;
+        min-width: auto;
+        margin: 0.5rem 0;
+    }
+
+    .step {
+        flex-direction: row;
+        text-align: left;
+        width: 100%;
+    }
+
+    .step-icon {
+        margin-right: 1rem;
+        margin-bottom: 0;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Card hover effects */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px var(--shadow-soft);
+}
+
+/* Status badges */
+.badge {
+    font-size: 0.75rem;
+}
+
+/* Button loading states */
+.btn.loading {
+    position: relative;
+    pointer-events: none;
+}
+
+.btn.loading::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+    margin: -8px 0 0 -8px;
+    border: 2px solid transparent;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Progress bars */
+.progress {
+    height: 8px;
+    border-radius: 4px;
+}
+
+.progress-bar {
+    transition: width 0.3s ease;
+}
+
+/* Alert animations */
+.alert {
+    animation: slideInDown 0.3s ease-out;
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Drop zone styles */
+.drop-zone {
+    transition: all 0.3s ease;
+}
+
+.drop-zone.drag-over {
+    border-color: var(--sage-green) !important;
+    background-color: var(--cream-dark) !important;
+    transform: scale(1.02);
+}
+
+/* Status indicators */
+.status-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.status-indicator.pending {
+    background-color: var(--soft-gray);
+}
+
+.status-indicator.in-progress {
+    background-color: var(--muted-blue);
+    animation: pulse 2s infinite;
+}
+
+.status-indicator.completed {
+    background-color: var(--sage-green);
+}
+
+.status-indicator.error {
+    background-color: #dc3545;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Design brief cards */
+.brief-details {
+    font-size: 0.9rem;
+}
+
+.brief-details p {
+    margin-bottom: 0.75rem;
+}
+
+.brief-details .badge {
+    font-size: 0.7rem;
+    margin: 0.1rem;
+}
+
+/* Upload progress */
+.upload-progress {
+    margin: 1rem 0;
+}
+
+/* Modal improvements */
+.modal-content {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px var(--shadow-soft);
+    background-color: var(--cream-light);
+    color: var(--text-primary);
+}
+
+.modal-header {
+    border-bottom: 1px solid var(--border-light);
+    border-radius: 12px 12px 0 0;
+    background-color: var(--sage-light);
+    color: var(--text-primary);
+}
+
+.modal-footer {
+    border-top: 1px solid var(--border-light);
+    border-radius: 0 0 12px 12px;
+    background-color: var(--cream-light);
+}
+
+/* Utility classes */
+.text-truncate-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.text-truncate-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Additional component styling */
+.table {
+    background-color: var(--cream-light);
+    color: var(--text-primary);
+}
+
+.table th {
+    background-color: var(--sage-light);
+    color: var(--text-primary);
+    border-color: var(--border-light);
+}
+
+.table td {
+    border-color: var(--border-light);
+}
+
+.list-group-item {
+    background-color: var(--cream-light);
+    border-color: var(--border-light);
+    color: var(--text-primary);
+}
+
+.progress {
+    background-color: var(--cream-dark);
+}
+
+.progress-bar {
+    background-color: var(--sage-green);
+}
+
+/* Custom scrollbar for better eye comfort */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--cream-dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--sage-light);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--sage-green);
+}
+
+/* Additional Bootstrap component overrides */
+.dropdown-menu {
+    background-color: var(--cream-light);
+    border-color: var(--border-light);
+}
+
+.dropdown-item {
+    color: var(--text-primary);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: var(--sage-light);
+    color: var(--text-primary);
+}
+
+.breadcrumb {
+    background-color: var(--cream-dark);
+}
+
+.breadcrumb-item a {
+    color: var(--sage-green);
+}
+
+.pagination .page-link {
+    background-color: var(--cream-light);
+    border-color: var(--border-light);
+    color: var(--sage-green);
+}
+
+.pagination .page-link:hover {
+    background-color: var(--sage-light);
+    border-color: var(--sage-green);
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--sage-green);
+    border-color: var(--sage-green);
+}
+
+/* Loading states with eye-friendly colors */
+.spinner-border {
+    color: var(--sage-green);
+}
+
+.btn.loading::after {
+    border-top-color: currentColor;
+}
+
+/* Print styles */
+@media print {
+    .navbar,
+    .btn,
+    .modal,
+    .dropdown-menu {
+        display: none !important;
+    }
+
+    .card {
+        border: 1px solid #000 !important;
+        box-shadow: none !important;
+    }
+}

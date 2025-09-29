@@ -1,0 +1,25 @@
+{
+  "concept_name": "trend_government_humor_20250929",
+  "target_keywords": [
+    "government humor",
+    "government"
+  ],
+  "design_theme": "government_humor",
+  "target_audience": "Government employees, civil servants, federal workers",
+  "style_preferences": [
+    "professional",
+    "humorous",
+    "trendy"
+  ],
+  "printful_products": [
+    "t-shirt",
+    "mug",
+    "hoodie"
+  ],
+  "priority_score": 10.0,
+  "trend_context": {
+    "trend_strength": 8.0,
+    "time_sensitivity": "Medium",
+    "competition_level": "Medium"
+  }
+}

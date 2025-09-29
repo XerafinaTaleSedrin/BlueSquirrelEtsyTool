@@ -1,0 +1,45 @@
+{
+  "automation_enabled": true,
+  "workflow_modes": {
+    "trend_responsive": true,
+    "scheduled_analysis": true,
+    "image_processing": true,
+    "manual_triggers": true
+  },
+  "output_settings": {
+    "base_directory": "../DESIGNS",
+    "preserve_intermediate_files": true,
+    "generate_summaries": true
+  },
+  "quality_thresholds": {
+    "min_seo_score": 75.0,
+    "min_design_quality": 80.0,
+    "min_trend_strength": 6.0
+  },
+  "integration_settings": {
+    "printful_enabled": true,
+    "printful_api_key": "LPUcjY4AJmyrHoWxGg7ub4hv9oG38cyjtvOPb2Jg",
+    "etsy_upload_enabled": false,
+    "claude_vision_enabled": false
+  },
+  "scheduling": {
+    "auto_analysis_frequency": "weekly",
+    "trend_monitoring_frequency": "daily",
+    "max_products_per_batch": 10
+  },
+  "business_focus": {
+    "primary_niche": "government_humor",
+    "secondary_niches": ["cybersecurity", "political_satire"],
+    "target_audience": "Government employees, civil servants, federal workers",
+    "priority_keywords": [
+      "government humor",
+      "civil servant",
+      "bureaucrat gift",
+      "federal employee",
+      "cybersecurity humor",
+      "political satire",
+      "OPSEC",
+      "federal worker"
+    ]
+  }
+}

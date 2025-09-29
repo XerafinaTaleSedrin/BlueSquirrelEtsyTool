@@ -29,6 +29,18 @@ class MultiAgentAnalyzer:
         self.base_analyzer = EtsyAnalyzer()
 
     def run_comprehensive_analysis(self, csv_path="etsy-agents/EtsyListingsDownload.csv"):
+        # Handle both relative and absolute paths for CSV file
+        if not os.path.exists(csv_path):
+            # Try alternative paths
+            alternative_paths = [
+                os.path.join(os.path.dirname(__file__), csv_path),
+                os.path.join(os.path.dirname(__file__), "etsy-agents", "EtsyListingsDownload.csv"),
+                "EtsyAnalyzer/etsy-agents/EtsyListingsDownload.csv"
+            ]
+            for alt_path in alternative_paths:
+                if os.path.exists(alt_path):
+                    csv_path = alt_path
+                    break
         """Run comprehensive multi-agent analysis"""
         print("Starting Multi-Agent Business Intelligence Analysis...")
         print("=" * 60)
@@ -261,14 +273,14 @@ class MultiAgentAnalyzer:
         # From keyword analysis
         if keyword_analysis["quick_wins"]:
             immediate.extend([
-                f"🔧 {win['action']} - {win['effort']}"
+                f"OPTIMIZE: {win['action']} - {win['effort']}"
                 for win in keyword_analysis["quick_wins"][:2]
             ])
 
         # From trends analysis
         trending_keywords = trends_analysis["keyword_recommendations"]["immediate_add"]
         if trending_keywords:
-            immediate.append(f"📈 Add trending keywords: {', '.join(trending_keywords[:3])}")
+            immediate.append(f"TRENDING: Add keywords: {', '.join(trending_keywords[:3])}")
 
         # Short-term actions (next month)
         short_term = []
@@ -276,14 +288,14 @@ class MultiAgentAnalyzer:
         # From product analysis
         immediate_products = product_analysis["expansion_priorities"]["immediate_launch"][:2]
         short_term.extend([
-            f"🚀 Launch: {product.product_name} - {product.time_to_market}"
+            f"LAUNCH: {product.product_name} - {product.time_to_market}"
             for product in immediate_products
         ])
 
         # From trends analysis
         seasonal_prep = trends_analysis["detailed_findings"]["seasonal_forecasts"]
         if seasonal_prep:
-            short_term.append(f"🗓️ Prepare for: {seasonal_prep[0].season}")
+            short_term.append(f"SEASONAL: Prepare for: {seasonal_prep[0].season}")
 
         # Medium-term actions (next quarter)
         medium_term = []
@@ -295,7 +307,7 @@ class MultiAgentAnalyzer:
         # Product portfolio expansion
         medium_products = product_analysis["expansion_priorities"]["medium_term"][:3]
         medium_term.extend([
-            f"📦 Develop: {product.product_name}"
+            f"DEVELOP: {product.product_name}"
             for product in medium_products
         ])
 

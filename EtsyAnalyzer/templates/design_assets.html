@@ -1,0 +1,394 @@
+{% extends "base.html" %}
+
+{% block title %}Design Assets - EtsyAnalyzer Workflow{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1><i class="fas fa-images"></i> Design Assets</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Design Assets</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Assets Status -->
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card text-white bg-info">
+            <div class="card-body text-center">
+                <h3>{{ assets|selectattr("file_path", "none")|list|length }}</h3>
+                <p class="mb-0">Awaiting Upload</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-success">
+            <div class="card-body text-center">
+                <h3>{{ assets|rejectattr("file_path", "none")|list|length }}</h3>
+                <p class="mb-0">Designs Uploaded</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-warning">
+            <div class="card-body text-center">
+                <h3>{{ assets|selectattr("printful_status", "equalto", "completed")|list|length }}</h3>
+                <p class="mb-0">Printful Ready</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-primary">
+            <div class="card-body text-center">
+                <h3>{{ assets|selectattr("etsy_status", "equalto", "completed")|list|length }}</h3>
+                <p class="mb-0">Etsy Ready</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Upload Instructions -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card bg-light border-info">
+            <div class="card-body">
+                <h5><i class="fas fa-info-circle text-info"></i> Printful Upload Requirements</h5>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="mb-0">
+                            <li><strong>Resolution:</strong> 300 DPI minimum</li>
+                            <li><strong>Format:</strong> PNG with transparent background</li>
+                            <li><strong>File size:</strong> Maximum 20 MB</li>
+                            <li><strong>Color mode:</strong> RGB</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="mb-0">
+                            <li><strong>T-shirt/Hoodie:</strong> 12" x 16" max print area</li>
+                            <li><strong>Mug:</strong> 8.5" x 3.5" max print area</li>
+                            <li><strong>Design:</strong> Single-color preferred</li>
+                            <li><strong>Text:</strong> Readable at small sizes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if assets %}
+<!-- Design Assets Grid -->
+<div class="row">
+    {% for asset in assets %}
+    <div class="col-lg-6 col-xl-4 mb-4">
+        <div class="card h-100">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h6 class="mb-0">
+                    <i class="fas fa-{% if asset.brief_data.design_theme == 'government_humor' %}building{% elif asset.brief_data.design_theme == 'cybersecurity' %}shield-alt{% elif asset.brief_data.design_theme == 'political_satire' %}vote-yea{% else %}pencil-alt{% endif %}"></i>
+                    {{ asset.brief_data.concept_name|replace('_', ' ')|title }}
+                </h6>
+                <div class="status-badges">
+                    {% if asset.file_path %}
+                    <span class="badge bg-success"><i class="fas fa-check"></i></span>
+                    {% else %}
+                    <span class="badge bg-secondary"><i class="fas fa-clock"></i></span>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="card-body">
+                <!-- Brief Summary -->
+                <div class="brief-summary mb-3">
+                    <p class="text-muted small mb-2">
+                        <strong>Theme:</strong> {{ asset.brief_data.design_theme|replace('_', ' ')|title }}<br>
+                        <strong>Products:</strong> {{ asset.brief_data.printful_products|join(', ')|title }}
+                    </p>
+
+                    {% if asset.brief_data.target_keywords %}
+                    <div class="mb-2">
+                        {% for keyword in asset.brief_data.target_keywords[:3] %}
+                        <span class="badge bg-light text-dark me-1">{{ keyword }}</span>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+
+                <!-- Current Status -->
+                {% if asset.file_path %}
+                <div class="uploaded-design mb-3">
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fas fa-image text-success me-2"></i>
+                        <span class="text-success"><strong>Design Uploaded</strong></span>
+                    </div>
+                    <small class="text-muted">{{ asset.file_path.split('/')[-1] }}</small>
+
+                    <!-- Status Progress -->
+                    <div class="mt-3">
+                        <div class="row text-center">
+                            <div class="col-4">
+                                <div class="status-step {% if asset.status %}completed{% endif %}">
+                                    <i class="fas fa-upload"></i>
+                                    <small class="d-block">Uploaded</small>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="status-step {% if asset.printful_status == 'completed' %}completed{% endif %}">
+                                    <i class="fas fa-tshirt"></i>
+                                    <small class="d-block">Printful</small>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="status-step {% if asset.etsy_status == 'completed' %}completed{% endif %}">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <small class="d-block">Etsy</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% else %}
+                <!-- Upload Form -->
+                <div class="upload-area">
+                    <form class="upload-form" data-brief-id="{{ asset.brief_id }}">
+                        <div class="drop-zone" onclick="document.getElementById('file-{{ loop.index }}').click()">
+                            <i class="fas fa-cloud-upload-alt fa-3x text-muted mb-3"></i>
+                            <p class="mb-2"><strong>Drop PNG file here</strong></p>
+                            <p class="text-muted small">or click to browse</p>
+                            <input type="file" id="file-{{ loop.index }}" class="d-none"
+                                   accept=".png" onchange="uploadFile(this, '{{ asset.brief_id }}')">
+                        </div>
+                    </form>
+                </div>
+                {% endif %}
+
+                <!-- View Design Brief Button -->
+                <div class="mt-3">
+                    <button class="btn btn-sm btn-outline-info" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#brief-{{ loop.index }}" aria-expanded="false">
+                        <i class="fas fa-eye"></i> View Design Brief
+                    </button>
+                </div>
+                <div class="collapse mt-2" id="brief-{{ loop.index }}">
+                    <div class="card card-body bg-light">
+                        <small>
+                            <strong>Audience:</strong> {{ asset.brief_data.target_audience }}<br>
+                            {% if asset.brief_data.style_preferences %}
+                            <strong>Style:</strong> {{ asset.brief_data.style_preferences|join(', ') }}<br>
+                            {% endif %}
+                            {% if asset.brief_data.color_scheme %}
+                            <strong>Colors:</strong> {{ asset.brief_data.color_scheme }}<br>
+                            {% endif %}
+                            {% if asset.brief_data.priority_score %}
+                            <strong>Priority:</strong> {{ asset.brief_data.priority_score }}/10
+                            {% endif %}
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            {% if asset.file_path %}
+            <div class="card-footer">
+                <div class="d-flex gap-2">
+                    <button class="btn btn-primary btn-sm flex-fill" onclick="setupPrintfulProduct('{{ asset.brief_id }}')"
+                            {% if asset.printful_status == 'completed' %}disabled{% endif %}>
+                        <i class="fas fa-tshirt"></i>
+                        {% if asset.printful_status == 'completed' %}Printful Ready{% else %}Setup Printful{% endif %}
+                    </button>
+                    <button class="btn btn-success btn-sm flex-fill" onclick="createEtsyListing('{{ asset.brief_id }}')"
+                            {% if asset.etsy_status != 'completed' and asset.printful_status != 'completed' %}disabled{% endif %}>
+                        <i class="fas fa-shopping-cart"></i>
+                        {% if asset.etsy_status == 'completed' %}Etsy Ready{% else %}Create Listing{% endif %}
+                    </button>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% else %}
+<!-- No Assets State -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body text-center py-5">
+                <i class="fas fa-images fa-4x text-muted mb-3"></i>
+                <h4>No Design Assets Yet</h4>
+                <p class="text-muted">Approve design briefs first, then upload your created design images here.</p>
+                <a href="{{ url_for('design_pipeline') }}" class="btn btn-primary">
+                    <i class="fas fa-pencil-ruler"></i> Review Design Briefs
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- Upload Progress Modal -->
+<div class="modal fade" id="uploadModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Uploading Design</h5>
+            </div>
+            <div class="modal-body">
+                <div class="progress mb-3">
+                    <div id="upload-progress" class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" style="width: 0%"></div>
+                </div>
+                <p id="upload-status" class="text-center mb-0">Preparing upload...</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function uploadFile(input, briefId) {
+    const file = input.files[0];
+    if (!file) return;
+
+    // Validate file
+    if (!file.type.includes('png')) {
+        alert('Please upload a PNG file only.');
+        return;
+    }
+
+    if (file.size > 20 * 1024 * 1024) { // 20MB
+        alert('File size must be less than 20MB.');
+        return;
+    }
+
+    // Show upload modal
+    const modal = new bootstrap.Modal(document.getElementById('uploadModal'));
+    modal.show();
+
+    const progressBar = document.getElementById('upload-progress');
+    const statusText = document.getElementById('upload-status');
+
+    // Prepare form data
+    const formData = new FormData();
+    formData.append('file', file);
+    formData.append('brief_id', briefId);
+
+    // Upload with progress
+    const xhr = new XMLHttpRequest();
+
+    xhr.upload.onprogress = function(e) {
+        if (e.lengthComputable) {
+            const percentComplete = (e.loaded / e.total) * 100;
+            progressBar.style.width = percentComplete + '%';
+            statusText.textContent = `Uploading... ${Math.round(percentComplete)}%`;
+        }
+    };
+
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            const response = JSON.parse(xhr.responseText);
+            if (response.success) {
+                statusText.textContent = 'Upload complete!';
+                progressBar.style.width = '100%';
+
+                setTimeout(() => {
+                    modal.hide();
+                    location.reload(); // Refresh to show uploaded design
+                }, 1000);
+            } else {
+                statusText.textContent = 'Upload failed: ' + response.error;
+                progressBar.className = 'progress-bar bg-danger';
+            }
+        } else {
+            statusText.textContent = 'Upload failed. Please try again.';
+            progressBar.className = 'progress-bar bg-danger';
+        }
+    };
+
+    xhr.onerror = function() {
+        statusText.textContent = 'Network error. Please check your connection.';
+        progressBar.className = 'progress-bar bg-danger';
+    };
+
+    xhr.open('POST', '/api/upload-design');
+    xhr.send(formData);
+}
+
+function setupPrintfulProduct(briefId) {
+    alert(`Printful setup for ${briefId} will be implemented in the next phase.`);
+}
+
+function createEtsyListing(briefId) {
+    alert(`Etsy listing creation for ${briefId} will be implemented in the next phase.`);
+}
+
+// Drag and drop functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const dropZones = document.querySelectorAll('.drop-zone');
+
+    dropZones.forEach(zone => {
+        zone.addEventListener('dragover', function(e) {
+            e.preventDefault();
+            zone.classList.add('drag-over');
+        });
+
+        zone.addEventListener('dragleave', function(e) {
+            e.preventDefault();
+            zone.classList.remove('drag-over');
+        });
+
+        zone.addEventListener('drop', function(e) {
+            e.preventDefault();
+            zone.classList.remove('drag-over');
+
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                const form = zone.closest('.upload-form');
+                const briefId = form.dataset.briefId;
+                const input = zone.querySelector('input[type="file"]');
+                input.files = files;
+                uploadFile(input, briefId);
+            }
+        });
+    });
+});
+</script>
+
+<style>
+.drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.drop-zone:hover, .drop-zone.drag-over {
+    border-color: #007bff;
+    background-color: #f8f9fa;
+}
+
+.status-step {
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
+}
+
+.status-step.completed {
+    opacity: 1;
+    color: #28a745;
+}
+
+.status-step i {
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 5px;
+}
+</style>
+{% endblock %}

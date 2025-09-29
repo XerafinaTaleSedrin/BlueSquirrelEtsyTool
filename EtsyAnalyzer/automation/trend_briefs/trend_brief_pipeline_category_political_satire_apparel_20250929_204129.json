@@ -1,0 +1,25 @@
+{
+  "concept_name": "trend_political_satire_apparel_20250929",
+  "target_keywords": [
+    "political satire apparel",
+    "political"
+  ],
+  "design_theme": "category_expansion",
+  "target_audience": "Political Satire Apparel professionals and enthusiasts",
+  "style_preferences": [
+    "professional",
+    "humorous",
+    "trendy"
+  ],
+  "printful_products": [
+    "t-shirt",
+    "hoodie",
+    "mug"
+  ],
+  "priority_score": 9.5,
+  "trend_context": {
+    "trend_strength": 8.5,
+    "time_sensitivity": "Medium",
+    "competition_level": "Medium"
+  }
+}

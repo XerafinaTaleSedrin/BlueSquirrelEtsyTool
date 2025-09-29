@@ -1,0 +1,220 @@
+{
+  "workflow_id": "workflow_20250929_195020",
+  "start_time": "2025-09-29T19:50:20.696417",
+  "mode": "comprehensive",
+  "status": "completed",
+  "stages": {
+    "market_analysis": {
+      "success": true,
+      "analysis_file": "automated_analysis_20250929_195027.json",
+      "insights": {
+        "total_workflows_executed": 5,
+        "successful_workflows": 5,
+        "failed_workflows": 0,
+        "total_outputs_generated": 6
+      },
+      "opportunities": [
+        "Add trending keyword: government humor",
+        "Expand into: Political Satire Apparel",
+        "Launch: Federal Employee ID Badge Holder"
+      ]
+    },
+    "trend_development": {
+      "success": false,
+      "error": "'charmap' codec can't encode character '\\U0001f504' in position 0: character maps to <undefined>"
+    },
+    "design_generation": {
+      "success": true,
+      "prompts_generated": 3,
+      "output_directory": "automated_etsy_outputs\\designs",
+      "summary_file": "automated_etsy_outputs\\designs\\design_generation_summary.md",
+      "prompt_files": [
+        "automated_etsy_outputs\\designs\\prompts\\government_humor_20250929_195027_prompt.txt",
+        "automated_etsy_outputs\\designs\\prompts\\cybersecurity_20250929_195027_prompt.txt",
+        "automated_etsy_outputs\\designs\\prompts\\political_satire_20250929_195027_prompt.txt"
+      ]
+    },
+    "listing_generation": {
+      "success": true,
+      "listings_generated": 9,
+      "output_files": [
+        "automated_etsy_outputs\\listings\\listings\\cybersecurity_20250929_195027_t-shirt_listing.json",
+        "automated_etsy_outputs\\listings\\listings\\cybersecurity_20250929_195027_hoodie_listing.json",
+        "automated_etsy_outputs\\listings\\listings\\cybersecurity_20250929_195027_mug_listing.json",
+        "automated_etsy_outputs\\listings\\listings\\government_humor_20250929_195027_t-shirt_listing.json",
+        "automated_etsy_outputs\\listings\\listings\\government_humor_20250929_195027_hoodie_listing.json",
+        "automated_etsy_outputs\\listings\\listings\\government_humor_20250929_195027_mug_listing.json",
+        "automated_etsy_outputs\\listings\\listings\\political_satire_20250929_195027_t-shirt_listing.json",
+        "automated_etsy_outputs\\listings\\listings\\political_satire_20250929_195027_hoodie_listing.json",
+        "automated_etsy_outputs\\listings\\listings\\political_satire_20250929_195027_mug_listing.json"
+      ],
+      "csv_upload_file": "automated_etsy_outputs\\listings\\csv_uploads\\etsy_upload_20250929_195027.csv",
+      "output_directory": "automated_etsy_outputs\\listings"
+    },
+    "image_processing": {
+      "success": false,
+      "error": "No image directory found"
+    },
+    "product_preparation": {
+      "success": true,
+      "products_planned": 5,
+      "setup_plan": {
+        "status": "ready",
+        "total_products_planned": 5,
+        "estimated_total_setup_time": "35 minutes",
+        "product_recommendations": [
+          {
+            "listing_file": "cybersecurity_20250929_195027_hoodie_listing.json",
+            "title": "government humor Hoodie - Cozy civil servant Sweatshirt for IT professionals",
+            "target_products": [],
+            "price_range": [],
+            "seo_score": 80,
+            "recommended_action": "Create Printful products",
+            "estimated_setup_time": "5-10 minutes",
+            "profit_potential": "Medium to High"
+          },
+          {
+            "listing_file": "cybersecurity_20250929_195027_mug_listing.json",
+            "title": "government humor Coffee Mug - Clever Cup for IT professionals",
+            "target_products": [],
+            "price_range": [],
+            "seo_score": 80,
+            "recommended_action": "Create Printful products",
+            "estimated_setup_time": "5-10 minutes",
+            "profit_potential": "Medium to High"
+          },
+          {
+            "listing_file": "cybersecurity_20250929_195027_t-shirt_listing.json",
+            "title": "government humor T-Shirt - civil servant Gift for IT professionals",
+            "target_products": [],
+            "price_range": [],
+            "seo_score": 80,
+            "recommended_action": "Create Printful products",
+            "estimated_setup_time": "5-10 minutes",
+            "profit_potential": "Medium to High"
+          },
+          {
+            "listing_file": "government_humor_20250929_195027_hoodie_listing.json",
+            "title": "government humor Hoodie - Cozy civil servant Sweatshirt for Government employees",
+            "target_products": [],
+            "price_range": [],
+            "seo_score": 87,
+            "recommended_action": "Create Printful products",
+            "estimated_setup_time": "5-10 minutes",
+            "profit_potential": "Medium to High"
+          },
+          {
+            "listing_file": "government_humor_20250929_195027_mug_listing.json",
+            "title": "government humor Coffee Mug - Funny Cup for Government employees",
+            "target_products": [],
+            "price_range": [],
+            "seo_score": 80,
+            "recommended_action": "Create Printful products",
+            "estimated_setup_time": "5-10 minutes",
+            "profit_potential": "Medium to High"
+          }
+        ],
+        "next_steps": [
+          "Review product recommendations",
+          "Prepare high-resolution design files",
+          "Set up Printful account and API access",
+          "Create first batch of products",
+          "Test ordering and fulfillment process"
+        ],
+        "setup_checklist": [
+          "Printful account created",
+          "API key configured",
+          "Design files prepared (300 DPI, correct dimensions)",
+          "Pricing strategy determined",
+          "Shipping and return policies set"
+        ]
+      },
+      "pricing_data": {
+        "t-shirt": {
+          "base_cost": 9.95,
+          "print_cost": 2.5,
+          "total_cost": 12.45,
+          "suggested_retail": {
+            "conservative": 22.41,
+            "standard": 27.39,
+            "premium": 34.86
+          },
+          "profit_margins": {
+            "conservative": 9.96,
+            "standard": 14.94,
+            "premium": 22.41
+          }
+        },
+        "hoodie": {
+          "base_cost": 22.95,
+          "print_cost": 2.5,
+          "total_cost": 25.45,
+          "suggested_retail": {
+            "conservative": 45.81,
+            "standard": 55.99,
+            "premium": 71.26
+          },
+          "profit_margins": {
+            "conservative": 20.36,
+            "standard": 30.54,
+            "premium": 45.81
+          }
+        },
+        "mug": {
+          "base_cost": 8.95,
+          "print_cost": 2.5,
+          "total_cost": 11.45,
+          "suggested_retail": {
+            "conservative": 20.61,
+            "standard": 25.19,
+            "premium": 32.06
+          },
+          "profit_margins": {
+            "conservative": 9.16,
+            "standard": 13.74,
+            "premium": 20.61
+          }
+        }
+      },
+      "estimated_setup_time": "35 minutes"
+    },
+    "quality_assessment": {
+      "success": true,
+      "overall_quality_score": 83.5,
+      "meets_threshold": true,
+      "individual_scores": [
+        85.0,
+        82.0
+      ],
+      "total_products_assessed": 12,
+      "recommendations": [
+        "Fine-tune SEO titles for better search visibility",
+        "Add seasonal keywords where appropriate",
+        "Consider A/B testing different descriptions"
+      ]
+    },
+    "export_preparation": {
+      "success": true,
+      "export_package_file": "automated_etsy_outputs\\upload_ready\\export_package_workflow_20250929_195020.json",
+      "csv_files_ready": 1,
+      "export_directory": "automated_etsy_outputs\\upload_ready",
+      "ready_for_upload": true
+    }
+  },
+  "end_time": "2025-09-29T19:50:28.173170",
+  "duration_seconds": 7.476753,
+  "summary": {
+    "workflow_success_rate": 0.75,
+    "successful_stages": 6,
+    "total_stages": 8,
+    "total_products_generated": 12,
+    "overall_success_rate": 0.75,
+    "automation_efficiency": "Medium",
+    "market_readiness": true,
+    "key_achievements": [
+      "Generated 12 product concepts",
+      "Completed 6/8 automation stages",
+      "Quality score: 83.5/100"
+    ]
+  }
+}

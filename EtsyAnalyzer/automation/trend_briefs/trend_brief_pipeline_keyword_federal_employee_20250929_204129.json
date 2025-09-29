@@ -1,0 +1,24 @@
+{
+  "concept_name": "trend_federal_employee_20250929",
+  "target_keywords": [
+    "federal employee",
+    "federal"
+  ],
+  "design_theme": "general_humor",
+  "target_audience": "General professional audience",
+  "style_preferences": [
+    "professional",
+    "humorous",
+    "trendy"
+  ],
+  "printful_products": [
+    "t-shirt",
+    "mug"
+  ],
+  "priority_score": 8.0,
+  "trend_context": {
+    "trend_strength": 7.0,
+    "time_sensitivity": "Medium",
+    "competition_level": "Medium"
+  }
+}

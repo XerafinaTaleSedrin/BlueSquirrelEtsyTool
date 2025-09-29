@@ -13,6 +13,12 @@ except ImportError:
 from typing import List, Dict, Optional
 from datetime import datetime, timedelta
 
+# Import enhanced market intelligence
+try:
+    from enhanced_market_intelligence import EnhancedMarketIntelligence
+except ImportError:
+    EnhancedMarketIntelligence = None
+
 @dataclass
 class TrendData:
     keyword: str
@@ -53,6 +59,8 @@ class EtsyTrendsResearchAgent:
             "bureaucrat humor", "civil servant gifts", "federal employee",
             "political statement", "democracy", "voting", "election"
         ]
+        # Initialize enhanced market intelligence if available
+        self.enhanced_intelligence = EnhancedMarketIntelligence() if EnhancedMarketIntelligence else None
 
     def _initialize_research_sources(self):
         """Initialize list of research sources and their specialties"""
@@ -99,9 +107,32 @@ class EtsyTrendsResearchAgent:
         """Research current Etsy trends from multiple sources"""
         print("Researching current Etsy trends from specialized sources...")
 
-        # Simulated research results based on typical findings
-        # In production, this would make actual web requests to these sources
+        # Use enhanced market intelligence if available
+        if self.enhanced_intelligence:
+            print("Using enhanced real-time market intelligence...")
+            try:
+                enhanced_report = self.enhanced_intelligence.generate_real_time_intelligence_report()
 
+                # Integrate enhanced data with existing structure
+                current_trends = {
+                    "hot_keywords_last_90_days": self._merge_enhanced_keywords(enhanced_report),
+                    "category_trends": self._get_category_trends(),
+                    "political_niche_insights": self._enhance_political_insights(enhanced_report),
+                    "seasonal_forecasts": self._get_seasonal_forecasts(),
+                    "competitor_analysis": self._merge_competitive_analysis(enhanced_report),
+                    "social_media_drivers": self._get_social_media_trend_drivers(),
+                    "real_time_alerts": enhanced_report.get("market_alerts", []),
+                    "google_trends_data": enhanced_report.get("google_trends_analysis", []),
+                    "trending_opportunities": enhanced_report.get("trending_opportunities", [])
+                }
+
+                print(f"Enhanced analysis complete! Found {len(enhanced_report.get('trending_opportunities', []))} real opportunities")
+                return current_trends
+
+            except Exception as e:
+                print(f"Enhanced intelligence failed, falling back to standard analysis: {e}")
+
+        # Fallback to simulated research results
         current_trends = {
             "hot_keywords_last_90_days": self._get_recent_hot_keywords(),
             "category_trends": self._get_category_trends(),
@@ -480,6 +511,84 @@ class EtsyTrendsResearchAgent:
         }
 
         return report
+
+    def _merge_enhanced_keywords(self, enhanced_report) -> List[TrendData]:
+        """Merge enhanced Google Trends data with simulated data"""
+        enhanced_keywords = []
+        google_trends = enhanced_report.get("google_trends_analysis", [])
+
+        for trend_data in google_trends:
+            enhanced_keywords.append(TrendData(
+                keyword=trend_data.get("keyword", ""),
+                trend_direction=trend_data.get("trend_direction", "Stable"),
+                search_volume_change=trend_data.get("volume_change", "0%"),
+                competition_level=trend_data.get("competition_level", "Medium"),
+                seasonal_pattern=trend_data.get("seasonal_pattern", "No pattern"),
+                source="Google Trends API",
+                confidence="High",
+                last_updated=datetime.now().strftime("%Y-%m-%d")
+            ))
+
+        # Add simulated keywords if we have fewer than 8
+        if len(enhanced_keywords) < 8:
+            simulated = self._get_recent_hot_keywords()
+            enhanced_keywords.extend(simulated[:8-len(enhanced_keywords)])
+
+        return enhanced_keywords
+
+    def _enhance_political_insights(self, enhanced_report) -> Dict:
+        """Enhance political niche insights with real data"""
+        base_insights = self._get_political_niche_trends()
+
+        # Add real trending opportunities if available
+        opportunities = enhanced_report.get("trending_opportunities", [])
+        if opportunities:
+            base_insights["real_time_opportunities"] = [
+                {
+                    "keyword": opp.get("keyword", ""),
+                    "opportunity_score": opp.get("opportunity_score", 0),
+                    "reason": opp.get("reason", ""),
+                    "urgency": opp.get("urgency", "Medium")
+                }
+                for opp in opportunities[:5]
+            ]
+
+        # Add market alerts
+        alerts = enhanced_report.get("market_alerts", [])
+        if alerts:
+            base_insights["market_alerts"] = alerts
+
+        return base_insights
+
+    def _merge_competitive_analysis(self, enhanced_report) -> Dict:
+        """Merge enhanced competitive data with base analysis"""
+        base_analysis = self._analyze_political_merchandise_competitors()
+
+        # Add real competitive insights if available
+        competitive_landscape = enhanced_report.get("competitive_landscape", [])
+        if competitive_landscape:
+            base_analysis["real_competitive_data"] = []
+            for comp in competitive_landscape:
+                # Handle both dict and object types
+                if hasattr(comp, 'shop_name'):
+                    comp_data = {
+                        "shop_name": comp.shop_name,
+                        "category": comp.category,
+                        "estimated_sales": comp.estimated_monthly_sales,
+                        "threat_level": comp.threat_level,
+                        "market_gaps": comp.market_gaps
+                    }
+                else:
+                    comp_data = {
+                        "shop_name": comp.get("shop_name", ""),
+                        "category": comp.get("category", ""),
+                        "estimated_sales": comp.get("estimated_monthly_sales", 0),
+                        "threat_level": comp.get("threat_level", "Medium"),
+                        "market_gaps": comp.get("market_gaps", [])
+                    }
+                base_analysis["real_competitive_data"].append(comp_data)
+
+        return base_analysis
 
     def export_research_data(self, filename: str):
         """Export research data to JSON file"""

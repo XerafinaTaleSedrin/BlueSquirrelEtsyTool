@@ -1,0 +1,623 @@
+{% extends "base.html" %}
+
+{% block title %}Market Analysis - EtsyAnalyzer Workflow{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1><i class="fas fa-chart-line"></i> Market Analysis</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Market Analysis</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Store Management -->
+<div class="row mb-4">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-store"></i> Select Store or Add New Store</h5>
+            </div>
+            <div class="card-body">
+                <!-- Store Selection -->
+                <div id="store-selector" class="mb-4">
+                    <label class="form-label">Select existing store:</label>
+                    <select id="selected-store" class="form-select mb-3">
+                        <option value="">Loading stores...</option>
+                    </select>
+                </div>
+
+                <!-- Add New Store Options -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card border-primary">
+                            <div class="card-header bg-primary text-white">
+                                <h6 class="mb-0"><i class="fas fa-upload"></i> Upload CSV File</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text small">Upload your downloaded Etsy listings CSV file</p>
+                                <form id="csv-upload-form" enctype="multipart/form-data">
+                                    <div class="mb-3">
+                                        <label class="form-label">Store Name:</label>
+                                        <input type="text" class="form-control" id="csv-store-name"
+                                               placeholder="e.g., My Etsy Store 1" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">CSV File:</label>
+                                        <input type="file" class="form-control" id="csv-file"
+                                               accept=".csv" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <i class="fas fa-upload"></i> Upload CSV
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card border-info">
+                            <div class="card-header bg-info text-white">
+                                <h6 class="mb-0"><i class="fas fa-link"></i> Add Etsy URL</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text small">Add Etsy store URL for scraping (coming soon)</p>
+                                <form id="url-form">
+                                    <div class="mb-3">
+                                        <label class="form-label">Store Name:</label>
+                                        <input type="text" class="form-control" id="url-store-name"
+                                               placeholder="e.g., My Etsy Store 2" disabled>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Etsy Store URL:</label>
+                                        <input type="url" class="form-control" id="store-url"
+                                               placeholder="https://etsy.com/shop/yourstore" disabled>
+                                    </div>
+                                    <button type="submit" class="btn btn-outline-info w-100" disabled>
+                                        <i class="fas fa-link"></i> Coming Soon
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-cog"></i> Analysis Settings</h5>
+            </div>
+            <div class="card-body">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="trending-analysis" checked>
+                    <label class="form-check-label" for="trending-analysis">
+                        Trending Analysis
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="competitor-analysis" checked>
+                    <label class="form-check-label" for="competitor-analysis">
+                        Competitor Analysis
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="keyword-analysis" checked>
+                    <label class="form-check-label" for="keyword-analysis">
+                        Keyword Analysis
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="generate-briefs" checked>
+                    <label class="form-check-label" for="generate-briefs">
+                        Generate Design Briefs
+                    </label>
+                </div>
+                <hr>
+                <div class="d-grid">
+                    <button id="run-analysis-btn" class="btn btn-success btn-lg" disabled>
+                        <i class="fas fa-rocket"></i> Start Analysis
+                    </button>
+                    <small class="text-muted mt-2">Select a store first</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Progress Display -->
+<div id="analysis-progress" class="row mb-4" style="display: none;">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-spinner fa-spin"></i> Analysis in Progress</h5>
+            </div>
+            <div class="card-body">
+                <div class="progress mb-3">
+                    <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" style="width: 0%"></div>
+                </div>
+                <div id="progress-status" class="text-center">
+                    <p class="mb-0">Initializing analysis...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Analysis Results Display -->
+<div id="analysis-results" class="row mb-4" style="display: none;">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-chart-bar"></i> Analysis Results</h5>
+            </div>
+            <div class="card-body">
+                <div id="results-content">
+                    <!-- Results will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Raw Analysis Data Display -->
+<div id="raw-analysis-data" class="row mb-4" style="display: none;">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5><i class="fas fa-database"></i> Raw Analysis Data</h5>
+                <button class="btn btn-sm btn-outline-primary" onclick="copyAnalysisData()">
+                    <i class="fas fa-copy"></i> Copy Data
+                </button>
+            </div>
+            <div class="card-body">
+                <pre id="raw-data" class="bg-light p-3 rounded" style="max-height: 400px; overflow-y: auto; font-size: 0.8rem;"></pre>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Error Display -->
+<div id="analysis-error" class="row" style="display: none;">
+    <div class="col-12">
+        <div class="alert alert-danger" role="alert">
+            <h5 class="alert-heading"><i class="fas fa-exclamation-triangle"></i> Analysis Failed</h5>
+            <p id="error-message">An error occurred during analysis.</p>
+            <hr>
+            <p class="mb-0">Please check the system logs and try again.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Instructions -->
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-info-circle"></i> How to Get Your Etsy Data</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6><i class="fas fa-download"></i> Download CSV from Etsy</h6>
+                        <ol class="small">
+                            <li>Go to your Etsy Shop Manager</li>
+                            <li>Click on "Listings" → "All Listings"</li>
+                            <li>Click "Export" button (top right)</li>
+                            <li>Download the CSV file</li>
+                            <li>Upload it here using the form above</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-6">
+                        <h6><i class="fas fa-link"></i> Store URL Method</h6>
+                        <p class="small text-muted">
+                            URL scraping functionality is coming soon. For now, please use the CSV upload method
+                            to analyze your Etsy store data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+let stores = [];
+let currentAnalysisData = null;
+
+// Load stores on page load
+document.addEventListener('DOMContentLoaded', function() {
+    loadStores();
+});
+
+async function loadStores() {
+    try {
+        const response = await fetch('/api/stores');
+        const data = await response.json();
+
+        if (data.success) {
+            stores = data.stores;
+            updateStoreSelector();
+        }
+    } catch (error) {
+        console.error('Failed to load stores:', error);
+    }
+}
+
+function updateStoreSelector() {
+    const selector = document.getElementById('selected-store');
+    selector.innerHTML = '<option value="">Select a store...</option>';
+
+    stores.forEach(store => {
+        const option = document.createElement('option');
+        option.value = store.id;
+        option.textContent = `${store.store_name} (${store.data_source.toUpperCase()})`;
+        selector.appendChild(option);
+    });
+
+    // Enable analysis button if stores exist
+    const runButton = document.getElementById('run-analysis-btn');
+    if (stores.length > 0) {
+        runButton.disabled = false;
+        runButton.nextElementSibling.textContent = 'Select a store to analyze';
+    }
+}
+
+// Store selection handler
+document.getElementById('selected-store').addEventListener('change', function() {
+    const runButton = document.getElementById('run-analysis-btn');
+    if (this.value) {
+        runButton.disabled = false;
+        runButton.nextElementSibling.textContent = 'Ready to analyze';
+    } else {
+        runButton.disabled = true;
+        runButton.nextElementSibling.textContent = 'Select a store first';
+    }
+});
+
+// CSV Upload Form
+document.getElementById('csv-upload-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const formData = new FormData();
+    formData.append('file', document.getElementById('csv-file').files[0]);
+    formData.append('store_name', document.getElementById('csv-store-name').value);
+
+    const submitBtn = this.querySelector('button[type="submit"]');
+    const originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Uploading...';
+    submitBtn.disabled = true;
+
+    fetch('/api/upload-csv', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            showAlert(data.message, 'success');
+            loadStores(); // Refresh store list
+            document.getElementById('csv-upload-form').reset();
+        } else {
+            showAlert('Upload failed: ' + data.error, 'danger');
+        }
+    })
+    .catch(error => {
+        showAlert('Network error: ' + error.message, 'danger');
+    })
+    .finally(() => {
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
+    });
+});
+
+// Analysis runner
+document.getElementById('run-analysis-btn').addEventListener('click', function() {
+    const storeId = document.getElementById('selected-store').value;
+    if (!storeId) {
+        showAlert('Please select a store first', 'warning');
+        return;
+    }
+
+    const button = this;
+    const progressDiv = document.getElementById('analysis-progress');
+    const resultsDiv = document.getElementById('analysis-results');
+    const rawDataDiv = document.getElementById('raw-analysis-data');
+    const errorDiv = document.getElementById('analysis-error');
+    const progressBar = document.getElementById('progress-bar');
+    const progressStatus = document.getElementById('progress-status');
+
+    // Hide previous results
+    resultsDiv.style.display = 'none';
+    rawDataDiv.style.display = 'none';
+    errorDiv.style.display = 'none';
+
+    // Show progress
+    progressDiv.style.display = 'block';
+    button.disabled = true;
+    button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Running Analysis...';
+
+    // Simulate progress updates
+    let progress = 0;
+    const progressInterval = setInterval(() => {
+        progress += Math.random() * 15;
+        if (progress > 90) progress = 90;
+
+        progressBar.style.width = progress + '%';
+
+        if (progress < 30) {
+            progressStatus.innerHTML = '<p class="mb-0">Loading store data...</p>';
+        } else if (progress < 60) {
+            progressStatus.innerHTML = '<p class="mb-0">Analyzing trends and keywords...</p>';
+        } else {
+            progressStatus.innerHTML = '<p class="mb-0">Generating design briefs...</p>';
+        }
+    }, 500);
+
+    // Run the analysis
+    fetch('/api/run-analysis', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            store_id: parseInt(storeId),
+            config: {
+                trending_analysis: document.getElementById('trending-analysis').checked,
+                competitor_analysis: document.getElementById('competitor-analysis').checked,
+                keyword_analysis: document.getElementById('keyword-analysis').checked,
+                generate_briefs: document.getElementById('generate-briefs').checked
+            }
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        clearInterval(progressInterval);
+        progressBar.style.width = '100%';
+        progressStatus.innerHTML = '<p class="mb-0">Analysis complete!</p>';
+
+        currentAnalysisData = data;
+
+        setTimeout(() => {
+            progressDiv.style.display = 'none';
+
+            if (data.success) {
+                displayAnalysisResults(data);
+                resultsDiv.style.display = 'block';
+                rawDataDiv.style.display = 'block';
+
+                // Show success message
+                showAlert(data.message || 'Analysis completed successfully!', 'success');
+
+            } else {
+                // Show error
+                document.getElementById('error-message').textContent = data.error || 'Unknown error occurred';
+                errorDiv.style.display = 'block';
+            }
+        }, 1000);
+    })
+    .catch(error => {
+        clearInterval(progressInterval);
+        progressDiv.style.display = 'none';
+        document.getElementById('error-message').textContent = 'Network error: ' + error.message;
+        errorDiv.style.display = 'block';
+    })
+    .finally(() => {
+        button.disabled = false;
+        button.innerHTML = '<i class="fas fa-rocket"></i> Start Analysis';
+    });
+});
+
+function displayAnalysisResults(data) {
+    const resultsContent = document.getElementById('results-content');
+    const rawData = document.getElementById('raw-data');
+
+    // Debug: Log the data structure
+    console.log('Analysis data received:', data);
+
+    // Display summary results
+    let summaryHtml = `
+        <div class="row">
+            <div class="col-md-6">
+                <h6><i class="fas fa-check-circle text-success"></i> Analysis Complete</h6>
+                <p>Market analysis completed successfully.</p>
+                ${data.briefs_generated ? `<p><strong>Design Briefs Generated:</strong> ${data.briefs_generated}</p>` : ''}
+            </div>
+            <div class="col-md-6">
+                <h6><i class="fas fa-arrow-right text-primary"></i> Next Steps</h6>
+                <p>Go to the <a href="${window.location.origin}/design-pipeline" class="btn btn-sm btn-primary">Design Pipeline</a> to review and approve the generated design briefs.</p>
+            </div>
+        </div>
+    `;
+
+    // Extract analysis data - try multiple paths
+    let analysisData = null;
+    if (data.analysis) {
+        analysisData = data.analysis;
+    } else if (data.analysis_result) {
+        analysisData = data.analysis_result;
+    } else if (data.result) {
+        analysisData = data.result;
+    }
+
+    console.log('Extracted analysis data:', analysisData);
+
+    // Add analysis summary if available
+    if (analysisData) {
+        summaryHtml += `
+            <hr>
+            <h6><i class="fas fa-info-circle"></i> Analysis Summary</h6>
+        `;
+
+        // Try to extract key metrics from various possible structures
+        let seoScore = 'N/A';
+        let keywordEfficiency = 'N/A';
+        let listingsAnalyzed = 'N/A';
+        let shopName = 'N/A';
+        let keyOpportunities = [];
+
+        // Path 1: executive_summary structure
+        if (analysisData.executive_summary) {
+            const summary = analysisData.executive_summary;
+            if (summary.overall_shop_health) {
+                seoScore = summary.overall_shop_health.seo_score || seoScore;
+                keywordEfficiency = summary.overall_shop_health.keyword_efficiency || keywordEfficiency;
+            }
+            if (summary.key_opportunities) {
+                keyOpportunities = summary.key_opportunities;
+            }
+        }
+
+        // Path 2: analysis_metadata
+        if (analysisData.analysis_metadata) {
+            listingsAnalyzed = analysisData.analysis_metadata.total_listings_analyzed || listingsAnalyzed;
+        }
+
+        // Path 3: agent_analyses (base_seo_analysis)
+        if (analysisData.agent_analyses && analysisData.agent_analyses.base_seo_analysis) {
+            const baseAnalysis = analysisData.agent_analyses.base_seo_analysis;
+            shopName = baseAnalysis.shop_name || shopName;
+            listingsAnalyzed = baseAnalysis.total_listings || listingsAnalyzed;
+        }
+
+        // Path 4: Direct properties
+        seoScore = analysisData.seo_score || seoScore;
+        keywordEfficiency = analysisData.keyword_efficiency || keywordEfficiency;
+        listingsAnalyzed = analysisData.total_listings || analysisData.listings_count || listingsAnalyzed;
+
+        // Display metrics cards
+        summaryHtml += `
+            <div class="row mb-4">
+                <div class="col-md-3">
+                    <div class="card summary-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-metric">${seoScore}</h4>
+                            <small class="text-muted">SEO Score</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card summary-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-metric">${keywordEfficiency}</h4>
+                            <small class="text-muted">Keyword Efficiency</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card summary-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-metric">${listingsAnalyzed}</h4>
+                            <small class="text-muted">Listings Analyzed</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card summary-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-metric">${shopName}</h4>
+                            <small class="text-muted">Shop Name</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Display key opportunities if available
+        if (keyOpportunities.length > 0) {
+            summaryHtml += `
+                <div class="row">
+                    <div class="col-12">
+                        <h6><i class="fas fa-lightbulb"></i> Key Opportunities</h6>
+                        <ul class="list-group list-group-flush">
+            `;
+
+            keyOpportunities.slice(0, 5).forEach(opportunity => {
+                summaryHtml += `<li class="list-group-item border-0 px-0">${opportunity}</li>`;
+            });
+
+            summaryHtml += `
+                        </ul>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Display immediate actions if available
+        if (analysisData.executive_summary && analysisData.executive_summary.immediate_actions) {
+            const actions = analysisData.executive_summary.immediate_actions;
+            summaryHtml += `
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <h6><i class="fas fa-tasks"></i> Immediate Actions</h6>
+                        <ul class="list-group list-group-flush">
+            `;
+
+            actions.slice(0, 3).forEach(action => {
+                summaryHtml += `<li class="list-group-item border-0 px-0">${action}</li>`;
+            });
+
+            summaryHtml += `
+                        </ul>
+                    </div>
+                </div>
+            `;
+        }
+    } else {
+        // No analysis data available - show basic info
+        summaryHtml += `
+            <hr>
+            <div class="alert alert-info">
+                <h6><i class="fas fa-info-circle"></i> Analysis Results</h6>
+                <p>Analysis completed but detailed metrics are not available in the expected format.</p>
+                <p>Check the raw data below for full analysis results.</p>
+            </div>
+        `;
+    }
+
+    resultsContent.innerHTML = summaryHtml;
+
+    // Display raw data
+    rawData.textContent = JSON.stringify(data, null, 2);
+}
+
+function copyAnalysisData() {
+    if (currentAnalysisData) {
+        const textData = JSON.stringify(currentAnalysisData, null, 2);
+        navigator.clipboard.writeText(textData).then(() => {
+            showAlert('Analysis data copied to clipboard!', 'success');
+        }).catch(() => {
+            showAlert('Failed to copy data', 'danger');
+        });
+    }
+}
+
+function showAlert(message, type = 'info') {
+    const alertContainer = document.querySelector('.container-fluid');
+    const alertDiv = document.createElement('div');
+    alertDiv.className = `alert alert-${type} alert-dismissible fade show`;
+    alertDiv.innerHTML = `
+        ${message}
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    `;
+
+    // Insert at the top
+    alertContainer.insertBefore(alertDiv, alertContainer.firstChild);
+
+    // Auto-hide after 5 seconds
+    setTimeout(() => {
+        const alert = bootstrap.Alert.getOrCreateInstance(alertDiv);
+        alert.close();
+    }, 5000);
+}
+</script>
+{% endblock %}

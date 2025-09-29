@@ -1,0 +1,29 @@
+{
+  "automation_enabled": true,
+  "workflow_modes": {
+    "trend_responsive": true,
+    "scheduled_analysis": true,
+    "image_processing": true,
+    "manual_triggers": true
+  },
+  "output_settings": {
+    "base_directory": "automated_etsy_outputs",
+    "preserve_intermediate_files": true,
+    "generate_summaries": true
+  },
+  "quality_thresholds": {
+    "min_seo_score": 75.0,
+    "min_design_quality": 80.0,
+    "min_trend_strength": 6.0
+  },
+  "integration_settings": {
+    "printful_enabled": false,
+    "etsy_upload_enabled": false,
+    "claude_vision_enabled": false
+  },
+  "scheduling": {
+    "auto_analysis_frequency": "weekly",
+    "trend_monitoring_frequency": "daily",
+    "max_products_per_batch": 10
+  }
+}

@@ -1,0 +1,62 @@
+Design Brief: TPS Report Survivor - 1990s Xerox Style
+
+CONCEPT: "TPS REPORT SURVIVOR"
+THEME: Vintage Government Document Humor
+TARGET AUDIENCE: Government employees, office workers, Gen X/Millennial professionals who remember actual TPS reports and Office Space
+
+DESIGN STYLE: 1990s Xerox/Dot Matrix Aesthetic
+
+TYPOGRAPHY SPECIFICATIONS:
+- Main text: "TPS REPORT SURVIVOR"
+- Font style: Early dot matrix printer or laser printer aesthetic
+- Characteristics: Monospace or near-monospace spacing, slightly pixelated edges
+- Reference fonts: Letter Gothic, modified Courier New, or distressed sans-serif
+- Text should feel like it came from a government form or official document
+
+VISUAL LAYOUT:
+- Main text centered horizontally
+- Simple rectangular border around the text (like a government form field)
+- Optional elements:
+  * Small checkbox with checkmark (☑)
+  * Subtitle line: "Certification Date: Every Day" in smaller text
+  * Minimal underline or form-style divider
+
+COLOR SPECIFICATIONS:
+Primary Version: Black (#000000) on transparent background
+Secondary Version: Off-black (#333333) on transparent background
+Tertiary Version: Cream (#F5F5DC) on transparent background
+
+DESIGN CONSTRAINTS:
+- Must work as a single color design for cost-effective printing
+- Transparent background for maximum shirt color flexibility
+- Text must be readable at small sizes (down to 3 inches wide)
+- Professional enough for workplace wear
+- Authentic 1990s government document feel
+- Minimal design that matches successful "Currently Clean on OPSEC" aesthetic
+
+PRODUCT APPLICATIONS:
+T-Shirt: 4-5 inch width, center chest placement
+Hoodie: 5-6 inch width, center chest placement
+Mug: 3-4 inch width, centered on front
+
+DELIVERABLES NEEDED:
+1. Main design concept with typography treatment
+2. Layout specifications (spacing, alignment, proportions)
+3. Border/frame design details
+4. Scaling guidelines for different products
+5. Notes on maintaining authenticity of 1990s office document aesthetic
+
+INSPIRATION REFERENCES:
+- 1990s government forms and documents
+- Early dot matrix and laser printer output
+- Office Space movie aesthetic
+- Vintage bureaucratic documentation
+- IBM Selectric typewriter output
+
+AVOID:
+- Modern, sleek fonts
+- Bright colors or gradients
+- Complex graphics or illustrations
+- Anything that looks too polished or contemporary
+
+Please provide a detailed design concept that captures the authentic feel of surviving endless TPS reports in a 1990s government office environment.

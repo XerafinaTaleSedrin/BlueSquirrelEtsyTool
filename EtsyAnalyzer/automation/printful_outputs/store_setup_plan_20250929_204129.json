@@ -1,0 +1,71 @@
+{
+  "status": "ready",
+  "total_products_planned": 5,
+  "estimated_total_setup_time": "35 minutes",
+  "product_recommendations": [
+    {
+      "listing_file": "cybersecurity_20250929_204129_hoodie_listing.json",
+      "title": "government humor Hoodie - Cozy civil servant Sweatshirt for IT professionals",
+      "target_products": [],
+      "price_range": [],
+      "seo_score": 80,
+      "recommended_action": "Create Printful products",
+      "estimated_setup_time": "5-10 minutes",
+      "profit_potential": "Medium to High"
+    },
+    {
+      "listing_file": "cybersecurity_20250929_204129_mug_listing.json",
+      "title": "government humor Coffee Mug - Clever Cup for IT professionals",
+      "target_products": [],
+      "price_range": [],
+      "seo_score": 80,
+      "recommended_action": "Create Printful products",
+      "estimated_setup_time": "5-10 minutes",
+      "profit_potential": "Medium to High"
+    },
+    {
+      "listing_file": "cybersecurity_20250929_204129_t-shirt_listing.json",
+      "title": "government humor T-Shirt - civil servant Gift for IT professionals",
+      "target_products": [],
+      "price_range": [],
+      "seo_score": 80,
+      "recommended_action": "Create Printful products",
+      "estimated_setup_time": "5-10 minutes",
+      "profit_potential": "Medium to High"
+    },
+    {
+      "listing_file": "government_humor_20250929_204129_hoodie_listing.json",
+      "title": "government humor Hoodie - Cozy civil servant Sweatshirt for Government employees",
+      "target_products": [],
+      "price_range": [],
+      "seo_score": 87,
+      "recommended_action": "Create Printful products",
+      "estimated_setup_time": "5-10 minutes",
+      "profit_potential": "Medium to High"
+    },
+    {
+      "listing_file": "government_humor_20250929_204129_mug_listing.json",
+      "title": "government humor Coffee Mug - Funny Cup for Government employees",
+      "target_products": [],
+      "price_range": [],
+      "seo_score": 80,
+      "recommended_action": "Create Printful products",
+      "estimated_setup_time": "5-10 minutes",
+      "profit_potential": "Medium to High"
+    }
+  ],
+  "next_steps": [
+    "Review product recommendations",
+    "Prepare high-resolution design files",
+    "Set up Printful account and API access",
+    "Create first batch of products",
+    "Test ordering and fulfillment process"
+  ],
+  "setup_checklist": [
+    "Printful account created",
+    "API key configured",
+    "Design files prepared (300 DPI, correct dimensions)",
+    "Pricing strategy determined",
+    "Shipping and return policies set"
+  ]
+}

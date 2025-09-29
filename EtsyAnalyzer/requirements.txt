@@ -1,0 +1,10 @@
+Flask==3.0.0
+requests==2.31.0
+sqlite3
+pathlib
+dataclasses
+typing
+datetime
+json
+os
+sys

@@ -1,0 +1,214 @@
+{
+  "product_name": "TPS Report Survivor Collection",
+  "design_concept": "tps_report_survivor_xerox_style",
+  "api_key_configured": true,
+  "creation_date": "2025-09-29",
+  "products": [
+    {
+      "product_type": "t-shirt",
+      "printful_product_id": 71,
+      "product_name": "Bella + Canvas 3001 Unisex T-Shirt",
+      "variants": [
+        {
+          "name": "TPS Report Survivor Tee - Black on White",
+          "size": "M",
+          "color": "White",
+          "color_code": "#ffffff",
+          "variant_id": 4012,
+          "design_version": "black_on_transparent",
+          "print_area": "front",
+          "design_placement": {
+            "width": 4.5,
+            "height": 2.0,
+            "x": 0,
+            "y": 0,
+            "position": "center_chest"
+          },
+          "base_cost": 9.95,
+          "print_cost": 2.50,
+          "total_cost": 12.45,
+          "suggested_retail": 22.99,
+          "profit_margin": 10.54
+        },
+        {
+          "name": "TPS Report Survivor Tee - Black on Heather Gray",
+          "size": "L",
+          "color": "Heather Grey",
+          "color_code": "#9ba2a8",
+          "variant_id": 4014,
+          "design_version": "black_on_transparent",
+          "print_area": "front",
+          "design_placement": {
+            "width": 4.5,
+            "height": 2.0,
+            "x": 0,
+            "y": 0,
+            "position": "center_chest"
+          },
+          "base_cost": 9.95,
+          "print_cost": 2.50,
+          "total_cost": 12.45,
+          "suggested_retail": 22.99,
+          "profit_margin": 10.54
+        },
+        {
+          "name": "TPS Report Survivor Tee - Cream on Navy",
+          "size": "M",
+          "color": "Navy",
+          "color_code": "#14213d",
+          "variant_id": 4013,
+          "design_version": "cream_on_transparent",
+          "print_area": "front",
+          "design_placement": {
+            "width": 4.5,
+            "height": 2.0,
+            "x": 0,
+            "y": 0,
+            "position": "center_chest"
+          },
+          "base_cost": 9.95,
+          "print_cost": 2.50,
+          "total_cost": 12.45,
+          "suggested_retail": 22.99,
+          "profit_margin": 10.54
+        }
+      ]
+    },
+    {
+      "product_type": "hoodie",
+      "printful_product_id": 146,
+      "product_name": "Gildan 18500 Unisex Heavy Blend Hooded Sweatshirt",
+      "variants": [
+        {
+          "name": "TPS Report Survivor Hoodie - Black on Gray",
+          "size": "L",
+          "color": "Dark Heather",
+          "color_code": "#3e424a",
+          "variant_id": 5193,
+          "design_version": "black_on_transparent",
+          "print_area": "front",
+          "design_placement": {
+            "width": 5.0,
+            "height": 2.2,
+            "x": 0,
+            "y": 0,
+            "position": "center_chest"
+          },
+          "base_cost": 22.95,
+          "print_cost": 2.50,
+          "total_cost": 25.45,
+          "suggested_retail": 39.99,
+          "profit_margin": 14.54
+        },
+        {
+          "name": "TPS Report Survivor Hoodie - Off-Black on Navy",
+          "size": "M",
+          "color": "Navy",
+          "color_code": "#14213d",
+          "variant_id": 5192,
+          "design_version": "off_black_on_transparent",
+          "print_area": "front",
+          "design_placement": {
+            "width": 5.0,
+            "height": 2.2,
+            "x": 0,
+            "y": 0,
+            "position": "center_chest"
+          },
+          "base_cost": 22.95,
+          "print_cost": 2.50,
+          "total_cost": 25.45,
+          "suggested_retail": 39.99,
+          "profit_margin": 14.54
+        }
+      ]
+    },
+    {
+      "product_type": "mug",
+      "printful_product_id": 19,
+      "product_name": "White Glossy Mug",
+      "variants": [
+        {
+          "name": "TPS Report Survivor Mug - Black Design",
+          "size": "11oz",
+          "color": "White",
+          "color_code": "#ffffff",
+          "variant_id": 1692,
+          "design_version": "black_with_subtle_background",
+          "print_area": "default",
+          "design_placement": {
+            "width": 3.5,
+            "height": 1.5,
+            "x": 0,
+            "y": 0,
+            "position": "center_wrap"
+          },
+          "base_cost": 8.95,
+          "print_cost": 2.50,
+          "total_cost": 11.45,
+          "suggested_retail": 18.99,
+          "profit_margin": 7.54,
+          "special_notes": "Optional subtle office document background pattern"
+        }
+      ]
+    }
+  ],
+  "design_files_needed": [
+    {
+      "version": "black_on_transparent",
+      "format": "PNG",
+      "resolution": "300 DPI",
+      "background": "Transparent",
+      "color": "#000000",
+      "usage": "Light colored shirts, white mugs"
+    },
+    {
+      "version": "off_black_on_transparent",
+      "format": "PNG",
+      "resolution": "300 DPI",
+      "background": "Transparent",
+      "color": "#333333",
+      "usage": "Medium toned shirts"
+    },
+    {
+      "version": "cream_on_transparent",
+      "format": "PNG",
+      "resolution": "300 DPI",
+      "background": "Transparent",
+      "color": "#F5F5DC",
+      "usage": "Dark colored shirts"
+    }
+  ],
+  "setup_instructions": [
+    "1. Create design files using the generated prompt with Claude or other AI",
+    "2. Export as PNG files at 300 DPI with transparent backgrounds",
+    "3. Upload design files to Printful using API key: LPUcjY4AJmyrHoWxGg7ub4hv9oG38cyjtvOPb2Jg",
+    "4. Create product variants as specified above",
+    "5. Generate mockup images for Etsy listings",
+    "6. Set up automatic order fulfillment"
+  ],
+  "pricing_strategy": {
+    "t_shirt_retail": "$22.99",
+    "hoodie_retail": "$39.99",
+    "mug_retail": "$18.99",
+    "positioning": "Premium for authenticity, competitive with quality office humor products",
+    "profit_margins": {
+      "t_shirt": "$10.54 (46%)",
+      "hoodie": "$14.54 (36%)",
+      "mug": "$7.54 (40%)"
+    }
+  },
+  "market_launch_plan": {
+    "phase_1": "Launch t-shirt variants (most popular, lowest barrier)",
+    "phase_2": "Add hoodie for higher margins",
+    "phase_3": "Add mug for office gift market",
+    "estimated_setup_time": "2-3 hours",
+    "first_month_target": "5-10 sales to validate concept"
+  },
+  "integration_notes": {
+    "api_connection": "Tested and working",
+    "automation_ready": true,
+    "builds_on_success": "Leverages proven OPSEC product formula",
+    "target_audience_match": "Perfect fit for existing government humor customers"
+  }
+}

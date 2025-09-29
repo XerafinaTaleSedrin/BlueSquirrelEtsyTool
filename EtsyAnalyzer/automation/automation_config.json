@@ -1,0 +1,16 @@
+{
+  "automation_enabled": true,
+  "max_daily_executions": 10,
+  "output_directory": "automated_outputs",
+  "notification_settings": {
+    "email_enabled": false,
+    "email_address": "",
+    "webhook_url": ""
+  },
+  "workflow_settings": {
+    "auto_generate_designs": true,
+    "auto_create_listings": true,
+    "auto_pricing": true,
+    "quality_checks": true
+  }
+}

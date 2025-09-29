@@ -1,0 +1,82 @@
+{
+  "concept_name": "tps_report_survivor_xerox_style",
+  "creation_date": "2025-09-29",
+  "target_keywords": [
+    "tps report",
+    "office humor",
+    "government worker",
+    "bureaucrat gift",
+    "workplace survivor",
+    "office space reference"
+  ],
+  "design_theme": "government_humor_vintage",
+  "target_audience": "Government employees, office workers, Gen X/Millennial professionals who remember actual TPS reports",
+  "style_preferences": [
+    "1990s xerox aesthetic",
+    "dot matrix printer",
+    "vintage government document",
+    "minimalist",
+    "authentic bureaucratic"
+  ],
+  "color_scheme": {
+    "primary": "Black (#000000) on transparent background",
+    "secondary": "Off-black (#333333) on transparent background",
+    "tertiary": "Cream (#F5F5DC) on transparent background"
+  },
+  "typography": {
+    "primary_text": "TPS REPORT SURVIVOR",
+    "font_style": "Dot matrix/early laser printer aesthetic",
+    "characteristics": [
+      "Monospace or near-monospace spacing",
+      "Slightly pixelated edges for authenticity",
+      "Government document feel",
+      "Reference fonts: Letter Gothic, modified Courier, distressed sans-serif"
+    ]
+  },
+  "layout_elements": [
+    "Main text centered horizontally",
+    "Simple rectangular border (government form style)",
+    "Optional subtitle: 'Certification Date: Every Day'",
+    "Minimal checkbox with checkmark",
+    "Clean, professional spacing"
+  ],
+  "design_specifications": {
+    "primary_message": "TPS REPORT SURVIVOR",
+    "secondary_elements": "Simple border, optional certification elements",
+    "style_notes": "Evokes authentic 1990s government document nostalgia",
+    "humor_level": "Moderate - workplace relatable",
+    "professionalism_level": "Professional with subtle humor"
+  },
+  "product_applications": {
+    "t-shirt": {
+      "placement": "Center chest",
+      "size": "4-5 inch width",
+      "colors": ["Black on light shirts", "Cream on dark shirts"]
+    },
+    "hoodie": {
+      "placement": "Center chest",
+      "size": "5-6 inch width",
+      "colors": ["Black on light colors", "Off-black on medium tones"]
+    },
+    "mug": {
+      "placement": "Centered on front",
+      "size": "3-4 inch width",
+      "colors": ["Black", "Navy blue accent possible"],
+      "background": "Optional subtle office document pattern"
+    }
+  },
+  "printful_products": ["t-shirt", "hoodie", "mug"],
+  "priority_score": 9.2,
+  "market_positioning": {
+    "builds_on": "Currently Clean on OPSEC success formula",
+    "differentiator": "Authentic 1990s government document aesthetic",
+    "target_price_range": "$18-24",
+    "competitive_advantage": "Nostalgic authenticity appeals to experienced government workers"
+  },
+  "seo_optimization": {
+    "primary_keywords": "TPS report shirt, office humor t-shirt, government worker gift",
+    "long_tail_keywords": "TPS report survivor shirt, office space reference, bureaucrat humor",
+    "category_tags": "office humor, workplace gift, government employee",
+    "seasonal_relevance": "Year-round, especially good for office parties"
+  }
+}

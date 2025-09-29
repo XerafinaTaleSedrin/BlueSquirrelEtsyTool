@@ -1,0 +1,264 @@
+{% extends "base.html" %}
+
+{% block title %}Market Analysis - EtsyAnalyzer Workflow{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1><i class="fas fa-chart-line"></i> Market Analysis</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Market Analysis</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Analysis Controls -->
+<div class="row mb-4">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-play-circle"></i> Run Market Analysis</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    The market analysis will examine your existing Etsy listings, identify trending opportunities,
+                    and generate design briefs based on current market intelligence.
+                </p>
+                <div class="d-grid">
+                    <button id="run-analysis-btn" class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i> Start Analysis
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-cog"></i> Analysis Settings</h5>
+            </div>
+            <div class="card-body">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="trending-analysis" checked>
+                    <label class="form-check-label" for="trending-analysis">
+                        Trending Analysis
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="competitor-analysis" checked>
+                    <label class="form-check-label" for="competitor-analysis">
+                        Competitor Analysis
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="keyword-analysis" checked>
+                    <label class="form-check-label" for="keyword-analysis">
+                        Keyword Analysis
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="generate-briefs" checked>
+                    <label class="form-check-label" for="generate-briefs">
+                        Generate Design Briefs
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Progress Display -->
+<div id="analysis-progress" class="row mb-4" style="display: none;">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-spinner fa-spin"></i> Analysis in Progress</h5>
+            </div>
+            <div class="card-body">
+                <div class="progress mb-3">
+                    <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" style="width: 0%"></div>
+                </div>
+                <div id="progress-status" class="text-center">
+                    <p class="mb-0">Initializing analysis...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Results Display -->
+<div id="analysis-results" class="row" style="display: none;">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-chart-bar"></i> Analysis Results</h5>
+            </div>
+            <div class="card-body">
+                <div id="results-content">
+                    <!-- Results will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Error Display -->
+<div id="analysis-error" class="row" style="display: none;">
+    <div class="col-12">
+        <div class="alert alert-danger" role="alert">
+            <h5 class="alert-heading"><i class="fas fa-exclamation-triangle"></i> Analysis Failed</h5>
+            <p id="error-message">An error occurred during analysis.</p>
+            <hr>
+            <p class="mb-0">Please check the system logs and try again.</p>
+        </div>
+    </div>
+</div>
+
+<!-- What Happens Next -->
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-arrow-right"></i> What Happens Next?</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="text-center">
+                            <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+                            <h6>1. Market Analysis</h6>
+                            <p class="text-muted small">Analyzes your existing listings and market trends</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center">
+                            <i class="fas fa-pencil-ruler fa-3x text-success mb-3"></i>
+                            <h6>2. Design Briefs Generated</h6>
+                            <p class="text-muted small">Creates detailed design concepts and prompts</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center">
+                            <i class="fas fa-clipboard-check fa-3x text-warning mb-3"></i>
+                            <h6>3. Review & Approve</h6>
+                            <p class="text-muted small">You review and approve concepts before design creation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.getElementById('run-analysis-btn').addEventListener('click', function() {
+    const button = this;
+    const progressDiv = document.getElementById('analysis-progress');
+    const resultsDiv = document.getElementById('analysis-results');
+    const errorDiv = document.getElementById('analysis-error');
+    const progressBar = document.getElementById('progress-bar');
+    const progressStatus = document.getElementById('progress-status');
+
+    // Hide previous results
+    resultsDiv.style.display = 'none';
+    errorDiv.style.display = 'none';
+
+    // Show progress
+    progressDiv.style.display = 'block';
+    button.disabled = true;
+    button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Running Analysis...';
+
+    // Simulate progress updates
+    let progress = 0;
+    const progressInterval = setInterval(() => {
+        progress += Math.random() * 20;
+        if (progress > 90) progress = 90;
+
+        progressBar.style.width = progress + '%';
+
+        if (progress < 30) {
+            progressStatus.innerHTML = '<p class="mb-0">Loading market data...</p>';
+        } else if (progress < 60) {
+            progressStatus.innerHTML = '<p class="mb-0">Analyzing trends and keywords...</p>';
+        } else {
+            progressStatus.innerHTML = '<p class="mb-0">Generating design briefs...</p>';
+        }
+    }, 500);
+
+    // Run the analysis
+    fetch('/api/run-analysis', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            trending_analysis: document.getElementById('trending-analysis').checked,
+            competitor_analysis: document.getElementById('competitor-analysis').checked,
+            keyword_analysis: document.getElementById('keyword-analysis').checked,
+            generate_briefs: document.getElementById('generate-briefs').checked
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        clearInterval(progressInterval);
+        progressBar.style.width = '100%';
+        progressStatus.innerHTML = '<p class="mb-0">Analysis complete!</p>';
+
+        setTimeout(() => {
+            progressDiv.style.display = 'none';
+
+            if (data.success) {
+                // Show results
+                const resultsContent = document.getElementById('results-content');
+                resultsContent.innerHTML = `
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6><i class="fas fa-check-circle text-success"></i> Analysis Complete</h6>
+                            <p>Market analysis completed successfully.</p>
+                            ${data.briefs_generated ? `<p><strong>Design Briefs Generated:</strong> ${data.briefs_generated}</p>` : ''}
+                        </div>
+                        <div class="col-md-6">
+                            <h6><i class="fas fa-arrow-right text-primary"></i> Next Steps</h6>
+                            <p>Go to the <a href="${window.location.origin}/design-pipeline" class="btn btn-sm btn-primary">Design Pipeline</a> to review and approve the generated design briefs.</p>
+                        </div>
+                    </div>
+                `;
+                resultsDiv.style.display = 'block';
+
+                // Show success message
+                const alertDiv = document.createElement('div');
+                alertDiv.className = 'alert alert-success alert-dismissible fade show';
+                alertDiv.innerHTML = `
+                    <strong>Success!</strong> Market analysis complete. ${data.briefs_generated || 0} design briefs generated.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                `;
+                document.querySelector('.container-fluid').insertBefore(alertDiv, document.querySelector('.row'));
+
+            } else {
+                // Show error
+                document.getElementById('error-message').textContent = data.error || 'Unknown error occurred';
+                errorDiv.style.display = 'block';
+            }
+        }, 1000);
+    })
+    .catch(error => {
+        clearInterval(progressInterval);
+        progressDiv.style.display = 'none';
+        document.getElementById('error-message').textContent = 'Network error: ' + error.message;
+        errorDiv.style.display = 'block';
+    })
+    .finally(() => {
+        button.disabled = false;
+        button.innerHTML = '<i class="fas fa-rocket"></i> Start Analysis';
+    });
+});
+</script>
+{% endblock %}

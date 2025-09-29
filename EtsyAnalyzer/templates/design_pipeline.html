@@ -1,0 +1,318 @@
+{% extends "base.html" %}
+
+{% block title %}Design Pipeline - EtsyAnalyzer Workflow{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1><i class="fas fa-pencil-ruler"></i> Design Pipeline</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Design Pipeline</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Pipeline Status -->
+<div class="row mb-4">
+    <div class="col-md-4">
+        <div class="card text-white bg-info">
+            <div class="card-body text-center">
+                <h3>{{ briefs|selectattr("status", "equalto", "pending")|list|length }}</h3>
+                <p class="mb-0">Pending Review</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-success">
+            <div class="card-body text-center">
+                <h3>{{ briefs|selectattr("status", "equalto", "approved")|list|length }}</h3>
+                <p class="mb-0">Approved</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-danger">
+            <div class="card-body text-center">
+                <h3>{{ briefs|selectattr("status", "equalto", "rejected")|list|length }}</h3>
+                <p class="mb-0">Rejected</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if briefs %}
+<!-- Design Briefs -->
+<div class="row">
+    {% for brief in briefs %}
+    <div class="col-md-6 mb-4">
+        <div class="card h-100 border-{% if brief.status == 'approved' %}success{% elif brief.status == 'rejected' %}danger{% else %}primary{% endif %}">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h6 class="mb-0">
+                    <i class="fas fa-{% if brief.data.design_theme == 'government_humor' %}building{% elif brief.data.design_theme == 'cybersecurity' %}shield-alt{% elif brief.data.design_theme == 'political_satire' %}vote-yea{% else %}pencil-alt{% endif %}"></i>
+                    {{ brief.data.concept_name|replace('_', ' ')|title }}
+                </h6>
+                <span class="badge bg-{% if brief.status == 'approved' %}success{% elif brief.status == 'rejected' %}danger{% else %}primary{% endif %}">
+                    {{ brief.status|title }}
+                </span>
+            </div>
+            <div class="card-body">
+                <!-- Brief Details -->
+                <div class="brief-details">
+                    <p><strong>Theme:</strong> {{ brief.data.design_theme|replace('_', ' ')|title }}</p>
+                    <p><strong>Target Audience:</strong> {{ brief.data.target_audience }}</p>
+
+                    {% if brief.data.target_keywords %}
+                    <p><strong>Keywords:</strong>
+                        {% for keyword in brief.data.target_keywords %}
+                        <span class="badge bg-light text-dark me-1">{{ keyword }}</span>
+                        {% endfor %}
+                    </p>
+                    {% endif %}
+
+                    {% if brief.data.style_preferences %}
+                    <p><strong>Style:</strong> {{ brief.data.style_preferences|join(', ')|title }}</p>
+                    {% endif %}
+
+                    {% if brief.data.text_elements %}
+                    <div class="mb-3">
+                        <strong>Text Elements:</strong>
+                        <div class="mt-1">
+                            {% for element in brief.data.text_elements[:3] %}
+                            <span class="badge bg-secondary me-1">{{ element }}</span>
+                            {% endfor %}
+                            {% if brief.data.text_elements|length > 3 %}
+                            <span class="text-muted">+{{ brief.data.text_elements|length - 3 }} more</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <p><strong>Priority Score:</strong>
+                        <span class="badge bg-{% if brief.data.priority_score >= 7 %}success{% elif brief.data.priority_score >= 5 %}warning{% else %}secondary{% endif %}">
+                            {{ brief.data.priority_score }}/10
+                        </span>
+                    </p>
+                </div>
+
+                <!-- Design Prompt Preview -->
+                <div class="mt-3">
+                    <button class="btn btn-sm btn-outline-info" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#prompt-{{ loop.index }}" aria-expanded="false">
+                        <i class="fas fa-eye"></i> View Design Prompt
+                    </button>
+                </div>
+                <div class="collapse mt-2" id="prompt-{{ loop.index }}">
+                    <div class="card card-body bg-light">
+                        <small>
+                            <strong>Design Brief:</strong> {{ brief.data.concept_name }}<br>
+                            <strong>Theme:</strong> {{ brief.data.design_theme }}<br>
+                            <strong>Target Keywords:</strong> {{ brief.data.target_keywords|join(', ') if brief.data.target_keywords else 'N/A' }}<br><br>
+
+                            <strong>PRINTFUL TECHNICAL REQUIREMENTS:</strong><br>
+                            - Resolution: 300 DPI minimum<br>
+                            - Format: PNG with transparent background<br>
+                            - Max size: 20 MB per file<br>
+                            - Color mode: RGB<br>
+                            - T-shirt print area: 12" x 16" max<br>
+                            - Hoodie print area: 12" x 16" max<br>
+                            - Mug print area: 8.5" x 3.5" max<br><br>
+
+                            <strong>Design Concept:</strong> Create a {{ brief.data.design_theme|replace('_', ' ') }} design targeting {{ brief.data.target_audience }}.
+                            Style should be {{ brief.data.style_preferences|join(', ') if brief.data.style_preferences else 'professional' }}.
+                            {% if brief.data.color_scheme %}Color scheme: {{ brief.data.color_scheme }}.{% endif %}
+                            Design must work as single-color print for cost-effective production.
+                        </small>
+                    </div>
+                </div>
+
+                {% if brief.approval_notes %}
+                <div class="mt-3 p-2 bg-light rounded">
+                    <small><strong>Notes:</strong> {{ brief.approval_notes }}</small>
+                </div>
+                {% endif %}
+            </div>
+
+            {% if brief.status == 'pending' %}
+            <div class="card-footer">
+                <div class="d-flex gap-2">
+                    <button class="btn btn-success btn-sm flex-fill"
+                            onclick="approveBrief('{{ brief.brief_id }}', 'approve')">
+                        <i class="fas fa-check"></i> Approve
+                    </button>
+                    <button class="btn btn-danger btn-sm flex-fill"
+                            onclick="approveBrief('{{ brief.brief_id }}', 'reject')">
+                        <i class="fas fa-times"></i> Reject
+                    </button>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Bulk Actions -->
+{% if briefs|selectattr("status", "equalto", "pending")|list|length > 0 %}
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-tasks"></i> Bulk Actions</h5>
+            </div>
+            <div class="card-body">
+                <div class="d-flex gap-2">
+                    <button class="btn btn-success" onclick="approveAllPending()">
+                        <i class="fas fa-check-double"></i> Approve All Pending
+                    </button>
+                    <button class="btn btn-outline-primary" onclick="exportApprovedPrompts()">
+                        <i class="fas fa-download"></i> Export Approved Prompts
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% else %}
+<!-- No Briefs State -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body text-center py-5">
+                <i class="fas fa-clipboard-list fa-4x text-muted mb-3"></i>
+                <h4>No Design Briefs Yet</h4>
+                <p class="text-muted">Run a market analysis to generate design briefs for review.</p>
+                <a href="{{ url_for('market_analysis') }}" class="btn btn-primary">
+                    <i class="fas fa-chart-line"></i> Run Market Analysis
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- Notes Modal -->
+<div class="modal fade" id="notesModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Add Notes</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="approval-notes">Notes (optional):</label>
+                    <textarea id="approval-notes" class="form-control" rows="3"
+                              placeholder="Add any notes about this brief..."></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" id="confirm-action" class="btn btn-primary">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+let currentBriefId = '';
+let currentAction = '';
+
+function approveBrief(briefId, action) {
+    currentBriefId = briefId;
+    currentAction = action;
+
+    const modal = new bootstrap.Modal(document.getElementById('notesModal'));
+    document.querySelector('#notesModal .modal-title').textContent =
+        `${action === 'approve' ? 'Approve' : 'Reject'} Brief`;
+    document.getElementById('confirm-action').textContent =
+        action === 'approve' ? 'Approve' : 'Reject';
+    document.getElementById('confirm-action').className =
+        `btn ${action === 'approve' ? 'btn-success' : 'btn-danger'}`;
+
+    modal.show();
+}
+
+document.getElementById('confirm-action').addEventListener('click', function() {
+    const notes = document.getElementById('approval-notes').value;
+
+    fetch('/api/approve-brief', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            brief_id: currentBriefId,
+            action: currentAction,
+            notes: notes
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Show success message
+            const alertDiv = document.createElement('div');
+            alertDiv.className = 'alert alert-success alert-dismissible fade show';
+            alertDiv.innerHTML = `
+                <strong>Success!</strong> ${data.message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            `;
+            document.querySelector('.container-fluid').insertBefore(alertDiv, document.querySelector('.row'));
+
+            // Reload page after brief delay
+            setTimeout(() => location.reload(), 1000);
+        } else {
+            alert('Error: ' + data.message);
+        }
+    })
+    .catch(error => {
+        alert('Network error: ' + error.message);
+    });
+
+    // Clear form and hide modal
+    document.getElementById('approval-notes').value = '';
+    bootstrap.Modal.getInstance(document.getElementById('notesModal')).hide();
+});
+
+function approveAllPending() {
+    if (confirm('Are you sure you want to approve all pending briefs?')) {
+        const pendingBriefs = document.querySelectorAll('.card-footer button.btn-success');
+        let approved = 0;
+
+        pendingBriefs.forEach(button => {
+            const briefId = button.onclick.toString().match(/'([^']+)'/)[1];
+            fetch('/api/approve-brief', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    brief_id: briefId,
+                    action: 'approve',
+                    notes: 'Bulk approved'
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    approved++;
+                    if (approved === pendingBriefs.length) {
+                        location.reload();
+                    }
+                }
+            });
+        });
+    }
+}
+
+function exportApprovedPrompts() {
+    alert('Export functionality will be implemented in the next version.');
+}
+</script>
+{% endblock %}

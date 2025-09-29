@@ -1,0 +1,243 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - EtsyAnalyzer Workflow{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1><i class="fas fa-tachometer-alt"></i> Workflow Dashboard</h1>
+            <button id="refresh-status" class="btn btn-outline-primary">
+                <i class="fas fa-sync-alt"></i> Refresh
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Workflow Status Cards -->
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card text-white bg-info">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4 class="card-title mb-0">{{ status.pending_briefs }}</h4>
+                        <p class="card-text">Pending Briefs</p>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-clipboard-list fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-success">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4 class="card-title mb-0">{{ status.approved_briefs }}</h4>
+                        <p class="card-text">Approved Briefs</p>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-check-circle fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-warning">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4 class="card-title mb-0">{{ status.total_assets }}</h4>
+                        <p class="card-text">Design Assets</p>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-images fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-dark">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4 class="card-title mb-0">{{ status.printful_ready }}</h4>
+                        <p class="card-text">Printful Ready</p>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-tshirt fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Workflow Progress -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-project-diagram"></i> Workflow Progress</h5>
+            </div>
+            <div class="card-body">
+                <div class="workflow-steps">
+                    <div class="step {% if status.pending_briefs > 0 or status.approved_briefs > 0 %}completed{% endif %}">
+                        <div class="step-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="step-content">
+                            <h6>Market Analysis</h6>
+                            <p class="text-muted small">Analyze trends and generate design briefs</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="step {% if status.approved_briefs > 0 %}completed{% endif %}">
+                        <div class="step-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <div class="step-content">
+                            <h6>Design Approval</h6>
+                            <p class="text-muted small">Review and approve design concepts</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="step {% if status.total_assets > 0 %}completed{% endif %}">
+                        <div class="step-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <div class="step-content">
+                            <h6>Design Creation</h6>
+                            <p class="text-muted small">Create and upload design images</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="step {% if status.printful_ready > 0 %}completed{% endif %}">
+                        <div class="step-icon">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                        <div class="step-content">
+                            <h6>Product Setup</h6>
+                            <p class="text-muted small">Configure Printful products</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="step">
+                        <div class="step-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="step-content">
+                            <h6>Etsy Integration</h6>
+                            <p class="text-muted small">Create listings and upload to Etsy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Quick Actions -->
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-bolt"></i> Quick Actions</h5>
+            </div>
+            <div class="card-body">
+                <div class="d-grid gap-2">
+                    <a href="{{ url_for('market_analysis') }}" class="btn btn-primary">
+                        <i class="fas fa-chart-line"></i> Run Market Analysis
+                    </a>
+                    <a href="{{ url_for('design_pipeline') }}" class="btn btn-success"
+                       {% if status.pending_briefs == 0 %}disabled{% endif %}>
+                        <i class="fas fa-pencil-ruler"></i> Review Design Briefs
+                        {% if status.pending_briefs > 0 %}
+                        <span class="badge bg-light text-dark ms-2">{{ status.pending_briefs }}</span>
+                        {% endif %}
+                    </a>
+                    <a href="{{ url_for('design_assets') }}" class="btn btn-warning"
+                       {% if status.approved_briefs == 0 %}disabled{% endif %}>
+                        <i class="fas fa-images"></i> Manage Design Assets
+                        {% if status.approved_briefs > 0 %}
+                        <span class="badge bg-light text-dark ms-2">{{ status.approved_briefs }}</span>
+                        {% endif %}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-info-circle"></i> System Information</h5>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-6">Last Updated:</dt>
+                    <dd class="col-sm-6">
+                        <span id="last-updated">{{ status.last_updated[:19] }}</span>
+                    </dd>
+                    <dt class="col-sm-6">Designs Directory:</dt>
+                    <dd class="col-sm-6"><code>DESIGNS/</code></dd>
+                    <dt class="col-sm-6">Workflow Status:</dt>
+                    <dd class="col-sm-6">
+                        <span class="badge bg-success">Active</span>
+                    </dd>
+                    <dt class="col-sm-6">Components:</dt>
+                    <dd class="col-sm-6">
+                        <i class="fas fa-check text-success"></i> Analysis
+                        <i class="fas fa-check text-success"></i> Design Gen
+                        <i class="fas fa-check text-success"></i> Printful
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recent Activity -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-history"></i> Getting Started</h5>
+            </div>
+            <div class="card-body">
+                <div class="alert alert-info" role="alert">
+                    <h6 class="alert-heading"><i class="fas fa-info-circle"></i> Welcome to EtsyAnalyzer Workflow Dashboard!</h6>
+                    <p>This dashboard provides complete control over your automated Etsy product creation pipeline.</p>
+                    <hr>
+                    <p class="mb-0">
+                        <strong>Next Step:</strong> Start by running a market analysis to identify trending opportunities and generate design briefs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.getElementById('refresh-status').addEventListener('click', function() {
+    location.reload();
+});
+
+// Auto-refresh status every 30 seconds
+setInterval(function() {
+    fetch('/api/workflow-status')
+        .then(response => response.json())
+        .then(data => {
+            // Update status cards without full reload
+            location.reload();
+        })
+        .catch(error => console.log('Status refresh failed:', error));
+}, 30000);
+</script>
+{% endblock %}

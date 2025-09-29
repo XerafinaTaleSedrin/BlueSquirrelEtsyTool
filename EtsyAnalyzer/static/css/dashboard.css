@@ -1,32 +1,33 @@
 /* EtsyAnalyzer Workflow Dashboard Styles - Eye-Saver Palette */
 
-/* Eye-Saver Color Variables */
+/* Eye-Saver Color Variables - Warm Amber Palette */
 :root {
     --sage-green: #7C9885;
     --sage-light: #9FB3A8;
     --sage-dark: #5F7466;
-    --cream: #FDF7E8;
-    --cream-light: #FFFBF3;
-    --cream-dark: #F5EDD8;
+    --amber: #F7F3E9;
+    --amber-light: #FAF6F0;
+    --amber-dark: #F0EBE0;
+    --amber-deeper: #E8DDD0;
     --muted-blue: #6B8CAE;
     --muted-blue-light: #8DA8C7;
     --muted-blue-dark: #4A6B8A;
     --soft-gray: #B8C5B0;
     --text-primary: #2D4B3A;
     --text-secondary: #4A6B56;
-    --border-light: #E1E8DD;
+    --border-light: #DDD5C8;
     --shadow-soft: rgba(124, 152, 133, 0.15);
 }
 
 /* Base body styling */
 body {
-    background-color: var(--cream);
+    background-color: var(--amber);
     color: var(--text-primary);
 }
 
 /* Card styling */
 .card {
-    background-color: var(--cream-light);
+    background-color: var(--amber-dark);
     border: 1px solid var(--border-light);
     color: var(--text-primary);
 }
@@ -72,7 +73,7 @@ body {
 
 /* Alert styling */
 .alert-info {
-    background-color: var(--cream-dark);
+    background-color: var(--amber-deeper);
     border-color: var(--sage-light);
     color: var(--text-primary);
 }
@@ -118,13 +119,13 @@ body {
 
 /* Form controls */
 .form-control {
-    background-color: var(--cream-light);
+    background-color: var(--amber-light);
     border-color: var(--border-light);
     color: var(--text-primary);
 }
 
 .form-control:focus {
-    background-color: var(--cream-light);
+    background-color: var(--amber-light);
     border-color: var(--sage-green);
     box-shadow: 0 0 0 0.2rem rgba(124, 152, 133, 0.25);
 }
@@ -175,7 +176,7 @@ body {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: var(--cream-dark);
+    background: var(--amber-deeper);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -315,7 +316,7 @@ body {
 
 .drop-zone.drag-over {
     border-color: var(--sage-green) !important;
-    background-color: var(--cream-dark) !important;
+    background-color: var(--amber-deeper) !important;
     transform: scale(1.02);
 }
 
@@ -381,7 +382,7 @@ body {
     border: none;
     border-radius: 12px;
     box-shadow: 0 10px 40px var(--shadow-soft);
-    background-color: var(--cream-light);
+    background-color: var(--amber-dark);
     color: var(--text-primary);
 }
 
@@ -395,7 +396,7 @@ body {
 .modal-footer {
     border-top: 1px solid var(--border-light);
     border-radius: 0 0 12px 12px;
-    background-color: var(--cream-light);
+    background-color: var(--amber-dark);
 }
 
 /* Utility classes */
@@ -415,7 +416,7 @@ body {
 
 /* Additional component styling */
 .table {
-    background-color: var(--cream-light);
+    background-color: var(--amber-dark);
     color: var(--text-primary);
 }
 
@@ -430,13 +431,13 @@ body {
 }
 
 .list-group-item {
-    background-color: var(--cream-light);
+    background-color: var(--amber-dark);
     border-color: var(--border-light);
     color: var(--text-primary);
 }
 
 .progress {
-    background-color: var(--cream-dark);
+    background-color: var(--amber-deeper);
 }
 
 .progress-bar {
@@ -449,7 +450,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--cream-dark);
+    background: var(--amber-deeper);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -463,7 +464,7 @@ body {
 
 /* Additional Bootstrap component overrides */
 .dropdown-menu {
-    background-color: var(--cream-light);
+    background-color: var(--amber-dark);
     border-color: var(--border-light);
 }
 
@@ -478,7 +479,7 @@ body {
 }
 
 .breadcrumb {
-    background-color: var(--cream-dark);
+    background-color: var(--amber-deeper);
 }
 
 .breadcrumb-item a {
@@ -486,7 +487,7 @@ body {
 }
 
 .pagination .page-link {
-    background-color: var(--cream-light);
+    background-color: var(--amber-dark);
     border-color: var(--border-light);
     color: var(--sage-green);
 }

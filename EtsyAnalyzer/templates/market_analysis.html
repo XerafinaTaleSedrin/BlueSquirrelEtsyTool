@@ -464,8 +464,35 @@ function displayAnalysisResults(data) {
         let listingsAnalyzed = 'N/A';
         let shopName = 'N/A';
         let keyOpportunities = [];
+        let immediateActions = [];
+        let workflowCount = 'N/A';
 
-        // Path 1: executive_summary structure
+        // NEW PATH: analysis_summary structure (current format)
+        if (analysisData.analysis_summary) {
+            const summary = analysisData.analysis_summary;
+            console.log('Found analysis_summary:', summary);
+
+            // Extract shop health metrics
+            if (summary.shop_health) {
+                seoScore = summary.shop_health.seo_score || seoScore;
+                keywordEfficiency = summary.shop_health.keyword_efficiency || keywordEfficiency;
+            }
+
+            // Extract opportunities and actions
+            if (summary.key_opportunities) {
+                keyOpportunities = summary.key_opportunities;
+            }
+            if (summary.immediate_actions) {
+                immediateActions = summary.immediate_actions;
+            }
+        }
+
+        // Path for automation results
+        if (analysisData.automation_results) {
+            workflowCount = analysisData.automation_results.successful_workflows || workflowCount;
+        }
+
+        // FALLBACK PATHS: executive_summary structure
         if (analysisData.executive_summary) {
             const summary = analysisData.executive_summary;
             if (summary.overall_shop_health) {
@@ -524,13 +551,31 @@ function displayAnalysisResults(data) {
                 <div class="col-md-3">
                     <div class="card summary-card">
                         <div class="card-body text-center">
-                            <h4 class="card-metric">${shopName}</h4>
-                            <small class="text-muted">Shop Name</small>
+                            <h4 class="card-metric">${workflowCount}</h4>
+                            <small class="text-muted">Workflows Run</small>
                         </div>
                     </div>
                 </div>
             </div>
         `;
+
+        // Add immediate actions section if available
+        if (immediateActions.length > 0) {
+            summaryHtml += `
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <h6><i class="fas fa-exclamation-triangle text-warning"></i> Immediate Actions</h6>
+                        <ul class="list-group">
+            `;
+            immediateActions.forEach(action => {
+                summaryHtml += `<li class="list-group-item">${action}</li>`;
+            });
+            summaryHtml += `
+                        </ul>
+                    </div>
+                </div>
+            `;
+        }
 
         // Display key opportunities if available
         if (keyOpportunities.length > 0) {

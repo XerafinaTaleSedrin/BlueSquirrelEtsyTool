@@ -31,22 +31,36 @@ function hideLoading(element, originalText = '') {
 }
 
 function showAlert(message, type = 'info', autoHide = true) {
-    const alertContainer = document.querySelector('.container-fluid');
+    // Find the best container for alerts
+    const alertContainer = document.querySelector('.container-fluid') || document.body;
     const alertDiv = document.createElement('div');
     alertDiv.className = `alert alert-${type} alert-dismissible fade show`;
+    alertDiv.style.position = 'relative';
+    alertDiv.style.zIndex = '1050';
     alertDiv.innerHTML = `
         ${message}
         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     `;
 
-    // Insert at the top
-    alertContainer.insertBefore(alertDiv, alertContainer.firstChild);
+    // Insert at the top - check if container has children
+    if (alertContainer.firstChild) {
+        alertContainer.insertBefore(alertDiv, alertContainer.firstChild);
+    } else {
+        alertContainer.appendChild(alertDiv);
+    }
 
     // Auto-hide after 5 seconds
     if (autoHide) {
         setTimeout(() => {
-            const alert = bootstrap.Alert.getOrCreateInstance(alertDiv);
-            alert.close();
+            try {
+                const alert = bootstrap.Alert.getOrCreateInstance(alertDiv);
+                alert.close();
+            } catch (error) {
+                // Fallback: remove the element directly
+                if (alertDiv.parentNode) {
+                    alertDiv.parentNode.removeChild(alertDiv);
+                }
+            }
         }, 5000);
     }
 }

@@ -1,21 +1,21 @@
 /* EtsyAnalyzer Workflow Dashboard Styles - Eye-Saver Palette */
 
-/* Eye-Saver Color Variables - Warm Amber Palette */
+/* Eye-Saver Color Variables - Rich Amber Palette */
 :root {
     --sage-green: #7C9885;
     --sage-light: #9FB3A8;
     --sage-dark: #5F7466;
-    --amber: #F7F3E9;
-    --amber-light: #FAF6F0;
-    --amber-dark: #F0EBE0;
-    --amber-deeper: #E8DDD0;
+    --amber: #F0E6CC;
+    --amber-light: #F4EADC;
+    --amber-dark: #E8DCBC;
+    --amber-deeper: #DCC8A0;
     --muted-blue: #6B8CAE;
     --muted-blue-light: #8DA8C7;
     --muted-blue-dark: #4A6B8A;
     --soft-gray: #B8C5B0;
     --text-primary: #2D4B3A;
     --text-secondary: #4A6B56;
-    --border-light: #DDD5C8;
+    --border-light: #D5C5A8;
     --shadow-soft: rgba(124, 152, 133, 0.15);
 }
 

@@ -1,0 +1,129 @@
+SPECIALIZED DESIGN BRIEF: cybersecurity_20250930_122517
+
+═══════════════════════════════════════════════════════════════════════════
+MARKET INTELLIGENCE & POSITIONING
+═══════════════════════════════════════════════════════════════════════════
+
+TARGET NICHE: Cybersecurity
+AUDIENCE PSYCHOGRAPHICS: IT professionals, cybersecurity experts, tech workers, system administrators
+KEYWORD FOCUS: cybersecurity
+MARKET POSITIONING: Premium tech professional identity wear - for those who understand that security is everyone's job
+
+═══════════════════════════════════════════════════════════════════════════
+CREATIVE DIRECTION & UNIQUE ANGLE
+═══════════════════════════════════════════════════════════════════════════
+
+CREATIVE CONCEPT:
+Create a sophisticated tech professional design that speaks to the cybersecurity mindset. Blend matrix aesthetics with enterprise security culture - celebrating the guardian role while acknowledging the constant vigilance required. Target InfoSec professionals who understand both technical depth and business reality.
+
+UNIQUE DIFFERENTIATION:
+Capture the vigilant guardian mindset - blend technical sophistication with enterprise reality. Appeal to those who see security as both craft and calling.
+
+VISUAL STYLE IDENTITY:
+- Primary Style: matrix code overlay, terminal interface, network topology
+- Color Psychology: Green and black (matrix), or blue and white (tech)
+- Visual References: Matrix code overlays, terminal interfaces, network diagrams, security dashboard elements
+
+═══════════════════════════════════════════════════════════════════════════
+DISTINCTIVE TEXT CONCEPTS (NICHE-SPECIFIC)
+═══════════════════════════════════════════════════════════════════════════
+
+INSIDER TERMINOLOGY & CONCEPTS:
+• Trust But Verify (Zero Trust Edition)
+• Patch Tuesday Survivor
+• Social Engineer This!
+• Human Layer = Weakest Link
+• Cybersecurity: Access Denied
+• Scanning for Cybersecurity...
+• Cybersecurity Layer Activated
+
+VISUAL METAPHORS TO CONSIDER:
+• shields
+• locks
+• firewalls
+• encryption symbols
+• alert dashboards
+
+INDUSTRY REFERENCES:
+• CVE numbers
+• SIEM alerts
+• penetration testing
+• compliance frameworks
+• threat intelligence
+
+═══════════════════════════════════════════════════════════════════════════
+⚙️ PRINTFUL TECHNICAL SPECIFICATIONS (CRITICAL)
+═══════════════════════════════════════════════════════════════════════════
+
+MANDATORY REQUIREMENTS:
+• Resolution: 300 DPI minimum (non-negotiable for print quality)
+• Format: PNG with transparent background (required for versatility)
+• File size: Maximum 20 MB per file
+• Color mode: RGB (for screen-to-print accuracy)
+
+PRINT AREA SPECIFICATIONS:
+• T-shirt/Hoodie: 12" x 16" maximum print area
+• Mug: 8.5" x 3.5" maximum print area
+• Design scalability: Must remain readable at all sizes
+• Cost optimization: Single-color design strongly preferred
+
+═══════════════════════════════════════════════════════════════════════════
+🚫 CONTENT RESTRICTIONS & COMPLIANCE
+═══════════════════════════════════════════════════════════════════════════
+
+STRICTLY AVOID:
+• actual vulnerabilities
+• hacking tools
+• illegal activities
+
+LEGAL & COMMERCIAL SAFETY:
+• Must be workplace-appropriate
+• Cannot include copyrighted elements
+• Must avoid controversial current events
+• Should appeal to professional environment
+
+═══════════════════════════════════════════════════════════════════════════
+📋 DETAILED DELIVERABLES REQUIRED
+═══════════════════════════════════════════════════════════════════════════
+
+1. CONCEPT OVERVIEW (2-3 sentences)
+   - Core visual concept and emotional appeal
+   - How it connects with target niche
+
+2. DETAILED VISUAL LAYOUT
+   - Element placement and hierarchy
+   - Typography style and sizing
+   - Imagery/iconography integration
+
+3. TEXT HIERARCHY SYSTEM
+   - Primary message (main headline)
+   - Secondary text (supporting message)
+   - Tertiary elements (tagline/accent text)
+
+4. PRODUCT-SPECIFIC ADAPTATIONS
+   - T-shirt layout optimization
+   - Hoodie placement considerations
+   - Mug wrap-around design notes
+
+5. COLOR PALETTE STRATEGY
+   - Primary color selection rationale
+   - Single-color print optimization
+   - Background/foreground contrast
+
+6. TECHNICAL IMPLEMENTATION NOTES
+   - 300 DPI sizing for each product
+   - Scalability testing requirements
+   - Print production considerations
+
+═══════════════════════════════════════════════════════════════════════════
+🎖️ SUCCESS METRICS & VALIDATION
+═══════════════════════════════════════════════════════════════════════════
+
+DESIGN SUCCESS CRITERIA:
+• Immediate niche recognition and appeal
+• Professional yet memorable aesthetic
+• Clear differentiation from generic designs
+• Strong commercial viability for Etsy marketplace
+• Technical excellence for Printful production
+
+Please create a design concept that demonstrates deep understanding of the cybersecurity niche while meeting all technical and commercial requirements. Focus on authenticity and insider appeal rather than generic themes.

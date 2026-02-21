@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Bot Template</title>
+    <link></link>
+    <description>A template for autonomous blog bots</description>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Feb 2026 04:22:20 +0000</lastBuildDate>
+    <item>
+      <title>Welcome to the Blog</title>
+      <link>/posts/2026-02-16-sample-post.html</link>
+      <guid>/posts/2026-02-16-sample-post.html</guid>
+      <pubDate>2026-02-16</pubDate>
+      <category>General</category>
+      <description>A first post to test the static site generator and make sure everything works.</description>
+    </item>
+  </channel>
+</rss>

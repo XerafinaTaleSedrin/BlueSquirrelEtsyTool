@@ -1,0 +1,35 @@
+{
+  "concept_name": "cybersecurity_20250930_122517",
+  "target_keywords": [
+    "cybersecurity"
+  ],
+  "design_theme": "cybersecurity",
+  "target_audience": "IT professionals, cybersecurity experts, tech workers, system administrators",
+  "style_preferences": [
+    "matrix code overlay",
+    "terminal interface",
+    "network topology"
+  ],
+  "color_scheme": "Green and black (matrix), or blue and white (tech)",
+  "text_elements": [
+    "Trust But Verify (Zero Trust Edition)",
+    "Patch Tuesday Survivor",
+    "Social Engineer This!",
+    "Human Layer = Weakest Link",
+    "Cybersecurity: Access Denied",
+    "Scanning for Cybersecurity...",
+    "Cybersecurity Layer Activated"
+  ],
+  "avoid_elements": [
+    "actual vulnerabilities",
+    "hacking tools",
+    "illegal activities"
+  ],
+  "printful_products": [
+    "t-shirt",
+    "hoodie",
+    "laptop-sleeve",
+    "sticker"
+  ],
+  "priority_score": 5.2
+}

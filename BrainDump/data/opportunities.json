@@ -1,0 +1,21 @@
+[
+  {
+    "type": "timing",
+    "description": "Perfect timing for autumn: mostly worrying about long term viability of my move to France, or even if I sho...",
+    "season": "autumn",
+    "priority": "high",
+    "idea_id": "20250916_124258",
+    "actionable": true,
+    "generated_at": "2025-09-16T12:44:24.314322"
+  },
+  {
+    "type": "goal_alignment",
+    "description": "Pursue: in theory I go back to the US on Oct 29/30, then almost immediately start the reapplication process ... (Supports Personal preparation for France transition)",
+    "goal": "personal_preparation",
+    "priority": "medium",
+    "idea_id": "20250916_124336",
+    "alignment_score": 2,
+    "actionable": true,
+    "generated_at": "2025-09-16T12:44:24.314322"
+  }
+]

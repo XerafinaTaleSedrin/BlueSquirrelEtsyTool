@@ -4,11 +4,21 @@ AI-Powered Design Generation System for Etsy T-shirt Business
 Uses Claude prompts to generate design concepts based on market intelligence
 """
 
-import json
 import os
+# Force UTF-8 encoding for all operations
+os.environ['PYTHONIOENCODING'] = 'utf-8'
+
+import json
 from datetime import datetime
 from typing import List, Dict, Optional
 from dataclasses import dataclass, asdict
+
+# Import Printful catalog validation
+try:
+    from printful_catalog import get_available_products, validate_printful_products
+except ImportError:
+    get_available_products = None
+    validate_printful_products = None
 
 @dataclass
 class DesignBrief:
@@ -47,30 +57,57 @@ class DesignPromptEngine:
     def _load_market_data(self, data_path: str) -> Dict:
         """Load market intelligence data from EtsyAnalyzer"""
         if data_path and os.path.exists(data_path):
-            with open(data_path, 'r') as f:
+            with open(data_path, 'r', encoding='utf-8') as f:
                 return json.load(f)
         return {}
 
     def _initialize_templates(self) -> Dict:
-        """Initialize design prompt templates for different themes"""
+        """Initialize highly differentiated design prompt templates for different themes"""
         return {
             "government_humor": {
-                "base_prompt": "Create a humorous t-shirt design that government employees would find relatable and funny. The design should be workplace-appropriate and capture the absurdities of bureaucracy.",
-                "style_elements": ["minimalist", "vintage office", "retro government", "clean typography"],
-                "common_phrases": ["Civil Servant", "Bureaucrat Life", "Government Speed", "Red Tape", "Meeting About Meetings"],
-                "avoid": ["political party references", "controversial topics", "inappropriate language"]
+                "base_prompt": "Design a witty federal workplace satire piece that captures the unique culture of government service. Think vintage office aesthetics meets bureaucratic irony - celebrating public service while poking fun at the system. Target federal employees who appreciate inside jokes about forms, clearances, and interdepartmental coordination.",
+                "style_elements": ["vintage office memo", "retro government poster", "official document parody", "bureaucratic seal mockery"],
+                "unique_concepts": [
+                    "Form 404: Motivation Not Found",
+                    "Classified: Coffee Break Schedule",
+                    "Security Clearance Required for Bathroom Key",
+                    "Democracy: Some Assembly Required",
+                    "Federal Employee Bingo",
+                    "Department of Redundancy Department"
+                ],
+                "visual_metaphors": ["rubber stamps", "filing cabinets", "org charts", "security badges", "memo folders"],
+                "industry_references": ["GS pay scale", "FERS retirement", "telework", "continuing resolution", "OPM guidelines"],
+                "avoid": ["political party references", "controversial policies", "specific agencies"]
             },
             "cybersecurity": {
-                "base_prompt": "Design a tech-savvy t-shirt that cybersecurity professionals would appreciate. Include clever references to IT security concepts.",
-                "style_elements": ["matrix-style", "hacker aesthetic", "clean tech", "monospace fonts"],
-                "common_phrases": ["Security First", "Patch Tuesday", "Zero Trust", "Phishing Awareness", "Social Engineering"],
-                "avoid": ["actual hacking references", "illegal activities", "security vulnerabilities"]
+                "base_prompt": "Create a sophisticated tech professional design that speaks to the cybersecurity mindset. Blend matrix aesthetics with enterprise security culture - celebrating the guardian role while acknowledging the constant vigilance required. Target InfoSec professionals who understand both technical depth and business reality.",
+                "style_elements": ["matrix code overlay", "terminal interface", "network topology", "security dashboard"],
+                "unique_concepts": [
+                    "Trust But Verify (Zero Trust Edition)",
+                    "Patch Tuesday Survivor",
+                    "Social Engineer This!",
+                    "Human Layer = Weakest Link",
+                    "Multi-Factor Authentication Champion",
+                    "Incident Response Team"
+                ],
+                "visual_metaphors": ["shields", "locks", "firewalls", "encryption symbols", "alert dashboards"],
+                "industry_references": ["CVE numbers", "SIEM alerts", "penetration testing", "compliance frameworks", "threat intelligence"],
+                "avoid": ["actual vulnerabilities", "hacking tools", "illegal activities"]
             },
             "political_satire": {
-                "base_prompt": "Create a witty political satire design that's clever but non-partisan. Focus on general political processes rather than specific parties.",
-                "style_elements": ["editorial cartoon", "vintage propaganda", "clean illustration", "bold typography"],
-                "common_phrases": ["Democracy", "Voting Matters", "Political Process", "Civic Duty", "Election Season"],
-                "avoid": ["specific politicians", "partisan messaging", "controversial symbols"]
+                "base_prompt": "Design an editorial-style democratic engagement piece that promotes civic participation through clever commentary. Think vintage propaganda meets modern political awareness - inspiring action while maintaining non-partisan appeal. Target civically-minded individuals who appreciate political process humor.",
+                "style_elements": ["editorial cartoon style", "vintage civic poster", "ballot design parody", "campaign button aesthetic"],
+                "unique_concepts": [
+                    "Vote Early, Vote Often (Legally)",
+                    "Democracy: Participation Required",
+                    "Civic Duty Loading... Please Wait",
+                    "Checks and Balances Champion",
+                    "Constitutional Scholar in Training",
+                    "Grassroots Democracy Advocate"
+                ],
+                "visual_metaphors": ["ballot boxes", "scales of justice", "capitol buildings", "voting booths", "civic symbols"],
+                "industry_references": ["constituent services", "town halls", "public comment periods", "election integrity", "civic engagement"],
+                "avoid": ["specific politicians", "partisan messaging", "controversial current events"]
             }
         }
 
@@ -90,7 +127,7 @@ class DesignPromptEngine:
             color_scheme=self._suggest_color_scheme(theme),
             text_elements=self._generate_text_concepts(trending_keywords, template),
             avoid_elements=template["avoid"],
-            printful_products=["t-shirt", "hoodie", "mug"],
+            printful_products=self._get_validated_products_for_theme(theme),
             priority_score=self._calculate_priority_score(trending_keywords, theme)
         )
 
@@ -115,20 +152,40 @@ class DesignPromptEngine:
         return color_schemes.get(theme, "Flexible color scheme")
 
     def _generate_text_concepts(self, keywords: List[str], template: Dict) -> List[str]:
-        """Generate text concept ideas for designs"""
+        """Generate highly differentiated text concept ideas for designs"""
         text_concepts = []
 
-        # Add template phrases
-        text_concepts.extend(template["common_phrases"][:3])
+        # Add unique template concepts (much more distinctive)
+        text_concepts.extend(template.get("unique_concepts", [])[:4])
 
-        # Generate concepts from keywords
-        for keyword in keywords[:3]:
-            # Create variations
-            text_concepts.append(f"Professional {keyword}")
-            text_concepts.append(f"{keyword} Expert")
-            text_concepts.append(f"Powered by {keyword}")
+        # Generate niche-specific concepts from keywords
+        for keyword in keywords[:2]:
+            if "government" in keyword.lower():
+                text_concepts.extend([
+                    f"Cleared for {keyword.title()}",
+                    f"{keyword.title()}: Above Your Pay Grade",
+                    f"Form {keyword.title()}-001: Required"
+                ])
+            elif "cyber" in keyword.lower() or "security" in keyword.lower():
+                text_concepts.extend([
+                    f"{keyword.title()}: Access Denied",
+                    f"Scanning for {keyword.title()}...",
+                    f"{keyword.title()} Layer Activated"
+                ])
+            elif "political" in keyword.lower() or "democracy" in keyword.lower():
+                text_concepts.extend([
+                    f"{keyword.title()}: Your Vote Counts",
+                    f"Certified {keyword.title()} Participant",
+                    f"{keyword.title()}: Civic Duty Edition"
+                ])
+            else:
+                # Fallback for other keywords
+                text_concepts.extend([
+                    f"Professional {keyword.title()}",
+                    f"{keyword.title()} Specialist"
+                ])
 
-        return text_concepts[:8]  # Limit to 8 concepts
+        return text_concepts[:8]  # Limit to 8 distinctive concepts
 
     def _calculate_priority_score(self, keywords: List[str], theme: str) -> float:
         """Calculate priority score based on market data"""
@@ -149,60 +206,155 @@ class DesignPromptEngine:
 
         return min(base_score, 10.0)
 
-    def create_claude_design_prompt(self, brief: DesignBrief) -> str:
-        """Create a detailed Claude prompt for design generation"""
+    def _generate_creative_direction(self, theme: str, template: Dict) -> str:
+        """Generate unique creative direction for each theme"""
+        directions = {
+            "government_humor": "Focus on the insider perspective of federal service - celebrate the dedication while gently satirizing the process. Think vintage office nostalgia with modern frustrations.",
+            "cybersecurity": "Capture the vigilant guardian mindset - blend technical sophistication with enterprise reality. Appeal to those who see security as both craft and calling.",
+            "political_satire": "Promote civic engagement through intelligent commentary - inspire participation while maintaining broad appeal across political spectrum."
+        }
+        return directions.get(theme, "Professional niche appeal with authentic insider perspective")
 
+    def _generate_visual_references(self, theme: str, template: Dict) -> str:
+        """Generate visual style references for each theme"""
+        references = {
+            "government_humor": "Vintage government posters, official memo styles, bureaucratic seals, org chart aesthetics",
+            "cybersecurity": "Matrix code overlays, terminal interfaces, network diagrams, security dashboard elements",
+            "political_satire": "Editorial cartoons, civic campaign materials, vintage propaganda art, ballot design elements"
+        }
+        return references.get(theme, "Professional industry-specific visual language")
+
+    def _generate_market_positioning(self, theme: str, audience: str) -> str:
+        """Generate market positioning strategy for each niche"""
+        positioning = {
+            "government_humor": "The go-to brand for federal workplace humor - celebrating public service culture with insider authenticity",
+            "cybersecurity": "Premium tech professional identity wear - for those who understand that security is everyone's job",
+            "political_satire": "Intelligent civic engagement apparel - promoting democracy through thoughtful commentary"
+        }
+        return positioning.get(theme, "Specialized professional identity wear for niche audiences")
+
+    def create_claude_design_prompt(self, brief: DesignBrief) -> str:
+        """Create a highly detailed, niche-specific Claude prompt for design generation"""
         template = self.design_templates.get(brief.design_theme, self.design_templates["government_humor"])
 
-        prompt = f"""
-Design Brief: {brief.concept_name}
+        # Create theme-specific creative direction
+        creative_direction = self._generate_creative_direction(brief.design_theme, template)
+        visual_references = self._generate_visual_references(brief.design_theme, template)
+        market_positioning = self._generate_market_positioning(brief.design_theme, brief.target_audience)
 
-THEME: {brief.design_theme}
-TARGET AUDIENCE: {brief.target_audience}
-TARGET KEYWORDS: {', '.join(brief.target_keywords)}
+        prompt = f"""SPECIALIZED DESIGN BRIEF: {brief.concept_name}
 
-PRINTFUL TECHNICAL REQUIREMENTS (CRITICAL):
-- Resolution: 300 DPI minimum (required for print quality)
-- Format: PNG with transparent background
-- File size: Maximum 20 MB per file
-- Color mode: RGB
-- Print areas:
-  * T-shirt: 12" x 16" maximum print area
-  * Hoodie: 12" x 16" maximum print area
-  * Mug: 8.5" x 3.5" maximum print area
-- Design must be scalable and readable at different sizes
-- Single-color design preferred for cost-effective printing
+═══════════════════════════════════════════════════════════════════════════
+MARKET INTELLIGENCE & POSITIONING
+═══════════════════════════════════════════════════════════════════════════
 
-BASE CONCEPT:
+TARGET NICHE: {brief.design_theme.replace('_', ' ').title()}
+AUDIENCE PSYCHOGRAPHICS: {brief.target_audience}
+KEYWORD FOCUS: {', '.join(brief.target_keywords)}
+MARKET POSITIONING: {market_positioning}
+
+═══════════════════════════════════════════════════════════════════════════
+CREATIVE DIRECTION & UNIQUE ANGLE
+═══════════════════════════════════════════════════════════════════════════
+
+CREATIVE CONCEPT:
 {template['base_prompt']}
 
-SPECIFIC REQUIREMENTS:
-- Style: {', '.join(brief.style_preferences)}
-- Colors: {brief.color_scheme}
-- Products: {', '.join(brief.printful_products)}
+UNIQUE DIFFERENTIATION:
+{creative_direction}
 
-TEXT CONCEPTS TO CONSIDER:
-{chr(10).join(f"- {text}" for text in brief.text_elements)}
+VISUAL STYLE IDENTITY:
+- Primary Style: {', '.join(brief.style_preferences)}
+- Color Psychology: {brief.color_scheme}
+- Visual References: {visual_references}
 
-MUST AVOID:
-{chr(10).join(f"- {avoid}" for avoid in brief.avoid_elements)}
+═══════════════════════════════════════════════════════════════════════════
+DISTINCTIVE TEXT CONCEPTS (NICHE-SPECIFIC)
+═══════════════════════════════════════════════════════════════════════════
 
-DELIVERABLES NEEDED:
-1. Main design concept description (2-3 sentences)
-2. Visual layout description (placement, typography, imagery)
-3. Text hierarchy (main message, supporting text, tagline)
-4. Color palette recommendations
-5. Adaptability notes for different products (t-shirt vs mug vs hoodie)
-6. 300 DPI specifications for each product variant
+INSIDER TERMINOLOGY & CONCEPTS:
+{chr(10).join(f"• {text}" for text in brief.text_elements)}
 
-CONSTRAINTS:
-- Design must work in single color for cost-effective printing
-- Text must be readable at small sizes
-- Design should appeal to professional workplace environment
-- Must be legally safe and non-controversial
-- Must meet Printful's 300 DPI technical requirements
+VISUAL METAPHORS TO CONSIDER:
+{chr(10).join(f"• {metaphor}" for metaphor in template.get('visual_metaphors', []))}
 
-Please provide a detailed design concept that balances creativity with commercial viability and meets all Printful technical specifications.
+INDUSTRY REFERENCES:
+{chr(10).join(f"• {ref}" for ref in template.get('industry_references', []))}
+
+═══════════════════════════════════════════════════════════════════════════
+⚙️ PRINTFUL TECHNICAL SPECIFICATIONS (CRITICAL)
+═══════════════════════════════════════════════════════════════════════════
+
+MANDATORY REQUIREMENTS:
+• Resolution: 300 DPI minimum (non-negotiable for print quality)
+• Format: PNG with transparent background (required for versatility)
+• File size: Maximum 20 MB per file
+• Color mode: RGB (for screen-to-print accuracy)
+
+PRINT AREA SPECIFICATIONS:
+• T-shirt/Hoodie: 12" x 16" maximum print area
+• Mug: 8.5" x 3.5" maximum print area
+• Design scalability: Must remain readable at all sizes
+• Cost optimization: Single-color design strongly preferred
+
+═══════════════════════════════════════════════════════════════════════════
+🚫 CONTENT RESTRICTIONS & COMPLIANCE
+═══════════════════════════════════════════════════════════════════════════
+
+STRICTLY AVOID:
+{chr(10).join(f"• {avoid}" for avoid in brief.avoid_elements)}
+
+LEGAL & COMMERCIAL SAFETY:
+• Must be workplace-appropriate
+• Cannot include copyrighted elements
+• Must avoid controversial current events
+• Should appeal to professional environment
+
+═══════════════════════════════════════════════════════════════════════════
+📋 DETAILED DELIVERABLES REQUIRED
+═══════════════════════════════════════════════════════════════════════════
+
+1. CONCEPT OVERVIEW (2-3 sentences)
+   - Core visual concept and emotional appeal
+   - How it connects with target niche
+
+2. DETAILED VISUAL LAYOUT
+   - Element placement and hierarchy
+   - Typography style and sizing
+   - Imagery/iconography integration
+
+3. TEXT HIERARCHY SYSTEM
+   - Primary message (main headline)
+   - Secondary text (supporting message)
+   - Tertiary elements (tagline/accent text)
+
+4. PRODUCT-SPECIFIC ADAPTATIONS
+   - T-shirt layout optimization
+   - Hoodie placement considerations
+   - Mug wrap-around design notes
+
+5. COLOR PALETTE STRATEGY
+   - Primary color selection rationale
+   - Single-color print optimization
+   - Background/foreground contrast
+
+6. TECHNICAL IMPLEMENTATION NOTES
+   - 300 DPI sizing for each product
+   - Scalability testing requirements
+   - Print production considerations
+
+═══════════════════════════════════════════════════════════════════════════
+🎖️ SUCCESS METRICS & VALIDATION
+═══════════════════════════════════════════════════════════════════════════
+
+DESIGN SUCCESS CRITERIA:
+• Immediate niche recognition and appeal
+• Professional yet memorable aesthetic
+• Clear differentiation from generic designs
+• Strong commercial viability for Etsy marketplace
+• Technical excellence for Printful production
+
+Please create a design concept that demonstrates deep understanding of the {brief.design_theme.replace('_', ' ')} niche while meeting all technical and commercial requirements. Focus on authenticity and insider appeal rather than generic themes.
 """
 
         return prompt.strip()
@@ -238,6 +390,63 @@ Please provide a detailed design concept that balances creativity with commercia
 
         return briefs
 
+    def _get_validated_products_for_theme(self, theme: str) -> List[str]:
+        """Get validated Printful products for the given theme"""
+        try:
+            if get_available_products is None:
+                # Fallback if catalog not available
+                return ["t-shirt", "hoodie", "mug"]
+
+            # Theme-specific product mappings
+            theme_products = {
+                "government_humor": ["t-shirt", "hoodie", "mug", "tote-bag"],
+                "cybersecurity": ["t-shirt", "hoodie", "laptop-sleeve", "sticker"],
+                "political_satire": ["t-shirt", "hoodie", "tote-bag", "poster"],
+                "professional": ["polo-shirt", "button-shirt", "mug", "notebook"],
+                "humor": ["t-shirt", "hoodie", "mug", "sticker"],
+                "vintage": ["t-shirt", "hoodie", "tote-bag", "poster"],
+                "minimalist": ["t-shirt", "tank-top", "mug", "poster"]
+            }
+
+            # Get suggested products for theme
+            suggested = theme_products.get(theme, ["t-shirt", "hoodie", "mug"])
+
+            # Get available products from catalog
+            available_products = get_available_products("apparel")
+            if not available_products:
+                return suggested
+
+            # Validate and map to actual Printful products
+            validated = []
+            for product in suggested:
+                # Find matching products in catalog
+                matches = [p for p in available_products
+                          if product.lower().replace('-', ' ') in p['name'].lower()
+                          or product.lower() in p['type_name'].lower()]
+
+                if matches:
+                    validated.append(matches[0]['name'])
+                else:
+                    # Try partial matching for alternatives
+                    alternatives = [p for p in available_products
+                                  if any(word in p['name'].lower()
+                                        for word in product.lower().split('-'))]
+                    if alternatives:
+                        validated.append(alternatives[0]['name'])
+
+            # Ensure minimum products
+            if len(validated) < 2:
+                defaults = [p for p in available_products
+                           if 't-shirt' in p['name'].lower() or 'tee' in p['name'].lower()]
+                if defaults:
+                    validated.append(defaults[0]['name'])
+
+            return validated[:3] if validated else ["t-shirt", "hoodie", "mug"]
+
+        except Exception as e:
+            print(f"Error validating products for theme {theme}: {e}")
+            return ["t-shirt", "hoodie", "mug"]
+
 class DesignWorkflowManager:
     """Manages the complete design generation workflow"""
 
@@ -257,7 +466,7 @@ class DesignWorkflowManager:
         """Process market analysis and generate design prompts"""
 
         # Load market analysis
-        with open(analysis_file, 'r') as f:
+        with open(analysis_file, 'r', encoding='utf-8') as f:
             market_data = json.load(f)
 
         # Generate design briefs
@@ -269,7 +478,7 @@ class DesignWorkflowManager:
         for brief in briefs:
             # Save brief
             brief_file = os.path.join(self.output_dir, "briefs", f"{brief.concept_name}_brief.json")
-            with open(brief_file, 'w') as f:
+            with open(brief_file, 'w', encoding='utf-8') as f:
                 json.dump(asdict(brief), f, indent=2)
 
             # Generate Claude prompt
@@ -277,7 +486,7 @@ class DesignWorkflowManager:
 
             # Save prompt
             prompt_file = os.path.join(self.output_dir, "prompts", f"{brief.concept_name}_prompt.txt")
-            with open(prompt_file, 'w') as f:
+            with open(prompt_file, 'w', encoding='utf-8') as f:
                 f.write(claude_prompt)
 
             generated_prompts.append(prompt_file)
@@ -291,7 +500,7 @@ class DesignWorkflowManager:
 
         summary_file = os.path.join(self.output_dir, "design_generation_summary.md")
 
-        with open(summary_file, 'w') as f:
+        with open(summary_file, 'w', encoding='utf-8') as f:
             f.write("# AI-Generated Design Concepts\n\n")
             f.write(f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
             f.write(f"Total concepts generated: {len(prompts)}\n\n")
@@ -304,6 +513,7 @@ class DesignWorkflowManager:
                 f.write("---\n\n")
 
         return summary_file
+
 
 def main():
     """Example usage of the design generation system"""

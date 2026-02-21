@@ -1,0 +1,82 @@
+[
+  {
+    "id": "20250916_105219",
+    "text": "refinished furniture for the eventual shop, blind date with a used book, cat travel docuemnts,",
+    "timestamp": "2025-09-16T10:52:19.004592",
+    "category": "Montolieu-Shop",
+    "confidence": 0.6,
+    "tags": []
+  },
+  {
+    "id": "20250916_123839",
+    "text": "exit",
+    "timestamp": "2025-09-16T12:38:39.018828",
+    "category": "Life",
+    "confidence": 0.3,
+    "tags": []
+  },
+  {
+    "id": "20250916_123903",
+    "text": "exit",
+    "timestamp": "2025-09-16T12:39:03.347397",
+    "category": "Life",
+    "confidence": 0.3,
+    "tags": []
+  },
+  {
+    "id": "20250916_124202",
+    "text": "I have a vet appointment today for Roxy to figure out why she's so angry all the time, if it's anxiety or the travel or if something's causing her pain",
+    "timestamp": "2025-09-16T12:42:02.428017",
+    "category": "Life",
+    "confidence": 0.3,
+    "tags": []
+  },
+  {
+    "id": "20250916_124202",
+    "text": "I also need to start thinking of next steps for getting back to the US, but aalso how to separate myself from the whole prtoestant work ethic and actually enjoy my time in southern france",
+    "timestamp": "2025-09-16T12:42:02.430723",
+    "category": "France-Move",
+    "confidence": 0.325,
+    "tags": []
+  },
+  {
+    "id": "20250916_124202",
+    "text": "my parents are comning tomorrow, I'm worried the sniping bewteen them, mostly my mother, will interrupt my zen, but also I know it's good to see them and socialize more",
+    "timestamp": "2025-09-16T12:42:02.449662",
+    "category": "Life",
+    "confidence": 0.3,
+    "tags": []
+  },
+  {
+    "id": "20250916_124202",
+    "text": "I want to think too about my shop and what I can offer short term and long term, and what are the next steps for getting my substack off the ground in a way that is as automated as possible but still authentically me and my voice and thoughts",
+    "timestamp": "2025-09-16T12:42:02.477134",
+    "category": "Montolieu-Shop",
+    "confidence": 0.3,
+    "tags": []
+  },
+  {
+    "id": "20250916_124258",
+    "text": "mostly worrying about long term viability of my move to France, or even if I should be moving to France",
+    "timestamp": "2025-09-16T12:42:58.476768",
+    "category": "France-Move",
+    "confidence": 0.75,
+    "tags": []
+  },
+  {
+    "id": "20250916_124258",
+    "text": "I know I can't mentally stay in the US with evertyhing going on, but is it France? Should I look closer at Ireland? I want the EU, so not Scotland, unfortunately, though I do love scotland",
+    "timestamp": "2025-09-16T12:42:58.492097",
+    "category": "France-Move",
+    "confidence": 0.25,
+    "tags": []
+  },
+  {
+    "id": "20250916_124336",
+    "text": "in theory I go back to the US on Oct 29/30, then almost immediately start the reapplication process for the french long term business visa, business creator",
+    "timestamp": "2025-09-16T12:43:36.291059",
+    "category": "Business",
+    "confidence": 0.6666666666666666,
+    "tags": []
+  }
+]

@@ -262,6 +262,9 @@
                     <button class="btn btn-success" onclick="approveAllPending()">
                         <i class="fas fa-check-double"></i> Approve All Pending
                     </button>
+                    <button class="btn btn-outline-danger" onclick="clearAllPending()">
+                        <i class="fas fa-trash-alt"></i> Clear All Pending
+                    </button>
                     <button class="btn btn-outline-primary" onclick="exportApprovedPrompts()">
                         <i class="fas fa-download"></i> Export Approved Prompts
                     </button>
@@ -358,7 +361,15 @@ document.getElementById('confirm-action').addEventListener('click', function() {
                 <strong>Success!</strong> ${data.message}
                 <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
             `;
-            document.querySelector('.container-fluid').insertBefore(alertDiv, document.querySelector('.row'));
+
+            // Safe DOM insertion with fallback
+            const container = document.querySelector('.container-fluid');
+            const firstRow = container.querySelector('.row');
+            if (firstRow) {
+                container.insertBefore(alertDiv, firstRow);
+            } else {
+                container.prepend(alertDiv);
+            }
 
             // Reload page after brief delay
             setTimeout(() => location.reload(), 1000);
@@ -406,6 +417,58 @@ function approveAllPending() {
 
 function exportApprovedPrompts() {
     alert('Export functionality will be implemented in the next version.');
+}
+
+function clearAllPending() {
+    // Count pending briefs by looking for cards with pending status badges
+    const pendingCards = document.querySelectorAll('.card-footer button.btn-success');
+    const pendingCount = pendingCards.length;
+
+    if (pendingCount === 0) {
+        showAlert('info', 'No pending briefs to clear');
+        return;
+    }
+
+    if (confirm(`Are you sure you want to clear all ${pendingCount} pending briefs?\n\nThis will permanently delete:\n• All pending brief records from the database\n• Associated files from the DESIGNS directory\n• Brief JSON files and prompts\n\nThis action cannot be undone.`)) {
+        const button = event.target;
+        const originalText = button.innerHTML;
+
+        // Show loading state
+        button.disabled = true;
+        button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Clearing...';
+
+        fetch('/api/clear-pending-briefs', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            button.disabled = false;
+            button.innerHTML = originalText;
+
+            if (data.success) {
+                showAlert('success', data.message);
+
+                // Show detailed results if files were cleared
+                if (data.cleared_files && data.cleared_files.length > 0) {
+                    console.log('Cleared files:', data.cleared_files);
+                }
+
+                // Refresh page to show updated state
+                setTimeout(() => location.reload(), 2000);
+            } else {
+                showAlert('danger', 'Failed to clear pending briefs: ' + data.error);
+            }
+        })
+        .catch(error => {
+            button.disabled = false;
+            button.innerHTML = originalText;
+            showAlert('danger', 'Network error while clearing pending briefs');
+            console.error('Clear error:', error);
+        });
+    }
 }
 </script>
 {% endblock %}

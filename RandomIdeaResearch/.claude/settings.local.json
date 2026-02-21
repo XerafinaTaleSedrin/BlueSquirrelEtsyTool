@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"Get-ChildItem -Path ''C:\\Users\\marik\\MyProjects\\RandomIdeaResearch'' -Recurse -Force | Select-Object FullName, PSIsContainer | Format-Table -AutoSize\")",
+      "Bash(powershell -Command \"Get-ChildItem -Path . | Select-Object Name, @{N=''Type'';E={if($_PSIsContainer){''Folder''}else{''File''}}} | Format-Table\")",
+      "Bash(mkdir:*)",
+      "WebSearch",
+      "WebFetch(domain:www.vendoo.co)",
+      "WebFetch(domain:www.joinflyp.com)",
+      "WebFetch(domain:crosslist.com)",
+      "WebFetch(domain:listperfectly.com)",
+      "WebFetch(domain:help.joinflyp.com)",
+      "WebFetch(domain:apps.apple.com)",
+      "WebFetch(domain:play.google.com)",
+      "WebFetch(domain:libipuz.org)",
+      "Bash(flutter --version:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:www.teacherspayteachers.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

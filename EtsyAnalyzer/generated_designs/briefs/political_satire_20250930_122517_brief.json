@@ -1,0 +1,30 @@
+{
+  "concept_name": "political_satire_20250930_122517",
+  "target_keywords": [],
+  "design_theme": "political_satire",
+  "target_audience": "Political enthusiasts, civic-minded individuals, election workers, policy professionals",
+  "style_preferences": [
+    "editorial cartoon style",
+    "vintage civic poster",
+    "ballot design parody"
+  ],
+  "color_scheme": "Red/white/blue (patriotic), or black and white (editorial)",
+  "text_elements": [
+    "Vote Early, Vote Often (Legally)",
+    "Democracy: Participation Required",
+    "Civic Duty Loading... Please Wait",
+    "Checks and Balances Champion"
+  ],
+  "avoid_elements": [
+    "specific politicians",
+    "partisan messaging",
+    "controversial current events"
+  ],
+  "printful_products": [
+    "t-shirt",
+    "hoodie",
+    "tote-bag",
+    "poster"
+  ],
+  "priority_score": 5.0
+}

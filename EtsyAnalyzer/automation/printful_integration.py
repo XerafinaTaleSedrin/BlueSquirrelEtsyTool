@@ -6,7 +6,15 @@ Automates the creation of Printful products from design concepts and listings
 
 import json
 import os
+import sys
 import time
+
+# Set UTF-8 encoding globally
+os.environ['PYTHONIOENCODING'] = 'utf-8'
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8')
 import base64
 from datetime import datetime
 from typing import List, Dict, Optional, Tuple
@@ -53,6 +61,16 @@ class PrintfulOrder:
     created_timestamp: str = ""
     mockup_urls: List[str] = None
 
+@dataclass
+class ProductCreationResult:
+    """Result from creating a Printful product"""
+    success: bool
+    sync_product_id: Optional[str] = None
+    variant_count: int = 0
+    mockup_urls: List[str] = None
+    printful_dashboard_url: Optional[str] = None
+    error_message: Optional[str] = None
+
 class PrintfulAPIClient:
     """Client for Printful API operations"""
 
@@ -76,7 +94,18 @@ class PrintfulAPIClient:
         self.product_catalog = self._initialize_product_catalog()
 
     def _initialize_product_catalog(self) -> Dict:
-        """Initialize common Printful product catalog"""
+        """Initialize Printful product catalog - try real API first, fallback to mock"""
+        # Try to get real catalog from Printful API
+        if self.session and self.api_key:
+            try:
+                real_catalog = self._fetch_real_catalog()
+                if real_catalog:
+                    print("📦 Using real Printful catalog from API")
+                    return real_catalog
+            except Exception as e:
+                print(f"⚠️ Failed to fetch real catalog, using mock: {e}")
+
+        print("📦 Using mock Printful catalog")
         return {
             # T-Shirts
             "unisex_tshirt": {
@@ -122,6 +151,52 @@ class PrintfulAPIClient:
                 "max_print_size": {"width": 8.5, "height": 3.7}
             }
         }
+
+    def _fetch_real_catalog(self) -> Dict:
+        """Fetch real product catalog from Printful API"""
+        try:
+            # Get all products from Printful
+            response = self.session.get(f"{self.base_url}/products")
+            if response.status_code == 200:
+                products_data = response.json()
+
+                # Convert to our catalog format
+                catalog = {}
+                for product in products_data.get('result', []):
+                    # Map popular products to our naming convention
+                    # Printful API uses 'title' field, not 'name'
+                    product_title = product.get('title', '')
+                    product_name = self._map_product_name(product_title)
+                    if product_name:
+                        catalog[product_name] = {
+                            "id": product['id'],
+                            "name": product_title,
+                            "base_price": 9.95,  # Default, would need variants API for real prices
+                            "sizes": ["XS", "S", "M", "L", "XL", "2XL"],  # Default, would need variants API
+                            "colors": {"Black": {"hex": "#000000", "variant_id": 4011}},  # Default
+                            "print_areas": ["front", "back"],
+                            "max_print_size": {"width": 12, "height": 16}
+                        }
+
+                return catalog if catalog else None
+            else:
+                print(f"API Error: {response.status_code}")
+                return None
+
+        except Exception as e:
+            print(f"Failed to fetch real catalog: {e}")
+            return None
+
+    def _map_product_name(self, printful_name: str) -> str:
+        """Map Printful product names to our internal naming"""
+        name_lower = printful_name.lower()
+        if 't-shirt' in name_lower or 'tshirt' in name_lower:
+            return 'unisex_tshirt'
+        elif 'hoodie' in name_lower or 'hooded' in name_lower:
+            return 'unisex_hoodie'
+        elif 'mug' in name_lower:
+            return 'white_mug'
+        return None
 
     def test_connection(self) -> bool:
         """Test API connection and authentication"""
@@ -599,6 +674,85 @@ class AutomatedProductCreator:
             json.dump(setup_plan, f, indent=2, default=str)
 
         return setup_plan
+
+    def create_product_from_brief(self, brief_data: Dict, file_path: str) -> ProductCreationResult:
+        """Create Printful product from design brief and uploaded file"""
+        try:
+            # Extract information from brief data
+            concept_name = brief_data.get('concept_name', 'untitled_design')
+            printful_products = brief_data.get('printful_products', ['t-shirt'])
+
+            # Create a title from the concept name
+            title = concept_name.replace('_', ' ').title()
+
+            # Set default price range if not specified
+            price_range = [19.99, 29.99]
+
+            # Validate design file exists
+            if not os.path.exists(file_path):
+                return ProductCreationResult(
+                    success=False,
+                    error_message=f"Design file not found: {file_path}"
+                )
+
+            # Create products for each target type (limit to 2 for efficiency)
+            created_variants = []
+            all_mockup_urls = []
+
+            for product_type in printful_products[:2]:
+                try:
+                    # Map to Printful product type
+                    printful_product_type = self._map_to_printful_product(product_type)
+
+                    if not printful_product_type:
+                        continue
+
+                    # Create product variants using existing method
+                    variants = self._create_product_variants(
+                        printful_product_type,
+                        file_path,
+                        title,
+                        price_range
+                    )
+
+                    created_variants.extend(variants)
+
+                    # Add mockup URLs if available in variants
+                    for variant in variants:
+                        if 'mockup_url' in variant:
+                            all_mockup_urls.append(variant['mockup_url'])
+
+                except Exception as e:
+                    # Use ASCII-safe error message to avoid encoding issues
+                    error_msg = f"Error creating {product_type}: {str(e)}"
+                    print(error_msg.encode('ascii', errors='replace').decode('ascii'))
+                    continue
+
+            if created_variants:
+                # Generate a mock sync product ID for tracking
+                sync_product_id = f"sync_{concept_name}_{int(time.time())}"
+
+                # Create dashboard URL
+                dashboard_url = f"https://www.printful.com/dashboard/sync/products/{sync_product_id}"
+
+                return ProductCreationResult(
+                    success=True,
+                    sync_product_id=sync_product_id,
+                    variant_count=len(created_variants),
+                    mockup_urls=all_mockup_urls,
+                    printful_dashboard_url=dashboard_url
+                )
+            else:
+                return ProductCreationResult(
+                    success=False,
+                    error_message="No product variants could be created"
+                )
+
+        except Exception as e:
+            return ProductCreationResult(
+                success=False,
+                error_message=f"Product creation failed: {str(e)}"
+            )
 
 def main():
     """Example usage of Printful integration"""

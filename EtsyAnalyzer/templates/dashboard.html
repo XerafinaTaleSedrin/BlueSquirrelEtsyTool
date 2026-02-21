@@ -142,6 +142,74 @@
     </div>
 </div>
 
+<!-- Printful Catalog Management -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5><i class="fas fa-box"></i> Printful Product Catalog</h5>
+                    <button id="refresh-catalog" class="btn btn-sm btn-outline-primary">
+                        <i class="fas fa-sync-alt"></i> Update Catalog
+                    </button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row" id="catalog-status-container">
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <div id="catalog-status-indicator" class="status-indicator pending mb-2"></div>
+                            <h6 id="catalog-status-text">Loading...</h6>
+                            <small class="text-muted">Catalog Status</small>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <h4 id="active-products-count">-</h4>
+                            <small class="text-muted">Available Products</small>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <h4 id="active-variants-count">-</h4>
+                            <small class="text-muted">Product Variants</small>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <h6 id="last-catalog-update">-</h6>
+                            <small class="text-muted">Last Updated</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-3">
+                    <div class="d-flex gap-2">
+                        <button id="validate-current-products" class="btn btn-sm btn-info">
+                            <i class="fas fa-check-circle"></i> Validate Current Products
+                        </button>
+                        <button id="view-catalog-products" class="btn btn-sm btn-secondary">
+                            <i class="fas fa-list"></i> View Available Products
+                        </button>
+                        <button id="catalog-history" class="btn btn-sm btn-outline-secondary">
+                            <i class="fas fa-history"></i> Update History
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Update Progress -->
+                <div id="catalog-update-progress" class="mt-3" style="display: none;">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                             role="progressbar" style="width: 0%"></div>
+                    </div>
+                    <small class="text-muted mt-1 d-block">Updating product catalog...</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Quick Actions -->
 <div class="row mb-4">
     <div class="col-md-6">
@@ -239,5 +307,185 @@ setInterval(function() {
         })
         .catch(error => console.log('Status refresh failed:', error));
 }, 30000);
+
+// Printful Catalog Management
+document.addEventListener('DOMContentLoaded', function() {
+    loadCatalogStatus();
+
+    // Refresh catalog button
+    document.getElementById('refresh-catalog').addEventListener('click', function() {
+        updateCatalog(false);
+    });
+
+    // Validate current products
+    document.getElementById('validate-current-products').addEventListener('click', function() {
+        validateCurrentProducts();
+    });
+
+    // View catalog products
+    document.getElementById('view-catalog-products').addEventListener('click', function() {
+        showCatalogProducts();
+    });
+});
+
+function loadCatalogStatus() {
+    fetch('/api/printful-catalog-status')
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                updateCatalogStatusDisplay(data.status);
+            } else {
+                showCatalogError(data.error);
+            }
+        })
+        .catch(error => {
+            console.error('Failed to load catalog status:', error);
+            showCatalogError('Failed to load catalog status');
+        });
+}
+
+function updateCatalogStatusDisplay(status) {
+    const indicator = document.getElementById('catalog-status-indicator');
+    const statusText = document.getElementById('catalog-status-text');
+    const productsCount = document.getElementById('active-products-count');
+    const variantsCount = document.getElementById('active-variants-count');
+    const lastUpdate = document.getElementById('last-catalog-update');
+
+    // Update status indicator
+    indicator.className = 'status-indicator mb-2 ' + status.status;
+
+    // Update status text
+    switch(status.status) {
+        case 'current':
+            statusText.textContent = 'Current';
+            statusText.className = 'text-success';
+            break;
+        case 'needs_update':
+            statusText.textContent = 'Needs Update';
+            statusText.className = 'text-warning';
+            break;
+        case 'outdated':
+            statusText.textContent = 'Outdated';
+            statusText.className = 'text-danger';
+            break;
+        default:
+            statusText.textContent = 'Unknown';
+            statusText.className = 'text-muted';
+    }
+
+    // Update counts
+    productsCount.textContent = status.active_products || 0;
+    variantsCount.textContent = status.active_variants || 0;
+
+    // Update last update time
+    if (status.last_update && status.last_update.timestamp) {
+        const updateDate = new Date(status.last_update.timestamp);
+        lastUpdate.textContent = updateDate.toLocaleDateString();
+
+        if (status.days_old !== null) {
+            const daysText = status.days_old === 0 ? 'Today' :
+                           status.days_old === 1 ? '1 day ago' :
+                           status.days_old + ' days ago';
+            lastUpdate.textContent += ' (' + daysText + ')';
+        }
+    } else {
+        lastUpdate.textContent = 'Never';
+    }
+}
+
+function updateCatalog(forceUpdate = false) {
+    const button = document.getElementById('refresh-catalog');
+    const progress = document.getElementById('catalog-update-progress');
+    const progressBar = progress.querySelector('.progress-bar');
+
+    // Show loading state
+    button.disabled = true;
+    button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Updating...';
+    progress.style.display = 'block';
+    progressBar.style.width = '0%';
+
+    // Simulate progress
+    let progressValue = 0;
+    const progressInterval = setInterval(() => {
+        progressValue += Math.random() * 30;
+        if (progressValue > 90) progressValue = 90;
+        progressBar.style.width = progressValue + '%';
+    }, 500);
+
+    fetch('/api/update-printful-catalog', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ force_update: forceUpdate })
+    })
+    .then(response => response.json())
+    .then(data => {
+        clearInterval(progressInterval);
+        progressBar.style.width = '100%';
+
+        setTimeout(() => {
+            progress.style.display = 'none';
+            button.disabled = false;
+            button.innerHTML = '<i class="fas fa-sync-alt"></i> Update Catalog';
+
+            if (data.success) {
+                showAlert('success', data.message);
+                loadCatalogStatus(); // Refresh status
+            } else {
+                showAlert('danger', 'Catalog update failed: ' + data.error);
+            }
+        }, 1000);
+    })
+    .catch(error => {
+        clearInterval(progressInterval);
+        progress.style.display = 'none';
+        button.disabled = false;
+        button.innerHTML = '<i class="fas fa-sync-alt"></i> Update Catalog';
+        showAlert('danger', 'Network error during catalog update');
+    });
+}
+
+function validateCurrentProducts() {
+    // Get current design briefs and validate their products
+    showAlert('info', 'Product validation feature coming soon');
+}
+
+function showCatalogProducts() {
+    // Show modal with available products
+    showAlert('info', 'Product catalog viewer coming soon');
+}
+
+function showCatalogError(error) {
+    document.getElementById('catalog-status-text').textContent = 'Error';
+    document.getElementById('catalog-status-text').className = 'text-danger';
+    showAlert('warning', 'Catalog status error: ' + error);
+}
+
+function showAlert(type, message) {
+    // Create alert element
+    const alertDiv = document.createElement('div');
+    alertDiv.className = `alert alert-${type} alert-dismissible fade show`;
+    alertDiv.innerHTML = `
+        ${message}
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    `;
+
+    // Insert at top of page
+    const container = document.querySelector('.container-fluid');
+    const firstRow = container.querySelector('.row');
+    if (firstRow) {
+        container.insertBefore(alertDiv, firstRow);
+    } else {
+        container.prepend(alertDiv);
+    }
+
+    // Auto dismiss after 5 seconds
+    setTimeout(() => {
+        if (alertDiv.parentNode) {
+            alertDiv.remove();
+        }
+    }, 5000);
+}
 </script>
 {% endblock %}

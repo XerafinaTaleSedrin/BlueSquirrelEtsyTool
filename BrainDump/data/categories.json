@@ -1,0 +1,22 @@
+{
+  "Business": {
+    "color": "green",
+    "description": "Business ideas and strategies"
+  },
+  "Technical": {
+    "color": "blue",
+    "description": "Code projects and technical solutions"
+  },
+  "France-Move": {
+    "color": "purple",
+    "description": "Ideas related to moving to France"
+  },
+  "Life": {
+    "color": "orange",
+    "description": "Personal insights and life improvements"
+  },
+  "Montolieu-Shop": {
+    "color": "red",
+    "description": "Ideas for paper/book/coffee shop in Montolieu"
+  }
+}

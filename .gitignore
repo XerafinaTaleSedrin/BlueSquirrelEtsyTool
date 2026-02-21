@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.code-workspace
+
+# Separate git repos (managed independently)
+basil-brightmoor.github.io/
+vera-wren.github.io/
+marika-social-bot/
+substack-empire/
+travel-agent/
+JobTools/
+Komorebi/
+NarrativeArc/
+PetTravelApp/
+FlutterSDK/
+PuzzleSolverApp/

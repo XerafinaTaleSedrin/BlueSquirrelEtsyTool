@@ -26,9 +26,11 @@ except ImportError:
 try:
     from design_generation_system import DesignWorkflowManager
     from listing_content_generator import ListingWorkflowManager
+    from printful_catalog import PrintfulCatalogManager, validate_printful_products, get_available_products
 except ImportError:
     DesignWorkflowManager = None
     ListingWorkflowManager = None
+    PrintfulCatalogManager = None
 
 @dataclass
 class AutomationTrigger:
@@ -72,7 +74,7 @@ class AutomatedAnalyzerOrchestrator:
         default_config = {
             "automation_enabled": True,
             "max_daily_executions": 10,
-            "output_directory": "automated_outputs",
+            "output_directory": "DESIGNS/automated_outputs",
             "notification_settings": {
                 "email_enabled": False,
                 "email_address": "",
@@ -87,7 +89,7 @@ class AutomatedAnalyzerOrchestrator:
         }
 
         if os.path.exists(self.config_file):
-            with open(self.config_file, 'r') as f:
+            with open(self.config_file, 'r', encoding='utf-8') as f:
                 config = json.load(f)
                 # Merge with defaults
                 for key, value in default_config.items():
@@ -96,7 +98,7 @@ class AutomatedAnalyzerOrchestrator:
                 return config
         else:
             # Create default config
-            with open(self.config_file, 'w') as f:
+            with open(self.config_file, 'w', encoding='utf-8') as f:
                 json.dump(default_config, f, indent=2)
             return default_config
 
@@ -216,7 +218,7 @@ class AutomatedAnalyzerOrchestrator:
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
                 analysis_file = f"automated_analysis_{timestamp}.json"
 
-                with open(analysis_file, 'w') as f:
+                with open(analysis_file, 'w', encoding='utf-8') as f:
                     json.dump(analysis_results, f, indent=2, default=str)
 
                 print(f"SUCCESS Analysis complete: {analysis_file}")
@@ -367,8 +369,9 @@ class AutomatedAnalyzerOrchestrator:
 
         try:
             # Create temporary analysis file for design manager
-            temp_analysis = "temp_analysis_for_design.json"
-            with open(temp_analysis, 'w') as f:
+            temp_analysis = "DESIGNS/temp/temp_analysis_for_design.json"
+            os.makedirs(os.path.dirname(temp_analysis), exist_ok=True)
+            with open(temp_analysis, 'w', encoding='utf-8') as f:
                 json.dump(analysis_results, f, indent=2, default=str)
 
             # Generate design prompts
@@ -401,7 +404,7 @@ class AutomatedAnalyzerOrchestrator:
                 "design_theme": "government_humor" if "government" in category.lower() else "professional",
                 "target_audience": f"{category} professionals",
                 "style_preferences": ["professional", "clean", "humorous"],
-                "printful_products": ["t-shirt", "hoodie", "mug"],
+                "printful_products": self._get_validated_printful_products(category, "apparel"),
                 "priority_score": opportunity.get("opportunity_score", 5.0)
             }
 
@@ -409,8 +412,9 @@ class AutomatedAnalyzerOrchestrator:
             outputs = []
 
             # Save the focused brief
-            brief_file = f"expansion_brief_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-            with open(brief_file, 'w') as f:
+            brief_file = f"DESIGNS/briefs/expansion_brief_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            os.makedirs(os.path.dirname(brief_file), exist_ok=True)
+            with open(brief_file, 'w', encoding='utf-8') as f:
                 json.dump(focused_brief, f, indent=2)
             outputs.append(brief_file)
 
@@ -427,7 +431,7 @@ class AutomatedAnalyzerOrchestrator:
 
         try:
             # Generate optimization recommendations
-            recommendations_file = f"seo_optimization_recommendations_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            recommendations_file = f"DESIGNS/seo_recommendations/seo_optimization_recommendations_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
 
             current_seo = context.get("current_seo_score", 0)
 
@@ -444,7 +448,8 @@ class AutomatedAnalyzerOrchestrator:
                 "immediate_keywords": analysis_results.get("integrated_recommendations", {}).get("seo_keyword_strategy", {}).get("immediate_keywords_to_add", [])
             }
 
-            with open(recommendations_file, 'w') as f:
+            os.makedirs(os.path.dirname(recommendations_file), exist_ok=True)
+            with open(recommendations_file, 'w', encoding='utf-8') as f:
                 json.dump(recommendations, f, indent=2)
 
             return [recommendations_file]
@@ -456,7 +461,7 @@ class AutomatedAnalyzerOrchestrator:
     def _create_seasonal_products(self, analysis_results: Dict, context: Dict) -> List[str]:
         """Create seasonal product variations"""
         # Implementation for seasonal products
-        season_file = f"seasonal_products_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        season_file = f"DESIGNS/seasonal/seasonal_products_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
 
         seasonal_data = {
             "season": "Q4 2025",
@@ -469,7 +474,8 @@ class AutomatedAnalyzerOrchestrator:
             "timing": "Launch 45 days before season peak"
         }
 
-        with open(season_file, 'w') as f:
+        os.makedirs(os.path.dirname(season_file), exist_ok=True)
+        with open(season_file, 'w', encoding='utf-8') as f:
             json.dump(seasonal_data, f, indent=2)
 
         return [season_file]
@@ -478,7 +484,7 @@ class AutomatedAnalyzerOrchestrator:
         """Rapid development for high-opportunity products"""
         opportunity = context.get("opportunity", {})
 
-        rapid_dev_file = f"rapid_development_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        rapid_dev_file = f"DESIGNS/rapid_dev/rapid_development_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
 
         rapid_plan = {
             "opportunity": opportunity,
@@ -491,7 +497,8 @@ class AutomatedAnalyzerOrchestrator:
             "go_to_market_strategy": "Fast launch with A/B testing"
         }
 
-        with open(rapid_dev_file, 'w') as f:
+        os.makedirs(os.path.dirname(rapid_dev_file), exist_ok=True)
+        with open(rapid_dev_file, 'w', encoding='utf-8') as f:
             json.dump(rapid_plan, f, indent=2)
 
         return [rapid_dev_file]
@@ -568,7 +575,7 @@ class AutomatedAnalyzerOrchestrator:
             f"automation_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
         )
 
-        with open(summary_file, 'w') as f:
+        with open(summary_file, 'w', encoding='utf-8') as f:
             json.dump(summary, f, indent=2, default=str)
 
         # Update execution history
@@ -579,6 +586,93 @@ class AutomatedAnalyzerOrchestrator:
             self.execution_history = self.execution_history[-50:]
 
         print(f"FILE Automation results saved: {summary_file}")
+
+    def _get_validated_printful_products(self, theme_or_category: str, product_type: str = "apparel") -> List[str]:
+        """Get validated Printful products based on theme/category and type"""
+        try:
+            if PrintfulCatalogManager is None:
+                # Fallback to safe defaults if catalog manager not available
+                print("Warning: Printful catalog not available, using fallback products")
+                return ["t-shirt", "hoodie"]
+
+            # Get available products from catalog
+            available_products = get_available_products(product_type)
+
+            if not available_products:
+                # If no catalog data, use validated defaults
+                return ["unisex-basic-softstyle-t-shirt", "unisex-heavy-cotton-hoodie"]
+
+            # Map theme/category to appropriate product types
+            product_mapping = {
+                "government": ["t-shirt", "hoodie", "mug", "embroidered-hat"],
+                "cybersecurity": ["t-shirt", "hoodie", "laptop-sleeve", "mug"],
+                "political": ["t-shirt", "hoodie", "tote-bag", "sticker"],
+                "professional": ["polo-shirt", "embroidered-shirt", "mug", "notebook"],
+                "humor": ["t-shirt", "hoodie", "mug", "sticker"],
+                "apparel": ["t-shirt", "hoodie", "sweatshirt"],
+                "accessories": ["mug", "tote-bag", "sticker", "phone-case"],
+                "home": ["mug", "pillow", "poster", "canvas"]
+            }
+
+            # Determine products based on theme/category
+            theme_lower = theme_or_category.lower()
+            suggested_products = []
+
+            for key, products in product_mapping.items():
+                if key in theme_lower:
+                    suggested_products.extend(products)
+                    break
+
+            if not suggested_products:
+                # Default based on product type
+                if product_type == "apparel":
+                    suggested_products = ["t-shirt", "hoodie"]
+                elif product_type == "accessories":
+                    suggested_products = ["mug", "tote-bag"]
+                else:
+                    suggested_products = ["t-shirt", "mug"]
+
+            # Validate against Printful catalog
+            validated_products = []
+            for product in suggested_products:
+                # Check if product exists in catalog (case-insensitive partial match)
+                matches = [p for p in available_products
+                          if product.lower().replace('-', ' ') in p['name'].lower()
+                          or product.lower() in p['type_name'].lower()]
+
+                if matches:
+                    # Use the actual Printful product name
+                    validated_products.append(matches[0]['name'])
+                else:
+                    # Try to find a close alternative
+                    alternatives = [p for p in available_products
+                                  if any(word in p['name'].lower()
+                                        for word in product.lower().split('-'))]
+                    if alternatives:
+                        validated_products.append(alternatives[0]['name'])
+
+            # Ensure we have at least 2 products
+            if len(validated_products) < 2:
+                # Add popular defaults if needed
+                defaults = [p for p in available_products
+                           if any(term in p['name'].lower()
+                                 for term in ['t-shirt', 'shirt', 'tee'])]
+                if defaults and defaults[0]['name'] not in validated_products:
+                    validated_products.append(defaults[0]['name'])
+
+                # Add mug as backup
+                mugs = [p for p in available_products
+                       if 'mug' in p['name'].lower()]
+                if mugs and len(validated_products) < 2:
+                    validated_products.append(mugs[0]['name'])
+
+            # Limit to top 3 products
+            return validated_products[:3] if validated_products else ["t-shirt", "mug"]
+
+        except Exception as e:
+            print(f"Error validating Printful products: {e}")
+            # Safe fallback
+            return ["t-shirt", "hoodie", "mug"]
 
     def get_automation_status(self) -> Dict:
         """Get current automation status and recent history"""

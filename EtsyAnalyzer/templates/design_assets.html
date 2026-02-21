@@ -321,11 +321,120 @@ function uploadFile(input, briefId) {
 }
 
 function setupPrintfulProduct(briefId) {
-    alert(`Printful setup for ${briefId} will be implemented in the next phase.`);
+    const button = event.target;
+    const originalText = button.innerHTML;
+
+    // Show loading state
+    button.disabled = true;
+    button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Setting up...';
+
+    // Call API
+    fetch('/api/setup-printful', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ brief_id: briefId })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            showAlert('success', data.message);
+            // Update button state
+            button.innerHTML = '<i class="fas fa-check"></i> Printful Ready';
+            button.classList.remove('btn-primary');
+            button.classList.add('btn-success');
+
+            // Enable Etsy button if it exists
+            const etsyButton = button.parentElement.querySelector('button[onclick*="createEtsyListing"]');
+            if (etsyButton && etsyButton !== button) {
+                etsyButton.disabled = false;
+            }
+
+            // Refresh page to show updated status
+            setTimeout(() => location.reload(), 2000);
+        } else {
+            showAlert('danger', 'Printful setup failed: ' + data.error);
+            button.disabled = false;
+            button.innerHTML = originalText;
+        }
+    })
+    .catch(error => {
+        showAlert('danger', 'Network error during Printful setup');
+        button.disabled = false;
+        button.innerHTML = originalText;
+    });
 }
 
 function createEtsyListing(briefId) {
-    alert(`Etsy listing creation for ${briefId} will be implemented in the next phase.`);
+    const button = event.target;
+    const originalText = button.innerHTML;
+
+    // Show loading state
+    button.disabled = true;
+    button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Creating...';
+
+    // Call API
+    fetch('/api/create-etsy-listing', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ brief_id: briefId })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            showAlert('success', data.message);
+            // Update button state
+            button.innerHTML = '<i class="fas fa-check"></i> Etsy Ready';
+            button.classList.remove('btn-success');
+            button.classList.add('btn-info');
+
+            // Show listing URL if provided
+            if (data.listing_url) {
+                showAlert('info', `Listing URL: <a href="${data.listing_url}" target="_blank">${data.listing_url}</a>`);
+            }
+
+            // Refresh page to show updated status
+            setTimeout(() => location.reload(), 2000);
+        } else {
+            showAlert('danger', 'Etsy listing creation failed: ' + data.error);
+            button.disabled = false;
+            button.innerHTML = originalText;
+        }
+    })
+    .catch(error => {
+        showAlert('danger', 'Network error during Etsy listing creation');
+        button.disabled = false;
+        button.innerHTML = originalText;
+    });
+}
+
+function showAlert(type, message) {
+    // Create alert element
+    const alertDiv = document.createElement('div');
+    alertDiv.className = `alert alert-${type} alert-dismissible fade show`;
+    alertDiv.innerHTML = `
+        ${message}
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    `;
+
+    // Insert at top of page
+    const container = document.querySelector('.container-fluid');
+    const firstRow = container.querySelector('.row');
+    if (firstRow) {
+        container.insertBefore(alertDiv, firstRow);
+    } else {
+        container.prepend(alertDiv);
+    }
+
+    // Auto dismiss after 5 seconds
+    setTimeout(() => {
+        if (alertDiv.parentNode) {
+            alertDiv.remove();
+        }
+    }, 5000);
 }
 
 // Drag and drop functionality

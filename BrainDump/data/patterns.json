@@ -1,0 +1,58 @@
+[
+  {
+    "type": "frequency",
+    "description": "'the us' mentioned 3 times",
+    "frequency": 3,
+    "phrase": "the us",
+    "significance": "medium",
+    "detected_at": "2025-09-16T12:44:24.313395"
+  },
+  {
+    "type": "frequency",
+    "description": "'long term' mentioned 3 times",
+    "frequency": 3,
+    "phrase": "long term",
+    "significance": "medium",
+    "detected_at": "2025-09-16T12:44:24.313395"
+  },
+  {
+    "type": "cluster",
+    "description": "France Transition: 4 related ideas",
+    "cluster_name": "France Transition",
+    "idea_count": 4,
+    "significance": "medium",
+    "detected_at": "2025-09-16T12:44:24.313395"
+  },
+  {
+    "type": "cluster",
+    "description": "Business Development: 3 related ideas",
+    "cluster_name": "Business Development",
+    "idea_count": 3,
+    "significance": "medium",
+    "detected_at": "2025-09-16T12:44:24.313395"
+  },
+  {
+    "type": "trend",
+    "description": "Increased focus on Life (4 more ideas this week)",
+    "category": "Life",
+    "growth": 4,
+    "significance": "high",
+    "detected_at": "2025-09-16T12:44:24.313395"
+  },
+  {
+    "type": "trend",
+    "description": "Increased focus on France-Move (3 more ideas this week)",
+    "category": "France-Move",
+    "growth": 3,
+    "significance": "high",
+    "detected_at": "2025-09-16T12:44:24.313395"
+  },
+  {
+    "type": "temporal",
+    "description": "Most ideas generated in the afternoon (9 ideas)",
+    "peak_hour": 12,
+    "count": 9,
+    "significance": "medium",
+    "detected_at": "2025-09-16T12:44:24.313395"
+  }
+]

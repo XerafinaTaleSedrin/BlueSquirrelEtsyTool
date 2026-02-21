@@ -1,0 +1,38 @@
+{
+  "concept_name": "government_humor_20250930_120026",
+  "target_keywords": [
+    "government humor",
+    "political satire",
+    "federal employee"
+  ],
+  "design_theme": "government_humor",
+  "target_audience": "Government employees, civil servants, federal workers, contractors",
+  "style_preferences": [
+    "vintage office memo",
+    "retro government poster",
+    "official document parody"
+  ],
+  "color_scheme": "Navy blue and gray (professional), or red/white/blue (patriotic)",
+  "text_elements": [
+    "Form 404: Motivation Not Found",
+    "Classified: Coffee Break Schedule",
+    "Security Clearance Required for Bathroom Key",
+    "Democracy: Some Assembly Required",
+    "Cleared for Government Humor",
+    "Government Humor: Above Your Pay Grade",
+    "Form Government Humor-001: Required",
+    "Political Satire: Your Vote Counts"
+  ],
+  "avoid_elements": [
+    "political party references",
+    "controversial policies",
+    "specific agencies"
+  ],
+  "printful_products": [
+    "t-shirt",
+    "hoodie",
+    "mug",
+    "tote-bag"
+  ],
+  "priority_score": 5.6
+}

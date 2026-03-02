@@ -1,8 +1,8 @@
 # Idea Portfolio - Research Index
 
-**Last Updated**: 2026-01-07
-**Total Ideas**: 2 Active / 1 Archived
-**Status Distribution**: Brainstorm: 0 | Researching: 0 | Feasibility: 1 | Decision: 1 | Go: 1 (conditional) | No-Go: 1 | On Hold: 0
+**Last Updated**: 2026-02-28
+**Total Ideas**: 3 Active / 1 Archived
+**Status Distribution**: Brainstorm: 1 | Researching: 0 | Feasibility: 1 | Decision: 1 | Go: 1 (conditional) | No-Go: 1 | On Hold: 0
 
 ---
 
@@ -44,6 +44,7 @@ The system will automatically:
 |------|--------|-------|--------------|-------|
 | [Educational Logic Puzzles](educational-logic-puzzles/) | [Go - Conditional] | Validation Experiment | 2026-01-07 | Score: 3.6/5 - Curriculum-aligned logic puzzles for educators. Proceed with 60-day TPT validation. Create US History test pack first. |
 | [Logic Puzzle App](../logic-puzzle-app/) | [Feasibility Analysis] | Decision Framework Next | 2026-01-04 | Score: 2.9/5 - Technically viable, high CAC ($3-5), needs validation before full build |
+| [MTG Arena Deck Optimizer](mtg-arena-deck-optimizer/) | [Brainstorm] | Market Research Next | 2026-02-28 | AI-powered collection-aware deck builder using meta win-rate data. Strong personal fit (active player). |
 
 ### Low Priority / Exploratory
 

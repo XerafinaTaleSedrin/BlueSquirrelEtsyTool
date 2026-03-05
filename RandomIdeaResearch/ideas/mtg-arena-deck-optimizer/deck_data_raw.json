@@ -30,7 +30,7 @@
         },
         {
           "cardId": 84719,
-          "quantity": 2
+          "quantity": 1
         },
         {
           "cardId": 97042,
@@ -97,16 +97,20 @@
           "quantity": 2
         },
         {
-          "cardId": 96839,
-          "quantity": 1
-        },
-        {
           "cardId": 95088,
           "quantity": 8
         },
         {
           "cardId": 87578,
           "quantity": 7
+        },
+        {
+          "cardId": 84787,
+          "quantity": 1
+        },
+        {
+          "cardId": 96841,
+          "quantity": 1
         }
       ],
       "sideboard": [
@@ -115,7 +119,12 @@
           "quantity": 1
         }
       ],
-      "companions": [],
+      "companions": [
+        {
+          "cardId": 85582,
+          "quantity": 1
+        }
+      ],
       "total_cards": 80,
       "log_line": 0
     },
@@ -1154,96 +1163,72 @@
       "format": "Historic",
       "main_deck": [
         {
-          "cardId": 70512,
-          "quantity": 1
-        },
-        {
-          "cardId": 32675,
+          "cardId": 94040,
           "quantity": 4
         },
         {
-          "cardId": 79620,
+          "cardId": 67928,
           "quantity": 4
         },
         {
-          "cardId": 76172,
+          "cardId": 92173,
           "quantity": 2
         },
         {
-          "cardId": 79664,
+          "cardId": 93781,
           "quantity": 4
         },
         {
-          "cardId": 70679,
+          "cardId": 86774,
           "quantity": 2
         },
         {
-          "cardId": 70529,
+          "cardId": 73310,
+          "quantity": 3
+        },
+        {
+          "cardId": 93891,
+          "quantity": 1
+        },
+        {
+          "cardId": 87488,
           "quantity": 2
         },
         {
-          "cardId": 85082,
-          "quantity": 1
+          "cardId": 86777,
+          "quantity": 2
         },
         {
-          "cardId": 70709,
-          "quantity": 1
-        },
-        {
-          "cardId": 76129,
+          "cardId": 93673,
           "quantity": 4
         },
         {
-          "cardId": 92065,
-          "quantity": 4
+          "cardId": 75494,
+          "quantity": 2
         },
         {
-          "cardId": 67692,
-          "quantity": 4
+          "cardId": 93784,
+          "quantity": 2
         },
         {
-          "cardId": 75587,
+          "cardId": 83792,
           "quantity": 1
         },
         {
-          "cardId": 86079,
+          "cardId": 69882,
           "quantity": 1
         },
         {
-          "cardId": 76253,
+          "cardId": 93894,
           "quantity": 2
         },
         {
-          "cardId": 98815,
+          "cardId": 71150,
           "quantity": 2
         },
         {
-          "cardId": 70515,
-          "quantity": 2
-        },
-        {
-          "cardId": 78795,
-          "quantity": 1
-        },
-        {
-          "cardId": 79614,
-          "quantity": 2
-        },
-        {
-          "cardId": 95088,
-          "quantity": 7
-        },
-        {
-          "cardId": 87578,
-          "quantity": 6
-        },
-        {
-          "cardId": 98590,
-          "quantity": 2
-        },
-        {
-          "cardId": 73470,
-          "quantity": 1
+          "cardId": 96841,
+          "quantity": 22
         }
       ],
       "sideboard": [],
@@ -10446,7 +10431,7 @@
         },
         {
           "cardId": 98815,
-          "quantity": 2
+          "quantity": 1
         },
         {
           "cardId": 91537,
@@ -10475,6 +10460,84 @@
         {
           "cardId": 72157,
           "quantity": 1
+        },
+        {
+          "cardId": 71807,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 60,
+      "log_line": 0
+    },
+    {
+      "name": "Pauper Black Deck",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 94040,
+          "quantity": 4
+        },
+        {
+          "cardId": 67928,
+          "quantity": 4
+        },
+        {
+          "cardId": 92173,
+          "quantity": 2
+        },
+        {
+          "cardId": 93781,
+          "quantity": 4
+        },
+        {
+          "cardId": 86774,
+          "quantity": 2
+        },
+        {
+          "cardId": 73310,
+          "quantity": 3
+        },
+        {
+          "cardId": 93891,
+          "quantity": 1
+        },
+        {
+          "cardId": 87488,
+          "quantity": 2
+        },
+        {
+          "cardId": 86777,
+          "quantity": 2
+        },
+        {
+          "cardId": 93673,
+          "quantity": 4
+        },
+        {
+          "cardId": 89010,
+          "quantity": 2
+        },
+        {
+          "cardId": 93784,
+          "quantity": 2
+        },
+        {
+          "cardId": 83792,
+          "quantity": 2
+        },
+        {
+          "cardId": 93894,
+          "quantity": 2
+        },
+        {
+          "cardId": 71150,
+          "quantity": 2
+        },
+        {
+          "cardId": 96841,
+          "quantity": 22
         }
       ],
       "sideboard": [],
@@ -10503,6 +10566,7 @@
     67426,
     67450,
     67692,
+    67928,
     68034,
     68128,
     68140,
@@ -10516,6 +10580,7 @@
     69719,
     69788,
     69822,
+    69882,
     69890,
     69933,
     69938,
@@ -10538,7 +10603,6 @@
     70395,
     70396,
     70512,
-    70515,
     70520,
     70521,
     70526,
@@ -10614,6 +10678,7 @@
     71081,
     71082,
     71087,
+    71150,
     71174,
     71278,
     71315,
@@ -10723,6 +10788,7 @@
     75451,
     75460,
     75488,
+    75494,
     75526,
     75529,
     75533,
@@ -10800,7 +10866,6 @@
     78570,
     78629,
     78637,
-    78795,
     78815,
     79011,
     79066,
@@ -11044,6 +11109,8 @@
     86706,
     86725,
     86727,
+    86774,
+    86777,
     86785,
     86788,
     86792,
@@ -11167,6 +11234,7 @@
     88996,
     89006,
     89007,
+    89010,
     89011,
     89019,
     89020,
@@ -11364,6 +11432,7 @@
     92141,
     92162,
     92171,
+    92173,
     92184,
     92227,
     92243,
@@ -11446,6 +11515,7 @@
     93887,
     93891,
     93893,
+    93894,
     93895,
     93896,
     93899,
@@ -11469,6 +11539,7 @@
     94014,
     94016,
     94039,
+    94040,
     94042,
     94051,
     94085,

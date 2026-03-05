@@ -13,7 +13,8 @@
 1 Cleric Class
 1 Sigarda's Aid
 2 Sterling Grove
-2 Worldweave
+1 Worldweave
+1 Light of Promise
 1 Banishing Light
 1 Cathars' Crusade
 2 Commune with Spirits

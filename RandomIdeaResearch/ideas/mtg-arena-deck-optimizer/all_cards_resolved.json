@@ -8077,7 +8077,7 @@
       },
       {
         "id": 98815,
-        "qty": 2,
+        "qty": 1,
         "name": "Worldweave"
       },
       {
@@ -8114,6 +8114,93 @@
         "id": 72157,
         "qty": 1,
         "name": "Cathars' Crusade"
+      },
+      {
+        "id": 71807,
+        "qty": 1,
+        "name": "Light of Promise"
+      }
+    ],
+    "Pauper Black Deck": [
+      {
+        "id": 94040,
+        "qty": 4,
+        "name": "Pulse Tracker"
+      },
+      {
+        "id": 67928,
+        "qty": 4,
+        "name": "Vampire Neonate"
+      },
+      {
+        "id": 92173,
+        "qty": 2,
+        "name": "Fear of Lost Teeth"
+      },
+      {
+        "id": 93781,
+        "qty": 4,
+        "name": "Sanguine Syphoner"
+      },
+      {
+        "id": 86774,
+        "qty": 2,
+        "name": "Barrow Naughty"
+      },
+      {
+        "id": 73310,
+        "qty": 3,
+        "name": "Marauding Blight-Priest"
+      },
+      {
+        "id": 93891,
+        "qty": 1,
+        "name": "Marauding Blight-Priest"
+      },
+      {
+        "id": 87488,
+        "qty": 2,
+        "name": "Acolyte of Aclazotz"
+      },
+      {
+        "id": 86777,
+        "qty": 2,
+        "name": "Conceited Witch"
+      },
+      {
+        "id": 93673,
+        "qty": 4,
+        "name": "Moment of Craving"
+      },
+      {
+        "id": 89010,
+        "qty": 2,
+        "name": "Murder"
+      },
+      {
+        "id": 93784,
+        "qty": 2,
+        "name": "Stab"
+      },
+      {
+        "id": 83792,
+        "qty": 2,
+        "name": "Duress"
+      },
+      {
+        "id": 93894,
+        "qty": 2,
+        "name": "Pilfer"
+      },
+      {
+        "id": 71150,
+        "qty": 2,
+        "name": "Dead Weight"
+      },
+      {
+        "id": 96841,
+        "qty": 22,
+        "name": "Swamp"
       }
     ]
   },
@@ -8130,7 +8217,6 @@
       "max_qty": 4,
       "seen_in_decks": [
         "Selesnya Optimized",
-        "Imported Deck (2)",
         "Absolute Ridiculousness",
         "probably ridiculous (5)",
         "Enchantments (2)",
@@ -8203,7 +8289,6 @@
       "max_qty": 4,
       "seen_in_decks": [
         "Selesnya Optimized",
-        "Imported Deck (2)",
         "+1 token",
         "It’s a squirrel world",
         "Selesnya Enchantress"
@@ -8222,7 +8307,6 @@
       "max_qty": 2,
       "seen_in_decks": [
         "Selesnya Optimized",
-        "Imported Deck (2)",
         "+1 token",
         "It’s a squirrel world",
         "Selesnya Enchantress"
@@ -8273,7 +8357,6 @@
       "max_qty": 4,
       "seen_in_decks": [
         "Selesnya Optimized",
-        "Imported Deck (2)",
         "Absolute Ridiculousness",
         "probably ridiculous (5)",
         "+1 token",
@@ -8294,7 +8377,6 @@
       "max_qty": 2,
       "seen_in_decks": [
         "Selesnya Optimized",
-        "Imported Deck (2)",
         "probably ridiculous (5)",
         "+1 token",
         "It’s a squirrel world",
@@ -8430,7 +8512,6 @@
       "max_qty": 4,
       "seen_in_decks": [
         "Selesnya Optimized",
-        "Imported Deck (2)",
         "probably ridiculous (5)",
         "Enchantments (2)",
         "midweek deck",
@@ -8533,33 +8614,6 @@
       ],
       "source": "deck"
     },
-    "96839": {
-      "name": "Island",
-      "type": "Basic Land",
-      "subtype": "Island",
-      "mana": "",
-      "power": "",
-      "toughness": "",
-      "rarity": "uncommon",
-      "colors": "",
-      "max_qty": 10,
-      "seen_in_decks": [
-        "Selesnya Optimized",
-        "Optimized Conjuration",
-        "Imported Deck (2)",
-        "Rainbow Connection",
-        "Rainbow",
-        "Reading Rainbow",
-        "Ringed bitchy deck",
-        "Enchantments (2)",
-        "Wondrous Wizardry",
-        "Crack the Case",
-        "New Deck (8)",
-        "+1 token",
-        "It’s a squirrel world"
-      ],
-      "source": "deck"
-    },
     "95088": {
       "name": "Forest",
       "type": "Basic Land",
@@ -8573,8 +8627,8 @@
       "seen_in_decks": [
         "Selesnya Optimized",
         "Optimized Conjuration",
-        "Imported Deck (2)",
         "Dragons Redux",
+        "Imported Deck (2)",
         "Rainbow Connection",
         "Rainbow",
         "Reading Rainbow",
@@ -8617,6 +8671,50 @@
         "+1 token",
         "It’s a squirrel world",
         "Selesnya Enchantress"
+      ],
+      "source": "deck"
+    },
+    "84787": {
+      "name": "Mirkwood Bats",
+      "type": "Creature",
+      "subtype": "Bat",
+      "mana": "o3oB",
+      "power": "2",
+      "toughness": "3",
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "Selesnya Optimized",
+        "midweek deck"
+      ],
+      "source": "deck"
+    },
+    "96841": {
+      "name": "Swamp",
+      "type": "Basic Land",
+      "subtype": "Swamp",
+      "mana": "",
+      "power": "",
+      "toughness": "",
+      "rarity": "uncommon",
+      "colors": "",
+      "max_qty": 22,
+      "seen_in_decks": [
+        "Selesnya Optimized",
+        "Imported Deck (2)",
+        "Dragons Redux",
+        "Rainbow",
+        "Reading Rainbow",
+        "Ringed bitchy deck",
+        "Enchantments (2)",
+        "Snack Time",
+        "Vampiric Hunger",
+        "midweek deck",
+        "New Deck (8)",
+        "+1 token",
+        "It’s a squirrel world",
+        "Pauper Black Deck"
       ],
       "source": "deck"
     },
@@ -8709,7 +8807,6 @@
       "max_qty": 4,
       "seen_in_decks": [
         "Optimized Conjuration",
-        "Imported Deck (2)",
         "Enchantments (2)",
         "Selesnya Enchantress"
       ],
@@ -8878,6 +8975,33 @@
         "Optimized Conjuration",
         "probably ridiculous (5)",
         "midweek deck",
+        "+1 token",
+        "It’s a squirrel world"
+      ],
+      "source": "deck"
+    },
+    "96839": {
+      "name": "Island",
+      "type": "Basic Land",
+      "subtype": "Island",
+      "mana": "",
+      "power": "",
+      "toughness": "",
+      "rarity": "uncommon",
+      "colors": "",
+      "max_qty": 10,
+      "seen_in_decks": [
+        "Optimized Conjuration",
+        "Imported Deck (2)",
+        "Rainbow Connection",
+        "Rainbow",
+        "Reading Rainbow",
+        "Selesnya Optimized",
+        "Ringed bitchy deck",
+        "Enchantments (2)",
+        "Wondrous Wizardry",
+        "Crack the Case",
+        "New Deck (8)",
         "+1 token",
         "It’s a squirrel world"
       ],
@@ -12132,231 +12256,265 @@
       ],
       "source": "deck"
     },
-    "70512": {
-      "name": "Alseid of Life's Bounty",
-      "type": "Enchantment Creature",
-      "subtype": "Nymph",
-      "mana": "oW",
-      "power": "1",
-      "toughness": "1",
-      "rarity": "mythic",
-      "colors": "1",
-      "max_qty": 1,
-      "seen_in_decks": [
-        "Imported Deck (2)",
-        "probably ridiculous (5)"
-      ],
-      "source": "deck"
-    },
-    "79620": {
-      "name": "Generous Visitor",
+    "94040": {
+      "name": "Pulse Tracker",
       "type": "Creature",
-      "subtype": "Spirit",
-      "mana": "oG",
+      "subtype": "Vampire Rogue",
+      "mana": "oB",
       "power": "1",
       "toughness": "1",
-      "rarity": "mythic",
-      "colors": "5",
+      "rarity": "rare",
+      "colors": "3",
       "max_qty": 4,
       "seen_in_decks": [
         "Imported Deck (2)",
-        "Selesnya Enchantress"
+        "Pauper Black Deck"
       ],
       "source": "deck"
     },
-    "76172": {
-      "name": "Sythis, Harvest's Hand",
-      "type": "Legendary Enchantment Creature",
-      "subtype": "Nymph",
-      "mana": "oGoW",
-      "power": "1",
-      "toughness": "2",
-      "rarity": "unknown",
-      "colors": "1,5",
-      "max_qty": 2,
-      "seen_in_decks": [
-        "Imported Deck (2)",
-        "Enchantments (2)",
-        "Selesnya Enchantress"
-      ],
-      "source": "deck"
-    },
-    "79664": {
-      "name": "Jukai Naturalist",
-      "type": "Enchantment Creature",
-      "subtype": "Human Monk",
-      "mana": "oGoW",
-      "power": "2",
-      "toughness": "2",
-      "rarity": "mythic",
-      "colors": "1,5",
+    "67928": {
+      "name": "Vampire Neonate",
+      "type": "Creature",
+      "subtype": "Vampire",
+      "mana": "oB",
+      "power": "0",
+      "toughness": "3",
+      "rarity": "rare",
+      "colors": "3",
       "max_qty": 4,
       "seen_in_decks": [
         "Imported Deck (2)",
-        "Enchantments (2)",
-        "Selesnya Enchantress"
+        "Pauper Black Deck"
       ],
       "source": "deck"
     },
-    "70679": {
-      "name": "Destiny Spinner",
+    "92173": {
+      "name": "Fear of Lost Teeth",
       "type": "Enchantment Creature",
-      "subtype": "Human",
-      "mana": "o1oG",
-      "power": "2",
-      "toughness": "3",
-      "rarity": "mythic",
-      "colors": "5",
+      "subtype": "Nightmare",
+      "mana": "oB",
+      "power": "1",
+      "toughness": "1",
+      "rarity": "rare",
+      "colors": "3",
       "max_qty": 2,
       "seen_in_decks": [
         "Imported Deck (2)",
-        "probably ridiculous (5)",
-        "Enchantments (2)",
-        "Selesnya Enchantress"
+        "Pauper Black Deck"
       ],
       "source": "deck"
     },
-    "85082": {
-      "name": "Calix, Guided by Fate",
-      "type": "Legendary Enchantment Creature",
-      "subtype": "Human Druid",
-      "mana": "o1oGoW",
-      "power": "2",
-      "toughness": "2",
-      "rarity": "unknown",
-      "colors": "1,5",
-      "max_qty": 1,
-      "seen_in_decks": [
-        "Imported Deck (2)",
-        "Selesnya Enchantress"
-      ],
-      "source": "deck"
-    },
-    "70709": {
-      "name": "Setessan Champion",
+    "93781": {
+      "name": "Sanguine Syphoner",
       "type": "Creature",
-      "subtype": "Human Warrior",
-      "mana": "o2oG",
+      "subtype": "Vampire Warlock",
+      "mana": "o1oB",
       "power": "1",
       "toughness": "3",
-      "rarity": "unknown",
-      "colors": "5",
-      "max_qty": 1,
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 4,
       "seen_in_decks": [
         "Imported Deck (2)",
-        "Selesnya Enchantress"
+        "Vampiric Hunger",
+        "Pauper Black Deck"
       ],
       "source": "deck"
     },
-    "92065": {
-      "name": "Ethereal Armor",
+    "86774": {
+      "name": "Barrow Naughty",
+      "type": "Creature",
+      "subtype": "Faerie",
+      "mana": "o1oB",
+      "power": "1",
+      "toughness": "3",
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "Imported Deck (2)",
+        "Pauper Black Deck"
+      ],
+      "source": "deck"
+    },
+    "73310": {
+      "name": "Marauding Blight-Priest",
+      "type": "Creature",
+      "subtype": "Vampire Cleric",
+      "mana": "o2oB",
+      "power": "3",
+      "toughness": "2",
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 3,
+      "seen_in_decks": [
+        "Imported Deck (2)",
+        "Ringed bitchy deck",
+        "Pauper Black Deck"
+      ],
+      "source": "deck"
+    },
+    "93891": {
+      "name": "Marauding Blight-Priest",
+      "type": "Creature",
+      "subtype": "Vampire Cleric",
+      "mana": "o2oB",
+      "power": "3",
+      "toughness": "2",
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 4,
+      "seen_in_decks": [
+        "Imported Deck (2)",
+        "Vampiric Hunger",
+        "midweek deck",
+        "Pauper Black Deck"
+      ],
+      "source": "deck"
+    },
+    "87488": {
+      "name": "Acolyte of Aclazotz",
+      "type": "Creature",
+      "subtype": "Vampire Cleric",
+      "mana": "o2oB",
+      "power": "1",
+      "toughness": "4",
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "Imported Deck (2)",
+        "Vampiric Hunger",
+        "Pauper Black Deck"
+      ],
+      "source": "deck"
+    },
+    "86777": {
+      "name": "Conceited Witch",
+      "type": "Creature",
+      "subtype": "Human Warlock",
+      "mana": "o2oB",
+      "power": "2",
+      "toughness": "3",
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "Imported Deck (2)",
+        "Pauper Black Deck"
+      ],
+      "source": "deck"
+    },
+    "93673": {
+      "name": "Moment of Craving",
+      "type": "Instant",
+      "subtype": "",
+      "mana": "o1oB",
+      "power": "",
+      "toughness": "",
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 4,
+      "seen_in_decks": [
+        "Imported Deck (2)",
+        "Vampiric Hunger",
+        "Pauper Black Deck"
+      ],
+      "source": "deck"
+    },
+    "75494": {
+      "name": "Murder",
+      "type": "Instant",
+      "subtype": "",
+      "mana": "o1oBoB",
+      "power": "",
+      "toughness": "",
+      "rarity": "mythic",
+      "colors": "3",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "Imported Deck (2)"
+      ],
+      "source": "deck"
+    },
+    "93784": {
+      "name": "Stab",
+      "type": "Instant",
+      "subtype": "",
+      "mana": "oB",
+      "power": "",
+      "toughness": "",
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "Imported Deck (2)",
+        "Undead Resurgence",
+        "Pauper Black Deck"
+      ],
+      "source": "deck"
+    },
+    "83792": {
+      "name": "Duress",
+      "type": "Sorcery",
+      "subtype": "",
+      "mana": "oB",
+      "power": "",
+      "toughness": "",
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 4,
+      "seen_in_decks": [
+        "Imported Deck (2)",
+        "Ringed bitchy deck",
+        "Pauper Black Deck"
+      ],
+      "source": "deck"
+    },
+    "69882": {
+      "name": "Duress",
+      "type": "Sorcery",
+      "subtype": "",
+      "mana": "oB",
+      "power": "",
+      "toughness": "",
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 1,
+      "seen_in_decks": [
+        "Imported Deck (2)"
+      ],
+      "source": "deck"
+    },
+    "93894": {
+      "name": "Pilfer",
+      "type": "Sorcery",
+      "subtype": "",
+      "mana": "o1oB",
+      "power": "",
+      "toughness": "",
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "Imported Deck (2)",
+        "Pauper Black Deck"
+      ],
+      "source": "deck"
+    },
+    "71150": {
+      "name": "Dead Weight",
       "type": "Enchantment",
       "subtype": "Aura",
-      "mana": "oW",
+      "mana": "oB",
       "power": "",
       "toughness": "",
-      "rarity": "mythic",
-      "colors": "1",
-      "max_qty": 4,
-      "seen_in_decks": [
-        "Imported Deck (2)",
-        "Enchantments (2)",
-        "midweek deck",
-        "Selesnya Enchantress"
-      ],
-      "source": "deck"
-    },
-    "86079": {
-      "name": "Sigarda's Aid",
-      "type": "Enchantment",
-      "subtype": "",
-      "mana": "oW",
-      "power": "",
-      "toughness": "",
-      "rarity": "unknown",
-      "colors": "1",
-      "max_qty": 1,
-      "seen_in_decks": [
-        "Imported Deck (2)",
-        "Selesnya Enchantress"
-      ],
-      "source": "deck"
-    },
-    "76253": {
-      "name": "Sterling Grove",
-      "type": "Enchantment",
-      "subtype": "",
-      "mana": "oGoW",
-      "power": "",
-      "toughness": "",
-      "rarity": "unknown",
-      "colors": "1,5",
+      "rarity": "rare",
+      "colors": "3",
       "max_qty": 2,
       "seen_in_decks": [
         "Imported Deck (2)",
-        "Selesnya Enchantress"
-      ],
-      "source": "deck"
-    },
-    "70515": {
-      "name": "Banishing Light",
-      "type": "Enchantment",
-      "subtype": "",
-      "mana": "o2oW",
-      "power": "",
-      "toughness": "",
-      "rarity": "mythic",
-      "colors": "1",
-      "max_qty": 2,
-      "seen_in_decks": [
-        "Imported Deck (2)"
-      ],
-      "source": "deck"
-    },
-    "78795": {
-      "name": "Hallowed Haunting",
-      "type": "Enchantment",
-      "subtype": "",
-      "mana": "o2oWoW",
-      "power": "",
-      "toughness": "",
-      "rarity": "unknown",
-      "colors": "1",
-      "max_qty": 1,
-      "seen_in_decks": [
-        "Imported Deck (2)"
-      ],
-      "source": "deck"
-    },
-    "98590": {
-      "name": "Temple Garden",
-      "type": "Land",
-      "subtype": "Forest Plains",
-      "mana": "",
-      "power": "",
-      "toughness": "",
-      "rarity": "unknown",
-      "colors": "",
-      "max_qty": 2,
-      "seen_in_decks": [
-        "Imported Deck (2)",
-        "Selesnya Enchantress"
-      ],
-      "source": "deck"
-    },
-    "73470": {
-      "name": "Branchloft Pathway",
-      "type": "Land",
-      "subtype": "",
-      "mana": "",
-      "power": "",
-      "toughness": "",
-      "rarity": "unknown",
-      "colors": "",
-      "max_qty": 1,
-      "seen_in_decks": [
-        "Imported Deck (2)",
-        "Selesnya Enchantress"
+        "Pauper Black Deck"
       ],
       "source": "deck"
     },
@@ -12426,32 +12584,6 @@
         "Ringed bitchy deck",
         "Enchantments (2)",
         "Wondrous Wizardry",
-        "New Deck (8)",
-        "+1 token",
-        "It’s a squirrel world"
-      ],
-      "source": "deck"
-    },
-    "96841": {
-      "name": "Swamp",
-      "type": "Basic Land",
-      "subtype": "Swamp",
-      "mana": "",
-      "power": "",
-      "toughness": "",
-      "rarity": "uncommon",
-      "colors": "",
-      "max_qty": 16,
-      "seen_in_decks": [
-        "Dragons Redux",
-        "Imported Deck (2)",
-        "Rainbow",
-        "Reading Rainbow",
-        "Ringed bitchy deck",
-        "Enchantments (2)",
-        "Snack Time",
-        "Vampiric Hunger",
-        "midweek deck",
         "New Deck (8)",
         "+1 token",
         "It’s a squirrel world"
@@ -15227,21 +15359,6 @@
       ],
       "source": "deck"
     },
-    "73310": {
-      "name": "Marauding Blight-Priest",
-      "type": "Creature",
-      "subtype": "Vampire Cleric",
-      "mana": "o2oB",
-      "power": "3",
-      "toughness": "2",
-      "rarity": "rare",
-      "colors": "3",
-      "max_qty": 3,
-      "seen_in_decks": [
-        "Ringed bitchy deck"
-      ],
-      "source": "deck"
-    },
     "61307": {
       "name": "Tainted Remedy",
       "type": "Enchantment",
@@ -15804,21 +15921,6 @@
       "rarity": "unknown",
       "colors": "3",
       "max_qty": 1,
-      "seen_in_decks": [
-        "Ringed bitchy deck"
-      ],
-      "source": "deck"
-    },
-    "83792": {
-      "name": "Duress",
-      "type": "Sorcery",
-      "subtype": "",
-      "mana": "oB",
-      "power": "",
-      "toughness": "",
-      "rarity": "rare",
-      "colors": "3",
-      "max_qty": 4,
       "seen_in_decks": [
         "Ringed bitchy deck"
       ],
@@ -17024,6 +17126,23 @@
       ],
       "source": "deck"
     },
+    "70679": {
+      "name": "Destiny Spinner",
+      "type": "Enchantment Creature",
+      "subtype": "Human",
+      "mana": "o1oG",
+      "power": "2",
+      "toughness": "3",
+      "rarity": "mythic",
+      "colors": "5",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "probably ridiculous (5)",
+        "Enchantments (2)",
+        "Selesnya Enchantress"
+      ],
+      "source": "deck"
+    },
     "68034": {
       "name": "Druid of the Cowl",
       "type": "Creature",
@@ -17699,6 +17818,21 @@
       ],
       "source": "deck"
     },
+    "70512": {
+      "name": "Alseid of Life's Bounty",
+      "type": "Enchantment Creature",
+      "subtype": "Nymph",
+      "mana": "oW",
+      "power": "1",
+      "toughness": "1",
+      "rarity": "mythic",
+      "colors": "1",
+      "max_qty": 1,
+      "seen_in_decks": [
+        "probably ridiculous (5)"
+      ],
+      "source": "deck"
+    },
     "85062": {
       "name": "Tazri, Stalwart Survivor",
       "type": "Legendary Creature",
@@ -17760,6 +17894,38 @@
       "max_qty": 1,
       "seen_in_decks": [
         "probably ridiculous (5)"
+      ],
+      "source": "deck"
+    },
+    "76172": {
+      "name": "Sythis, Harvest's Hand",
+      "type": "Legendary Enchantment Creature",
+      "subtype": "Nymph",
+      "mana": "oGoW",
+      "power": "1",
+      "toughness": "2",
+      "rarity": "unknown",
+      "colors": "1,5",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "Enchantments (2)",
+        "Selesnya Enchantress"
+      ],
+      "source": "deck"
+    },
+    "79664": {
+      "name": "Jukai Naturalist",
+      "type": "Enchantment Creature",
+      "subtype": "Human Monk",
+      "mana": "oGoW",
+      "power": "2",
+      "toughness": "2",
+      "rarity": "mythic",
+      "colors": "1,5",
+      "max_qty": 4,
+      "seen_in_decks": [
+        "Enchantments (2)",
+        "Selesnya Enchantress"
       ],
       "source": "deck"
     },
@@ -18491,6 +18657,23 @@
       "max_qty": 1,
       "seen_in_decks": [
         "Enchantments (2)"
+      ],
+      "source": "deck"
+    },
+    "92065": {
+      "name": "Ethereal Armor",
+      "type": "Enchantment",
+      "subtype": "Aura",
+      "mana": "oW",
+      "power": "",
+      "toughness": "",
+      "rarity": "mythic",
+      "colors": "1",
+      "max_qty": 4,
+      "seen_in_decks": [
+        "Enchantments (2)",
+        "midweek deck",
+        "Selesnya Enchantress"
       ],
       "source": "deck"
     },
@@ -19792,36 +19975,6 @@
       ],
       "source": "deck"
     },
-    "93673": {
-      "name": "Moment of Craving",
-      "type": "Instant",
-      "subtype": "",
-      "mana": "o1oB",
-      "power": "",
-      "toughness": "",
-      "rarity": "rare",
-      "colors": "3",
-      "max_qty": 2,
-      "seen_in_decks": [
-        "Vampiric Hunger"
-      ],
-      "source": "deck"
-    },
-    "93781": {
-      "name": "Sanguine Syphoner",
-      "type": "Creature",
-      "subtype": "Vampire Warlock",
-      "mana": "o1oB",
-      "power": "1",
-      "toughness": "3",
-      "rarity": "rare",
-      "colors": "3",
-      "max_qty": 4,
-      "seen_in_decks": [
-        "Vampiric Hunger"
-      ],
-      "source": "deck"
-    },
     "93789": {
       "name": "Vengeful Bloodwitch",
       "type": "Creature",
@@ -20140,21 +20293,6 @@
       ],
       "source": "deck"
     },
-    "87488": {
-      "name": "Acolyte of Aclazotz",
-      "type": "Creature",
-      "subtype": "Vampire Cleric",
-      "mana": "o2oB",
-      "power": "1",
-      "toughness": "4",
-      "rarity": "rare",
-      "colors": "3",
-      "max_qty": 2,
-      "seen_in_decks": [
-        "Vampiric Hunger"
-      ],
-      "source": "deck"
-    },
     "93679": {
       "name": "Vampire Interloper",
       "type": "Creature",
@@ -20198,22 +20336,6 @@
       "max_qty": 3,
       "seen_in_decks": [
         "Vampiric Hunger"
-      ],
-      "source": "deck"
-    },
-    "93891": {
-      "name": "Marauding Blight-Priest",
-      "type": "Creature",
-      "subtype": "Vampire Cleric",
-      "mana": "o2oB",
-      "power": "3",
-      "toughness": "2",
-      "rarity": "rare",
-      "colors": "3",
-      "max_qty": 4,
-      "seen_in_decks": [
-        "Vampiric Hunger",
-        "midweek deck"
       ],
       "source": "deck"
     },
@@ -20692,21 +20814,6 @@
       "toughness": "",
       "rarity": "rare",
       "colors": "1",
-      "max_qty": 2,
-      "seen_in_decks": [
-        "midweek deck"
-      ],
-      "source": "deck"
-    },
-    "84787": {
-      "name": "Mirkwood Bats",
-      "type": "Creature",
-      "subtype": "Bat",
-      "mana": "o3oB",
-      "power": "2",
-      "toughness": "3",
-      "rarity": "rare",
-      "colors": "3",
       "max_qty": 2,
       "seen_in_decks": [
         "midweek deck"
@@ -21274,21 +21381,6 @@
     "93885": {
       "name": "Eaten Alive",
       "type": "Sorcery",
-      "subtype": "",
-      "mana": "oB",
-      "power": "",
-      "toughness": "",
-      "rarity": "rare",
-      "colors": "3",
-      "max_qty": 2,
-      "seen_in_decks": [
-        "Undead Resurgence"
-      ],
-      "source": "deck"
-    },
-    "93784": {
-      "name": "Stab",
-      "type": "Instant",
       "subtype": "",
       "mana": "oB",
       "power": "",
@@ -24696,7 +24788,8 @@
       "max_qty": 4,
       "seen_in_decks": [
         "+1 token",
-        "It’s a squirrel world"
+        "It’s a squirrel world",
+        "Selesnya Enchantress"
       ],
       "source": "deck"
     },
@@ -25682,6 +25775,156 @@
       ],
       "source": "deck"
     },
+    "79620": {
+      "name": "Generous Visitor",
+      "type": "Creature",
+      "subtype": "Spirit",
+      "mana": "oG",
+      "power": "1",
+      "toughness": "1",
+      "rarity": "mythic",
+      "colors": "5",
+      "max_qty": 4,
+      "seen_in_decks": [
+        "Selesnya Enchantress"
+      ],
+      "source": "deck"
+    },
+    "85082": {
+      "name": "Calix, Guided by Fate",
+      "type": "Legendary Enchantment Creature",
+      "subtype": "Human Druid",
+      "mana": "o1oGoW",
+      "power": "2",
+      "toughness": "2",
+      "rarity": "unknown",
+      "colors": "1,5",
+      "max_qty": 1,
+      "seen_in_decks": [
+        "Selesnya Enchantress"
+      ],
+      "source": "deck"
+    },
+    "70709": {
+      "name": "Setessan Champion",
+      "type": "Creature",
+      "subtype": "Human Warrior",
+      "mana": "o2oG",
+      "power": "1",
+      "toughness": "3",
+      "rarity": "unknown",
+      "colors": "5",
+      "max_qty": 1,
+      "seen_in_decks": [
+        "Selesnya Enchantress"
+      ],
+      "source": "deck"
+    },
+    "86079": {
+      "name": "Sigarda's Aid",
+      "type": "Enchantment",
+      "subtype": "",
+      "mana": "oW",
+      "power": "",
+      "toughness": "",
+      "rarity": "unknown",
+      "colors": "1",
+      "max_qty": 1,
+      "seen_in_decks": [
+        "Selesnya Enchantress"
+      ],
+      "source": "deck"
+    },
+    "76253": {
+      "name": "Sterling Grove",
+      "type": "Enchantment",
+      "subtype": "",
+      "mana": "oGoW",
+      "power": "",
+      "toughness": "",
+      "rarity": "unknown",
+      "colors": "1,5",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "Selesnya Enchantress"
+      ],
+      "source": "deck"
+    },
+    "98590": {
+      "name": "Temple Garden",
+      "type": "Land",
+      "subtype": "Forest Plains",
+      "mana": "",
+      "power": "",
+      "toughness": "",
+      "rarity": "unknown",
+      "colors": "",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "Selesnya Enchantress"
+      ],
+      "source": "deck"
+    },
+    "73470": {
+      "name": "Branchloft Pathway",
+      "type": "Land",
+      "subtype": "",
+      "mana": "",
+      "power": "",
+      "toughness": "",
+      "rarity": "unknown",
+      "colors": "",
+      "max_qty": 1,
+      "seen_in_decks": [
+        "Selesnya Enchantress"
+      ],
+      "source": "deck"
+    },
+    "89010": {
+      "name": "Murder",
+      "type": "Instant",
+      "subtype": "",
+      "mana": "o1oBoB",
+      "power": "",
+      "toughness": "",
+      "rarity": "rare",
+      "colors": "3",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "Pauper Black Deck"
+      ],
+      "source": "deck"
+    },
+    "70515": {
+      "name": "Banishing Light",
+      "type": "Enchantment",
+      "subtype": "",
+      "mana": "o2oW",
+      "power": "",
+      "toughness": "",
+      "rarity": "mythic",
+      "colors": "1",
+      "max_qty": 2,
+      "seen_in_decks": [
+        "Imported Deck (2)"
+      ],
+      "source": "deck"
+    },
+    "78795": {
+      "name": "Hallowed Haunting",
+      "type": "Enchantment",
+      "subtype": "",
+      "mana": "o2oWoW",
+      "power": "",
+      "toughness": "",
+      "rarity": "unknown",
+      "colors": "1",
+      "max_qty": 1,
+      "seen_in_decks": [
+        "Imported Deck (2)"
+      ],
+      "source": "deck"
+    },
     "70722": {
       "name": "Calix, Destiny's Hand",
       "type": "Legendary Planeswalker",
@@ -26194,8 +26437,8 @@
     }
   },
   "stats": {
-    "total_unique_cards": 1168,
-    "total_decks": 28,
+    "total_unique_cards": 1178,
+    "total_decks": 29,
     "deck_names": [
       "Selesnya Optimized",
       "Optimized Conjuration",
@@ -26224,7 +26467,8 @@
       "New Deck (8)",
       "+1 token",
       "It’s a squirrel world",
-      "Selesnya Enchantress"
+      "Selesnya Enchantress",
+      "Pauper Black Deck"
     ],
     "has_full_collection": false
   }

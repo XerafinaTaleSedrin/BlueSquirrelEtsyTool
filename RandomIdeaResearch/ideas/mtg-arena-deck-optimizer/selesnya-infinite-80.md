@@ -69,7 +69,8 @@ With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
 | 2x | Prosperous Innkeeper | 1G | Treasure on ETB (ramp!), gain 1 life on creature ETB (backup Soul Warden) |
 | 4x | Scurry Oak | 2G | COMBO PIECE. Makes a 1/1 Squirrel whenever it gets a +1/+1 counter. Goes infinite with Soul Warden + Heliod |
 | 2x | Heliod, Sun-Crowned | 2W | COMBO PIECE. Puts +1/+1 counter on a creature whenever you gain life. Completes the infinite loop |
-| 2x | Rosie Cotton of South Lane | 2W | Whenever you create a token, put a +1/+1 counter on another creature. More counters = more Scurry Oak triggers |
+| 1x | Rosie Cotton of South Lane | 2W | Whenever you create a token, put a +1/+1 counter on another creature. More counters = more Scurry Oak triggers |
+| 1x | Mirkwood Bats | 3B | 2/3. Whenever you create a token, each opponent loses 1 life. Infinite tokens = opponent instantly dies. No combat step needed. Pay B with Swamp |
 | 4x | Thunderbond Vanguard | 2W | THE FINISHER. All your tokens enter as copies of this. Power/toughness = number of creatures you control. 50 tokens = 50 copies of a 50/50 |
 
 ### Enchantments (14)
@@ -111,7 +112,7 @@ With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
 | 4x | Fabled Passage | Fetches any basic. Triggers landfall for Felidar Retreat |
 | 4x | Blossoming Sands | G/W dual. Gains 1 life on ETB — triggers lifegain cards! |
 | 2x | Temple of Plenty | G/W dual. Scry 1 helps find combo pieces |
-| 1x | Island | For Yorion's blue cost (Yorion is 3{W/U}{W/U} so just W works too, but Island is insurance) |
+| 1x | Swamp | For Mirkwood Bats' black cost. Yorion doesn't need blue — hybrid {W/U} means WW works fine |
 | 8x | Forest | |
 | 7x | Plains | |
 
@@ -199,7 +200,8 @@ With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
 2 Prosperous Innkeeper
 4 Scurry Oak
 2 Heliod, Sun-Crowned
-2 Rosie Cotton of South Lane
+1 Rosie Cotton of South Lane
+1 Mirkwood Bats
 4 Thunderbond Vanguard
 4 Ajani's Welcome
 2 Authority of the Consuls
@@ -216,7 +218,7 @@ With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
 4 Fabled Passage
 4 Blossoming Sands
 2 Temple of Plenty
-1 Island
+1 Swamp
 8 Forest
 7 Plains
 
@@ -233,7 +235,8 @@ Sideboard
 - **Removed Divine Visitation** — Thunderbond is better. 4/4 flying angels < X/X where X = 250
 - **Removed A-Iridescent Hornbeetle** — Thunderbond already turns tokens into real threats. Hornbeetle was redundant
 - **Removed Shalai** — Needed the slots. Path to Exile handles problem creatures
-- **Added 1x Island** — For Yorion's blue casting cost (though W/U hybrid means Plains work too)
+- **Added 1x Swamp** — For Mirkwood Bats (Yorion doesn't need blue, hybrid W/U means Plains work)
+- **Added 1x Mirkwood Bats** — Whenever you create a token, opponent loses 1 life. Infinite tokens = instant kill without attacking
 - **Trimmed to exactly 80** — Clean Yorion companion build
 
 ## Upgrade Path

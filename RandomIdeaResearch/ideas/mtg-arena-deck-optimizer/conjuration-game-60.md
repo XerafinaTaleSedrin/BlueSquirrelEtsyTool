@@ -10,7 +10,7 @@
 
 The old build had a clue/artifact subtheme (Novice Inspector, Forensic Gadgeteer, Thoughtcast) that was too slow and fragile for Diamond. This version replaces that with:
 - **Interaction**: Supreme Verdict, Teferi, Dovin's Veto, Mystical Dispute — you survive aggro and protect your combo
-- **Better draw**: Preordain (scry 2 + draw for 1 mana), Growth Spiral (ramp + draw)
+- **Better draw**: Opt (instant speed scry + draw for 1 mana), Growth Spiral (ramp + draw)
 - **Deterministic win**: Enter the Infinite + Omniscience = draw entire deck, not "hope for good conjures"
 - **Engine protection**: Sterling Grove gives Worldweave/Omniscience shroud, or sac to tutor either one
 - **Mana doubling**: Wilderness Reclamation untaps lands on end step — cast interaction on their turn, develop on yours
@@ -30,10 +30,10 @@ The old build had a clue/artifact subtheme (Novice Inspector, Forensic Gadgeteer
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
-| 4x | Worldweave | 2G | THE ENGINE. Every card you draw conjures a random card that shares a type. Preordain = 3 conjures for 1 mana |
+| 4x | Worldweave | 2G | THE ENGINE. Every card you draw conjures a random card that shares a type. Opt = 3 conjures for 1 mana |
 | 2x | Omniscience | 7UUU | Cast everything free. With Worldweave + Enter the Infinite = deterministic combo kill |
 | 1x | One with the Multiverse | 6UU | Play cards off the top free. Backup Omniscience, 2 mana cheaper |
-| 1x | Wilderness Reclamation | 3G | Untaps ALL your lands on end step. Double your mana every turn. Cast Deduce/Preordain on their turn, still have mana on yours |
+| 1x | Wilderness Reclamation | 3G | Untaps ALL your lands on end step. Double your mana every turn. Cast Deduce/Opt on their turn, still have mana on yours |
 | 1x | Sterling Grove | GW | All your enchantments have shroud — Worldweave, Omniscience, Wilderness Rec can't be targeted. Sac to tutor any enchantment (find Omniscience or Worldweave on demand) |
 | 1x | Shark Typhoon | 5U | Cycle for XU: draw a card (Worldweave trigger) + create X/X flying shark. Or hardcast as enchantment for free off Omniscience |
 
@@ -55,7 +55,7 @@ The old build had a clue/artifact subtheme (Novice Inspector, Forensic Gadgeteer
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
-| 1x | Preordain | U | Scry 2, then draw 1. Filter your top cards to find combo pieces, and the draw triggers Worldweave. Best legal cantrip at 1 mana |
+| 1x | Opt | U | Instant. Scry 1, then draw 1. Cheap cantrip that triggers Worldweave, and being instant speed lets you hold up mana for counters |
 | 1x | Growth Spiral | GU | Instant speed ramp + draw. Triggers Worldweave AND gets you closer to Omniscience |
 | 3x | Deduce | 1U | Draw + make a Clue. Triggers Worldweave on draw, clue is another future draw |
 | 1x | Dovin's Veto | WU | Uncounterable counter for noncreature spells. Protects Omniscience from removal/counters |
@@ -67,7 +67,7 @@ The old build had a clue/artifact subtheme (Novice Inspector, Forensic Gadgeteer
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
 | 2x | They Went This Way | 2G | Make 2 Clue tokens = 2 future Worldweave triggers. With Wilderness Rec, crack them on opponent's end step |
-| 1x | Solve the Equation | 2U | Tutor ANY instant or sorcery. Find Enter the Infinite (combo), Supreme Verdict (survival), or Preordain (draw) |
+| 1x | Solve the Equation | 2U | Tutor ANY instant or sorcery. Find Enter the Infinite (combo), Supreme Verdict (survival), or Opt (draw) |
 | 1x | Ornate Imitations | XGU | Conjure X random cards. With Omniscience, X = all your mana = absurd |
 | 1x | Enter the Infinite | 8UUUU | With Omniscience: draw your ENTIRE deck. Every draw triggers Worldweave. Cast everything for free. Aetherflux kills. Game over |
 
@@ -88,10 +88,10 @@ The old build had a clue/artifact subtheme (Novice Inspector, Forensic Gadgeteer
 ## Mana Curve
 
 ```
-1 CMC: ███ 3           (Preordain, Dovin's Veto... effective 1-mana plays)
+1 CMC: ███ 3           (Opt, Dovin's Veto... effective 1-mana plays)
 2 CMC: █████████ 9     (Fear of Change x4, Deduce x3, Growth Spiral, Clay Bricks counted at 2)
         Actually:
-1 CMC: ██ 2            (Preordain x1, Clay-Fired Bricks... Bricks are 1W = 2 CMC)
+1 CMC: ██ 2            (Opt x1, Clay-Fired Bricks... Bricks are 1W = 2 CMC)
 2 CMC: ████████████ 12 (Fear of Change x4, Deduce x3, Clay Bricks x4, Dovin's Veto x1)
 3 CMC: ████████████ 12 (Worldweave x4, They Went This Way x2, Teferi x1, Narset x1,
                          Mystical Dispute x1, Solve the Equation x1, Sterling Grove x1,
@@ -115,12 +115,12 @@ The old build had a clue/artifact subtheme (Novice Inspector, Forensic Gadgeteer
 ## How It Plays
 
 ### Early Game (Turns 1-3)
-- **Turn 1**: Land, pass. Or Preordain on their end step if Worldweave isn't out yet (still finds pieces)
+- **Turn 1**: Land, pass. Or Opt on their end step if Worldweave isn't out yet (still finds pieces)
 - **Turn 2**: Fear of Change (conjure a creature) or Clay-Fired Bricks (ramp) or Sterling Grove (protect everything you play after)
 - **Turn 3**: Worldweave — NOW every card draw conjures something. Or Teferi to bounce their best threat + draw
 
 ### Mid Game (Turns 4-6)
-- **Wilderness Reclamation** doubles your mana — cast Deduce/Preordain on their end step, still have full mana on your turn
+- **Wilderness Reclamation** doubles your mana — cast Deduce/Opt on their end step, still have full mana on your turn
 - **Narset** digs 4 deep for Omniscience or Enter the Infinite, while shutting down their card draw
 - **Supreme Verdict** if aggro is swarming — uncounterable, your enchantments survive
 - **Alaundo** starts suspending expensive cards for future free casts
@@ -161,7 +161,7 @@ This build has powerful 1-ofs connected by tutors:
 | Enter the Infinite (win) | Solve the Equation (tutor instant/sorcery) |
 | Supreme Verdict (survival) | Solve the Equation |
 | Worldweave (engine) | Sterling Grove (sac to tutor), Narset (dig 4) |
-| Any answer | Preordain (dig 3), Deduce (draw + clue), Narset (dig 4) |
+| Any answer | Opt (dig 3), Deduce (draw + clue), Narset (dig 4) |
 
 ---
 
@@ -170,7 +170,7 @@ This build has powerful 1-ofs connected by tutors:
 ```
 Worldweave ──→ every card draw conjures a random card
     ↑               ↑               ↑                ↑
-Preordain      Deduce          Growth Spiral    Crack Clues
+Opt      Deduce          Growth Spiral    Crack Clues
 (scry 2 +       (draw + clue)   (draw + ramp)    (Wilderness Rec
  draw 1)                                          untaps mana to crack)
 
@@ -182,7 +182,7 @@ Teferi ──→ bounces threats + draws + YOUR SPELLS CAN'T BE COUNTERED
     └──→ safely resolve Omniscience without fear of countermagic
 
 Wilderness Reclamation ──→ untap ALL lands on end step
-    └──→ cast Preordain/Deduce on their turn + still have mana on yours
+    └──→ cast Opt/Deduce on their turn + still have mana on yours
     └──→ effectively DOUBLES your mana every turn
 
 Omniscience ──→ cast everything free
@@ -230,7 +230,7 @@ Narset ──→ dig for combo pieces + SHUTS DOWN opponent card draw
 1 Shark Typhoon
 4 Clay-Fired Bricks
 1 Aetherflux Reservoir
-1 Preordain
+1 Opt
 1 Growth Spiral
 3 Deduce
 1 Dovin's Veto

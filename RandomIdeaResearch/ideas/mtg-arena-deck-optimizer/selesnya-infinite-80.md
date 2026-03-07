@@ -7,6 +7,22 @@
 
 ---
 
+## What Changed (Luxury Upgrade)
+
+**5 premium cards added, 5 cuts made — deck stays at exactly 80 cards.**
+
+| Added | Replacing | Why |
+|-------|-----------|-----|
+| 2nd Anointed Procession (1→2) | 1x Commune with Spirits (4→3) | Doubling tokens is THE most impactful multiplier in this deck. A second copy means you quadruple tokens if both are out |
+| 1x Heroic Intervention | 1x Destroy Evil (cut entirely) | Hexproof + indestructible at instant speed protects your entire combo from board wipes. Way better than a narrow removal spell |
+| 1x Collected Company | 1x Cultivate (4→2) | Instant-speed, puts 2 creatures CMC 3 or less from top 6 onto the battlefield. Can assemble combo pieces on opponent's end step |
+| 1x Elesh Norn, Mother of Machines | 1x Cultivate (4→2) | Doubles ALL your ETB triggers (Soul Warden, Prosperous Innkeeper, Yorion blinks). Halves opponent's ETBs. Absurd with this deck |
+| 1x Craterhoof Behemoth | 1x Felidar Retreat (2→1) | The ultimate finisher. With even 10 creatures, everything gets +10/+10 and trample. With infinite tokens, it's beyond overkill |
+
+**Core combo untouched**: Soul Warden + Scurry Oak + Heliod + Thunderbond Vanguard all at full count.
+
+---
+
 ## The Combos (How You Win)
 
 ### Combo 1: Infinite Tokens
@@ -59,7 +75,7 @@ With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
 ### Companion
 **Yorion, Sky Nomad** — in sideboard, always available to cast for 3WU
 
-### Creatures (26)
+### Creatures (28)
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
@@ -70,8 +86,10 @@ With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
 | 4x | Scurry Oak | 2G | COMBO PIECE. Makes a 1/1 Squirrel whenever it gets a +1/+1 counter. Goes infinite with Soul Warden + Heliod |
 | 2x | Heliod, Sun-Crowned | 2W | COMBO PIECE. Puts +1/+1 counter on a creature whenever you gain life. Completes the infinite loop |
 | 1x | Rosie Cotton of South Lane | 2W | Whenever you create a token, put a +1/+1 counter on another creature. More counters = more Scurry Oak triggers |
+| 1x | Elesh Norn, Mother of Machines | 3WW | LUXURY UPGRADE. Doubles ALL your ETB triggers. Soul Warden gains 2 life per creature, Prosperous Innkeeper makes 2 Treasures, Yorion blinks trigger twice. Halves opponent's ETBs |
 | 1x | Mirkwood Bats | 3B | 2/3. Whenever you create a token, each opponent loses 1 life. Infinite tokens = opponent instantly dies. No combat step needed. Pay B with Swamp |
 | 4x | Thunderbond Vanguard | 2W | THE FINISHER. All your tokens enter as copies of this. Power/toughness = number of creatures you control. 50 tokens = 50 copies of a 50/50 |
+| 1x | Craterhoof Behemoth | 5GGG | LUXURY UPGRADE. When it enters, all your creatures get +X/+X and trample where X = number of creatures you control. With 10 creatures that's +10/+10 to everything. Instant win |
 
 ### Enchantments (14)
 
@@ -81,23 +99,24 @@ With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
 | 2x | Authority of the Consuls | W | Opponent's creatures enter tapped AND you gain 1 life each time. Slows aggro, feeds your engine |
 | 2x | Innkeeper's Talent | 1G | Level 1: +2/+2. Level 3: nontoken creature ETBs make a token copy. Copies your combo pieces! |
 | 2x | Caretaker's Talent | 2W | Draw a card whenever one or more tokens enter. Card advantage engine. Don't draw yourself out with infinite tokens though — stop the loop first! |
-| 2x | Felidar Retreat | 3W | Landfall: make a 2/2 Cat token (becomes Thunderbond copy!) OR put +1/+1 on all creatures (triggers Scurry Oak) |
-| 1x | Anointed Procession | 3W | DOUBLE all tokens. Each Scurry Oak trigger makes 2 tokens. Each one enters as a Thunderbond Vanguard |
+| 1x | Felidar Retreat | 3W | Landfall: make a 2/2 Cat token (becomes Thunderbond copy!) OR put +1/+1 on all creatures (triggers Scurry Oak) |
+| 2x | Anointed Procession | 3W | LUXURY UPGRADE (now 2x). DOUBLE all tokens. Each Scurry Oak trigger makes 2 tokens. Two copies out = QUADRUPLE tokens. Each one enters as a Thunderbond Vanguard |
 | 1x | Cathars' Crusade | 3WW | Every creature ETB gives ALL creatures +1/+1. With tokens entering = exponential growth. Triggers Scurry Oak again |
 
-### Instants (4)
+### Instants (5)
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
 | 3x | Path to Exile | W | Best removal in Historic. Exile any creature for 1 mana |
-| 1x | Destroy Evil | 1W | Kills big creatures (4+ power) or destroys enchantments. Flexible answer |
+| 1x | Heroic Intervention | 1G | LUXURY UPGRADE. Gives all your creatures hexproof + indestructible until end of turn. Protects your entire combo from board wipes and targeted removal |
+| 1x | Collected Company | 1GG | LUXURY UPGRADE. Instant speed — look at top 6 cards, put up to 2 creatures with mana value 3 or less onto the battlefield. Can assemble combo pieces on opponent's end step |
 
-### Sorceries (8)
+### Sorceries (5)
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
-| 4x | Commune with Spirits | G | Look at top 5, find a creature or enchantment. Finds combo pieces for 1 mana |
-| 4x | Cultivate | 2G | Get 2 lands (1 to field, 1 to hand). Ramp to cast Yorion + triggers Felidar Retreat landfall |
+| 3x | Commune with Spirits | G | Look at top 5, find a creature or enchantment. Finds combo pieces for 1 mana |
+| 2x | Cultivate | 2G | Get 2 lands (1 to field, 1 to hand). Ramp to cast Yorion + triggers Felidar Retreat landfall |
 
 ### Artifacts (2)
 
@@ -147,10 +166,11 @@ With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
 
 ### Win Conditions
 1. **Infinite combo + Thunderbond** — 250 copies of a 250/250. Attack. They're dead
-2. **Cathars' Crusade snowball** — Even without the infinite, each token gives everything +1/+1
-3. **Trelasarra beats** — Grows to 15/15+ from all the lifegain triggers
-4. **Great Henge grind** — Draws cards, adds counters, gains life. Impossible to out-value
-5. **Yorion reset** — Blink everything for a massive chain of re-triggers
+2. **Craterhoof Behemoth** — Even without infinite, drop this with 10+ creatures and everything gets +10/+10 and trample. Game over
+3. **Cathars' Crusade snowball** — Even without the infinite, each token gives everything +1/+1
+4. **Trelasarra beats** — Grows to 15/15+ from all the lifegain triggers
+5. **Great Henge grind** — Draws cards, adds counters, gains life. Impossible to out-value
+6. **Yorion reset** — Blink everything for a massive chain of re-triggers
 
 ---
 
@@ -181,12 +201,18 @@ With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
                     └──► INFINITE LOOP
 
    Multipliers:
-   ├── Anointed Procession: DOUBLE all tokens
+   ├── Anointed Procession (x2): DOUBLE all tokens (both out = QUADRUPLE)
+   ├── Elesh Norn: DOUBLE all YOUR ETB triggers (Soul Warden gains 2, etc.)
    ├── Cathars' Crusade: +1/+1 to ALL on each ETB → more Scurry Oak triggers
    ├── Rosie Cotton: +1/+1 counter per token → more Scurry Oak triggers
    ├── Caretaker's Talent: DRAW cards on token creation
    ├── Great Henge: +1/+1 counter + draw on each creature ETB
-   └── Yorion: BLINK everything → re-trigger ALL ETBs
+   ├── Yorion: BLINK everything → re-trigger ALL ETBs
+   └── Craterhoof Behemoth: +X/+X and trample to ALL (X = creature count)
+
+   Protection:
+   ├── Heroic Intervention: hexproof + indestructible for all your creatures
+   └── Collected Company: instant-speed combo assembly from top 6 cards
 ```
 
 ---
@@ -201,19 +227,22 @@ With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
 4 Scurry Oak
 2 Heliod, Sun-Crowned
 1 Rosie Cotton of South Lane
+1 Elesh Norn, Mother of Machines
 1 Mirkwood Bats
 4 Thunderbond Vanguard
+1 Craterhoof Behemoth
 4 Ajani's Welcome
 2 Authority of the Consuls
 2 Innkeeper's Talent
 2 Caretaker's Talent
-2 Felidar Retreat
-1 Anointed Procession
+1 Felidar Retreat
+2 Anointed Procession
 1 Cathars' Crusade
 3 Path to Exile
-1 Destroy Evil
-4 Commune with Spirits
-4 Cultivate
+1 Heroic Intervention
+1 Collected Company
+3 Commune with Spirits
+2 Cultivate
 2 The Great Henge
 4 Fabled Passage
 4 Blossoming Sands
@@ -241,9 +270,10 @@ Sideboard
 
 ## Upgrade Path
 
-**With Uncommon Wildcards:**
-- **Collected Company** (if available) — instant speed, puts 2 creatures from top 6 onto battlefield. Can assemble combo at instant speed on opponent's end step
+**Luxury upgrades now installed** — Collected Company, Heroic Intervention, Elesh Norn, Craterhoof Behemoth, and 2nd Anointed Procession are all in the deck.
 
-**Sideboard Tech:**
-- **Heroic Intervention** — protect the combo from board wipes
+**Future Upgrades:**
+- **3rd/4th Anointed Procession** — more copies = more consistent token doubling
+- **2nd Heroic Intervention** — more protection against wipes
+- **2nd Collected Company** — more instant-speed combo assembly
 - **Shapers' Sanctuary** — draw a card whenever opponents target your creatures

@@ -8,6 +8,21 @@
 
 ---
 
+## What Changed (Luxury Upgrade)
+
+Three 1-of upgrades replacing the weakest cards, plus one extra cut to fix the deck at exactly 60 (the previous import block had 61 cards). Source of truth: the Arena Import block.
+
+| IN | OUT | Why |
+|----|-----|-----|
+| 1x Fable of the Mirror-Breaker | 1x Darigaaz's Whelp | Fable makes a treasure (Chapter I), creates a 2/2 token that copies creatures (Chapter II), and transforms into a creature that copies any nonlegendary creature on attack. Was banned in Standard for being too good. Replaces the weakest creature in the deck |
+| 1x Xorn | 1x Voltage Surge | Whenever you create a treasure, create an additional one. Doubles ALL treasure output from Goldspan, Gnawbone, Magda, Smothering Tithe — everything. Far more impact than a conditional 1-damage removal spell |
+| 1x Haunted Ridge | 1x Swamp | R/B dual land that enters untapped if you control two or more other lands. Strictly better than a basic Swamp since it also taps for R. Fixes black for Deadly Dispute and Revel in Riches without costing you red access |
+| (removed) | 1x Reckless Fireweaver | Previous import block had 61 cards. Cut to reach exactly 60. Fireweaver (1 damage per artifact ETB) is redundant with Dragonspark Reactor doing the same job better |
+
+**Net effect**: More treasure generation (Xorn doubles output, Fable makes treasures + token value), better mana fixing (Haunted Ridge), stronger mid-game board (Fable's copy token is absurd with Terror of the Peaks or Goldspan Dragon).
+
+---
+
 ## The Core Engine
 
 This deck runs on a simple loop:
@@ -29,7 +44,7 @@ Splashes for Smothering Tithe (W), Revel in Riches (B), and Old Gnawbone (GG) ar
 
 ## The Deck (60 cards)
 
-### Creatures (24)
+### Creatures (25)
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
@@ -41,6 +56,7 @@ Splashes for Smothering Tithe (W), Revel in Riches (B), and Old Gnawbone (GG) ar
 | 1x | Breeches, Eager Pillager | 2R | 3/3 first strike. Pirate attacks = treasure OR exile-draw OR remove a blocker. Triple threat |
 | 2x | Gadrak, the Crown-Scourge | 2R | 5/4 flying for 3 mana! Can't attack without 4 artifacts (treasures count). End step: treasure for each creature that died. With removal and combat, this prints money |
 | 2x | Galazeth Prismari | 2UR | 3/4 flying Elder Dragon. ETB: make a treasure. All your artifacts can tap for mana to cast instants/sorceries. Treasures become reusable mana rocks |
+| 1x | Xorn | 2R | 3/2. Whenever you create one or more Treasure tokens, create an additional Treasure. Doubles output from Goldspan, Gnawbone, Magda, Smothering Tithe — everything |
 | 1x | Jolene, Plundering Pugilist | 1RG | 4/2. Attack with power 4+ creatures = treasure. 1R sac a treasure = deal 1 damage. Works with every dragon you cast |
 | 2x | Opportunistic Dragon | 2RR | 4/3 flying. ETB: steal an opponent's artifact or Human. Takes their stuff AND flies over for damage |
 | 2x | Goldspan Dragon | 3RR | **THE CARD.** 4/4 flying haste. Attacks = treasure. Gets targeted = treasure. Treasures tap for TWO mana. This card is why the deck works |
@@ -60,10 +76,11 @@ Splashes for Smothering Tithe (W), Revel in Riches (B), and Old Gnawbone (GG) ar
 | 1x | Big Score | 3R | Draw 2 cards, create 2 treasures. Raw card advantage + ramp |
 | 1x | An Offer You Can't Refuse | U | Counter ANY noncreature spell for 1 mana. Opponent gets 2 treasures — who cares, you're the treasure deck. Protects Goldspan, Smothering Tithe, and Revel in Riches from removal. Pay U with a treasure |
 
-### Enchantments (3)
+### Enchantments (4)
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
+| 1x | Fable of the Mirror-Breaker | 2R | Saga: Chapter I makes a 2/2 Goblin Shaman token. Chapter II: create a Treasure, then you may discard up to 2 cards and draw that many. Chapter III: transforms into Reflection of Kiki-Jiki, which creates token copies of your creatures. Banned in Standard for a reason |
 | 1x | Dragon Mantle | R | Enchant a creature, draw a card. Gives firebreathing (R: +1/+0). Cantrip that turns any dragon into a mana sink finisher |
 | 1x | Smothering Tithe | 3W | Every time opponent draws, they pay 2 or you get a treasure. They NEVER pay. You get 1-2 free treasures per turn forever. Pay the W from a treasure |
 | 1x | Revel in Riches | 4B | Opponent's creatures die = you get treasure. Control 10+ treasures at upkeep = YOU WIN THE GAME. The ultimate treasure payoff. Pay the B from a treasure |
@@ -79,7 +96,8 @@ Splashes for Smothering Tithe (W), Revel in Riches (B), and Old Gnawbone (GG) ar
 | Qty | Card | Notes |
 |-----|------|-------|
 | 19x | Mountain | Base red — you need red on turns 1-3 without fail |
-| 2x | Swamp | For Deadly Dispute or Revel in Riches if you don't have a treasure yet |
+| 1x | Haunted Ridge | R/B dual land. Enters untapped if you control 2+ other lands. Taps for R or B — fixes black without losing red access |
+| 1x | Swamp | For Deadly Dispute or Revel in Riches if you don't have a treasure yet |
 | 2x | Forest | For Jolene or a desperate Gnawbone hardcast |
 | 1x | Tomb of the Spirit Dragon | Taps for colorless. Activate: gain 1 life per colorless creature. Emergency lifegain with artifact creatures/tokens |
 
@@ -90,7 +108,7 @@ Splashes for Smothering Tithe (W), Revel in Riches (B), and Old Gnawbone (GG) ar
 ```
 1 CMC: ██ 2           (Dragon Mantle, Charming Scoundrel... effectively 2 mana)
 2 CMC: ████████ 8     (Magda x2, Dragonspark Reactor x2, Dragon's Fire x3, Deadly Dispute)
-3 CMC: ████████ 8     (Sarkhan, Captain Lannery, Face-Breaker, Breeches, Gadrak x2, Prismari Command x2)
+3 CMC: ██████████ 10  (Sarkhan, Captain Lannery, Face-Breaker, Breeches, Gadrak x2, Xorn, Fable of the Mirror-Breaker, Prismari Command x2)
 4 CMC: ██████████ 10  (Galazeth x2, Opportunistic Dragon x2, Atsushi x2, Big Score, Smothering Tithe, Jolene, Dragon Mantle counts as 1)
 5 CMC: ██████████ 8   (Goldspan x2, Terror x2, Bonehoard x2, Revel in Riches, Incinerator)
 7 CMC: █ 1            (Old Gnawbone)
@@ -166,6 +184,10 @@ Revel in Riches ──→ treasure per opponent creature death
 Prismari Command ──→ treasure as a mode
 Big Score ──→ 2 treasures
 Deadly Dispute ──→ 1 treasure
+Fable of the Mirror-Breaker ──→ 1 treasure (Chapter II) + rummage draw
+                    ↓
+TREASURE MULTIPLIER:
+Xorn ──→ whenever you create a treasure, create an ADDITIONAL treasure
                     ↓
 TREASURE PAYOFFS:
 Goldspan ──→ treasures tap for DOUBLE mana
@@ -210,20 +232,21 @@ With Goldspan Dragon doubling treasure mana, you often only need 2 treasures to 
 4. **Revel in Riches says "10 treasures = I win"** — and this deck hits 10 treasures routinely. They HAVE to destroy it or lose
 5. **Dragonspark Reactor is a ticking time bomb** — they ignore it, it hits 20 counters and one-shots them. They destroy it? You still have 5 dragons
 6. **Atsushi rewards them for killing it** — destroy my dragon? Thanks, here's 3 treasures. Now I'll cast something bigger
+7. **Xorn doubles every treasure trigger** — Goldspan attacks? 2 treasures instead of 1. Gnawbone hits for 7? 14 treasures. Reactor goes nuclear twice as fast
+8. **Fable of the Mirror-Breaker copies your best creature** — Reflection of Kiki-Jiki copying Terror of the Peaks or Goldspan Dragon is disgusting
 
 ---
 
 ## Cards You Own (All 60)
 
-Every single card in this deck comes from your "Strix Treasure Dragons" collection. **Zero wildcards needed.** Just import and play.
+Every single card in this deck is confirmed owned (including 1x Fable of the Mirror-Breaker, 1x Xorn, 1x Haunted Ridge as luxury upgrades). **Zero wildcards needed.** Just import and play.
 
 ---
 
-## Arena Import (Budget — No Rare Wildcards Needed)
+## Arena Import (Luxury Upgrade Build)
 
 ```
 1 Charming Scoundrel
-1 Reckless Fireweaver
 2 Magda, the Hoardmaster
 1 Sarkhan, Soul Aflame
 1 Captain Lannery Storm
@@ -242,18 +265,18 @@ Every single card in this deck comes from your "Strix Treasure Dragons" collecti
 1 Old Gnawbone
 1 Incinerator of the Guilty
 3 Dragon's Fire
-1 Voltage Surge
+1 Xorn
 1 Deadly Dispute
 2 Prismari Command
 1 Big Score
 1 An Offer You Can't Refuse
-1 Darigaaz's Whelp
+1 Fable of the Mirror-Breaker
 1 Dragon Mantle
 1 Smothering Tithe
 1 Revel in Riches
 2 Dragonspark Reactor
 19 Mountain
-1 Swamp
+1 Haunted Ridge
 1 Gate of the Black Dragon
 2 Forest
 1 Tomb of the Spirit Dragon
@@ -263,9 +286,13 @@ Every single card in this deck comes from your "Strix Treasure Dragons" collecti
 
 ## Upgrade Path
 
-If you get wildcards:
-- **Fable of the Mirror-Breaker** (rare) — makes treasure, makes a 2/2 that copies creatures. Banned in Standard for being too good. Perfect here
-- **Xorn** (uncommon) — whenever you create a treasure, create an additional treasure. Doubles ALL your treasure output
+Already included (luxury upgrades):
+- **Fable of the Mirror-Breaker** (1x) — INCLUDED. Makes treasure, makes a 2/2 that copies creatures. Banned in Standard for being too good
+- **Xorn** (1x) — INCLUDED. Whenever you create a treasure, create an additional treasure. Doubles ALL your treasure output
+- **Haunted Ridge** (1x) — INCLUDED. R/B dual land, enters untapped with 2+ other lands
+
+If you get more wildcards:
 - **Goldvein Hydra** (rare) — dies = treasures equal to its +1/+1 counters
-- **Better mana base**: Haunted Ridge, Stormcarved Coast, Rockfall Vale — enter untapped with the right conditions, fix colors without treasures
+- **Better mana base**: Stormcarved Coast, Rockfall Vale — more dual lands that enter untapped with the right conditions
 - **Cruelty of Gix** — saga that searches for creatures and reanimates. Find Terror of the Peaks or Gnawbone from your deck
+- **Additional copies of Fable/Xorn** — both are good enough to run 2-3x if you acquire more

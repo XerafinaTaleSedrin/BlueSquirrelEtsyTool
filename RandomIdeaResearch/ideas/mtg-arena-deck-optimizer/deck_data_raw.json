@@ -1,6 +1,2256 @@
 {
   "decks": [
     {
+      "name": "Imported Deck (3)",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 77492,
+          "quantity": 1
+        },
+        {
+          "cardId": 69306,
+          "quantity": 1
+        },
+        {
+          "cardId": 69670,
+          "quantity": 1
+        },
+        {
+          "cardId": 51691,
+          "quantity": 1
+        },
+        {
+          "cardId": 69277,
+          "quantity": 1
+        },
+        {
+          "cardId": 94604,
+          "quantity": 1
+        },
+        {
+          "cardId": 69512,
+          "quantity": 1
+        },
+        {
+          "cardId": 76447,
+          "quantity": 1
+        },
+        {
+          "cardId": 71134,
+          "quantity": 1
+        },
+        {
+          "cardId": 70205,
+          "quantity": 1
+        },
+        {
+          "cardId": 69643,
+          "quantity": 1
+        },
+        {
+          "cardId": 90718,
+          "quantity": 1
+        },
+        {
+          "cardId": 75662,
+          "quantity": 1
+        },
+        {
+          "cardId": 70610,
+          "quantity": 1
+        },
+        {
+          "cardId": 83804,
+          "quantity": 1
+        },
+        {
+          "cardId": 70388,
+          "quantity": 1
+        },
+        {
+          "cardId": 72301,
+          "quantity": 1
+        },
+        {
+          "cardId": 69213,
+          "quantity": 1
+        },
+        {
+          "cardId": 70248,
+          "quantity": 1
+        },
+        {
+          "cardId": 70244,
+          "quantity": 1
+        },
+        {
+          "cardId": 73966,
+          "quantity": 1
+        },
+        {
+          "cardId": 71970,
+          "quantity": 1
+        },
+        {
+          "cardId": 76128,
+          "quantity": 1
+        },
+        {
+          "cardId": 70709,
+          "quantity": 1
+        },
+        {
+          "cardId": 78799,
+          "quantity": 1
+        },
+        {
+          "cardId": 71962,
+          "quantity": 1
+        },
+        {
+          "cardId": 93715,
+          "quantity": 1
+        },
+        {
+          "cardId": 65481,
+          "quantity": 1
+        },
+        {
+          "cardId": 70721,
+          "quantity": 1
+        },
+        {
+          "cardId": 75182,
+          "quantity": 1
+        },
+        {
+          "cardId": 87282,
+          "quantity": 1
+        },
+        {
+          "cardId": 79570,
+          "quantity": 1
+        },
+        {
+          "cardId": 77272,
+          "quantity": 1
+        },
+        {
+          "cardId": 75044,
+          "quantity": 1
+        },
+        {
+          "cardId": 86440,
+          "quantity": 1
+        },
+        {
+          "cardId": 75253,
+          "quantity": 1
+        },
+        {
+          "cardId": 70680,
+          "quantity": 1
+        },
+        {
+          "cardId": 73774,
+          "quantity": 1
+        },
+        {
+          "cardId": 75212,
+          "quantity": 1
+        },
+        {
+          "cardId": 98590,
+          "quantity": 1
+        },
+        {
+          "cardId": 78632,
+          "quantity": 1
+        },
+        {
+          "cardId": 79089,
+          "quantity": 1
+        },
+        {
+          "cardId": 66493,
+          "quantity": 1
+        },
+        {
+          "cardId": 73470,
+          "quantity": 1
+        },
+        {
+          "cardId": 78635,
+          "quantity": 1
+        },
+        {
+          "cardId": 78629,
+          "quantity": 1
+        },
+        {
+          "cardId": 76253,
+          "quantity": 1
+        },
+        {
+          "cardId": 76172,
+          "quantity": 1
+        },
+        {
+          "cardId": 90704,
+          "quantity": 1
+        },
+        {
+          "cardId": 85082,
+          "quantity": 1
+        },
+        {
+          "cardId": 82076,
+          "quantity": 1
+        },
+        {
+          "cardId": 73807,
+          "quantity": 1
+        },
+        {
+          "cardId": 67174,
+          "quantity": 1
+        },
+        {
+          "cardId": 83710,
+          "quantity": 1
+        },
+        {
+          "cardId": 72447,
+          "quantity": 1
+        },
+        {
+          "cardId": 17618,
+          "quantity": 1
+        },
+        {
+          "cardId": 87042,
+          "quantity": 1
+        },
+        {
+          "cardId": 70679,
+          "quantity": 1
+        },
+        {
+          "cardId": 79664,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 59,
+      "log_line": 156
+    },
+    {
+      "name": "Wishlist",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 77492,
+          "quantity": 1
+        },
+        {
+          "cardId": 69306,
+          "quantity": 1
+        },
+        {
+          "cardId": 69670,
+          "quantity": 1
+        },
+        {
+          "cardId": 51691,
+          "quantity": 1
+        },
+        {
+          "cardId": 69277,
+          "quantity": 1
+        },
+        {
+          "cardId": 94604,
+          "quantity": 1
+        },
+        {
+          "cardId": 69512,
+          "quantity": 1
+        },
+        {
+          "cardId": 76447,
+          "quantity": 1
+        },
+        {
+          "cardId": 71134,
+          "quantity": 1
+        },
+        {
+          "cardId": 70205,
+          "quantity": 1
+        },
+        {
+          "cardId": 69643,
+          "quantity": 1
+        },
+        {
+          "cardId": 90718,
+          "quantity": 1
+        },
+        {
+          "cardId": 75662,
+          "quantity": 1
+        },
+        {
+          "cardId": 70610,
+          "quantity": 1
+        },
+        {
+          "cardId": 83804,
+          "quantity": 1
+        },
+        {
+          "cardId": 70388,
+          "quantity": 1
+        },
+        {
+          "cardId": 72301,
+          "quantity": 1
+        },
+        {
+          "cardId": 69213,
+          "quantity": 1
+        },
+        {
+          "cardId": 70248,
+          "quantity": 1
+        },
+        {
+          "cardId": 70244,
+          "quantity": 1
+        },
+        {
+          "cardId": 73966,
+          "quantity": 1
+        },
+        {
+          "cardId": 71970,
+          "quantity": 1
+        },
+        {
+          "cardId": 76128,
+          "quantity": 1
+        },
+        {
+          "cardId": 70709,
+          "quantity": 1
+        },
+        {
+          "cardId": 78799,
+          "quantity": 1
+        },
+        {
+          "cardId": 71962,
+          "quantity": 1
+        },
+        {
+          "cardId": 93715,
+          "quantity": 1
+        },
+        {
+          "cardId": 65481,
+          "quantity": 1
+        },
+        {
+          "cardId": 70721,
+          "quantity": 1
+        },
+        {
+          "cardId": 75182,
+          "quantity": 1
+        },
+        {
+          "cardId": 87282,
+          "quantity": 1
+        },
+        {
+          "cardId": 79570,
+          "quantity": 1
+        },
+        {
+          "cardId": 77272,
+          "quantity": 1
+        },
+        {
+          "cardId": 75044,
+          "quantity": 1
+        },
+        {
+          "cardId": 86440,
+          "quantity": 1
+        },
+        {
+          "cardId": 75253,
+          "quantity": 1
+        },
+        {
+          "cardId": 70680,
+          "quantity": 1
+        },
+        {
+          "cardId": 73774,
+          "quantity": 1
+        },
+        {
+          "cardId": 75212,
+          "quantity": 1
+        },
+        {
+          "cardId": 98590,
+          "quantity": 1
+        },
+        {
+          "cardId": 78632,
+          "quantity": 1
+        },
+        {
+          "cardId": 79089,
+          "quantity": 1
+        },
+        {
+          "cardId": 66493,
+          "quantity": 1
+        },
+        {
+          "cardId": 73470,
+          "quantity": 1
+        },
+        {
+          "cardId": 78635,
+          "quantity": 1
+        },
+        {
+          "cardId": 78629,
+          "quantity": 1
+        },
+        {
+          "cardId": 76253,
+          "quantity": 1
+        },
+        {
+          "cardId": 76172,
+          "quantity": 1
+        },
+        {
+          "cardId": 90704,
+          "quantity": 1
+        },
+        {
+          "cardId": 85082,
+          "quantity": 1
+        },
+        {
+          "cardId": 82076,
+          "quantity": 1
+        },
+        {
+          "cardId": 73807,
+          "quantity": 1
+        },
+        {
+          "cardId": 67174,
+          "quantity": 1
+        },
+        {
+          "cardId": 83710,
+          "quantity": 1
+        },
+        {
+          "cardId": 72447,
+          "quantity": 1
+        },
+        {
+          "cardId": 17618,
+          "quantity": 1
+        },
+        {
+          "cardId": 87042,
+          "quantity": 1
+        },
+        {
+          "cardId": 70679,
+          "quantity": 1
+        },
+        {
+          "cardId": 79664,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 59,
+      "log_line": 160
+    },
+    {
+      "name": "Wishlist",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 77492,
+          "quantity": 1
+        },
+        {
+          "cardId": 69306,
+          "quantity": 1
+        },
+        {
+          "cardId": 69670,
+          "quantity": 1
+        },
+        {
+          "cardId": 51691,
+          "quantity": 1
+        },
+        {
+          "cardId": 69277,
+          "quantity": 1
+        },
+        {
+          "cardId": 94604,
+          "quantity": 1
+        },
+        {
+          "cardId": 69512,
+          "quantity": 1
+        },
+        {
+          "cardId": 76447,
+          "quantity": 1
+        },
+        {
+          "cardId": 71134,
+          "quantity": 1
+        },
+        {
+          "cardId": 70205,
+          "quantity": 1
+        },
+        {
+          "cardId": 69643,
+          "quantity": 1
+        },
+        {
+          "cardId": 90718,
+          "quantity": 1
+        },
+        {
+          "cardId": 75662,
+          "quantity": 1
+        },
+        {
+          "cardId": 70610,
+          "quantity": 1
+        },
+        {
+          "cardId": 83804,
+          "quantity": 1
+        },
+        {
+          "cardId": 70388,
+          "quantity": 1
+        },
+        {
+          "cardId": 72301,
+          "quantity": 1
+        },
+        {
+          "cardId": 69213,
+          "quantity": 1
+        },
+        {
+          "cardId": 70248,
+          "quantity": 1
+        },
+        {
+          "cardId": 70244,
+          "quantity": 1
+        },
+        {
+          "cardId": 73966,
+          "quantity": 1
+        },
+        {
+          "cardId": 71970,
+          "quantity": 1
+        },
+        {
+          "cardId": 76128,
+          "quantity": 1
+        },
+        {
+          "cardId": 70709,
+          "quantity": 1
+        },
+        {
+          "cardId": 78799,
+          "quantity": 1
+        },
+        {
+          "cardId": 71962,
+          "quantity": 1
+        },
+        {
+          "cardId": 93715,
+          "quantity": 1
+        },
+        {
+          "cardId": 65481,
+          "quantity": 1
+        },
+        {
+          "cardId": 70721,
+          "quantity": 1
+        },
+        {
+          "cardId": 75182,
+          "quantity": 1
+        },
+        {
+          "cardId": 87282,
+          "quantity": 1
+        },
+        {
+          "cardId": 79570,
+          "quantity": 1
+        },
+        {
+          "cardId": 77272,
+          "quantity": 1
+        },
+        {
+          "cardId": 75044,
+          "quantity": 1
+        },
+        {
+          "cardId": 86440,
+          "quantity": 1
+        },
+        {
+          "cardId": 75253,
+          "quantity": 1
+        },
+        {
+          "cardId": 70680,
+          "quantity": 1
+        },
+        {
+          "cardId": 73774,
+          "quantity": 1
+        },
+        {
+          "cardId": 75212,
+          "quantity": 1
+        },
+        {
+          "cardId": 98590,
+          "quantity": 1
+        },
+        {
+          "cardId": 78632,
+          "quantity": 1
+        },
+        {
+          "cardId": 79089,
+          "quantity": 1
+        },
+        {
+          "cardId": 66493,
+          "quantity": 1
+        },
+        {
+          "cardId": 73470,
+          "quantity": 1
+        },
+        {
+          "cardId": 78635,
+          "quantity": 1
+        },
+        {
+          "cardId": 78629,
+          "quantity": 1
+        },
+        {
+          "cardId": 76253,
+          "quantity": 1
+        },
+        {
+          "cardId": 76172,
+          "quantity": 1
+        },
+        {
+          "cardId": 90704,
+          "quantity": 1
+        },
+        {
+          "cardId": 85082,
+          "quantity": 1
+        },
+        {
+          "cardId": 82076,
+          "quantity": 1
+        },
+        {
+          "cardId": 73807,
+          "quantity": 1
+        },
+        {
+          "cardId": 67174,
+          "quantity": 1
+        },
+        {
+          "cardId": 83710,
+          "quantity": 1
+        },
+        {
+          "cardId": 72447,
+          "quantity": 1
+        },
+        {
+          "cardId": 17618,
+          "quantity": 1
+        },
+        {
+          "cardId": 87042,
+          "quantity": 1
+        },
+        {
+          "cardId": 70679,
+          "quantity": 1
+        },
+        {
+          "cardId": 79664,
+          "quantity": 1
+        },
+        {
+          "cardId": 70512,
+          "quantity": 2
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 61,
+      "log_line": 166
+    },
+    {
+      "name": "Wishlist",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 77492,
+          "quantity": 2
+        },
+        {
+          "cardId": 69306,
+          "quantity": 2
+        },
+        {
+          "cardId": 69670,
+          "quantity": 1
+        },
+        {
+          "cardId": 78607,
+          "quantity": 1
+        },
+        {
+          "cardId": 85103,
+          "quantity": 4
+        },
+        {
+          "cardId": 78818,
+          "quantity": 3
+        },
+        {
+          "cardId": 76447,
+          "quantity": 3
+        },
+        {
+          "cardId": 71134,
+          "quantity": 1
+        },
+        {
+          "cardId": 90718,
+          "quantity": 1
+        },
+        {
+          "cardId": 75662,
+          "quantity": 1
+        },
+        {
+          "cardId": 70610,
+          "quantity": 1
+        },
+        {
+          "cardId": 83804,
+          "quantity": 2
+        },
+        {
+          "cardId": 78817,
+          "quantity": 2
+        },
+        {
+          "cardId": 70244,
+          "quantity": 1
+        },
+        {
+          "cardId": 71970,
+          "quantity": 1
+        },
+        {
+          "cardId": 70709,
+          "quantity": 1
+        },
+        {
+          "cardId": 71962,
+          "quantity": 2
+        },
+        {
+          "cardId": 93715,
+          "quantity": 1
+        },
+        {
+          "cardId": 75182,
+          "quantity": 1
+        },
+        {
+          "cardId": 87282,
+          "quantity": 1
+        },
+        {
+          "cardId": 75044,
+          "quantity": 1
+        },
+        {
+          "cardId": 86440,
+          "quantity": 1
+        },
+        {
+          "cardId": 75253,
+          "quantity": 3
+        },
+        {
+          "cardId": 70680,
+          "quantity": 3
+        },
+        {
+          "cardId": 73774,
+          "quantity": 2
+        },
+        {
+          "cardId": 75212,
+          "quantity": 4
+        },
+        {
+          "cardId": 98590,
+          "quantity": 1
+        },
+        {
+          "cardId": 78632,
+          "quantity": 1
+        },
+        {
+          "cardId": 79089,
+          "quantity": 1
+        },
+        {
+          "cardId": 86079,
+          "quantity": 1
+        },
+        {
+          "cardId": 73470,
+          "quantity": 1
+        },
+        {
+          "cardId": 78635,
+          "quantity": 1
+        },
+        {
+          "cardId": 78629,
+          "quantity": 1
+        },
+        {
+          "cardId": 76253,
+          "quantity": 4
+        },
+        {
+          "cardId": 76172,
+          "quantity": 2
+        },
+        {
+          "cardId": 90704,
+          "quantity": 3
+        },
+        {
+          "cardId": 85082,
+          "quantity": 1
+        },
+        {
+          "cardId": 82076,
+          "quantity": 1
+        },
+        {
+          "cardId": 67174,
+          "quantity": 2
+        },
+        {
+          "cardId": 83710,
+          "quantity": 1
+        },
+        {
+          "cardId": 72447,
+          "quantity": 1
+        },
+        {
+          "cardId": 17618,
+          "quantity": 1
+        },
+        {
+          "cardId": 87042,
+          "quantity": 4
+        },
+        {
+          "cardId": 70679,
+          "quantity": 4
+        },
+        {
+          "cardId": 79664,
+          "quantity": 4
+        },
+        {
+          "cardId": 70512,
+          "quantity": 4
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 85,
+      "log_line": 172
+    },
+    {
+      "name": "Optimized Conjuration",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 95357,
+          "quantity": 4
+        },
+        {
+          "cardId": 88976,
+          "quantity": 4
+        },
+        {
+          "cardId": 81828,
+          "quantity": 2
+        },
+        {
+          "cardId": 98815,
+          "quantity": 4
+        },
+        {
+          "cardId": 87062,
+          "quantity": 2
+        },
+        {
+          "cardId": 82543,
+          "quantity": 2
+        },
+        {
+          "cardId": 88971,
+          "quantity": 3
+        },
+        {
+          "cardId": 95107,
+          "quantity": 4
+        },
+        {
+          "cardId": 89092,
+          "quantity": 3
+        },
+        {
+          "cardId": 96390,
+          "quantity": 1
+        },
+        {
+          "cardId": 87136,
+          "quantity": 4
+        },
+        {
+          "cardId": 82801,
+          "quantity": 1
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 95088,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 2
+        },
+        {
+          "cardId": 87439,
+          "quantity": 1
+        },
+        {
+          "cardId": 71982,
+          "quantity": 1
+        },
+        {
+          "cardId": 84330,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 154
+    },
+    {
+      "name": "Optimized Conjuration",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 95357,
+          "quantity": 4
+        },
+        {
+          "cardId": 88976,
+          "quantity": 4
+        },
+        {
+          "cardId": 81828,
+          "quantity": 2
+        },
+        {
+          "cardId": 98815,
+          "quantity": 4
+        },
+        {
+          "cardId": 87062,
+          "quantity": 2
+        },
+        {
+          "cardId": 82543,
+          "quantity": 2
+        },
+        {
+          "cardId": 88971,
+          "quantity": 3
+        },
+        {
+          "cardId": 95107,
+          "quantity": 4
+        },
+        {
+          "cardId": 89092,
+          "quantity": 3
+        },
+        {
+          "cardId": 96390,
+          "quantity": 1
+        },
+        {
+          "cardId": 87136,
+          "quantity": 4
+        },
+        {
+          "cardId": 82801,
+          "quantity": 1
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 95088,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 2
+        },
+        {
+          "cardId": 87439,
+          "quantity": 1
+        },
+        {
+          "cardId": 71982,
+          "quantity": 1
+        },
+        {
+          "cardId": 84330,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 5266
+    },
+    {
+      "name": "Optimized Conjuration",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 95357,
+          "quantity": 4
+        },
+        {
+          "cardId": 88976,
+          "quantity": 4
+        },
+        {
+          "cardId": 81828,
+          "quantity": 2
+        },
+        {
+          "cardId": 98815,
+          "quantity": 4
+        },
+        {
+          "cardId": 87062,
+          "quantity": 2
+        },
+        {
+          "cardId": 82543,
+          "quantity": 2
+        },
+        {
+          "cardId": 88971,
+          "quantity": 3
+        },
+        {
+          "cardId": 95107,
+          "quantity": 4
+        },
+        {
+          "cardId": 89092,
+          "quantity": 3
+        },
+        {
+          "cardId": 96390,
+          "quantity": 1
+        },
+        {
+          "cardId": 87136,
+          "quantity": 4
+        },
+        {
+          "cardId": 82801,
+          "quantity": 1
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 95088,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 2
+        },
+        {
+          "cardId": 87439,
+          "quantity": 1
+        },
+        {
+          "cardId": 71982,
+          "quantity": 1
+        },
+        {
+          "cardId": 84330,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 7433
+    },
+    {
+      "name": "Optimized Conjuration",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 95357,
+          "quantity": 4
+        },
+        {
+          "cardId": 88976,
+          "quantity": 4
+        },
+        {
+          "cardId": 81828,
+          "quantity": 2
+        },
+        {
+          "cardId": 98815,
+          "quantity": 4
+        },
+        {
+          "cardId": 87062,
+          "quantity": 2
+        },
+        {
+          "cardId": 82543,
+          "quantity": 2
+        },
+        {
+          "cardId": 88971,
+          "quantity": 3
+        },
+        {
+          "cardId": 95107,
+          "quantity": 4
+        },
+        {
+          "cardId": 89092,
+          "quantity": 3
+        },
+        {
+          "cardId": 96390,
+          "quantity": 1
+        },
+        {
+          "cardId": 87136,
+          "quantity": 4
+        },
+        {
+          "cardId": 82801,
+          "quantity": 1
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 95088,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 2
+        },
+        {
+          "cardId": 87439,
+          "quantity": 1
+        },
+        {
+          "cardId": 71982,
+          "quantity": 1
+        },
+        {
+          "cardId": 84330,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 10125
+    },
+    {
+      "name": "Optimized Conjuration",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 95357,
+          "quantity": 4
+        },
+        {
+          "cardId": 88976,
+          "quantity": 4
+        },
+        {
+          "cardId": 81828,
+          "quantity": 2
+        },
+        {
+          "cardId": 98815,
+          "quantity": 4
+        },
+        {
+          "cardId": 87062,
+          "quantity": 2
+        },
+        {
+          "cardId": 82543,
+          "quantity": 2
+        },
+        {
+          "cardId": 88971,
+          "quantity": 3
+        },
+        {
+          "cardId": 95107,
+          "quantity": 4
+        },
+        {
+          "cardId": 89092,
+          "quantity": 3
+        },
+        {
+          "cardId": 96390,
+          "quantity": 1
+        },
+        {
+          "cardId": 87136,
+          "quantity": 4
+        },
+        {
+          "cardId": 82801,
+          "quantity": 1
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 95088,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 2
+        },
+        {
+          "cardId": 87439,
+          "quantity": 1
+        },
+        {
+          "cardId": 71982,
+          "quantity": 1
+        },
+        {
+          "cardId": 84330,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 24397
+    },
+    {
+      "name": "Optimized Conjuration",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 95357,
+          "quantity": 4
+        },
+        {
+          "cardId": 88976,
+          "quantity": 4
+        },
+        {
+          "cardId": 81828,
+          "quantity": 2
+        },
+        {
+          "cardId": 98815,
+          "quantity": 4
+        },
+        {
+          "cardId": 87062,
+          "quantity": 2
+        },
+        {
+          "cardId": 82543,
+          "quantity": 2
+        },
+        {
+          "cardId": 88971,
+          "quantity": 3
+        },
+        {
+          "cardId": 95107,
+          "quantity": 4
+        },
+        {
+          "cardId": 89092,
+          "quantity": 3
+        },
+        {
+          "cardId": 96390,
+          "quantity": 1
+        },
+        {
+          "cardId": 87136,
+          "quantity": 4
+        },
+        {
+          "cardId": 82801,
+          "quantity": 1
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 95088,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 2
+        },
+        {
+          "cardId": 87439,
+          "quantity": 1
+        },
+        {
+          "cardId": 71982,
+          "quantity": 1
+        },
+        {
+          "cardId": 84330,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 24642
+    },
+    {
+      "name": "Optimized Conjuration",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 95357,
+          "quantity": 4
+        },
+        {
+          "cardId": 88976,
+          "quantity": 4
+        },
+        {
+          "cardId": 81828,
+          "quantity": 2
+        },
+        {
+          "cardId": 98815,
+          "quantity": 4
+        },
+        {
+          "cardId": 87062,
+          "quantity": 2
+        },
+        {
+          "cardId": 82543,
+          "quantity": 2
+        },
+        {
+          "cardId": 88971,
+          "quantity": 3
+        },
+        {
+          "cardId": 95107,
+          "quantity": 4
+        },
+        {
+          "cardId": 89092,
+          "quantity": 3
+        },
+        {
+          "cardId": 96390,
+          "quantity": 1
+        },
+        {
+          "cardId": 87136,
+          "quantity": 4
+        },
+        {
+          "cardId": 82801,
+          "quantity": 1
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 95088,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 2
+        },
+        {
+          "cardId": 87439,
+          "quantity": 1
+        },
+        {
+          "cardId": 71982,
+          "quantity": 1
+        },
+        {
+          "cardId": 84330,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 46092
+    },
+    {
+      "name": "Optimized Conjuration",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 95357,
+          "quantity": 4
+        },
+        {
+          "cardId": 88976,
+          "quantity": 4
+        },
+        {
+          "cardId": 81828,
+          "quantity": 2
+        },
+        {
+          "cardId": 98815,
+          "quantity": 4
+        },
+        {
+          "cardId": 87062,
+          "quantity": 2
+        },
+        {
+          "cardId": 82543,
+          "quantity": 2
+        },
+        {
+          "cardId": 88971,
+          "quantity": 3
+        },
+        {
+          "cardId": 95107,
+          "quantity": 4
+        },
+        {
+          "cardId": 89092,
+          "quantity": 3
+        },
+        {
+          "cardId": 96390,
+          "quantity": 1
+        },
+        {
+          "cardId": 87136,
+          "quantity": 4
+        },
+        {
+          "cardId": 82801,
+          "quantity": 1
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 95088,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 2
+        },
+        {
+          "cardId": 87439,
+          "quantity": 1
+        },
+        {
+          "cardId": 71982,
+          "quantity": 1
+        },
+        {
+          "cardId": 84330,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 50416
+    },
+    {
+      "name": "Optimized Conjuration",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 95357,
+          "quantity": 4
+        },
+        {
+          "cardId": 88976,
+          "quantity": 4
+        },
+        {
+          "cardId": 81828,
+          "quantity": 2
+        },
+        {
+          "cardId": 98815,
+          "quantity": 4
+        },
+        {
+          "cardId": 87062,
+          "quantity": 2
+        },
+        {
+          "cardId": 82543,
+          "quantity": 2
+        },
+        {
+          "cardId": 88971,
+          "quantity": 3
+        },
+        {
+          "cardId": 95107,
+          "quantity": 4
+        },
+        {
+          "cardId": 89092,
+          "quantity": 3
+        },
+        {
+          "cardId": 96390,
+          "quantity": 1
+        },
+        {
+          "cardId": 87136,
+          "quantity": 4
+        },
+        {
+          "cardId": 82801,
+          "quantity": 1
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 95088,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 2
+        },
+        {
+          "cardId": 87439,
+          "quantity": 1
+        },
+        {
+          "cardId": 71982,
+          "quantity": 1
+        },
+        {
+          "cardId": 84330,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 66590
+    },
+    {
+      "name": "New Deck (8)",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 100465,
+          "quantity": 2
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 100489,
+          "quantity": 1
+        },
+        {
+          "cardId": 96841,
+          "quantity": 4
+        },
+        {
+          "cardId": 100487,
+          "quantity": 2
+        },
+        {
+          "cardId": 100464,
+          "quantity": 2
+        },
+        {
+          "cardId": 100467,
+          "quantity": 1
+        },
+        {
+          "cardId": 100497,
+          "quantity": 1
+        },
+        {
+          "cardId": 100511,
+          "quantity": 1
+        },
+        {
+          "cardId": 100488,
+          "quantity": 1
+        },
+        {
+          "cardId": 100522,
+          "quantity": 1
+        },
+        {
+          "cardId": 72090,
+          "quantity": 7
+        },
+        {
+          "cardId": 100533,
+          "quantity": 1
+        },
+        {
+          "cardId": 100526,
+          "quantity": 1
+        },
+        {
+          "cardId": 100519,
+          "quantity": 1
+        },
+        {
+          "cardId": 100498,
+          "quantity": 1
+        },
+        {
+          "cardId": 100535,
+          "quantity": 1
+        },
+        {
+          "cardId": 100546,
+          "quantity": 1
+        },
+        {
+          "cardId": 95088,
+          "quantity": 7
+        },
+        {
+          "cardId": 100551,
+          "quantity": 4
+        },
+        {
+          "cardId": 100552,
+          "quantity": 1
+        },
+        {
+          "cardId": 100561,
+          "quantity": 1
+        },
+        {
+          "cardId": 100564,
+          "quantity": 2
+        },
+        {
+          "cardId": 100560,
+          "quantity": 1
+        },
+        {
+          "cardId": 100558,
+          "quantity": 1
+        },
+        {
+          "cardId": 100555,
+          "quantity": 1
+        },
+        {
+          "cardId": 100554,
+          "quantity": 1
+        },
+        {
+          "cardId": 100565,
+          "quantity": 1
+        },
+        {
+          "cardId": 100569,
+          "quantity": 1
+        },
+        {
+          "cardId": 87578,
+          "quantity": 2
+        },
+        {
+          "cardId": 100583,
+          "quantity": 1
+        },
+        {
+          "cardId": 100587,
+          "quantity": 2
+        },
+        {
+          "cardId": 100593,
+          "quantity": 1
+        },
+        {
+          "cardId": 100622,
+          "quantity": 1
+        },
+        {
+          "cardId": 100607,
+          "quantity": 1
+        },
+        {
+          "cardId": 100501,
+          "quantity": 1
+        },
+        {
+          "cardId": 100604,
+          "quantity": 2
+        },
+        {
+          "cardId": 100588,
+          "quantity": 1
+        },
+        {
+          "cardId": 100620,
+          "quantity": 1
+        },
+        {
+          "cardId": 100613,
+          "quantity": 1
+        },
+        {
+          "cardId": 100615,
+          "quantity": 1
+        },
+        {
+          "cardId": 100625,
+          "quantity": 1
+        },
+        {
+          "cardId": 100621,
+          "quantity": 1
+        },
+        {
+          "cardId": 100633,
+          "quantity": 1
+        },
+        {
+          "cardId": 100630,
+          "quantity": 1
+        },
+        {
+          "cardId": 100513,
+          "quantity": 1
+        },
+        {
+          "cardId": 100557,
+          "quantity": 1
+        },
+        {
+          "cardId": 100470,
+          "quantity": 1
+        },
+        {
+          "cardId": 100536,
+          "quantity": 1
+        },
+        {
+          "cardId": 100573,
+          "quantity": 1
+        },
+        {
+          "cardId": 91539,
+          "quantity": 4
+        },
+        {
+          "cardId": 86688,
+          "quantity": 2
+        },
+        {
+          "cardId": 91544,
+          "quantity": 4
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 88,
+      "log_line": 0
+    },
+    {
+      "name": "New Deck (8)",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 100465,
+          "quantity": 2
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 100489,
+          "quantity": 1
+        },
+        {
+          "cardId": 96841,
+          "quantity": 4
+        },
+        {
+          "cardId": 100487,
+          "quantity": 2
+        },
+        {
+          "cardId": 100464,
+          "quantity": 2
+        },
+        {
+          "cardId": 100467,
+          "quantity": 1
+        },
+        {
+          "cardId": 100497,
+          "quantity": 1
+        },
+        {
+          "cardId": 100511,
+          "quantity": 1
+        },
+        {
+          "cardId": 100488,
+          "quantity": 1
+        },
+        {
+          "cardId": 100522,
+          "quantity": 1
+        },
+        {
+          "cardId": 72090,
+          "quantity": 7
+        },
+        {
+          "cardId": 100533,
+          "quantity": 1
+        },
+        {
+          "cardId": 100526,
+          "quantity": 1
+        },
+        {
+          "cardId": 100519,
+          "quantity": 1
+        },
+        {
+          "cardId": 100498,
+          "quantity": 1
+        },
+        {
+          "cardId": 100535,
+          "quantity": 1
+        },
+        {
+          "cardId": 100546,
+          "quantity": 1
+        },
+        {
+          "cardId": 95088,
+          "quantity": 7
+        },
+        {
+          "cardId": 100551,
+          "quantity": 4
+        },
+        {
+          "cardId": 100552,
+          "quantity": 1
+        },
+        {
+          "cardId": 100561,
+          "quantity": 1
+        },
+        {
+          "cardId": 100564,
+          "quantity": 2
+        },
+        {
+          "cardId": 100560,
+          "quantity": 1
+        },
+        {
+          "cardId": 100558,
+          "quantity": 1
+        },
+        {
+          "cardId": 100555,
+          "quantity": 1
+        },
+        {
+          "cardId": 100554,
+          "quantity": 1
+        },
+        {
+          "cardId": 100565,
+          "quantity": 1
+        },
+        {
+          "cardId": 100569,
+          "quantity": 1
+        },
+        {
+          "cardId": 87578,
+          "quantity": 2
+        },
+        {
+          "cardId": 100583,
+          "quantity": 1
+        },
+        {
+          "cardId": 100587,
+          "quantity": 2
+        },
+        {
+          "cardId": 100593,
+          "quantity": 1
+        },
+        {
+          "cardId": 100622,
+          "quantity": 1
+        },
+        {
+          "cardId": 100607,
+          "quantity": 1
+        },
+        {
+          "cardId": 100501,
+          "quantity": 1
+        },
+        {
+          "cardId": 100604,
+          "quantity": 2
+        },
+        {
+          "cardId": 100588,
+          "quantity": 1
+        },
+        {
+          "cardId": 100620,
+          "quantity": 1
+        },
+        {
+          "cardId": 100613,
+          "quantity": 1
+        },
+        {
+          "cardId": 100615,
+          "quantity": 1
+        },
+        {
+          "cardId": 100625,
+          "quantity": 1
+        },
+        {
+          "cardId": 100621,
+          "quantity": 1
+        },
+        {
+          "cardId": 100633,
+          "quantity": 1
+        },
+        {
+          "cardId": 100630,
+          "quantity": 1
+        },
+        {
+          "cardId": 100513,
+          "quantity": 1
+        },
+        {
+          "cardId": 100557,
+          "quantity": 1
+        },
+        {
+          "cardId": 100470,
+          "quantity": 1
+        },
+        {
+          "cardId": 100536,
+          "quantity": 1
+        },
+        {
+          "cardId": 100573,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 78,
+      "log_line": 70536
+    },
+    {
       "name": "Selesnya Optimized",
       "format": "Historic",
       "main_deck": [
@@ -127,96 +2377,6 @@
       ],
       "total_cards": 80,
       "log_line": 0
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 60,
-      "log_line": 2202
     },
     {
       "name": "Strix Treasure Dragons",
@@ -1069,171 +3229,81 @@
       "log_line": 20048
     },
     {
-      "name": "Optimized Conjuration",
+      "name": "Imported Deck (2)",
       "format": "Historic",
       "main_deck": [
+        {
+          "cardId": 92081,
+          "quantity": 4
+        },
         {
           "cardId": 88949,
           "quantity": 4
         },
         {
-          "cardId": 95357,
+          "cardId": 93729,
           "quantity": 4
         },
         {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
+          "cardId": 86724,
           "quantity": 2
         },
         {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
+          "cardId": 86709,
           "quantity": 2
         },
         {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
+          "cardId": 92064,
           "quantity": 1
         },
         {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
+          "cardId": 86956,
           "quantity": 1
         },
         {
-          "cardId": 72028,
+          "cardId": 91543,
           "quantity": 4
         },
         {
-          "cardId": 75326,
-          "quantity": 4
+          "cardId": 91716,
+          "quantity": 2
         },
         {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
+          "cardId": 91542,
           "quantity": 3
+        },
+        {
+          "cardId": 82654,
+          "quantity": 1
+        },
+        {
+          "cardId": 78795,
+          "quantity": 1
+        },
+        {
+          "cardId": 90601,
+          "quantity": 4
+        },
+        {
+          "cardId": 79705,
+          "quantity": 4
+        },
+        {
+          "cardId": 89185,
+          "quantity": 1
         },
         {
           "cardId": 87578,
-          "quantity": 2
+          "quantity": 7
         },
         {
-          "cardId": 87439,
-          "quantity": 1
+          "cardId": 95088,
+          "quantity": 7
         }
       ],
       "sideboard": [],
       "companions": [],
-      "total_cards": 60,
-      "log_line": 20077
-    },
-    {
-      "name": "Imported Deck (2)",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 94040,
-          "quantity": 4
-        },
-        {
-          "cardId": 67928,
-          "quantity": 4
-        },
-        {
-          "cardId": 92173,
-          "quantity": 2
-        },
-        {
-          "cardId": 93781,
-          "quantity": 4
-        },
-        {
-          "cardId": 86774,
-          "quantity": 2
-        },
-        {
-          "cardId": 73310,
-          "quantity": 3
-        },
-        {
-          "cardId": 93891,
-          "quantity": 1
-        },
-        {
-          "cardId": 87488,
-          "quantity": 2
-        },
-        {
-          "cardId": 86777,
-          "quantity": 2
-        },
-        {
-          "cardId": 93673,
-          "quantity": 4
-        },
-        {
-          "cardId": 75494,
-          "quantity": 2
-        },
-        {
-          "cardId": 93784,
-          "quantity": 2
-        },
-        {
-          "cardId": 83792,
-          "quantity": 1
-        },
-        {
-          "cardId": 69882,
-          "quantity": 1
-        },
-        {
-          "cardId": 93894,
-          "quantity": 2
-        },
-        {
-          "cardId": 71150,
-          "quantity": 2
-        },
-        {
-          "cardId": 96841,
-          "quantity": 22
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 60,
+      "total_cards": 52,
       "log_line": 0
     },
     {
@@ -2647,472 +4717,6 @@
       "companions": [],
       "total_cards": 61,
       "log_line": 56435
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 60,
-      "log_line": 72674
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 60,
-      "log_line": 81374
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 60,
-      "log_line": 107693
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 118712
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 118741
     },
     {
       "name": "new rainbow",
@@ -5259,398 +6863,6 @@
       "companions": [],
       "total_cards": 60,
       "log_line": 170987
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 184121
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 189777
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 190063
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 194421
     },
     {
       "name": "Selesnya Optimized",
@@ -9364,256 +10576,6 @@
       "log_line": 0
     },
     {
-      "name": "New Deck (8)",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 70543,
-          "quantity": 2
-        },
-        {
-          "cardId": 96839,
-          "quantity": 5
-        },
-        {
-          "cardId": 70532,
-          "quantity": 1
-        },
-        {
-          "cardId": 70536,
-          "quantity": 2
-        },
-        {
-          "cardId": 70526,
-          "quantity": 1
-        },
-        {
-          "cardId": 70538,
-          "quantity": 1
-        },
-        {
-          "cardId": 70557,
-          "quantity": 2
-        },
-        {
-          "cardId": 96841,
-          "quantity": 5
-        },
-        {
-          "cardId": 70546,
-          "quantity": 4
-        },
-        {
-          "cardId": 70544,
-          "quantity": 3
-        },
-        {
-          "cardId": 70521,
-          "quantity": 3
-        },
-        {
-          "cardId": 70549,
-          "quantity": 2
-        },
-        {
-          "cardId": 70560,
-          "quantity": 2
-        },
-        {
-          "cardId": 70558,
-          "quantity": 3
-        },
-        {
-          "cardId": 70553,
-          "quantity": 1
-        },
-        {
-          "cardId": 70578,
-          "quantity": 2
-        },
-        {
-          "cardId": 70559,
-          "quantity": 3
-        },
-        {
-          "cardId": 70562,
-          "quantity": 2
-        },
-        {
-          "cardId": 70570,
-          "quantity": 1
-        },
-        {
-          "cardId": 70575,
-          "quantity": 4
-        },
-        {
-          "cardId": 70589,
-          "quantity": 1
-        },
-        {
-          "cardId": 70574,
-          "quantity": 1
-        },
-        {
-          "cardId": 70631,
-          "quantity": 3
-        },
-        {
-          "cardId": 72090,
-          "quantity": 5
-        },
-        {
-          "cardId": 70617,
-          "quantity": 4
-        },
-        {
-          "cardId": 70612,
-          "quantity": 2
-        },
-        {
-          "cardId": 70611,
-          "quantity": 3
-        },
-        {
-          "cardId": 70555,
-          "quantity": 4
-        },
-        {
-          "cardId": 70604,
-          "quantity": 1
-        },
-        {
-          "cardId": 70623,
-          "quantity": 1
-        },
-        {
-          "cardId": 70610,
-          "quantity": 1
-        },
-        {
-          "cardId": 70597,
-          "quantity": 1
-        },
-        {
-          "cardId": 70603,
-          "quantity": 3
-        },
-        {
-          "cardId": 70648,
-          "quantity": 1
-        },
-        {
-          "cardId": 87578,
-          "quantity": 6
-        },
-        {
-          "cardId": 70674,
-          "quantity": 2
-        },
-        {
-          "cardId": 70657,
-          "quantity": 2
-        },
-        {
-          "cardId": 70656,
-          "quantity": 3
-        },
-        {
-          "cardId": 70663,
-          "quantity": 1
-        },
-        {
-          "cardId": 70654,
-          "quantity": 4
-        },
-        {
-          "cardId": 70659,
-          "quantity": 2
-        },
-        {
-          "cardId": 70637,
-          "quantity": 1
-        },
-        {
-          "cardId": 70653,
-          "quantity": 2
-        },
-        {
-          "cardId": 70664,
-          "quantity": 1
-        },
-        {
-          "cardId": 70684,
-          "quantity": 1
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 70712,
-          "quantity": 3
-        },
-        {
-          "cardId": 70682,
-          "quantity": 1
-        },
-        {
-          "cardId": 70641,
-          "quantity": 1
-        },
-        {
-          "cardId": 70675,
-          "quantity": 4
-        },
-        {
-          "cardId": 70688,
-          "quantity": 1
-        },
-        {
-          "cardId": 70695,
-          "quantity": 2
-        },
-        {
-          "cardId": 70703,
-          "quantity": 3
-        },
-        {
-          "cardId": 70706,
-          "quantity": 1
-        },
-        {
-          "cardId": 70714,
-          "quantity": 1
-        },
-        {
-          "cardId": 87132,
-          "quantity": 2
-        },
-        {
-          "cardId": 70742,
-          "quantity": 2
-        },
-        {
-          "cardId": 70745,
-          "quantity": 3
-        },
-        {
-          "cardId": 70738,
-          "quantity": 4
-        },
-        {
-          "cardId": 70725,
-          "quantity": 2
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 138,
-      "log_line": 0
-    },
-    {
       "name": "+1 token",
       "format": "Historic",
       "main_deck": [
@@ -10544,21 +11506,99 @@
       "companions": [],
       "total_cards": 60,
       "log_line": 0
+    },
+    {
+      "name": "Standard 1",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 92081,
+          "quantity": 4
+        },
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 93729,
+          "quantity": 4
+        },
+        {
+          "cardId": 92064,
+          "quantity": 2
+        },
+        {
+          "cardId": 90519,
+          "quantity": 2
+        },
+        {
+          "cardId": 92090,
+          "quantity": 4
+        },
+        {
+          "cardId": 86701,
+          "quantity": 4
+        },
+        {
+          "cardId": 91542,
+          "quantity": 3
+        },
+        {
+          "cardId": 91716,
+          "quantity": 3
+        },
+        {
+          "cardId": 91537,
+          "quantity": 2
+        },
+        {
+          "cardId": 82654,
+          "quantity": 2
+        },
+        {
+          "cardId": 82659,
+          "quantity": 2
+        },
+        {
+          "cardId": 82746,
+          "quantity": 4
+        },
+        {
+          "cardId": 79705,
+          "quantity": 4
+        },
+        {
+          "cardId": 87578,
+          "quantity": 8
+        },
+        {
+          "cardId": 95088,
+          "quantity": 8
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 60,
+      "log_line": 0
     }
   ],
   "unique_card_ids": [
+    17618,
     21339,
     21343,
     21375,
     32675,
     35515,
+    51691,
     58199,
     58427,
     61307,
+    65481,
     65633,
     65993,
     66199,
     66473,
+    66493,
     66911,
     66933,
     67174,
@@ -10571,16 +11611,21 @@
     68128,
     68140,
     68731,
+    69213,
     69261,
+    69277,
+    69306,
     69389,
     69455,
+    69512,
     69551,
     69620,
+    69643,
     69656,
+    69670,
     69719,
     69788,
     69822,
-    69882,
     69890,
     69933,
     69938,
@@ -10589,8 +11634,11 @@
     70031,
     70158,
     70163,
+    70205,
     70222,
     70223,
+    70244,
+    70248,
     70251,
     70280,
     70300,
@@ -10599,78 +11647,28 @@
     70310,
     70332,
     70358,
+    70388,
     70392,
     70395,
     70396,
     70512,
     70520,
-    70521,
-    70526,
     70529,
-    70532,
     70535,
-    70536,
-    70538,
-    70543,
-    70544,
-    70546,
-    70549,
-    70553,
-    70555,
     70556,
-    70557,
-    70558,
-    70559,
-    70560,
-    70562,
-    70570,
-    70574,
-    70575,
-    70578,
-    70589,
-    70597,
     70598,
     70600,
     70602,
-    70603,
-    70604,
     70610,
-    70611,
-    70612,
-    70617,
-    70623,
-    70631,
     70632,
-    70637,
-    70641,
-    70648,
-    70653,
-    70654,
-    70656,
-    70657,
-    70659,
-    70663,
-    70664,
-    70674,
-    70675,
     70679,
     70680,
-    70682,
     70683,
-    70684,
-    70688,
-    70695,
     70696,
-    70703,
-    70706,
     70707,
     70709,
-    70712,
-    70714,
-    70725,
+    70721,
     70727,
-    70738,
-    70742,
     70745,
     70759,
     70786,
@@ -10678,6 +11676,7 @@
     71081,
     71082,
     71087,
+    71134,
     71150,
     71174,
     71278,
@@ -10702,6 +11701,8 @@
     71940,
     71946,
     71959,
+    71962,
+    71970,
     71974,
     71982,
     71985,
@@ -10718,6 +11719,7 @@
     72157,
     72158,
     72293,
+    72301,
     72447,
     72480,
     72510,
@@ -10742,14 +11744,17 @@
     73472,
     73774,
     73775,
+    73807,
     73808,
     73903,
     73909,
     73913,
+    73966,
     74051,
     74091,
     74099,
     75039,
+    75044,
     75052,
     75080,
     75096,
@@ -10768,6 +11773,7 @@
     75240,
     75244,
     75246,
+    75253,
     75258,
     75269,
     75282,
@@ -10788,15 +11794,16 @@
     75451,
     75460,
     75488,
-    75494,
     75526,
     75529,
     75533,
     75587,
+    75662,
     75719,
     75732,
     75955,
     76109,
+    76128,
     76129,
     76131,
     76136,
@@ -10805,6 +11812,7 @@
     76253,
     76406,
     76412,
+    76447,
     76489,
     76490,
     76508,
@@ -10842,6 +11850,7 @@
     77244,
     77255,
     77269,
+    77272,
     77287,
     77302,
     77305,
@@ -10856,6 +11865,7 @@
     77480,
     77482,
     77488,
+    77492,
     77527,
     78354,
     78429,
@@ -10864,9 +11874,16 @@
     78510,
     78563,
     78570,
+    78607,
     78629,
+    78632,
+    78635,
     78637,
+    78795,
+    78799,
     78815,
+    78817,
+    78818,
     79011,
     79066,
     79089,
@@ -10886,6 +11903,7 @@
     79558,
     79563,
     79566,
+    79570,
     79574,
     79575,
     79603,
@@ -10956,6 +11974,7 @@
     81954,
     82069,
     82074,
+    82076,
     82083,
     82124,
     82141,
@@ -10979,12 +11998,14 @@
     82586,
     82595,
     82647,
+    82654,
     82659,
     82670,
     82678,
     82701,
     82730,
     82742,
+    82746,
     82749,
     82754,
     82758,
@@ -10997,7 +12018,9 @@
     83481,
     83521,
     83708,
+    83710,
     83792,
+    83804,
     83808,
     83809,
     83815,
@@ -11098,6 +12121,7 @@
     86333,
     86334,
     86371,
+    86440,
     86469,
     86641,
     86688,
@@ -11105,8 +12129,11 @@
     86692,
     86694,
     86697,
+    86701,
     86704,
     86706,
+    86709,
+    86724,
     86725,
     86727,
     86774,
@@ -11151,6 +12178,7 @@
     87000,
     87008,
     87009,
+    87042,
     87044,
     87048,
     87051,
@@ -11356,6 +12384,7 @@
     90687,
     90704,
     90712,
+    90718,
     90832,
     90848,
     90971,
@@ -11424,10 +12453,12 @@
     91835,
     91892,
     92060,
+    92064,
     92065,
     92066,
     92078,
     92081,
+    92090,
     92097,
     92141,
     92162,
@@ -11463,9 +12494,11 @@
     93688,
     93693,
     93694,
+    93715,
     93717,
     93722,
     93728,
+    93729,
     93730,
     93734,
     93738,
@@ -11566,6 +12599,7 @@
     94495,
     94499,
     94506,
+    94604,
     94899,
     94924,
     94932,
@@ -11688,6 +12722,51 @@
     98589,
     98590,
     98815,
+    100464,
+    100465,
+    100467,
+    100470,
+    100487,
+    100488,
+    100489,
+    100497,
+    100498,
+    100501,
+    100511,
+    100513,
+    100519,
+    100522,
+    100526,
+    100533,
+    100535,
+    100536,
+    100546,
+    100551,
+    100552,
+    100554,
+    100555,
+    100557,
+    100558,
+    100560,
+    100561,
+    100564,
+    100565,
+    100569,
+    100573,
+    100583,
+    100587,
+    100588,
+    100593,
+    100604,
+    100607,
+    100613,
+    100615,
+    100620,
+    100621,
+    100622,
+    100625,
+    100630,
+    100633,
     101319
   ]
 }

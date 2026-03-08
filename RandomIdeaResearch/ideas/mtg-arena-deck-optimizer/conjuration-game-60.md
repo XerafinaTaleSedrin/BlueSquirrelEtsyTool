@@ -1,75 +1,97 @@
 # Conjuration Game — Diamond Push Build (60 Cards)
 
 **Format**: Historic
-**Archetype**: Bant (G/W/U) Conjure & Combo
-**Strategy**: Draw cards to fuel Worldweave conjures, protect your engine with counters and board wipes, ramp to Omniscience, then cast Enter the Infinite to draw your entire deck — every draw conjures a random card via Worldweave — and Aetherflux Reservoir lasers them for 50. Deterministic combo kill instead of hoping the chaos works.
+**Archetype**: Bant (G/W/U) Conjure & Blink
+**Strategy**: Blink conjure creatures to flood your hand with random cards. Hold up 1-mana blink spells to PROTECT your creatures from removal — and get a free conjure when they come back. Distinguished Conjurer draws on every blink return, feeding Worldweave for even more conjures. Win through overwhelming card advantage or Omniscience + Ornate Imitations for massive chaos.
 
 ---
 
-## What Changed (Diamond Upgrade)
+## What Changed (60-Card Tight Build)
 
-The old build had a clue/artifact subtheme (Novice Inspector, Forensic Gadgeteer, Thoughtcast) that was too slow and fragile for Diamond. This version replaces that with:
-- **Interaction**: Supreme Verdict, Teferi, Dovin's Veto, Mystical Dispute — you survive aggro and protect your combo
-- **Better draw**: Opt (instant speed scry + draw for 1 mana), Growth Spiral (ramp + draw)
-- **Deterministic win**: Enter the Infinite + Omniscience = draw entire deck, not "hope for good conjures"
-- **Engine protection**: Sterling Grove gives Worldweave/Omniscience shroud, or sac to tutor either one
-- **Mana doubling**: Wilderness Reclamation untaps lands on end step — cast interaction on their turn, develop on yours
+The 70-card build had consistency problems — too many 1-ofs, pieces not connecting. This version:
+- **60 cards**: Draw your engine pieces faster, every card matters
+- **4x everything that matters**: Distinguished Conjurer x4, Cloudshift x4, Fear of Change x4, Emergent Haunting x4, Worldweave x4
+- **6 protection blinks at 1 mana**: Cloudshift x4 + Essence Flux x2. Opponent tries to exile/destroy your creature? Blink it in response — creature saved, ETB re-triggers, you're ahead
+- **Displacer Kitten**: Every noncreature spell = free blink. Cast Opt, Kitten blinks Fear of Change, conjure + draw + Worldweave. If you don't own it yet, Charming Prince fills the slot
+- **Cut the dead weight**: No more Witching Well, Ichor Wellspring, Clay Bricks, One with the Multiverse, Enter the Infinite, Aetherflux. Those were sitting in hand while you died
+
+---
+
+## How to Not Die (Protection Guide)
+
+This is the #1 thing to learn. Your blink spells are DEFENSIVE first, offensive second.
+
+```
+SCENARIO: Opponent casts removal on your Fear of Change
+  YOU: Cast Cloudshift targeting Fear of Change (1 mana, instant)
+  RESULT: Fear of Change exiles (dodges the removal), returns immediately
+          -> Conjures a new random creature on re-entry
+          -> Distinguished Conjurer draws you a card
+          -> Worldweave conjures another random card
+  YOU SPENT: 1 mana
+  YOU GOT: Creature saved + 2-3 free cards
+  OPPONENT SPENT: Their removal spell + their mana
+  OPPONENT GOT: Nothing
+
+RULE: Always hold up W or U when you have a blink spell in hand.
+      Never tap out if you have creatures worth protecting.
+```
+
+| Threat | Answer |
+|--------|--------|
+| Targeted removal (destroy/exile) | Cloudshift / Essence Flux in response |
+| Board wipe (Wrath of God) | Thassa survives (indestructible). Enchantments survive. Rebuild with conjured cards in hand |
+| Counterspells on your key cards | Teferi makes your spells uncounterable. Dovin's Veto / Mystical Dispute counter back |
+| Opponent going wide (aggro swarm) | Supreme Verdict — uncounterable board wipe |
+| Planeswalker threats | Teferi bounces any nonland permanent |
 
 ---
 
 ## The Deck (60 cards)
 
-### Creatures (6)
+### Creatures (16)
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
-| 4x | Fear of Change | GU | THE conjure card. Conjures a random creature on ETB. Blocks early, generates value |
-| 2x | Alaundo the Seer | 2GU | Suspend cards from hand, cast them free over time. Backup Omniscience that starts working immediately |
+| 4x | Fear of Change | GU | THE conjure card. Conjures a random creature on ETB. #1 blink target |
+| 4x | Emergent Haunting | 1U | Second Fear of Change — always have a blink target available |
+| 4x | Distinguished Conjurer | 1W | Draws a card whenever a creature enters from exile. THE glue piece — every blink = draw = Worldweave trigger |
+| 1x | Oracle of the Alpha | 2U | ETB conjures a Power Nine card. Blink it = another Power Nine |
+| 1x | Thassa, Deep-Dwelling | 3U | 6/5 indestructible. Blinks a creature every end step FOR FREE |
+| 1x | Soulherder | 1WU | Blinks every end step like Thassa. Gets +1/+1 per exile. Grows into a finisher |
+| 1x | Displacer Kitten | 3U | Every noncreature spell you cast = free blink. Turns every Opt/Cloudshift into double value. (If not owned: swap for Charming Prince) |
 
-### Enchantments (10)
-
-| Qty | Card | Mana | Role |
-|-----|------|------|------|
-| 4x | Worldweave | 2G | THE ENGINE. Every card you draw conjures a random card that shares a type. Opt = 3 conjures for 1 mana |
-| 2x | Omniscience | 7UUU | Cast everything free. With Worldweave + Enter the Infinite = deterministic combo kill |
-| 1x | One with the Multiverse | 6UU | Play cards off the top free. Backup Omniscience, 2 mana cheaper |
-| 1x | Wilderness Reclamation | 3G | Untaps ALL your lands on end step. Double your mana every turn. Cast Deduce/Opt on their turn, still have mana on yours |
-| 1x | Sterling Grove | GW | All your enchantments have shroud — Worldweave, Omniscience, Wilderness Rec can't be targeted. Sac to tutor any enchantment (find Omniscience or Worldweave on demand) |
-| 1x | Shark Typhoon | 5U | Cycle for XU: draw a card (Worldweave trigger) + create X/X flying shark. Or hardcast as enchantment for free off Omniscience |
-
-### Artifacts (5)
+### Enchantments (6)
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
-| 4x | Clay-Fired Bricks | 1W | Transforms into a land — ramp toward Omniscience. Cheap early play |
-| 1x | Aetherflux Reservoir | 4 | WIN CONDITION. Cast 10+ spells with Omniscience, gain 50+ life, laser opponent for 50 |
+| 4x | Worldweave | 2G | THE ENGINE. Every card you draw conjures a random card |
+| 1x | Omniscience | 7UUU | Late-game finisher. Cast everything free. Ornate Imitations for X=20 |
+| 1x | Sterling Grove | GW | All enchantments have shroud (protects Worldweave). Sac to tutor Omniscience or Worldweave |
 
-### Planeswalkers (2)
-
-| Qty | Card | Mana | Role |
-|-----|------|------|------|
-| 1x | Teferi, Time Raveler | 1WU | Bounces any threat, draws a card, makes YOUR spells uncounterable. Protects your Omniscience turn — they can't counter it |
-| 1x | Narset, Parter of Veils | 1UU | Look at top 4, take a noncreature spell (finds Omniscience, Enter the Infinite, Supreme Verdict). ALSO: opponents can't draw more than 1 card per turn — shuts down their card advantage |
-
-### Instants (8)
+### Planeswalkers (1)
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
-| 1x | Opt | U | Instant. Scry 1, then draw 1. Cheap cantrip that triggers Worldweave, and being instant speed lets you hold up mana for counters |
-| 1x | Growth Spiral | GU | Instant speed ramp + draw. Triggers Worldweave AND gets you closer to Omniscience |
-| 3x | Deduce | 1U | Draw + make a Clue. Triggers Worldweave on draw, clue is another future draw |
-| 1x | Dovin's Veto | WU | Uncounterable counter for noncreature spells. Protects Omniscience from removal/counters |
-| 1x | Mystical Dispute | 2U | Counter any spell (1 mana vs blue spells). Cheap protection early |
-| 1x | Supreme Verdict | 1WWU | Uncounterable board wipe. Keeps you alive against aggro. Your enchantments survive |
+| 1x | Teferi, Time Raveler | 1WU | Bounces threats, draws, makes YOUR spells uncounterable |
 
-### Sorceries (5)
+### Instants (10)
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
-| 2x | They Went This Way | 2G | Make 2 Clue tokens = 2 future Worldweave triggers. With Wilderness Rec, crack them on opponent's end step |
-| 1x | Solve the Equation | 2U | Tutor ANY instant or sorcery. Find Enter the Infinite (combo), Supreme Verdict (survival), or Opt (draw) |
-| 1x | Ornate Imitations | XGU | Conjure X random cards. With Omniscience, X = all your mana = absurd |
-| 1x | Enter the Infinite | 8UUUU | With Omniscience: draw your ENTIRE deck. Every draw triggers Worldweave. Cast everything for free. Aetherflux kills. Game over |
+| 4x | Cloudshift | W | 1-MANA PROTECTION + BLINK. Save creature from removal AND re-trigger ETB. Always hold one up |
+| 2x | Essence Flux | U | Same as Cloudshift but blue. 6 total blink spells = almost always have one |
+| 2x | Opt | U | Scry 1, draw 1. Cheap Worldweave trigger. With Displacer Kitten: also a free blink |
+| 1x | Dovin's Veto | WU | Uncounterable counter. Protects Omniscience or Worldweave from removal |
+| 1x | Mystical Dispute | 2U | Cheap counter (1 mana vs blue spells) |
+
+### Sorceries (3)
+
+| Qty | Card | Mana | Role |
+|-----|------|------|------|
+| 1x | Supreme Verdict | 1WWU | Uncounterable board wipe. Your enchantments + Thassa (indestructible) survive |
+| 1x | Ornate Imitations | XGU | Conjure X random cards. THE chaos card. With Omniscience, X = all your mana |
+| 1x | Solve the Equation | 2U | Tutor any instant/sorcery. Finds Supreme Verdict, Ornate Imitations, or Cloudshift |
 
 ### Lands (24)
 
@@ -78,9 +100,9 @@ The old build had a clue/artifact subtheme (Novice Inspector, Forensic Gadgeteer
 | 4x | Fabled Passage | Fetch any basic, fixes colors |
 | 4x | The World Tree | Fixes all colors at 6+ lands |
 | 4x | Brokers Hideout | G/W/U fetch triland |
-| 5x | Island | Primary color |
-| 3x | Forest | Worldweave, Growth Spiral, Fear of Change |
-| 3x | Plains | Supreme Verdict WW, Teferi, Sterling Grove, Clay Bricks |
+| 5x | Island | Primary color — blue blink + draw + conjure |
+| 4x | Plains | Cloudshift, Distinguished Conjurer, Teferi, Supreme Verdict |
+| 2x | Forest | Worldweave, Fear of Change |
 | 1x | Hidden Cataract | Transforms into draw land late game |
 
 ---
@@ -88,130 +110,130 @@ The old build had a clue/artifact subtheme (Novice Inspector, Forensic Gadgeteer
 ## Mana Curve
 
 ```
-1 CMC: ███ 3           (Opt, Dovin's Veto... effective 1-mana plays)
-2 CMC: █████████ 9     (Fear of Change x4, Deduce x3, Growth Spiral, Clay Bricks counted at 2)
-        Actually:
-1 CMC: ██ 2            (Opt x1, Clay-Fired Bricks... Bricks are 1W = 2 CMC)
-2 CMC: ████████████ 12 (Fear of Change x4, Deduce x3, Clay Bricks x4, Dovin's Veto x1)
-3 CMC: ████████████ 12 (Worldweave x4, They Went This Way x2, Teferi x1, Narset x1,
-                         Mystical Dispute x1, Solve the Equation x1, Sterling Grove x1,
-                         Growth Spiral... GS is 2 CMC)
-        Recount:
-2 CMC: █████████████ 13 (Fear x4, Deduce x3, Bricks x4, Dovin's Veto x1, Growth Spiral x1)
-3 CMC: ██████████ 10    (Worldweave x4, They Went x2, Teferi x1, Narset x1,
-                          Solve x1, Sterling Grove x1... wait, Sterling is 2 CMC)
-2 CMC: ██████████████ 14 (Fear x4, Deduce x3, Bricks x4, Dovin's Veto x1,
-                           Growth Spiral x1, Sterling Grove x1)
-3 CMC: ████████ 8        (Worldweave x4, They Went x2, Solve x1, Mystical Dispute x1)
-4 CMC: █████ 5           (Alaundo x2, Wilderness Rec x1, Aetherflux x1, Supreme Verdict x1)
-5+ CMC: █████ 5          (Omniscience x2, One with Multiverse x1, Enter the Infinite x1,
-                           Shark Typhoon x1... Ornate Imitations is X)
+1 CMC:  ████████ 8            Cloudshift x4, Essence Flux x2, Opt x2
+2 CMC:  ██████████████████ 18 Fear x4, Emergent x4, Distinguished Conjurer x4,
+                                    Dovin's Veto x1, Sterling Grove x1
+                               (Deduce/Growth Spiral cut — blinks replaced them)
+3 CMC:  ██████ 6              Worldweave x4, Oracle x1, Soulherder x1
+                               (Teferi = 1WU = 3 CMC, Solve = 2U = 3 CMC)
+       Recount:
+3 CMC:  ████████ 8            Worldweave x4, Oracle x1, Soulherder x1, Teferi x1,
+                                    Solve x1
+4 CMC:  ████ 4                Thassa x1, Displacer Kitten x1, Supreme Verdict x1,
+                                    Mystical Dispute x1
+10 CMC: █ 1                   Omniscience x1
+X CMC:  █ 1                   Ornate Imitations (scales with mana)
 ```
 
-24 lands with Clay-Fired Bricks ramp + Growth Spiral = consistently hitting 7-10 mana by turn 6-8.
+24 lands, 26 cards at 1-2 CMC. You always have a play turns 1-3. Hold up 1 mana for blink protection whenever possible.
 
 ---
 
 ## How It Plays
 
-### Early Game (Turns 1-3)
-- **Turn 1**: Land, pass. Or Opt on their end step if Worldweave isn't out yet (still finds pieces)
-- **Turn 2**: Fear of Change (conjure a creature) or Clay-Fired Bricks (ramp) or Sterling Grove (protect everything you play after)
-- **Turn 3**: Worldweave — NOW every card draw conjures something. Or Teferi to bounce their best threat + draw
+### Early Game (Turns 1-3) — SURVIVE AND SET UP
+- **Turn 1**: Land, pass. Hold up W/U if you have a blink spell (you probably won't need it yet, but the habit matters)
+- **Turn 2**: Fear of Change or Emergent Haunting (conjure immediately). Or Distinguished Conjurer if you already have a conjure creature to blink next turn. **Leave 1 mana open if possible**
+- **Turn 3**: Worldweave if you have it — NOW every draw conjures. Or Soulherder (blinks every end step). Or Teferi to bounce their best threat
 
-### Mid Game (Turns 4-6)
-- **Wilderness Reclamation** doubles your mana — cast Deduce/Opt on their end step, still have full mana on your turn
-- **Narset** digs 4 deep for Omniscience or Enter the Infinite, while shutting down their card draw
-- **Supreme Verdict** if aggro is swarming — uncounterable, your enchantments survive
-- **Alaundo** starts suspending expensive cards for future free casts
-- Crack clues on opponent's end step (Wilderness Rec untaps your mana)
+### Mid Game (Turns 4-6) — BLINK ENGINE ONLINE
+- **Thassa / Soulherder / Displacer Kitten** — any one of these makes the engine automatic
+- **The value chain**: End step blink Fear of Change -> conjure creature -> Conjurer draws -> Worldweave conjures another -> 3 cards per turn for FREE
+- **Hold blink spells for defense** until you have a repeatable blinker (Thassa/Soulherder). Then use them offensively
+- **Supreme Verdict** if you're behind on board — your enchantments + Thassa survive
 
-### Late Game (Turn 7+)
-- **Teferi on board = your spells can't be countered** → safely resolve Omniscience
-- **Omniscience → Enter the Infinite** → draw your entire deck
-- Every draw triggers Worldweave → conjure your whole library worth of random cards
-- Cast everything for free → Aetherflux Reservoir counts spells → gain 50+ life → **laser for 50**
-- If no Enter the Infinite: Solve the Equation finds it. If no Omniscience: Sterling Grove tutors it
+### Late Game (Turn 7+) — CLOSE IT OUT
+- **Option A**: Blink value has buried them in random creatures. Attack with your army of conjured stuff
+- **Option B**: Omniscience (Sterling Grove tutors it) -> Ornate Imitations for X = everything -> conjure 20 random cards -> cast them all free
+- **Option C**: Solve the Equation finds whatever you need to close
 
-### The Combo Kill
+### Key Play Patterns
 ```
-Board: Omniscience + Worldweave + Aetherflux Reservoir
+DEFENSIVE BLINK (most important play in the deck):
+  Opponent targets your creature -> Cloudshift in response
+  = Creature saved + ETB re-triggers + you're up cards
 
-1. Cast Enter the Infinite for free (draw entire deck)
-   → Every card drawn triggers Worldweave
-   → 30+ cards drawn = 30+ conjured random cards added to hand
-2. Cast every card in hand for free (Omniscience)
-   → Each spell triggers Aetherflux: +1, +2, +3... +10 = 55 life gained by spell 10
-3. Pay 50 life → Aetherflux deals 50 damage
-4. They're dead. Deterministic. No luck needed.
+OFFENSIVE BLINK (when you have the engine running):
+  Your turn: Cast Opt -> Displacer Kitten blinks Fear of Change
+  = Opt draws (Worldweave trigger) + conjure creature (Conjurer draws)
+  = 1 mana, 3-4 cards generated
 
-Backup: even without Enter the Infinite, Worldweave + Omniscience
-chains free spells → conjures → free spells → eventually hits critical mass
+END STEP VALUE (every turn once Thassa/Soulherder is out):
+  Their end step: Thassa blinks Fear of Change automatically
+  = Conjure + Conjurer draw + Worldweave conjure
+  = Free cards every single turn, no mana spent
 ```
 
 ---
 
 ## Toolbox: Finding What You Need
 
-This build has powerful 1-ofs connected by tutors:
-
 | Need | Find it with |
 |------|-------------|
-| Omniscience (combo) | Sterling Grove (sac to tutor), Narset (dig 4) |
-| Enter the Infinite (win) | Solve the Equation (tutor instant/sorcery) |
+| Omniscience (finisher) | Sterling Grove (sac to tutor) |
+| Worldweave (engine) | Sterling Grove (sac to tutor) |
 | Supreme Verdict (survival) | Solve the Equation |
-| Worldweave (engine) | Sterling Grove (sac to tutor), Narset (dig 4) |
-| Any answer | Opt (dig 3), Deduce (draw + clue), Narset (dig 4) |
+| Ornate Imitations (chaos) | Solve the Equation |
+| Cloudshift (protection) | Solve the Equation (it's an instant!) |
 
 ---
 
 ## Synergy Map
 
 ```
-Worldweave ──→ every card draw conjures a random card
-    ↑               ↑               ↑                ↑
-Opt      Deduce          Growth Spiral    Crack Clues
-(scry 2 +       (draw + clue)   (draw + ramp)    (Wilderness Rec
- draw 1)                                          untaps mana to crack)
+THE BLINK LOOP (the deck's core engine):
 
-Sterling Grove ──→ shroud on Worldweave + Omniscience + Wilderness Rec
-    │                (opponents can't target ANY of your enchantments)
-    └──→ sacrifice to tutor Omniscience or Worldweave
+  Cloudshift / Essence Flux (1 mana) --> exile your creature, it returns
+       |
+       +---> Fear of Change returns --> CONJURE a creature
+       |
+       +---> Distinguished Conjurer sees creature enter from exile --> DRAW
+       |         |
+       |         +---> Worldweave sees a draw --> CONJURE another random card
+       |
+       +---> Soulherder sees something exiled --> gets +1/+1 counter
 
-Teferi ──→ bounces threats + draws + YOUR SPELLS CAN'T BE COUNTERED
-    └──→ safely resolve Omniscience without fear of countermagic
+  RESULT: 1 mana = conjure + draw + Worldweave conjure = 3 CARDS
 
-Wilderness Reclamation ──→ untap ALL lands on end step
-    └──→ cast Opt/Deduce on their turn + still have mana on yours
-    └──→ effectively DOUBLES your mana every turn
+Displacer Kitten --> every noncreature spell = FREE blink
+    +---> Cast Opt --> Kitten blinks Fear of Change --> conjure + draw
+    +---> Cast Cloudshift --> creature blinks --> Kitten blinks ANOTHER creature
+    +---> With Omniscience, every free spell chains more blinks
 
-Omniscience ──→ cast everything free
-    + Enter the Infinite ──→ draw entire deck ──→ 30+ Worldweave triggers
-    + Aetherflux Reservoir ──→ count spells ──→ gain 50+ life ──→ 50 DAMAGE LASER
+Thassa / Soulherder --> blink a creature every end step FOR FREE
+    +---> Same loop as above but automatic, every single turn
+    +---> Blink Oracle of the Alpha = Power Nine EVERY TURN
 
-Narset ──→ dig for combo pieces + SHUTS DOWN opponent card draw
-    └──→ they draw 1 per turn max while you're drawing 5+
+Sterling Grove --> shroud on Worldweave + Omniscience
+    +---> sacrifice to tutor either one
+
+Teferi --> bounces threats + YOUR SPELLS CAN'T BE COUNTERED
+    +---> safely resolve Omniscience or Worldweave
+
+Cloudshift ALSO --> saves creatures from removal (blink in response)
+    +---> defensive AND offensive -- never a dead card
 ```
 
 ---
 
-## Matchup Improvements (vs Old Build)
+## Matchups
 
-| Matchup | Old Build | Diamond Build |
-|---------|-----------|---------------|
-| **Aggro** | Die before Omniscience | Supreme Verdict wipes board, Teferi bounces, Fear of Change blocks |
-| **Control** | They counter Omniscience, you lose | Teferi = uncounterable spells, Dovin's Veto protects combo, Sterling Grove = shroud on engine |
-| **Midrange** | Race them poorly | Wilderness Rec doubles mana, Narset shuts down their draw, you combo faster |
-| **Combo** | No interaction, just hope | Mystical Dispute + Dovin's Veto disrupt them, Supreme Verdict clears creatures |
+| Matchup | Your Plan |
+|---------|-----------|
+| **Aggro** | Hold up blink spells, block with conjured creatures, Supreme Verdict if desperate. Thassa is indestructible blocker |
+| **Control** | Teferi = uncounterable. Dovin's Veto protects key spells. Cloudshift dodges targeted removal. Blink engine out-values them |
+| **Midrange** | Blink engine generates 3 cards/turn for 1 mana. No fair deck can keep up |
+| **Combo** | Mystical Dispute + Dovin's Veto to disrupt. Race with blink value. Supreme Verdict if they go creature-based |
 
 ---
 
 ## Mulligan Guide
 
-**Keep**: 2-3 lands (must include blue or green source) + Worldweave or draw spell + any interaction
-**Great keeps**: Forest/Island + Worldweave + Deduce = engine online turn 3, drawing cards turn 2
-**Also great**: Sterling Grove + any lands = tutor for whatever you need
-**Mulligan**: No blue or green source, all big spells, 5+ lands
+**Keep**: 2-3 lands (need W and U/G) + conjure creature + blink spell or Worldweave
+**Dream hand**: Plains + Island + Fear of Change + Cloudshift + Distinguished Conjurer = protection online turn 2, blink value turn 3
+**Also great**: Any 2 lands + Emergent Haunting + Cloudshift = creature turn 2 with protection backup
+**Sterling Grove** + 2 lands = tutor for whatever you need
+**Mulligan**: No white/blue source, all big spells, no creatures, 5+ lands
 
 ---
 
@@ -219,32 +241,37 @@ Narset ──→ dig for combo pieces + SHUTS DOWN opponent card draw
 
 ```
 4 Fear of Change
-2 Alaundo the Seer
+4 Emergent Haunting
+4 Distinguished Conjurer
+1 Oracle of the Alpha
+1 Thassa, Deep-Dwelling
+1 Soulherder
+1 Displacer Kitten
 1 Teferi, Time Raveler
-1 Narset, Parter of Veils
 4 Worldweave
-2 Omniscience
-1 One with the Multiverse
-1 Wilderness Reclamation
+1 Omniscience
 1 Sterling Grove
-1 Shark Typhoon
-4 Clay-Fired Bricks
-1 Aetherflux Reservoir
-1 Opt
-1 Growth Spiral
-3 Deduce
+4 Cloudshift
+2 Essence Flux
+2 Opt
 1 Dovin's Veto
 1 Mystical Dispute
 1 Supreme Verdict
-2 They Went This Way
 1 Solve the Equation
 1 Ornate Imitations
-1 Enter the Infinite
 4 Fabled Passage
 4 The World Tree
 4 Brokers Hideout
 5 Island
-3 Forest
-3 Plains
+4 Plains
+2 Forest
 1 Hidden Cataract
 ```
+
+**Total: 60 cards** (36 spells + 24 lands)
+
+---
+
+## If You Don't Have Displacer Kitten
+
+Swap `1 Displacer Kitten` for `1 Charming Prince`. Prince is weaker but still blinks creatures on ETB and is already in your collection. Craft the Kitten when you get a rare wildcard — it's the single best upgrade for this deck.

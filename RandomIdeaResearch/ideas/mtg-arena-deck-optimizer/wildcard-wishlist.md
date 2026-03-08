@@ -10,65 +10,67 @@
 Paste this into Arena. It'll be over 60 cards — Arena will complain but still register every card it finds. The listener picks them all up.
 
 ```
-1 Brainstorm
-1 Growth Spiral
-1 Teferi, Time Raveler
-1 Supreme Verdict
-1 Wilderness Reclamation
-1 Enter the Infinite
-1 Narset, Parter of Veils
-1 Solve the Equation
-1 Shark Typhoon
-1 Mystical Dispute
-1 Dovin's Veto
-1 Thoughtseize
-1 Fatal Push
-1 Gray Merchant of Asphodel
-1 Phyrexian Arena
-1 Castle Locthwain
-1 Gifted Aetherborn
-1 Spawn of Mayhem
-1 Rankle, Master of Pranks
-1 Murderous Rider
-1 Collected Company
-1 Heroic Intervention
-1 Sanctum Weaver
-1 Setessan Champion
-1 Katilda, Dawnhart Martyr
-1 Feline Sovereign
-1 Arahbo, the First Fang
-1 Adorned Pouncer
-1 Bronzehide Lion
-1 Goldspan Dragon
-1 Bonehoard Dracosaur
-1 Fable of the Mirror-Breaker
-1 Xorn
-1 Doomskar
-1 Sigarda, Host of Herons
-1 Binding the Old Gods
-1 Dryad of the Ilysian Grove
-1 Anointed Procession
-1 Esika, God of the Tree
-1 Temple Garden
-1 Haunted Ridge
-1 Stormcarved Coast
-1 Sunpetal Grove
-1 Branchloft Pathway
-1 Overgrown Farmland
-1 Deserted Beach
-1 Sterling Grove
-1 Sythis, Harvest's Hand
-1 Path to Exile
-1 Calix, Guided by Fate
-1 Leyline Binding
-1 Rest in Peace
-1 Shalai, Voice of Plenty
-1 Elesh Norn, Mother of Machines
-1 Craterhoof Behemoth
-1 Mirari's Wake
-1 Greater Auramancy
-1 Destiny Spinner
-1 Jukai Naturalist
+4 Vorinclex, Monstrous Raider
+4 Parallel Lives
+4 Defiler of Vigor
+4 Tribute to the World Tree
+4 Scute Swarm
+4 Blessed Sanctuary
+4 Growing Rites of Itlimoc
+4 Tendershoot Dryad
+4 Alseid of Life's Bounty
+4 Displacer Kitten
+4 Anointed Procession
+4 Heroic Intervention
+4 Collected Company
+4 Craterhoof Behemoth
+4 Elesh Norn, Mother of Machines
+4 Thoughtseize
+4 Fatal Push
+4 Gray Merchant of Asphodel
+4 Phyrexian Arena
+4 Castle Locthwain
+4 Gifted Aetherborn
+4 Spawn of Mayhem
+4 Rankle, Master of Pranks
+4 Murderous Rider
+4 Sanctum Weaver
+4 Setessan Champion
+4 Katilda, Dawnhart Martyr
+4 Feline Sovereign
+4 Arahbo, the First Fang
+4 Adorned Pouncer
+4 Bronzehide Lion
+4 Goldspan Dragon
+4 Bonehoard Dracosaur
+4 Fable of the Mirror-Breaker
+4 Xorn
+4 Doomskar
+4 Sigarda, Host of Herons
+4 Binding the Old Gods
+4 Dryad of the Ilysian Grove
+4 Esika, God of the Tree
+4 Temple Garden
+4 Haunted Ridge
+4 Stormcarved Coast
+4 Sunpetal Grove
+4 Branchloft Pathway
+4 Overgrown Farmland
+4 Deserted Beach
+4 Sterling Grove
+4 Sythis, Harvest's Hand
+4 Path to Exile
+4 Calix, Guided by Fate
+4 Leyline Binding
+4 Rest in Peace
+4 Shalai, Voice of Plenty
+4 Mirari's Wake
+4 Greater Auramancy
+4 Destiny Spinner
+4 Jukai Naturalist
+4 Teferi, Time Raveler
+4 Supreme Verdict
+4 Dovin's Veto
 ```
 
 ---
@@ -129,15 +131,25 @@ Paste this into Arena. It'll be over 60 cards — Arena will complain but still 
 | **Greater Auramancy** | Rare | Gives all enchantments AND enchanted creatures shroud. Better than Sterling Grove in some cases. Both together = total lockout |
 | **Destiny Spinner** | Uncommon | Enchantment spells can't be countered. Already in the deck but you may need more copies |
 
-### Selesnya Infinite 80
+### Selesnya Infinite 80 (your favorite — token horde)
 
 | Card | Rarity | Impact |
 |------|--------|--------|
-| **Anointed Procession** | Rare | You have 1, want 2. Doubles ALL tokens. Scurry Oak makes 2 per trigger instead of 1 |
-| **Heroic Intervention** | Rare | Protect the combo from board wipes. 1G instant = save everything |
-| **Collected Company** | Rare | Instant speed combo assembly. End of their turn: CoCo into Soul Warden + Scurry Oak = combo ready |
-| **Craterhoof Behemoth** | Mythic | The non-infinite win. 50 creatures + Craterhoof = everything gets +50/+50 and trample. Backup finisher |
-| **Elesh Norn, Mother of Machines** | Mythic | Doubles all YOUR ETB triggers. Halves all opponent ETBs. Soul Warden gains 2 per creature. Scurry Oak makes 2 tokens per counter. Absurd |
+| **Vorinclex, Monstrous Raider** | Mythic | DOUBLES all counters you place, HALVES opponents'. Heliod puts 2 counters on Scurry Oak per lifegain. With Conclave Mentor = 4 counters per trigger. Disgusting |
+| **Parallel Lives** | Rare | Second Anointed Procession! Both out = QUADRUPLE tokens. You own 2x already |
+| **Defiler of Vigor** | Rare | 6/6 trample. Every green permanent you cast puts +1/+1 on EACH creature. Every green spell = Scurry Oak trigger across your whole board |
+| **Tribute to the World Tree** | Rare | Creatures with power 3+ draw a card on ETB. Under 3 power get two +1/+1 counters. Soul Warden enters = 2 counters. Thunderbond enters = draw. You own 3x |
+| **Scute Swarm** | Rare | Landfall tokens. At 6+ lands, tokens are COPIES of Scute Swarm. Exponential. With Anointed Procession = instant army. You own 4x |
+| **Blessed Sanctuary** | Rare | Whenever a nontoken creature ETBs, create a 2/2 unicorn. Every creature = bonus token = more Soul Warden triggers + Thunderbond copies. You own 2x |
+| **Growing Rites of Itlimoc** | Rare | Digs for creatures on ETB, transforms into Gaea's Cradle (tap for mana = creature count). 20 creatures = 20 mana. You own 2x |
+| **Tendershoot Dryad** | Rare | Creates a 1/1 Saproling EVERY upkeep (yours AND opponent's). With city's blessing = 3/3s. Free tokens every turn. You own 1x |
+| **Alseid of Life's Bounty** | Common | 1/1 lifelink. Sac: give protection from a color. Triggers Soul Warden AND saves combo pieces from removal for W. You own 4x |
+| **Displacer Kitten** | Rare | Every noncreature spell = blink a creature. Cast Heroic Intervention = blink Scurry Oak = more counters. Also good in Conjuration deck |
+| **Anointed Procession** (3rd/4th copy) | Rare | More copies = more consistent token doubling |
+| **Heroic Intervention** (2nd copy) | Rare | More protection against board wipes |
+| **Collected Company** (2nd copy) | Rare | More instant-speed combo assembly |
+| **Craterhoof Behemoth** | Mythic | The non-infinite win. 50 creatures + Craterhoof = everything gets +50/+50 and trample |
+| **Elesh Norn, Mother of Machines** | Mythic | Doubles all YOUR ETB triggers. Soul Warden gains 2 per creature. Scurry Oak makes 2 tokens per counter |
 
 ### Shrine Deck (70)
 

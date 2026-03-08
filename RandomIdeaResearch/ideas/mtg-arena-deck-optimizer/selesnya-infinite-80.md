@@ -2,175 +2,199 @@
 
 **Format**: Historic
 **Companion**: Yorion, Sky Nomad (sideboard)
-**Archetype**: Selesnya (G/W) Lifegain → Counters → Infinite Tokens → Thunderbond Army
-**Strategy**: Gain life, put +1/+1 counters, generate tokens that all become copies of Thunderbond Vanguard (power/toughness = number of creatures you control). Go infinite. Swing with 500 copies of a 500/500.
+**Archetype**: Selesnya (G/W) Lifegain → Counters → Infinite Tokens → Win
+**Strategy**: Gain life, put +1/+1 counters, generate infinite squirrel tokens that all become copies of Thunderbond Vanguard. Vorinclex doubles your counters. Parallel Lives + Anointed Procession quadruple your tokens. Win by tapping 15 creatures with Halo Fountain (instant win, no combat needed) or swinging with 250 copies of a 250/250.
 
 ---
 
-## What Changed (Luxury Upgrade)
-
-**5 premium cards added, 5 cuts made — deck stays at exactly 80 cards.**
-
-| Added | Replacing | Why |
-|-------|-----------|-----|
-| 2nd Anointed Procession (1→2) | 1x Commune with Spirits (4→3) | Doubling tokens is THE most impactful multiplier in this deck. A second copy means you quadruple tokens if both are out |
-| 1x Heroic Intervention | 1x Destroy Evil (cut entirely) | Hexproof + indestructible at instant speed protects your entire combo from board wipes. Way better than a narrow removal spell |
-| 1x Collected Company | 1x Cultivate (4→2) | Instant-speed, puts 2 creatures CMC 3 or less from top 6 onto the battlefield. Can assemble combo pieces on opponent's end step |
-| 1x Elesh Norn, Mother of Machines | 1x Cultivate (4→2) | Doubles ALL your ETB triggers (Soul Warden, Prosperous Innkeeper, Yorion blinks). Halves opponent's ETBs. Absurd with this deck |
-| 1x Craterhoof Behemoth | 1x Felidar Retreat (2→1) | The ultimate finisher. With even 10 creatures, everything gets +10/+10 and trample. With infinite tokens, it's beyond overkill |
-
-**Core combo untouched**: Soul Warden + Scurry Oak + Heliod + Thunderbond Vanguard all at full count.
-
----
-
-## The Combos (How You Win)
-
-### Combo 1: Infinite Tokens
-**3 cards = infinite tokens + infinite life:**
+## Three Ways to Win
 
 ```
-Soul Warden (on field) + Scurry Oak (on field) + Heliod, Sun-Crowned (on field)
+WIN #1: HALO FOUNTAIN (instant win, no combat)
+  Have 15+ tapped creatures → pay WWWWW → "You win the game."
+  With infinite tokens from the combo, tap 15 → game over.
+  They can't interact. No blocking, no life total math, just WIN.
+
+WIN #2: THUNDERBOND ARMY (combat kill)
+  Infinite tokens all enter as copies of Thunderbond Vanguard.
+  250 tokens = 250 copies of a 250/250. Attack. They're dead.
+
+WIN #3: CRATERHOOF BEHEMOTH (even without infinite)
+  10 creatures + Craterhoof = everything gets +10/+10 and trample.
+  Growing Rites → Gaea's Cradle provides the 8 mana to cast it.
+```
+
+---
+
+## The Infinite Combo
+
+```
+Soul Warden + Scurry Oak + Heliod, Sun-Crowned = INFINITE
 
 1. Any creature enters → Soul Warden gains you 1 life
 2. You gain life → Heliod puts a +1/+1 counter on Scurry Oak
 3. Scurry Oak gets a counter → creates a 1/1 Squirrel token
 4. Squirrel enters → Soul Warden gains you 1 life
 5. Go to step 2. Repeat forever.
-```
 
-**Conclave Mentor** makes this even better — each counter Heliod places becomes TWO counters, meaning Scurry Oak triggers twice per loop.
+TURBO MODE (with Vorinclex):
+  Heliod puts 1 counter → Vorinclex DOUBLES it → 2 counters
+  2 counters = 2 squirrels = 2 life triggers = 4 counters next cycle
+  EXPONENTIAL. Fills the board in seconds.
 
-### Combo 2: Thunderbond Vanguard
-**Every token becomes a copy of Thunderbond Vanguard.**
-
-```
-Thunderbond Vanguard: */*, power and toughness = number of creatures you control.
-                      Each creature token enters as a copy of Thunderbond Vanguard.
-
-With 10 creatures on board:
-- Make a token → it's a 10/10 Thunderbond Vanguard
-- Now you have 11 creatures → ALL Thunderbonds are 11/11
-- Make another → 12/12. Another → 13/13.
-
-With the infinite combo: each token is a Thunderbond copy.
-After 250 tokens (Arena limit): everything is a 250/250.
-```
-
-### Combo 3: Yorion Reblink
-**Yorion ETB: exile all other non-land permanents you own, return them.**
-
-```
-With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
-- Cast Yorion → blinks everything
-- Everything re-enters → Soul Warden triggers for EACH creature
-- Each lifegain → Heliod/Conclave counter on Scurry Oak → tokens
-- Tokens enter as Thunderbond copies → Soul Warden triggers again
-- Chain reaction → massive board
+QUADRUPLE TOKENS (Anointed Procession + Parallel Lives):
+  Each squirrel becomes 4 squirrels.
+  4 squirrels = 4 life = 4 counters = 16 squirrels next cycle.
+  Arena hits the 250 token cap almost instantly.
 ```
 
 ---
 
-## The Deck (80 cards)
+## The Deck (85 cards)
 
 ### Companion
-**Yorion, Sky Nomad** — in sideboard, always available to cast for 3WU
+**Yorion, Sky Nomad** — in sideboard, always available to cast for 3WU (Plains + Plains works — hybrid mana)
 
-### Creatures (28)
-
-| Qty | Card | Mana | Role |
-|-----|------|------|------|
-| 4x | Soul Warden | W | COMBO PIECE. Gain 1 life whenever any creature enters. Starts the infinite loop |
-| 4x | Conclave Mentor | GW | Every +1/+1 counter placed becomes +1 MORE. Doubles the speed of counters. When it dies, distributes its counters to your team |
-| 4x | Trelasarra, Moon Dancer | GW | Gets +1/+1 and scry 1 on every lifegain. Grows huge, filters draws to find combo pieces |
-| 2x | Prosperous Innkeeper | 1G | Treasure on ETB (ramp!), gain 1 life on creature ETB (backup Soul Warden) |
-| 4x | Scurry Oak | 2G | COMBO PIECE. Makes a 1/1 Squirrel whenever it gets a +1/+1 counter. Goes infinite with Soul Warden + Heliod |
-| 2x | Heliod, Sun-Crowned | 2W | COMBO PIECE. Puts +1/+1 counter on a creature whenever you gain life. Completes the infinite loop |
-| 1x | Rosie Cotton of South Lane | 2W | Whenever you create a token, put a +1/+1 counter on another creature. More counters = more Scurry Oak triggers |
-| 1x | Elesh Norn, Mother of Machines | 3WW | LUXURY UPGRADE. Doubles ALL your ETB triggers. Soul Warden gains 2 life per creature, Prosperous Innkeeper makes 2 Treasures, Yorion blinks trigger twice. Halves opponent's ETBs |
-| 1x | Mirkwood Bats | 3B | 2/3. Whenever you create a token, each opponent loses 1 life. Infinite tokens = opponent instantly dies. No combat step needed. Pay B with Swamp |
-| 4x | Thunderbond Vanguard | 2W | THE FINISHER. All your tokens enter as copies of this. Power/toughness = number of creatures you control. 50 tokens = 50 copies of a 50/50 |
-| 1x | Craterhoof Behemoth | 5GGG | LUXURY UPGRADE. When it enters, all your creatures get +X/+X and trample where X = number of creatures you control. With 10 creatures that's +10/+10 to everything. Instant win |
-
-### Enchantments (14)
+### Creatures (31)
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
-| 4x | Ajani's Welcome | W | Soul Warden #5-8 as an enchantment. Harder to remove, survives board wipes |
-| 2x | Authority of the Consuls | W | Opponent's creatures enter tapped AND you gain 1 life each time. Slows aggro, feeds your engine |
-| 2x | Innkeeper's Talent | 1G | Level 1: +2/+2. Level 3: nontoken creature ETBs make a token copy. Copies your combo pieces! |
-| 2x | Caretaker's Talent | 2W | Draw a card whenever one or more tokens enter. Card advantage engine. Don't draw yourself out with infinite tokens though — stop the loop first! |
-| 1x | Felidar Retreat | 3W | Landfall: make a 2/2 Cat token (becomes Thunderbond copy!) OR put +1/+1 on all creatures (triggers Scurry Oak) |
-| 2x | Anointed Procession | 3W | LUXURY UPGRADE (now 2x). DOUBLE all tokens. Each Scurry Oak trigger makes 2 tokens. Two copies out = QUADRUPLE tokens. Each one enters as a Thunderbond Vanguard |
-| 1x | Cathars' Crusade | 3WW | Every creature ETB gives ALL creatures +1/+1. With tokens entering = exponential growth. Triggers Scurry Oak again |
+| 4x | Soul Warden | W | COMBO PIECE. Gain 1 life whenever any creature enters |
+| 4x | Conclave Mentor | GW | Every +1/+1 counter becomes +1 MORE. Distributes counters on death |
+| 4x | Trelasarra, Moon Dancer | GW | +1/+1 and scry 1 on every lifegain. Grows huge, filters draws |
+| 4x | Scurry Oak | 2G | COMBO PIECE. Makes a 1/1 Squirrel per +1/+1 counter. Goes infinite |
+| 4x | Thunderbond Vanguard | 2W | FINISHER. All tokens enter as copies. P/T = creature count |
+| 2x | Heliod, Sun-Crowned | 2W | COMBO PIECE. Puts +1/+1 counter on creature whenever you gain life |
+| 2x | Vorinclex, Monstrous Raider | 4GG | DOUBLES all your counters. HALVES opponent counters. Makes combo exponential |
+| 2x | Alseid of Life's Bounty | W | 1/1 lifelink. Sac: protection from a color. Triggers Soul Warden AND saves combo pieces |
+| 1x | Rosie Cotton of South Lane | 2W | Token created → +1/+1 counter on another creature. Extra Scurry Oak chain |
+| 1x | Elesh Norn, Mother of Machines | 4W | DOUBLES all your ETB triggers. Soul Warden gains 2 per creature. Halves opponent ETBs |
+| 1x | Defiler of Vigor | 3GG | 6/6 trample. Every green permanent = +1/+1 on EACH creature. Mass Scurry Oak triggers |
+| 1x | Craterhoof Behemoth | 5GGG | ETB: all creatures +X/+X trample (X = creature count). Backup finisher |
+| 1x | Tendershoot Dryad | 4G | Free 1/1 Saproling EVERY upkeep (yours AND opponent's). City's blessing = 3/3s |
+
+### Enchantments (15)
+
+| Qty | Card | Mana | Role |
+|-----|------|------|------|
+| 4x | Ajani's Welcome | W | Soul Warden #5-8 as an enchantment. Survives board wipes |
+| 2x | Anointed Procession | 3W | DOUBLE all tokens. With Parallel Lives = QUADRUPLE |
+| 2x | Parallel Lives | 3G | DOUBLE all tokens. Second doubler. Both out = 4x tokens |
+| 2x | Tribute to the World Tree | GGG | Power <3: two +1/+1 counters on ETB. Power 3+: draw a card. Soul Warden enters = 2 counters. Thunderbond enters = draw |
+| 2x | Growing Rites of Itlimoc | 2G | ETB: dig for a creature. Transforms into Gaea's Cradle (tap: add G per creature). 20 creatures = 20 mana |
+| 1x | Authority of the Consuls | W | Opponent creatures enter tapped + you gain 1 life. Slows aggro, feeds engine |
+| 2x | Worldweave | 2G | Each card drawn conjures a random card sharing a type. Extra card flow to find pieces |
+
+### Artifacts (3)
+
+| Qty | Card | Mana | Role |
+|-----|------|------|------|
+| 2x | The Great Henge | 7GG | With Thunderbond at 5+ power, costs 4-5. Draws + counters + life on every creature ETB |
+| 1x | Halo Fountain | 2W | Tap 2 creatures: draw. Tap 5: make token. Tap 15: WIN THE GAME. With infinite tokens = instant win, no combat needed |
 
 ### Instants (5)
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
 | 3x | Path to Exile | W | Best removal in Historic. Exile any creature for 1 mana |
-| 1x | Heroic Intervention | 1G | LUXURY UPGRADE. Gives all your creatures hexproof + indestructible until end of turn. Protects your entire combo from board wipes and targeted removal |
-| 1x | Collected Company | 1GG | LUXURY UPGRADE. Instant speed — look at top 6 cards, put up to 2 creatures with mana value 3 or less onto the battlefield. Can assemble combo pieces on opponent's end step |
+| 1x | Heroic Intervention | 1G | Hexproof + indestructible for all your creatures. Board wipe insurance |
+| 1x | Blossoming Defense | G | Hexproof + 2/+2 until end of turn. Cheap protection that doesn't require sacrificing |
 
-### Sorceries (5)
-
-| Qty | Card | Mana | Role |
-|-----|------|------|------|
-| 3x | Commune with Spirits | G | Look at top 5, find a creature or enchantment. Finds combo pieces for 1 mana |
-| 2x | Cultivate | 2G | Get 2 lands (1 to field, 1 to hand). Ramp to cast Yorion + triggers Felidar Retreat landfall |
-
-### Artifacts (2)
+### Sorceries (4)
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
-| 2x | The Great Henge | 7GG | With Thunderbond Vanguard at 5+ power, this costs 4-5 mana. Draws a card + puts +1/+1 counter on every creature ETB + gains 2 life. Every piece of this triggers something else |
+| 4x | Commune with Spirits | G | Look at top 5, find creature or enchantment. Finds combo for 1 mana |
 
-### Lands (26)
+### Lands (27)
 
 | Qty | Card | Notes |
 |-----|------|-------|
-| 4x | Fabled Passage | Fetches any basic. Triggers landfall for Felidar Retreat |
+| 4x | Fabled Passage | Fetches any basic |
 | 4x | Blossoming Sands | G/W dual. Gains 1 life on ETB — triggers lifegain cards! |
-| 2x | Temple of Plenty | G/W dual. Scry 1 helps find combo pieces |
-| 1x | Swamp | For Mirkwood Bats' black cost. Yorion doesn't need blue — hybrid {W/U} means WW works fine |
-| 8x | Forest | |
-| 7x | Plains | |
+| 2x | Radiant Fountain | Gain 2 life on ETB. 2 Heliod triggers from a land drop |
+| 2x | Temple of Plenty | G/W dual. Scry 1 for combo pieces |
+| 2x | The Hunter Maze | G/W dual. ETB tapped, can pump a creature |
+| 1x | Hidden Nursery | Forest that ETBs tapped, gains 1 life — triggers lifegain cards |
+| 7x | Forest | |
+| 5x | Plains | |
 
 ### Sideboard
 
 | Qty | Card | Mana | Role |
 |-----|------|------|------|
-| 1x | Yorion, Sky Nomad | 3(W/U)(W/U) | COMPANION. Always in your opening hand. Blinks all non-land permanents on ETB for massive re-triggers |
+| 1x | Yorion, Sky Nomad | 3(W/U)(W/U) | COMPANION. Blinks all non-land permanents on ETB |
 
 ---
 
 ## How It Plays
 
-### Turn 1-2: Set Up
-- Drop Soul Warden or Ajani's Welcome (lifegain trigger online)
-- Conclave Mentor or Trelasarra ready to amplify counters/lifegain
-- Commune with Spirits digs for missing combo pieces
+### Turn 1-2: Set Up the Engine
+- **Turn 1**: Soul Warden, Ajani's Welcome, or Alseid (lifegain online)
+- **Turn 2**: Conclave Mentor (counter doubler) or Trelasarra (grows + scries)
+- Commune with Spirits on turn 1 if you need to dig for pieces
 
-### Turn 3: The Key Turn
-- **Scurry Oak** OR **Thunderbond Vanguard** hits the field
-- With Soul Warden + Scurry Oak: every creature that enters now gains life AND makes a token
-- With Thunderbond: any future tokens become copies of it
+### Turn 3: Deploy Combo Pieces
+- **Scurry Oak**: now every lifegain → counter → squirrel → more lifegain
+- **Thunderbond Vanguard**: now every token becomes a copy of a */\*
+- Even without going infinite, the value engine is running
 
-### Turn 4: Combo or Value
-- **Heliod completes the infinite**: Soul Warden + Scurry Oak + Heliod = infinite tokens
-- All those tokens are Thunderbond copies = infinite creatures, each infinitely large
-- **No Heliod?** Still generating massive value — every creature entering triggers lifegain → counters → tokens
+### Turn 4: Go Infinite or Multiply
+- **Heliod completes the loop**: Soul Warden + Scurry Oak + Heliod = infinite tokens
+- **Anointed Procession / Parallel Lives**: double or quadruple every token
+- **No Heliod?** Defiler of Vigor means every green spell pumps the whole board
 
-### Turn 5: Yorion or Overwhelm
-- **Cast Yorion** (always available as companion): blink everything, re-trigger all ETBs
-- Or just attack with your army of 50/50 Thunderbond Vanguards
+### Turn 5-6: Win
+- **Halo Fountain**: tap 15 of your infinite tokens → you win the game
+- **Thunderbond army**: 250 copies of a 250/250 → attack
+- **Vorinclex**: makes the combo exponential even without full assembly
+- **Craterhoof**: Growing Rites provides 20+ mana to cast it. +20/+20 trample to everything
 
-### Win Conditions
-1. **Infinite combo + Thunderbond** — 250 copies of a 250/250. Attack. They're dead
-2. **Craterhoof Behemoth** — Even without infinite, drop this with 10+ creatures and everything gets +10/+10 and trample. Game over
-3. **Cathars' Crusade snowball** — Even without the infinite, each token gives everything +1/+1
-4. **Trelasarra beats** — Grows to 15/15+ from all the lifegain triggers
-5. **Great Henge grind** — Draws cards, adds counters, gains life. Impossible to out-value
-6. **Yorion reset** — Blink everything for a massive chain of re-triggers
+### Turn 5 (alternate): Yorion
+- Cast Yorion (always available as companion)
+- Blink EVERYTHING → all ETBs re-trigger
+- Soul Warden gains life for each creature re-entering
+- Scurry Oak gets counters for each lifegain
+- Chain reaction → massive board → Halo Fountain → win
+
+---
+
+## Protection Guide
+
+| Threat | Answer |
+|--------|--------|
+| Targeted removal on combo piece | Alseid (sac for protection, W) or Blossoming Defense (hexproof +2/+2, G) |
+| Board wipe | Heroic Intervention — hexproof + indestructible for everything |
+| Opponent going wide | Path to Exile their best threat. Your tokens outscale anything |
+| Can't find combo pieces | Commune x4 (top 5, finds creatures AND enchantments), Growing Rites (top 4) |
+| Opponent has counterspells | Your key spells are cheap (1-2 mana). Deploy multiple threats per turn to overload their counters |
+
+**Key habit**: Always hold up G or W when Alseid or Blossoming Defense is in hand. If they try to kill Scurry Oak or Heliod, save it for 1 mana.
+
+---
+
+## Counter Doubling Math
+
+```
+BASE: Heliod puts 1 counter → 1 squirrel
+
++ CONCLAVE MENTOR: 1 becomes 2 → 2 squirrels
+
++ VORINCLEX: counters doubled again → 4 squirrels per trigger
+
++ ANOINTED PROCESSION: tokens doubled → 8 squirrels
+
++ PARALLEL LIVES: tokens doubled again → 16 squirrels
+
+Each squirrel triggers Soul Warden = 16 life
+  = 16 Heliod triggers × 4 counters each = 64 counters
+  = 64 × 16 squirrels = 1,024 squirrels
+
+Arena cap: 250 tokens. You hit it in 2 cycles.
+All 250 are Thunderbond Vanguard copies = 250/250 each.
+
+Tap 15 → Halo Fountain → "You win the game."
+```
 
 ---
 
@@ -183,37 +207,67 @@ With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
                     │
          ┌──────────┼──────────┐
          ▼          ▼          ▼
-    Heliod     Trelasarra   Conclave Mentor
-  +1/+1 counter  grows     (extra counter)
+    Heliod     Trelasarra   Radiant Fountain
+  +1/+1 counter  grows       (2 life on ETB
+         │                    = 2 triggers)
+         ▼
+    Vorinclex ──→ DOUBLES the counter
+         │
+    Conclave Mentor ──→ ADDS another
          │
          ▼
-    Scurry Oak ──────► creates token
-                           │
-                           ▼
-                  Thunderbond Vanguard
-                  (token enters as */*)
+    Scurry Oak ──────► creates squirrel token(s)
                            │
                     ┌──────┴──────┐
                     ▼             ▼
-              Soul Warden    ALL Thunderbonds
-              triggers again  get +1/+1 bigger
+              Anointed        Parallel Lives
+              Procession      DOUBLES tokens
+              DOUBLES tokens
+                    │             │
+                    └──────┬──────┘
+                           ▼
+                  Thunderbond Vanguard
+                  (each token = */*)
+                           │
+                    ┌──────┴──────┐
+                    ▼             ▼
+              Soul Warden    Halo Fountain
+              triggers again  tap 15 → WIN
                     │
                     └──► INFINITE LOOP
 
    Multipliers:
-   ├── Anointed Procession (x2): DOUBLE all tokens (both out = QUADRUPLE)
-   ├── Elesh Norn: DOUBLE all YOUR ETB triggers (Soul Warden gains 2, etc.)
-   ├── Cathars' Crusade: +1/+1 to ALL on each ETB → more Scurry Oak triggers
-   ├── Rosie Cotton: +1/+1 counter per token → more Scurry Oak triggers
-   ├── Caretaker's Talent: DRAW cards on token creation
-   ├── Great Henge: +1/+1 counter + draw on each creature ETB
-   ├── Yorion: BLINK everything → re-trigger ALL ETBs
-   └── Craterhoof Behemoth: +X/+X and trample to ALL (X = creature count)
+   ├── Vorinclex: DOUBLE all counters
+   ├── Conclave Mentor: +1 extra counter
+   ├── Anointed Procession + Parallel Lives: QUADRUPLE tokens
+   ├── Elesh Norn: DOUBLE all ETB triggers
+   ├── Defiler of Vigor: every green spell = +1/+1 on ALL creatures
+   ├── Rosie Cotton: each token = +1/+1 counter on another creature
+   ├── Tribute to World Tree: small creatures get counters, big ones draw
+   ├── Great Henge: draw + counter + life on each creature ETB
+   └── Yorion: BLINK everything → re-trigger ALL ETBs
+
+   Win Conditions:
+   ├── Halo Fountain: tap 15 creatures → WIN THE GAME
+   ├── Thunderbond army: 250/250 tokens attack
+   └── Craterhoof: +X/+X trample to everything (Growing Rites = mana)
 
    Protection:
-   ├── Heroic Intervention: hexproof + indestructible for all your creatures
-   └── Collected Company: instant-speed combo assembly from top 6 cards
+   ├── Alseid: sac for protection from a color
+   ├── Blossoming Defense: hexproof +2/+2 instant
+   ├── Heroic Intervention: hexproof + indestructible for all
+   └── Path to Exile: remove their biggest threat
 ```
+
+---
+
+## Mulligan Guide
+
+**Keep**: 2-3 lands (need G and W) + Soul Warden/Ajani's Welcome + any combo piece
+**Dream hand**: Forest + Plains + Soul Warden + Scurry Oak + Heliod = combo by turn 3
+**Also great**: Land + Commune with Spirits + any 2-drop = dig for combo turn 1
+**Alseid or Blossoming Defense** + combo piece = protection ready from the start
+**Mulligan**: No green source, no lifegain creature, all 5+ drops, 5+ lands
 
 ---
 
@@ -223,57 +277,51 @@ With Soul Warden + Scurry Oak + Conclave Mentor + Thunderbond on field:
 4 Soul Warden
 4 Conclave Mentor
 4 Trelasarra, Moon Dancer
-2 Prosperous Innkeeper
 4 Scurry Oak
+4 Thunderbond Vanguard
 2 Heliod, Sun-Crowned
+2 Vorinclex, Monstrous Raider
+2 Alseid of Life's Bounty
 1 Rosie Cotton of South Lane
 1 Elesh Norn, Mother of Machines
-1 Mirkwood Bats
-4 Thunderbond Vanguard
+1 Defiler of Vigor
+1 Tendershoot Dryad
 1 Craterhoof Behemoth
 4 Ajani's Welcome
-2 Authority of the Consuls
-2 Innkeeper's Talent
-2 Caretaker's Talent
-1 Felidar Retreat
 2 Anointed Procession
-1 Cathars' Crusade
+2 Parallel Lives
+2 Tribute to the World Tree
+2 Growing Rites of Itlimoc
+1 Authority of the Consuls
+2 Worldweave
+2 The Great Henge
+1 Halo Fountain
 3 Path to Exile
 1 Heroic Intervention
-1 Collected Company
-3 Commune with Spirits
-2 Cultivate
-2 The Great Henge
+1 Blossoming Defense
+4 Commune with Spirits
 4 Fabled Passage
 4 Blossoming Sands
+2 Radiant Fountain
 2 Temple of Plenty
-1 Swamp
-8 Forest
-7 Plains
+2 The Hunter Maze
+1 Hidden Nursery
+7 Forest
+5 Plains
 
 Sideboard
 1 Yorion, Sky Nomad
 ```
 
+**Total: 85 cards** (58 spells + 27 lands) + Yorion companion
+
 ---
-
-## Key Changes from Previous Build
-
-- **Added 4x Thunderbond Vanguard** — THE card. Turns every token into a massive creature. Power = number of creatures you control. With infinite tokens, they're all infinitely large
-- **Added 4x Conclave Mentor** — Every counter effect places an extra counter. Accelerates the combo and distributes counters when it dies
-- **Removed Divine Visitation** — Thunderbond is better. 4/4 flying angels < X/X where X = 250
-- **Removed A-Iridescent Hornbeetle** — Thunderbond already turns tokens into real threats. Hornbeetle was redundant
-- **Removed Shalai** — Needed the slots. Path to Exile handles problem creatures
-- **Added 1x Swamp** — For Mirkwood Bats (Yorion doesn't need blue, hybrid W/U means Plains work)
-- **Added 1x Mirkwood Bats** — Whenever you create a token, opponent loses 1 life. Infinite tokens = instant kill without attacking
-- **Trimmed to exactly 80** — Clean Yorion companion build
 
 ## Upgrade Path
 
-**Luxury upgrades now installed** — Collected Company, Heroic Intervention, Elesh Norn, Craterhoof Behemoth, and 2nd Anointed Procession are all in the deck.
-
-**Future Upgrades:**
-- **3rd/4th Anointed Procession** — more copies = more consistent token doubling
-- **2nd Heroic Intervention** — more protection against wipes
+**Future upgrades to look for:**
+- **2nd Heroic Intervention** — more board wipe protection
 - **2nd Collected Company** — more instant-speed combo assembly
-- **Shapers' Sanctuary** — draw a card whenever opponents target your creatures
+- **2nd Blossoming Defense** — more cheap protection
+- **2nd Halo Fountain** — more consistent non-combat win
+- **Scute Swarm** — secondary token engine, exponential with doublers

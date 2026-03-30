@@ -17,7 +17,121 @@
           "quantity": 4
         },
         {
-          "cardId": 81828,
+          "cardId": 91395,
+          "quantity": 2
+        },
+        {
+          "cardId": 98815,
+          "quantity": 4
+        },
+        {
+          "cardId": 87062,
+          "quantity": 2
+        },
+        {
+          "cardId": 82543,
+          "quantity": 2
+        },
+        {
+          "cardId": 88971,
+          "quantity": 2
+        },
+        {
+          "cardId": 95107,
+          "quantity": 4
+        },
+        {
+          "cardId": 89092,
+          "quantity": 2
+        },
+        {
+          "cardId": 96390,
+          "quantity": 1
+        },
+        {
+          "cardId": 87136,
+          "quantity": 2
+        },
+        {
+          "cardId": 82801,
+          "quantity": 1
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 95088,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 2
+        },
+        {
+          "cardId": 87439,
+          "quantity": 1
+        },
+        {
+          "cardId": 71982,
+          "quantity": 1
+        },
+        {
+          "cardId": 100632,
+          "quantity": 1
+        },
+        {
+          "cardId": 93122,
+          "quantity": 4
+        },
+        {
+          "cardId": 91364,
+          "quantity": 1
+        },
+        {
+          "cardId": 75832,
+          "quantity": 4
+        },
+        {
+          "cardId": 82513,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 68,
+      "log_line": 0
+    },
+    {
+      "name": "Optimized Conjuration",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 95357,
+          "quantity": 4
+        },
+        {
+          "cardId": 88976,
+          "quantity": 4
+        },
+        {
+          "cardId": 91395,
           "quantity": 2
         },
         {
@@ -91,971 +205,1015 @@
         {
           "cardId": 84330,
           "quantity": 1
+        },
+        {
+          "cardId": 100632,
+          "quantity": 1
+        },
+        {
+          "cardId": 75993,
+          "quantity": 1
+        },
+        {
+          "cardId": 91364,
+          "quantity": 1
+        },
+        {
+          "cardId": 61231,
+          "quantity": 1
         }
       ],
       "sideboard": [],
       "companions": [],
-      "total_cards": 62,
+      "total_cards": 66,
+      "log_line": 341
+    },
+    {
+      "name": "Diamond Selesnya 80",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 32675,
+          "quantity": 4
+        },
+        {
+          "cardId": 71998,
+          "quantity": 4
+        },
+        {
+          "cardId": 77341,
+          "quantity": 4
+        },
+        {
+          "cardId": 76129,
+          "quantity": 4
+        },
+        {
+          "cardId": 97042,
+          "quantity": 4
+        },
+        {
+          "cardId": 70529,
+          "quantity": 2
+        },
+        {
+          "cardId": 75246,
+          "quantity": 2
+        },
+        {
+          "cardId": 70512,
+          "quantity": 2
+        },
+        {
+          "cardId": 84719,
+          "quantity": 1
+        },
+        {
+          "cardId": 83710,
+          "quantity": 1
+        },
+        {
+          "cardId": 82212,
+          "quantity": 1
+        },
+        {
+          "cardId": 66911,
+          "quantity": 1
+        },
+        {
+          "cardId": 72447,
+          "quantity": 1
+        },
+        {
+          "cardId": 67692,
+          "quantity": 4
+        },
+        {
+          "cardId": 73774,
+          "quantity": 2
+        },
+        {
+          "cardId": 79339,
+          "quantity": 2
+        },
+        {
+          "cardId": 84504,
+          "quantity": 2
+        },
+        {
+          "cardId": 87342,
+          "quantity": 2
+        },
+        {
+          "cardId": 75587,
+          "quantity": 1
+        },
+        {
+          "cardId": 70308,
+          "quantity": 2
+        },
+        {
+          "cardId": 80166,
+          "quantity": 1
+        },
+        {
+          "cardId": 90704,
+          "quantity": 3
+        },
+        {
+          "cardId": 71970,
+          "quantity": 1
+        },
+        {
+          "cardId": 98488,
+          "quantity": 1
+        },
+        {
+          "cardId": 79614,
+          "quantity": 4
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 79705,
+          "quantity": 4
+        },
+        {
+          "cardId": 72030,
+          "quantity": 2
+        },
+        {
+          "cardId": 70759,
+          "quantity": 2
+        },
+        {
+          "cardId": 95088,
+          "quantity": 7
+        },
+        {
+          "cardId": 87578,
+          "quantity": 5
+        },
+        {
+          "cardId": 98815,
+          "quantity": 2
+        },
+        {
+          "cardId": 83953,
+          "quantity": 2
+        },
+        {
+          "cardId": 87442,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [
+        {
+          "cardId": 85582,
+          "quantity": 1
+        }
+      ],
+      "companions": [
+        {
+          "cardId": 85582,
+          "quantity": 1
+        }
+      ],
+      "total_cards": 85,
       "log_line": 154
     },
     {
-      "name": "Optimized Conjuration",
+      "name": "Diamond Selesnya 80",
       "format": "Historic",
       "main_deck": [
         {
-          "cardId": 88949,
+          "cardId": 32675,
           "quantity": 4
         },
         {
-          "cardId": 95357,
+          "cardId": 71998,
           "quantity": 4
         },
         {
-          "cardId": 88976,
+          "cardId": 77341,
           "quantity": 4
         },
         {
-          "cardId": 81828,
+          "cardId": 76129,
+          "quantity": 4
+        },
+        {
+          "cardId": 97042,
+          "quantity": 4
+        },
+        {
+          "cardId": 70529,
           "quantity": 2
         },
         {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
+          "cardId": 75246,
           "quantity": 2
         },
         {
-          "cardId": 82543,
+          "cardId": 70512,
           "quantity": 2
         },
         {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
+          "cardId": 84719,
           "quantity": 1
         },
         {
-          "cardId": 87136,
+          "cardId": 83710,
+          "quantity": 1
+        },
+        {
+          "cardId": 82212,
+          "quantity": 1
+        },
+        {
+          "cardId": 66911,
+          "quantity": 1
+        },
+        {
+          "cardId": 72447,
+          "quantity": 1
+        },
+        {
+          "cardId": 67692,
           "quantity": 4
         },
         {
-          "cardId": 82801,
+          "cardId": 73774,
+          "quantity": 2
+        },
+        {
+          "cardId": 79339,
+          "quantity": 2
+        },
+        {
+          "cardId": 84504,
+          "quantity": 2
+        },
+        {
+          "cardId": 87342,
+          "quantity": 2
+        },
+        {
+          "cardId": 75587,
           "quantity": 1
+        },
+        {
+          "cardId": 70308,
+          "quantity": 2
+        },
+        {
+          "cardId": 80166,
+          "quantity": 1
+        },
+        {
+          "cardId": 90704,
+          "quantity": 3
+        },
+        {
+          "cardId": 71970,
+          "quantity": 1
+        },
+        {
+          "cardId": 98488,
+          "quantity": 1
+        },
+        {
+          "cardId": 79614,
+          "quantity": 4
         },
         {
           "cardId": 72028,
           "quantity": 4
         },
         {
-          "cardId": 75326,
+          "cardId": 79705,
           "quantity": 4
         },
         {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
+          "cardId": 72030,
           "quantity": 2
         },
         {
-          "cardId": 87439,
-          "quantity": 1
+          "cardId": 70759,
+          "quantity": 2
         },
         {
-          "cardId": 71982,
-          "quantity": 1
+          "cardId": 95088,
+          "quantity": 7
         },
         {
-          "cardId": 84330,
+          "cardId": 87578,
+          "quantity": 5
+        },
+        {
+          "cardId": 98815,
+          "quantity": 2
+        },
+        {
+          "cardId": 83953,
+          "quantity": 2
+        },
+        {
+          "cardId": 87442,
           "quantity": 1
         }
       ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 5266
+      "sideboard": [
+        {
+          "cardId": 85582,
+          "quantity": 1
+        }
+      ],
+      "companions": [
+        {
+          "cardId": 85582,
+          "quantity": 1
+        }
+      ],
+      "total_cards": 85,
+      "log_line": 8814
     },
     {
-      "name": "Optimized Conjuration",
+      "name": "Diamond Selesnya 80",
       "format": "Historic",
       "main_deck": [
         {
-          "cardId": 88949,
+          "cardId": 32675,
           "quantity": 4
         },
         {
-          "cardId": 95357,
+          "cardId": 71998,
           "quantity": 4
         },
         {
-          "cardId": 88976,
+          "cardId": 77341,
           "quantity": 4
         },
         {
-          "cardId": 81828,
+          "cardId": 76129,
+          "quantity": 4
+        },
+        {
+          "cardId": 97042,
+          "quantity": 4
+        },
+        {
+          "cardId": 70529,
           "quantity": 2
         },
         {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
+          "cardId": 75246,
           "quantity": 2
         },
         {
-          "cardId": 82543,
+          "cardId": 70512,
           "quantity": 2
         },
         {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
+          "cardId": 84719,
           "quantity": 1
         },
         {
-          "cardId": 87136,
+          "cardId": 83710,
+          "quantity": 1
+        },
+        {
+          "cardId": 82212,
+          "quantity": 1
+        },
+        {
+          "cardId": 66911,
+          "quantity": 1
+        },
+        {
+          "cardId": 72447,
+          "quantity": 1
+        },
+        {
+          "cardId": 67692,
           "quantity": 4
         },
         {
-          "cardId": 82801,
+          "cardId": 73774,
+          "quantity": 2
+        },
+        {
+          "cardId": 79339,
+          "quantity": 2
+        },
+        {
+          "cardId": 84504,
+          "quantity": 2
+        },
+        {
+          "cardId": 87342,
+          "quantity": 2
+        },
+        {
+          "cardId": 75587,
           "quantity": 1
+        },
+        {
+          "cardId": 70308,
+          "quantity": 2
+        },
+        {
+          "cardId": 80166,
+          "quantity": 1
+        },
+        {
+          "cardId": 90704,
+          "quantity": 3
+        },
+        {
+          "cardId": 71970,
+          "quantity": 1
+        },
+        {
+          "cardId": 98488,
+          "quantity": 1
+        },
+        {
+          "cardId": 79614,
+          "quantity": 4
         },
         {
           "cardId": 72028,
           "quantity": 4
         },
         {
-          "cardId": 75326,
+          "cardId": 79705,
           "quantity": 4
         },
         {
-          "cardId": 80399,
-          "quantity": 4
+          "cardId": 72030,
+          "quantity": 2
         },
         {
-          "cardId": 96839,
-          "quantity": 4
+          "cardId": 70759,
+          "quantity": 2
         },
         {
           "cardId": 95088,
-          "quantity": 3
+          "quantity": 7
         },
         {
           "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 7433
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
+          "quantity": 5
         },
         {
           "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
           "quantity": 2
         },
         {
-          "cardId": 82543,
+          "cardId": 83953,
           "quantity": 2
         },
         {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
+          "cardId": 87442,
           "quantity": 1
         }
       ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 10125
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
+      "sideboard": [
         {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
+          "cardId": 85582,
           "quantity": 1
         }
       ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 24397
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
+      "companions": [
         {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
+          "cardId": 85582,
           "quantity": 1
         }
       ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 24642
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 46092
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 50416
-    },
-    {
-      "name": "Optimized Conjuration",
-      "format": "Historic",
-      "main_deck": [
-        {
-          "cardId": 88949,
-          "quantity": 4
-        },
-        {
-          "cardId": 95357,
-          "quantity": 4
-        },
-        {
-          "cardId": 88976,
-          "quantity": 4
-        },
-        {
-          "cardId": 81828,
-          "quantity": 2
-        },
-        {
-          "cardId": 98815,
-          "quantity": 4
-        },
-        {
-          "cardId": 87062,
-          "quantity": 2
-        },
-        {
-          "cardId": 82543,
-          "quantity": 2
-        },
-        {
-          "cardId": 88971,
-          "quantity": 3
-        },
-        {
-          "cardId": 95107,
-          "quantity": 4
-        },
-        {
-          "cardId": 89092,
-          "quantity": 3
-        },
-        {
-          "cardId": 96390,
-          "quantity": 1
-        },
-        {
-          "cardId": 87136,
-          "quantity": 4
-        },
-        {
-          "cardId": 82801,
-          "quantity": 1
-        },
-        {
-          "cardId": 72028,
-          "quantity": 4
-        },
-        {
-          "cardId": 75326,
-          "quantity": 4
-        },
-        {
-          "cardId": 80399,
-          "quantity": 4
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 95088,
-          "quantity": 3
-        },
-        {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 87439,
-          "quantity": 1
-        },
-        {
-          "cardId": 71982,
-          "quantity": 1
-        },
-        {
-          "cardId": 84330,
-          "quantity": 1
-        }
-      ],
-      "sideboard": [],
-      "companions": [],
-      "total_cards": 62,
-      "log_line": 66590
+      "total_cards": 85,
+      "log_line": 9313
     },
     {
       "name": "New Deck (8)",
       "format": "Historic",
       "main_deck": [
         {
-          "cardId": 100465,
-          "quantity": 2
-        },
-        {
-          "cardId": 96839,
-          "quantity": 4
-        },
-        {
-          "cardId": 100489,
+          "cardId": 82806,
           "quantity": 1
         },
         {
-          "cardId": 96841,
-          "quantity": 4
+          "cardId": 84968,
+          "quantity": 24
         },
         {
-          "cardId": 100487,
-          "quantity": 2
-        },
-        {
-          "cardId": 100464,
-          "quantity": 2
-        },
-        {
-          "cardId": 100467,
+          "cardId": 82834,
           "quantity": 1
         },
         {
-          "cardId": 100497,
+          "cardId": 75832,
           "quantity": 1
         },
         {
-          "cardId": 100511,
+          "cardId": 93962,
           "quantity": 1
         },
         {
-          "cardId": 100488,
+          "cardId": 97535,
           "quantity": 1
         },
         {
-          "cardId": 100522,
+          "cardId": 79077,
           "quantity": 1
         },
         {
-          "cardId": 72090,
-          "quantity": 7
-        },
-        {
-          "cardId": 100533,
+          "cardId": 97994,
           "quantity": 1
         },
         {
-          "cardId": 100526,
+          "cardId": 70743,
           "quantity": 1
         },
         {
-          "cardId": 100519,
+          "cardId": 79680,
           "quantity": 1
         },
         {
-          "cardId": 100498,
+          "cardId": 92343,
           "quantity": 1
         },
         {
-          "cardId": 100535,
+          "cardId": 76663,
           "quantity": 1
         },
         {
-          "cardId": 100546,
+          "cardId": 79685,
           "quantity": 1
         },
         {
-          "cardId": 95088,
-          "quantity": 7
-        },
-        {
-          "cardId": 100551,
-          "quantity": 4
-        },
-        {
-          "cardId": 100552,
+          "cardId": 73455,
           "quantity": 1
         },
         {
-          "cardId": 100561,
+          "cardId": 98576,
           "quantity": 1
         },
         {
-          "cardId": 100564,
-          "quantity": 2
-        },
-        {
-          "cardId": 100560,
+          "cardId": 82810,
           "quantity": 1
         },
         {
-          "cardId": 100558,
+          "cardId": 86309,
           "quantity": 1
         },
         {
-          "cardId": 100555,
+          "cardId": 77349,
           "quantity": 1
         },
         {
-          "cardId": 100554,
+          "cardId": 93841,
           "quantity": 1
         },
         {
-          "cardId": 100565,
+          "cardId": 92346,
           "quantity": 1
         },
         {
-          "cardId": 100569,
+          "cardId": 68152,
           "quantity": 1
         },
         {
-          "cardId": 87578,
-          "quantity": 2
-        },
-        {
-          "cardId": 100583,
+          "cardId": 82720,
           "quantity": 1
         },
         {
-          "cardId": 100587,
-          "quantity": 2
-        },
-        {
-          "cardId": 100593,
+          "cardId": 70366,
           "quantity": 1
         },
         {
-          "cardId": 100622,
+          "cardId": 97980,
           "quantity": 1
         },
         {
-          "cardId": 100607,
+          "cardId": 91781,
           "quantity": 1
         },
         {
-          "cardId": 100501,
+          "cardId": 92348,
           "quantity": 1
         },
         {
-          "cardId": 100604,
-          "quantity": 2
-        },
-        {
-          "cardId": 100588,
+          "cardId": 90762,
           "quantity": 1
         },
         {
-          "cardId": 100620,
+          "cardId": 91782,
           "quantity": 1
         },
         {
-          "cardId": 100613,
+          "cardId": 87417,
           "quantity": 1
         },
         {
-          "cardId": 100615,
+          "cardId": 82284,
           "quantity": 1
         },
         {
-          "cardId": 100625,
+          "cardId": 70370,
           "quantity": 1
         },
         {
-          "cardId": 100621,
+          "cardId": 90589,
+          "quantity": 1
+        },
+        {
+          "cardId": 79083,
+          "quantity": 1
+        },
+        {
+          "cardId": 92351,
+          "quantity": 1
+        },
+        {
+          "cardId": 82822,
+          "quantity": 1
+        },
+        {
+          "cardId": 78622,
+          "quantity": 1
+        },
+        {
+          "cardId": 77353,
+          "quantity": 1
+        },
+        {
+          "cardId": 58383,
+          "quantity": 1
+        },
+        {
+          "cardId": 71070,
+          "quantity": 1
+        },
+        {
+          "cardId": 86316,
+          "quantity": 1
+        },
+        {
+          "cardId": 90861,
+          "quantity": 1
+        },
+        {
+          "cardId": 82730,
+          "quantity": 1
+        },
+        {
+          "cardId": 67568,
+          "quantity": 1
+        },
+        {
+          "cardId": 77355,
+          "quantity": 1
+        },
+        {
+          "cardId": 86983,
+          "quantity": 1
+        },
+        {
+          "cardId": 78627,
+          "quantity": 1
+        },
+        {
+          "cardId": 83939,
+          "quantity": 1
+        },
+        {
+          "cardId": 70376,
+          "quantity": 1
+        },
+        {
+          "cardId": 70747,
+          "quantity": 1
+        },
+        {
+          "cardId": 72018,
+          "quantity": 1
+        },
+        {
+          "cardId": 72019,
+          "quantity": 1
+        },
+        {
+          "cardId": 76668,
+          "quantity": 1
+        },
+        {
+          "cardId": 87427,
+          "quantity": 1
+        },
+        {
+          "cardId": 82854,
+          "quantity": 1
+        },
+        {
+          "cardId": 71308,
+          "quantity": 1
+        },
+        {
+          "cardId": 77356,
+          "quantity": 1
+        },
+        {
+          "cardId": 86322,
+          "quantity": 1
+        },
+        {
+          "cardId": 96820,
+          "quantity": 1
+        },
+        {
+          "cardId": 89179,
+          "quantity": 1
+        },
+        {
+          "cardId": 70751,
+          "quantity": 1
+        },
+        {
+          "cardId": 97541,
+          "quantity": 1
+        },
+        {
+          "cardId": 82716,
+          "quantity": 1
+        },
+        {
+          "cardId": 97274,
+          "quantity": 1
+        },
+        {
+          "cardId": 76669,
+          "quantity": 1
+        },
+        {
+          "cardId": 84944,
+          "quantity": 1
+        },
+        {
+          "cardId": 70384,
+          "quantity": 1
+        },
+        {
+          "cardId": 71576,
+          "quantity": 1
+        },
+        {
+          "cardId": 84573,
+          "quantity": 1
+        },
+        {
+          "cardId": 82292,
+          "quantity": 1
+        },
+        {
+          "cardId": 73468,
+          "quantity": 1
+        },
+        {
+          "cardId": 82293,
+          "quantity": 1
+        },
+        {
+          "cardId": 82560,
+          "quantity": 1
+        },
+        {
+          "cardId": 88922,
+          "quantity": 1
+        },
+        {
+          "cardId": 93964,
+          "quantity": 1
+        },
+        {
+          "cardId": 87408,
+          "quantity": 1
+        },
+        {
+          "cardId": 91780,
+          "quantity": 1
+        },
+        {
+          "cardId": 86974,
+          "quantity": 1
+        },
+        {
+          "cardId": 81928,
+          "quantity": 1
+        },
+        {
+          "cardId": 79679,
+          "quantity": 1
+        },
+        {
+          "cardId": 90587,
+          "quantity": 1
+        },
+        {
+          "cardId": 86305,
+          "quantity": 1
+        },
+        {
+          "cardId": 83926,
+          "quantity": 1
+        },
+        {
+          "cardId": 89173,
+          "quantity": 1
+        },
+        {
+          "cardId": 87413,
+          "quantity": 1
+        },
+        {
+          "cardId": 87412,
+          "quantity": 1
+        },
+        {
+          "cardId": 86976,
+          "quantity": 1
+        },
+        {
+          "cardId": 79686,
+          "quantity": 1
+        },
+        {
+          "cardId": 82814,
+          "quantity": 1
+        },
+        {
+          "cardId": 95770,
+          "quantity": 1
+        },
+        {
+          "cardId": 97275,
+          "quantity": 1
+        },
+        {
+          "cardId": 76393,
+          "quantity": 1
+        },
+        {
+          "cardId": 75285,
+          "quantity": 1
+        },
+        {
+          "cardId": 92347,
+          "quantity": 1
+        },
+        {
+          "cardId": 84566,
+          "quantity": 1
+        },
+        {
+          "cardId": 98578,
+          "quantity": 1
+        },
+        {
+          "cardId": 86310,
+          "quantity": 1
+        },
+        {
+          "cardId": 80389,
+          "quantity": 1
+        },
+        {
+          "cardId": 93965,
+          "quantity": 1
+        },
+        {
+          "cardId": 70367,
+          "quantity": 1
+        },
+        {
+          "cardId": 90588,
+          "quantity": 1
+        },
+        {
+          "cardId": 93966,
+          "quantity": 1
+        },
+        {
+          "cardId": 70013,
+          "quantity": 1
+        },
+        {
+          "cardId": 94495,
+          "quantity": 1
+        },
+        {
+          "cardId": 82819,
+          "quantity": 1
+        },
+        {
+          "cardId": 82820,
+          "quantity": 1
+        },
+        {
+          "cardId": 84933,
+          "quantity": 1
+        },
+        {
+          "cardId": 79687,
+          "quantity": 1
+        },
+        {
+          "cardId": 82283,
+          "quantity": 1
+        },
+        {
+          "cardId": 97993,
+          "quantity": 1
+        },
+        {
+          "cardId": 89174,
+          "quantity": 1
+        },
+        {
+          "cardId": 95035,
+          "quantity": 1
+        },
+        {
+          "cardId": 84568,
+          "quantity": 1
+        },
+        {
+          "cardId": 91118,
+          "quantity": 1
+        },
+        {
+          "cardId": 90858,
+          "quantity": 1
+        },
+        {
+          "cardId": 96137,
+          "quantity": 1
+        },
+        {
+          "cardId": 91061,
+          "quantity": 1
+        },
+        {
+          "cardId": 97538,
+          "quantity": 1
+        },
+        {
+          "cardId": 82721,
+          "quantity": 1
+        },
+        {
+          "cardId": 82827,
+          "quantity": 1
+        },
+        {
+          "cardId": 82830,
+          "quantity": 1
+        },
+        {
+          "cardId": 82831,
+          "quantity": 1
+        },
+        {
+          "cardId": 83933,
+          "quantity": 1
+        },
+        {
+          "cardId": 90591,
+          "quantity": 1
+        },
+        {
+          "cardId": 70745,
+          "quantity": 1
+        },
+        {
+          "cardId": 84936,
+          "quantity": 1
+        },
+        {
+          "cardId": 82725,
+          "quantity": 1
+        },
+        {
+          "cardId": 78623,
+          "quantity": 1
+        },
+        {
+          "cardId": 83934,
+          "quantity": 1
+        },
+        {
+          "cardId": 78624,
           "quantity": 1
         },
         {
@@ -1063,45 +1221,241 @@
           "quantity": 1
         },
         {
-          "cardId": 100630,
+          "cardId": 79693,
           "quantity": 1
         },
         {
-          "cardId": 100513,
+          "cardId": 81862,
           "quantity": 1
         },
         {
-          "cardId": 100557,
+          "cardId": 95040,
           "quantity": 1
         },
         {
-          "cardId": 100470,
+          "cardId": 82839,
           "quantity": 1
         },
         {
-          "cardId": 100536,
+          "cardId": 91120,
           "quantity": 1
         },
         {
-          "cardId": 100573,
+          "cardId": 79694,
           "quantity": 1
         },
         {
-          "cardId": 91539,
-          "quantity": 4
+          "cardId": 98581,
+          "quantity": 1
         },
         {
-          "cardId": 86688,
-          "quantity": 2
+          "cardId": 75288,
+          "quantity": 1
         },
         {
-          "cardId": 91544,
-          "quantity": 4
+          "cardId": 93843,
+          "quantity": 1
+        },
+        {
+          "cardId": 93844,
+          "quantity": 1
+        },
+        {
+          "cardId": 75290,
+          "quantity": 1
+        },
+        {
+          "cardId": 89178,
+          "quantity": 1
+        },
+        {
+          "cardId": 82847,
+          "quantity": 1
+        },
+        {
+          "cardId": 73460,
+          "quantity": 1
+        },
+        {
+          "cardId": 73459,
+          "quantity": 1
+        },
+        {
+          "cardId": 79695,
+          "quantity": 1
+        },
+        {
+          "cardId": 86982,
+          "quantity": 1
+        },
+        {
+          "cardId": 91784,
+          "quantity": 1
+        },
+        {
+          "cardId": 82852,
+          "quantity": 1
+        },
+        {
+          "cardId": 90594,
+          "quantity": 1
+        },
+        {
+          "cardId": 71307,
+          "quantity": 1
+        },
+        {
+          "cardId": 83945,
+          "quantity": 1
+        },
+        {
+          "cardId": 86984,
+          "quantity": 1
+        },
+        {
+          "cardId": 93971,
+          "quantity": 1
+        },
+        {
+          "cardId": 73467,
+          "quantity": 1
+        },
+        {
+          "cardId": 97991,
+          "quantity": 1
+        },
+        {
+          "cardId": 70379,
+          "quantity": 1
+        },
+        {
+          "cardId": 87424,
+          "quantity": 1
+        },
+        {
+          "cardId": 83941,
+          "quantity": 1
+        },
+        {
+          "cardId": 73466,
+          "quantity": 1
+        },
+        {
+          "cardId": 98583,
+          "quantity": 1
+        },
+        {
+          "cardId": 82859,
+          "quantity": 1
+        },
+        {
+          "cardId": 82739,
+          "quantity": 1
+        },
+        {
+          "cardId": 82733,
+          "quantity": 1
+        },
+        {
+          "cardId": 83927,
+          "quantity": 1
+        },
+        {
+          "cardId": 66473,
+          "quantity": 1
+        },
+        {
+          "cardId": 86985,
+          "quantity": 1
+        },
+        {
+          "cardId": 91787,
+          "quantity": 1
+        },
+        {
+          "cardId": 90596,
+          "quantity": 1
+        },
+        {
+          "cardId": 90688,
+          "quantity": 1
+        },
+        {
+          "cardId": 75294,
+          "quantity": 1
+        },
+        {
+          "cardId": 87122,
+          "quantity": 1
+        },
+        {
+          "cardId": 83946,
+          "quantity": 1
+        },
+        {
+          "cardId": 96823,
+          "quantity": 1
+        },
+        {
+          "cardId": 79084,
+          "quantity": 1
+        },
+        {
+          "cardId": 70752,
+          "quantity": 1
+        },
+        {
+          "cardId": 82800,
+          "quantity": 1
+        },
+        {
+          "cardId": 95032,
+          "quantity": 1
+        },
+        {
+          "cardId": 75796,
+          "quantity": 1
+        },
+        {
+          "cardId": 83671,
+          "quantity": 1
+        },
+        {
+          "cardId": 70742,
+          "quantity": 1
+        },
+        {
+          "cardId": 91779,
+          "quantity": 1
+        },
+        {
+          "cardId": 90586,
+          "quantity": 1
+        },
+        {
+          "cardId": 74091,
+          "quantity": 1
+        },
+        {
+          "cardId": 79076,
+          "quantity": 1
+        },
+        {
+          "cardId": 97536,
+          "quantity": 1
+        },
+        {
+          "cardId": 91369,
+          "quantity": 1
+        },
+        {
+          "cardId": 92342,
+          "quantity": 1
         }
       ],
       "sideboard": [],
       "companions": [],
-      "total_cards": 88,
+      "total_cards": 211,
       "log_line": 0
     },
     {
@@ -2297,146 +2651,101 @@
       "format": "Historic",
       "main_deck": [
         {
-          "cardId": 32675,
+          "cardId": 82628,
           "quantity": 4
         },
         {
-          "cardId": 71998,
+          "cardId": 90492,
           "quantity": 4
         },
         {
-          "cardId": 77341,
+          "cardId": 71278,
           "quantity": 4
         },
         {
-          "cardId": 76129,
+          "cardId": 79582,
           "quantity": 4
         },
         {
-          "cardId": 97042,
-          "quantity": 4
-        },
-        {
-          "cardId": 70529,
-          "quantity": 2
-        },
-        {
-          "cardId": 75246,
-          "quantity": 2
-        },
-        {
-          "cardId": 70512,
-          "quantity": 2
-        },
-        {
-          "cardId": 84719,
+          "cardId": 66091,
           "quantity": 1
         },
         {
-          "cardId": 83710,
+          "cardId": 70206,
           "quantity": 1
         },
         {
-          "cardId": 82212,
-          "quantity": 1
-        },
-        {
-          "cardId": 66911,
-          "quantity": 1
-        },
-        {
-          "cardId": 72447,
-          "quantity": 1
-        },
-        {
-          "cardId": 67692,
-          "quantity": 4
-        },
-        {
-          "cardId": 73774,
+          "cardId": 71841,
           "quantity": 2
         },
         {
-          "cardId": 79339,
-          "quantity": 2
-        },
-        {
-          "cardId": 84504,
-          "quantity": 2
-        },
-        {
-          "cardId": 87342,
-          "quantity": 2
-        },
-        {
-          "cardId": 75587,
-          "quantity": 1
-        },
-        {
-          "cardId": 70308,
-          "quantity": 2
-        },
-        {
-          "cardId": 80166,
-          "quantity": 1
-        },
-        {
-          "cardId": 90704,
+          "cardId": 78374,
           "quantity": 3
         },
         {
-          "cardId": 71970,
-          "quantity": 1
-        },
-        {
-          "cardId": 73966,
-          "quantity": 1
-        },
-        {
-          "cardId": 98488,
-          "quantity": 1
-        },
-        {
-          "cardId": 79614,
-          "quantity": 3
-        },
-        {
-          "cardId": 72028,
+          "cardId": 78504,
           "quantity": 4
         },
         {
-          "cardId": 79705,
+          "cardId": 71941,
+          "quantity": 3
+        },
+        {
+          "cardId": 75525,
+          "quantity": 1
+        },
+        {
+          "cardId": 67946,
+          "quantity": 1
+        },
+        {
+          "cardId": 94048,
+          "quantity": 3
+        },
+        {
+          "cardId": 76594,
+          "quantity": 3
+        },
+        {
+          "cardId": 77518,
           "quantity": 2
         },
         {
-          "cardId": 72026,
+          "cardId": 98589,
+          "quantity": 1
+        },
+        {
+          "cardId": 90617,
           "quantity": 2
         },
         {
-          "cardId": 72030,
+          "cardId": 79089,
+          "quantity": 1
+        },
+        {
+          "cardId": 82307,
+          "quantity": 1
+        },
+        {
+          "cardId": 76673,
           "quantity": 2
         },
         {
-          "cardId": 70759,
-          "quantity": 2
-        },
-        {
-          "cardId": 95088,
+          "cardId": 72090,
           "quantity": 7
         },
         {
-          "cardId": 87578,
-          "quantity": 5
-        }
-      ],
-      "sideboard": [
+          "cardId": 96839,
+          "quantity": 4
+        },
         {
-          "cardId": 85582,
-          "quantity": 1
+          "cardId": 72028,
+          "quantity": 2
         }
       ],
+      "sideboard": [],
       "companions": [],
-      "total_cards": 80,
+      "total_cards": 60,
       "log_line": 0
     },
     {
@@ -12373,7 +12682,7 @@
       "log_line": 0
     },
     {
-      "name": "Diamond Selesnya 80",
+      "name": "selesnya d60",
       "format": "Historic",
       "main_deck": [
         {
@@ -12382,11 +12691,11 @@
         },
         {
           "cardId": 71998,
-          "quantity": 4
+          "quantity": 3
         },
         {
           "cardId": 77341,
-          "quantity": 4
+          "quantity": 3
         },
         {
           "cardId": 76129,
@@ -12401,68 +12710,28 @@
           "quantity": 2
         },
         {
-          "cardId": 75246,
-          "quantity": 2
-        },
-        {
           "cardId": 70512,
+          "quantity": 1
+        },
+        {
+          "cardId": 93850,
           "quantity": 2
-        },
-        {
-          "cardId": 84719,
-          "quantity": 1
-        },
-        {
-          "cardId": 83710,
-          "quantity": 1
-        },
-        {
-          "cardId": 82212,
-          "quantity": 1
-        },
-        {
-          "cardId": 66911,
-          "quantity": 1
-        },
-        {
-          "cardId": 72447,
-          "quantity": 1
         },
         {
           "cardId": 67692,
-          "quantity": 4
+          "quantity": 2
         },
         {
           "cardId": 73774,
-          "quantity": 2
-        },
-        {
-          "cardId": 79339,
-          "quantity": 2
-        },
-        {
-          "cardId": 84504,
-          "quantity": 2
-        },
-        {
-          "cardId": 87342,
-          "quantity": 2
-        },
-        {
-          "cardId": 75587,
           "quantity": 1
         },
         {
-          "cardId": 70308,
-          "quantity": 2
-        },
-        {
-          "cardId": 80166,
+          "cardId": 79339,
           "quantity": 1
         },
         {
           "cardId": 90704,
-          "quantity": 3
+          "quantity": 2
         },
         {
           "cardId": 71970,
@@ -12473,7 +12742,7 @@
           "quantity": 1
         },
         {
-          "cardId": 79614,
+          "cardId": 96048,
           "quantity": 4
         },
         {
@@ -12485,7 +12754,391 @@
           "quantity": 4
         },
         {
-          "cardId": 72030,
+          "cardId": 95088,
+          "quantity": 6
+        },
+        {
+          "cardId": 87578,
+          "quantity": 6
+        },
+        {
+          "cardId": 98815,
+          "quantity": 1
+        },
+        {
+          "cardId": 67426,
+          "quantity": 2
+        },
+        {
+          "cardId": 94002,
+          "quantity": 1
+        },
+        {
+          "cardId": 78827,
+          "quantity": 2
+        },
+        {
+          "cardId": 71804,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 0
+    },
+    {
+      "name": "Mythic Selesnya ",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 32675,
+          "quantity": 4
+        },
+        {
+          "cardId": 78354,
+          "quantity": 4
+        },
+        {
+          "cardId": 67692,
+          "quantity": 4
+        },
+        {
+          "cardId": 77341,
+          "quantity": 4
+        },
+        {
+          "cardId": 75450,
+          "quantity": 4
+        },
+        {
+          "cardId": 78827,
+          "quantity": 4
+        },
+        {
+          "cardId": 71998,
+          "quantity": 4
+        },
+        {
+          "cardId": 76129,
+          "quantity": 4
+        },
+        {
+          "cardId": 70529,
+          "quantity": 2
+        },
+        {
+          "cardId": 70512,
+          "quantity": 2
+        },
+        {
+          "cardId": 98488,
+          "quantity": 2
+        },
+        {
+          "cardId": 84342,
+          "quantity": 4
+        },
+        {
+          "cardId": 73464,
+          "quantity": 2
+        },
+        {
+          "cardId": 98590,
+          "quantity": 1
+        },
+        {
+          "cardId": 73470,
+          "quantity": 1
+        },
+        {
+          "cardId": 78635,
+          "quantity": 1
+        },
+        {
+          "cardId": 87578,
+          "quantity": 5
+        },
+        {
+          "cardId": 95088,
+          "quantity": 4
+        },
+        {
+          "cardId": 73226,
+          "quantity": 2
+        },
+        {
+          "cardId": 73194,
+          "quantity": 2
+        },
+        {
+          "cardId": 73227,
+          "quantity": 3
+        },
+        {
+          "cardId": 73413,
+          "quantity": 2
+        },
+        {
+          "cardId": 84485,
+          "quantity": 1
+        },
+        {
+          "cardId": 73445,
+          "quantity": 1
+        },
+        {
+          "cardId": 73465,
+          "quantity": 4
+        },
+        {
+          "cardId": 90557,
+          "quantity": 4
+        },
+        {
+          "cardId": 98617,
+          "quantity": 1
+        },
+        {
+          "cardId": 83708,
+          "quantity": 4
+        },
+        {
+          "cardId": 78329,
+          "quantity": 1
+        },
+        {
+          "cardId": 86688,
+          "quantity": 2
+        },
+        {
+          "cardId": 97818,
+          "quantity": 4
+        },
+        {
+          "cardId": 71081,
+          "quantity": 2
+        },
+        {
+          "cardId": 90360,
+          "quantity": 4
+        },
+        {
+          "cardId": 98335,
+          "quantity": 4
+        },
+        {
+          "cardId": 68474,
+          "quantity": 2
+        },
+        {
+          "cardId": 88941,
+          "quantity": 1
+        },
+        {
+          "cardId": 97304,
+          "quantity": 3
+        },
+        {
+          "cardId": 85519,
+          "quantity": 1
+        },
+        {
+          "cardId": 69788,
+          "quantity": 2
+        },
+        {
+          "cardId": 97823,
+          "quantity": 1
+        },
+        {
+          "cardId": 86083,
+          "quantity": 2
+        },
+        {
+          "cardId": 71820,
+          "quantity": 4
+        },
+        {
+          "cardId": 91566,
+          "quantity": 1
+        },
+        {
+          "cardId": 95162,
+          "quantity": 1
+        },
+        {
+          "cardId": 73775,
+          "quantity": 4
+        },
+        {
+          "cardId": 71785,
+          "quantity": 2
+        },
+        {
+          "cardId": 75039,
+          "quantity": 4
+        },
+        {
+          "cardId": 69793,
+          "quantity": 2
+        },
+        {
+          "cardId": 90352,
+          "quantity": 4
+        },
+        {
+          "cardId": 79420,
+          "quantity": 3
+        },
+        {
+          "cardId": 75041,
+          "quantity": 3
+        },
+        {
+          "cardId": 80159,
+          "quantity": 4
+        },
+        {
+          "cardId": 87040,
+          "quantity": 1
+        },
+        {
+          "cardId": 88929,
+          "quantity": 4
+        },
+        {
+          "cardId": 91543,
+          "quantity": 4
+        },
+        {
+          "cardId": 91541,
+          "quantity": 4
+        },
+        {
+          "cardId": 87136,
+          "quantity": 4
+        },
+        {
+          "cardId": 87145,
+          "quantity": 1
+        },
+        {
+          "cardId": 95872,
+          "quantity": 1
+        },
+        {
+          "cardId": 71804,
+          "quantity": 4
+        },
+        {
+          "cardId": 97297,
+          "quantity": 1
+        },
+        {
+          "cardId": 87044,
+          "quantity": 4
+        },
+        {
+          "cardId": 83717,
+          "quantity": 4
+        },
+        {
+          "cardId": 81676,
+          "quantity": 1
+        },
+        {
+          "cardId": 87391,
+          "quantity": 3
+        },
+        {
+          "cardId": 83719,
+          "quantity": 1
+        },
+        {
+          "cardId": 97305,
+          "quantity": 4
+        },
+        {
+          "cardId": 91560,
+          "quantity": 2
+        },
+        {
+          "cardId": 86956,
+          "quantity": 1
+        },
+        {
+          "cardId": 82504,
+          "quantity": 2
+        },
+        {
+          "cardId": 93858,
+          "quantity": 4
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 191,
+      "log_line": 0
+    },
+    {
+      "name": "Mythic Selesnya",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 32675,
+          "quantity": 4
+        },
+        {
+          "cardId": 78354,
+          "quantity": 4
+        },
+        {
+          "cardId": 67692,
+          "quantity": 4
+        },
+        {
+          "cardId": 77341,
+          "quantity": 4
+        },
+        {
+          "cardId": 75450,
+          "quantity": 2
+        },
+        {
+          "cardId": 78827,
+          "quantity": 4
+        },
+        {
+          "cardId": 71998,
+          "quantity": 4
+        },
+        {
+          "cardId": 76129,
+          "quantity": 4
+        },
+        {
+          "cardId": 70529,
+          "quantity": 2
+        },
+        {
+          "cardId": 73226,
+          "quantity": 2
+        },
+        {
+          "cardId": 98488,
+          "quantity": 2
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 79705,
+          "quantity": 4
+        },
+        {
+          "cardId": 98590,
           "quantity": 2
         },
         {
@@ -12493,39 +13146,4917 @@
           "quantity": 2
         },
         {
+          "cardId": 73470,
+          "quantity": 1
+        },
+        {
+          "cardId": 87578,
+          "quantity": 6
+        },
+        {
           "cardId": 95088,
+          "quantity": 5
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 60,
+      "log_line": 0
+    },
+    {
+      "name": "Mythic Conjuration",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 84305,
+          "quantity": 3
+        },
+        {
+          "cardId": 70221,
+          "quantity": 1
+        },
+        {
+          "cardId": 91090,
+          "quantity": 4
+        },
+        {
+          "cardId": 95357,
+          "quantity": 4
+        },
+        {
+          "cardId": 72159,
+          "quantity": 4
+        },
+        {
+          "cardId": 86107,
+          "quantity": 2
+        },
+        {
+          "cardId": 90360,
+          "quantity": 2
+        },
+        {
+          "cardId": 93122,
+          "quantity": 4
+        },
+        {
+          "cardId": 98815,
+          "quantity": 4
+        },
+        {
+          "cardId": 76253,
+          "quantity": 2
+        },
+        {
+          "cardId": 81199,
+          "quantity": 1
+        },
+        {
+          "cardId": 69643,
+          "quantity": 1
+        },
+        {
+          "cardId": 87062,
+          "quantity": 2
+        },
+        {
+          "cardId": 82543,
+          "quantity": 1
+        },
+        {
+          "cardId": 96390,
+          "quantity": 1
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 96839,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 3
+        },
+        {
+          "cardId": 95088,
+          "quantity": 2
+        },
+        {
+          "cardId": 67426,
+          "quantity": 2
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 0
+    },
+    {
+      "name": "wishlist",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 93243,
+          "quantity": 2
+        },
+        {
+          "cardId": 70582,
+          "quantity": 1
+        },
+        {
+          "cardId": 70308,
+          "quantity": 4
+        },
+        {
+          "cardId": 69620,
+          "quantity": 1
+        },
+        {
+          "cardId": 75246,
+          "quantity": 2
+        },
+        {
+          "cardId": 86302,
+          "quantity": 2
+        },
+        {
+          "cardId": 85582,
+          "quantity": 1
+        },
+        {
+          "cardId": 71783,
+          "quantity": 1
+        },
+        {
+          "cardId": 85096,
+          "quantity": 2
+        },
+        {
+          "cardId": 69306,
+          "quantity": 1
+        },
+        {
+          "cardId": 77305,
+          "quantity": 4
+        },
+        {
+          "cardId": 93996,
+          "quantity": 1
+        },
+        {
+          "cardId": 71134,
+          "quantity": 1
+        },
+        {
+          "cardId": 85521,
+          "quantity": 1
+        },
+        {
+          "cardId": 83710,
+          "quantity": 1
+        },
+        {
+          "cardId": 70725,
+          "quantity": 2
+        },
+        {
+          "cardId": 90495,
+          "quantity": 2
+        },
+        {
+          "cardId": 75182,
+          "quantity": 1
+        },
+        {
+          "cardId": 89133,
+          "quantity": 1
+        },
+        {
+          "cardId": 82159,
+          "quantity": 4
+        },
+        {
+          "cardId": 87282,
+          "quantity": 1
+        },
+        {
+          "cardId": 93907,
+          "quantity": 1
+        },
+        {
+          "cardId": 85581,
+          "quantity": 1
+        },
+        {
+          "cardId": 90718,
+          "quantity": 1
+        },
+        {
+          "cardId": 92315,
+          "quantity": 2
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 75268,
+          "quantity": 2
+        },
+        {
+          "cardId": 93957,
+          "quantity": 2
+        },
+        {
+          "cardId": 80310,
+          "quantity": 2
+        },
+        {
+          "cardId": 71961,
+          "quantity": 1
+        },
+        {
+          "cardId": 82846,
+          "quantity": 2
+        },
+        {
+          "cardId": 72007,
+          "quantity": 4
+        },
+        {
+          "cardId": 78850,
+          "quantity": 1
+        },
+        {
+          "cardId": 82291,
+          "quantity": 3
+        },
+        {
+          "cardId": 70002,
+          "quantity": 1
+        },
+        {
+          "cardId": 85571,
+          "quantity": 1
+        },
+        {
+          "cardId": 69389,
+          "quantity": 1
+        },
+        {
+          "cardId": 84524,
+          "quantity": 3
+        },
+        {
+          "cardId": 100630,
+          "quantity": 1
+        },
+        {
+          "cardId": 92350,
+          "quantity": 2
+        },
+        {
+          "cardId": 82813,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 72,
+      "log_line": 0
+    },
+    {
+      "name": "Morbid Machinations",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 95199,
+          "quantity": 9
+        },
+        {
+          "cardId": 95195,
+          "quantity": 10
+        },
+        {
+          "cardId": 94031,
+          "quantity": 1
+        },
+        {
+          "cardId": 94089,
+          "quantity": 1
+        },
+        {
+          "cardId": 94037,
+          "quantity": 1
+        },
+        {
+          "cardId": 93825,
+          "quantity": 1
+        },
+        {
+          "cardId": 94128,
+          "quantity": 1
+        },
+        {
+          "cardId": 93838,
+          "quantity": 2
+        },
+        {
+          "cardId": 93777,
+          "quantity": 2
+        },
+        {
+          "cardId": 93708,
+          "quantity": 2
+        },
+        {
+          "cardId": 93814,
+          "quantity": 2
+        },
+        {
+          "cardId": 93787,
+          "quantity": 2
+        },
+        {
+          "cardId": 93768,
+          "quantity": 1
+        },
+        {
+          "cardId": 93673,
+          "quantity": 2
+        },
+        {
+          "cardId": 93677,
+          "quantity": 2
+        },
+        {
+          "cardId": 94117,
+          "quantity": 4
+        },
+        {
+          "cardId": 93821,
+          "quantity": 2
+        },
+        {
+          "cardId": 93776,
+          "quantity": 2
+        },
+        {
+          "cardId": 93774,
+          "quantity": 1
+        },
+        {
+          "cardId": 93885,
+          "quantity": 2
+        },
+        {
+          "cardId": 93824,
+          "quantity": 1
+        },
+        {
+          "cardId": 93945,
+          "quantity": 1
+        },
+        {
+          "cardId": 93937,
+          "quantity": 1
+        },
+        {
+          "cardId": 93948,
+          "quantity": 2
+        },
+        {
+          "cardId": 93786,
+          "quantity": 2
+        },
+        {
+          "cardId": 94043,
+          "quantity": 1
+        },
+        {
+          "cardId": 93895,
+          "quantity": 2
+        },
+        {
+          "cardId": 98329,
+          "quantity": 1
+        },
+        {
+          "cardId": 86972,
+          "quantity": 1
+        },
+        {
+          "cardId": 91621,
+          "quantity": 4
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 66,
+      "log_line": 0
+    },
+    {
+      "name": "Arcane Aerialists (2)",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 93855,
+          "quantity": 2
+        },
+        {
+          "cardId": 94111,
+          "quantity": 4
+        },
+        {
+          "cardId": 93854,
+          "quantity": 1
+        },
+        {
+          "cardId": 93645,
+          "quantity": 2
+        },
+        {
+          "cardId": 94009,
+          "quantity": 3
+        },
+        {
+          "cardId": 93741,
+          "quantity": 2
+        },
+        {
+          "cardId": 93877,
+          "quantity": 2
+        },
+        {
+          "cardId": 94135,
+          "quantity": 1
+        },
+        {
+          "cardId": 94019,
+          "quantity": 2
+        },
+        {
+          "cardId": 93862,
+          "quantity": 2
+        },
+        {
+          "cardId": 93747,
+          "quantity": 1
+        },
+        {
+          "cardId": 93952,
+          "quantity": 3
+        },
+        {
+          "cardId": 94081,
+          "quantity": 2
+        },
+        {
+          "cardId": 72040,
+          "quantity": 4
+        },
+        {
+          "cardId": 94126,
+          "quantity": 1
+        },
+        {
+          "cardId": 94014,
+          "quantity": 2
+        },
+        {
+          "cardId": 93966,
+          "quantity": 2
+        },
+        {
+          "cardId": 93751,
+          "quantity": 2
+        },
+        {
+          "cardId": 93722,
+          "quantity": 2
+        },
+        {
+          "cardId": 93863,
+          "quantity": 2
+        },
+        {
+          "cardId": 96839,
           "quantity": 7
         },
         {
           "cardId": 87578,
+          "quantity": 8
+        },
+        {
+          "cardId": 93753,
+          "quantity": 1
+        },
+        {
+          "cardId": 93860,
+          "quantity": 2
+        },
+        {
+          "cardId": 90349,
+          "quantity": 4
+        },
+        {
+          "cardId": 97818,
+          "quantity": 4
+        },
+        {
+          "cardId": 91544,
+          "quantity": 4
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 72,
+      "log_line": 0
+    },
+    {
+      "name": "Path of Power",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 72031,
+          "quantity": 4
+        },
+        {
+          "cardId": 94087,
+          "quantity": 1
+        },
+        {
+          "cardId": 72090,
+          "quantity": 9
+        },
+        {
+          "cardId": 95088,
+          "quantity": 10
+        },
+        {
+          "cardId": 93830,
+          "quantity": 1
+        },
+        {
+          "cardId": 93958,
+          "quantity": 2
+        },
+        {
+          "cardId": 93795,
+          "quantity": 2
+        },
+        {
+          "cardId": 93793,
+          "quantity": 1
+        },
+        {
+          "cardId": 93942,
+          "quantity": 3
+        },
+        {
+          "cardId": 93818,
+          "quantity": 2
+        },
+        {
+          "cardId": 87091,
+          "quantity": 1
+        },
+        {
+          "cardId": 93902,
+          "quantity": 2
+        },
+        {
+          "cardId": 93694,
+          "quantity": 2
+        },
+        {
+          "cardId": 94052,
+          "quantity": 2
+        },
+        {
+          "cardId": 93696,
+          "quantity": 2
+        },
+        {
+          "cardId": 93928,
+          "quantity": 2
+        },
+        {
+          "cardId": 93940,
+          "quantity": 3
+        },
+        {
+          "cardId": 93271,
+          "quantity": 2
+        },
+        {
+          "cardId": 93941,
+          "quantity": 2
+        },
+        {
+          "cardId": 93813,
+          "quantity": 2
+        },
+        {
+          "cardId": 93815,
+          "quantity": 2
+        },
+        {
+          "cardId": 93819,
+          "quantity": 1
+        },
+        {
+          "cardId": 93825,
+          "quantity": 1
+        },
+        {
+          "cardId": 94124,
+          "quantity": 1
+        },
+        {
+          "cardId": 86946,
+          "quantity": 2
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 0
+    },
+    {
+      "name": "Arcane Aerialists",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 93855,
+          "quantity": 2
+        },
+        {
+          "cardId": 87578,
+          "quantity": 10
+        },
+        {
+          "cardId": 93998,
+          "quantity": 1
+        },
+        {
+          "cardId": 93641,
+          "quantity": 2
+        },
+        {
+          "cardId": 93854,
+          "quantity": 1
+        },
+        {
+          "cardId": 93729,
+          "quantity": 2
+        },
+        {
+          "cardId": 93645,
+          "quantity": 2
+        },
+        {
+          "cardId": 94009,
+          "quantity": 3
+        },
+        {
+          "cardId": 93849,
+          "quantity": 1
+        },
+        {
+          "cardId": 93860,
+          "quantity": 2
+        },
+        {
+          "cardId": 93877,
+          "quantity": 1
+        },
+        {
+          "cardId": 96839,
+          "quantity": 9
+        },
+        {
+          "cardId": 94019,
+          "quantity": 2
+        },
+        {
+          "cardId": 93659,
+          "quantity": 2
+        },
+        {
+          "cardId": 93747,
+          "quantity": 1
+        },
+        {
+          "cardId": 93952,
+          "quantity": 2
+        },
+        {
+          "cardId": 94081,
+          "quantity": 2
+        },
+        {
+          "cardId": 72040,
+          "quantity": 4
+        },
+        {
+          "cardId": 94126,
+          "quantity": 1
+        },
+        {
+          "cardId": 94014,
+          "quantity": 2
+        },
+        {
+          "cardId": 93966,
+          "quantity": 2
+        },
+        {
+          "cardId": 93751,
+          "quantity": 2
+        },
+        {
+          "cardId": 93722,
+          "quantity": 2
+        },
+        {
+          "cardId": 93863,
+          "quantity": 2
+        },
+        {
+          "cardId": 91539,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 61,
+      "log_line": 0
+    },
+    {
+      "name": "Outlaw Posse",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 90438,
+          "quantity": 1
+        },
+        {
+          "cardId": 72090,
+          "quantity": 10
+        },
+        {
+          "cardId": 90459,
+          "quantity": 1
+        },
+        {
+          "cardId": 90455,
+          "quantity": 1
+        },
+        {
+          "cardId": 90561,
+          "quantity": 1
+        },
+        {
+          "cardId": 86822,
+          "quantity": 1
+        },
+        {
+          "cardId": 96841,
+          "quantity": 14
+        },
+        {
+          "cardId": 90479,
+          "quantity": 1
+        },
+        {
+          "cardId": 90474,
+          "quantity": 1
+        },
+        {
+          "cardId": 89188,
+          "quantity": 1
+        },
+        {
+          "cardId": 90452,
+          "quantity": 2
+        },
+        {
+          "cardId": 90442,
+          "quantity": 2
+        },
+        {
+          "cardId": 90445,
+          "quantity": 2
+        },
+        {
+          "cardId": 90491,
+          "quantity": 1
+        },
+        {
+          "cardId": 90473,
+          "quantity": 1
+        },
+        {
+          "cardId": 90460,
+          "quantity": 2
+        },
+        {
+          "cardId": 90427,
+          "quantity": 2
+        },
+        {
+          "cardId": 90465,
+          "quantity": 3
+        },
+        {
+          "cardId": 87254,
+          "quantity": 2
+        },
+        {
+          "cardId": 88997,
+          "quantity": 2
+        },
+        {
+          "cardId": 89010,
+          "quantity": 2
+        },
+        {
+          "cardId": 90482,
+          "quantity": 2
+        },
+        {
+          "cardId": 90497,
+          "quantity": 2
+        },
+        {
+          "cardId": 87313,
+          "quantity": 2
+        },
+        {
+          "cardId": 90581,
+          "quantity": 1
+        },
+        {
+          "cardId": 98406,
+          "quantity": 1
+        },
+        {
+          "cardId": 91621,
+          "quantity": 1
+        },
+        {
+          "cardId": 89198,
+          "quantity": 1
+        },
+        {
+          "cardId": 97364,
+          "quantity": 1
+        },
+        {
+          "cardId": 97854,
+          "quantity": 1
+        },
+        {
+          "cardId": 98329,
+          "quantity": 1
+        },
+        {
+          "cardId": 86946,
+          "quantity": 1
+        },
+        {
+          "cardId": 90361,
+          "quantity": 1
+        },
+        {
+          "cardId": 95531,
+          "quantity": 1
+        },
+        {
+          "cardId": 86942,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 70,
+      "log_line": 0
+    },
+    {
+      "name": "Might of the Legion",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 95198,
+          "quantity": 8
+        },
+        {
+          "cardId": 93966,
+          "quantity": 2
+        },
+        {
+          "cardId": 93998,
+          "quantity": 2
+        },
+        {
+          "cardId": 93858,
+          "quantity": 2
+        },
+        {
+          "cardId": 94011,
+          "quantity": 2
+        },
+        {
+          "cardId": 93997,
+          "quantity": 3
+        },
+        {
+          "cardId": 93721,
+          "quantity": 2
+        },
+        {
+          "cardId": 94079,
+          "quantity": 1
+        },
+        {
+          "cardId": 94112,
+          "quantity": 2
+        },
+        {
+          "cardId": 93905,
+          "quantity": 2
+        },
+        {
+          "cardId": 95192,
+          "quantity": 9
+        },
+        {
+          "cardId": 93718,
+          "quantity": 1
+        },
+        {
+          "cardId": 93902,
+          "quantity": 2
+        },
+        {
+          "cardId": 93684,
+          "quantity": 2
+        },
+        {
+          "cardId": 93917,
+          "quantity": 1
+        },
+        {
+          "cardId": 93912,
+          "quantity": 2
+        },
+        {
+          "cardId": 93954,
+          "quantity": 2
+        },
+        {
+          "cardId": 93984,
+          "quantity": 4
+        },
+        {
+          "cardId": 94133,
+          "quantity": 1
+        },
+        {
+          "cardId": 93806,
+          "quantity": 1
+        },
+        {
+          "cardId": 93908,
+          "quantity": 3
+        },
+        {
+          "cardId": 93860,
+          "quantity": 2
+        },
+        {
+          "cardId": 94008,
+          "quantity": 2
+        },
+        {
+          "cardId": 93913,
+          "quantity": 2
+        },
+        {
+          "cardId": 93730,
+          "quantity": 1
+        },
+        {
+          "cardId": 92083,
+          "quantity": 1
+        },
+        {
+          "cardId": 92060,
+          "quantity": 1
+        },
+        {
+          "cardId": 93903,
+          "quantity": 1
+        },
+        {
+          "cardId": 93794,
+          "quantity": 1
+        },
+        {
+          "cardId": 96080,
+          "quantity": 1
+        },
+        {
+          "cardId": 92209,
+          "quantity": 1
+        },
+        {
+          "cardId": 92244,
+          "quantity": 1
+        },
+        {
+          "cardId": 92219,
+          "quantity": 1
+        },
+        {
+          "cardId": 87304,
+          "quantity": 1
+        },
+        {
+          "cardId": 89158,
+          "quantity": 1
+        },
+        {
+          "cardId": 89167,
+          "quantity": 1
+        },
+        {
+          "cardId": 89170,
+          "quantity": 1
+        },
+        {
+          "cardId": 97958,
+          "quantity": 1
+        },
+        {
+          "cardId": 89141,
+          "quantity": 1
+        },
+        {
+          "cardId": 92321,
+          "quantity": 1
+        },
+        {
+          "cardId": 92331,
+          "quantity": 1
+        },
+        {
+          "cardId": 94091,
+          "quantity": 1
+        },
+        {
+          "cardId": 92326,
+          "quantity": 1
+        },
+        {
+          "cardId": 92333,
+          "quantity": 1
+        },
+        {
+          "cardId": 97539,
+          "quantity": 1
+        },
+        {
+          "cardId": 93969,
+          "quantity": 1
+        },
+        {
+          "cardId": 93957,
+          "quantity": 1
+        },
+        {
+          "cardId": 95720,
+          "quantity": 1
+        },
+        {
+          "cardId": 89164,
+          "quantity": 1
+        },
+        {
+          "cardId": 96818,
+          "quantity": 1
+        },
+        {
+          "cardId": 93714,
+          "quantity": 1
+        },
+        {
+          "cardId": 87429,
+          "quantity": 1
+        },
+        {
+          "cardId": 97542,
+          "quantity": 1
+        },
+        {
+          "cardId": 100632,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 90,
+      "log_line": 0
+    },
+    {
+      "name": "Learn from the Land",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 94072,
+          "quantity": 1
+        },
+        {
+          "cardId": 96839,
           "quantity": 5
         },
         {
+          "cardId": 95088,
+          "quantity": 10
+        },
+        {
+          "cardId": 93820,
+          "quantity": 1
+        },
+        {
+          "cardId": 94123,
+          "quantity": 4
+        },
+        {
+          "cardId": 94130,
+          "quantity": 1
+        },
+        {
+          "cardId": 93818,
+          "quantity": 2
+        },
+        {
+          "cardId": 93819,
+          "quantity": 1
+        },
+        {
+          "cardId": 93662,
+          "quantity": 2
+        },
+        {
+          "cardId": 93657,
+          "quantity": 3
+        },
+        {
+          "cardId": 93812,
+          "quantity": 2
+        },
+        {
+          "cardId": 93960,
+          "quantity": 2
+        },
+        {
+          "cardId": 94073,
+          "quantity": 1
+        },
+        {
+          "cardId": 93816,
+          "quantity": 2
+        },
+        {
+          "cardId": 68034,
+          "quantity": 4
+        },
+        {
+          "cardId": 93941,
+          "quantity": 2
+        },
+        {
+          "cardId": 93705,
+          "quantity": 2
+        },
+        {
+          "cardId": 93744,
+          "quantity": 2
+        },
+        {
+          "cardId": 79719,
+          "quantity": 4
+        },
+        {
+          "cardId": 93940,
+          "quantity": 3
+        },
+        {
+          "cardId": 93877,
+          "quantity": 2
+        },
+        {
+          "cardId": 93760,
+          "quantity": 2
+        },
+        {
+          "cardId": 94063,
+          "quantity": 2
+        },
+        {
+          "cardId": 88963,
+          "quantity": 1
+        },
+        {
+          "cardId": 75080,
+          "quantity": 1
+        },
+        {
+          "cardId": 93863,
+          "quantity": 1
+        },
+        {
+          "cardId": 88962,
+          "quantity": 1
+        },
+        {
+          "cardId": 97320,
+          "quantity": 1
+        },
+        {
+          "cardId": 86972,
+          "quantity": 1
+        },
+        {
+          "cardId": 86956,
+          "quantity": 1
+        },
+        {
+          "cardId": 88958,
+          "quantity": 1
+        },
+        {
+          "cardId": 93873,
+          "quantity": 1
+        },
+        {
+          "cardId": 87391,
+          "quantity": 1
+        },
+        {
+          "cardId": 100497,
+          "quantity": 1
+        },
+        {
+          "cardId": 93868,
+          "quantity": 1
+        },
+        {
+          "cardId": 92118,
+          "quantity": 1
+        },
+        {
+          "cardId": 94016,
+          "quantity": 1
+        },
+        {
+          "cardId": 88970,
+          "quantity": 1
+        },
+        {
+          "cardId": 97328,
+          "quantity": 1
+        },
+        {
+          "cardId": 90398,
+          "quantity": 1
+        },
+        {
+          "cardId": 97329,
+          "quantity": 1
+        },
+        {
+          "cardId": 95565,
+          "quantity": 1
+        },
+        {
+          "cardId": 96632,
+          "quantity": 1
+        },
+        {
+          "cardId": 92141,
+          "quantity": 1
+        },
+        {
+          "cardId": 87210,
+          "quantity": 1
+        },
+        {
+          "cardId": 93122,
+          "quantity": 1
+        },
+        {
+          "cardId": 97341,
+          "quantity": 1
+        },
+        {
+          "cardId": 91588,
+          "quantity": 1
+        },
+        {
+          "cardId": 90399,
+          "quantity": 1
+        },
+        {
+          "cardId": 97850,
+          "quantity": 1
+        },
+        {
+          "cardId": 88984,
+          "quantity": 1
+        },
+        {
+          "cardId": 90403,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 89,
+      "log_line": 0
+    },
+    {
+      "name": "Graveyard Gifts",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 93122,
+          "quantity": 4
+        },
+        {
+          "cardId": 93756,
+          "quantity": 2
+        },
+        {
+          "cardId": 93758,
+          "quantity": 1
+        },
+        {
+          "cardId": 93965,
+          "quantity": 3
+        },
+        {
+          "cardId": 93865,
+          "quantity": 2
+        },
+        {
+          "cardId": 93784,
+          "quantity": 4
+        },
+        {
+          "cardId": 93768,
+          "quantity": 2
+        },
+        {
+          "cardId": 93767,
+          "quantity": 1
+        },
+        {
+          "cardId": 93668,
+          "quantity": 2
+        },
+        {
+          "cardId": 94116,
+          "quantity": 4
+        },
+        {
+          "cardId": 93831,
+          "quantity": 4
+        },
+        {
+          "cardId": 79707,
+          "quantity": 4
+        },
+        {
+          "cardId": 94125,
+          "quantity": 1
+        },
+        {
+          "cardId": 93896,
+          "quantity": 1
+        },
+        {
+          "cardId": 93769,
+          "quantity": 2
+        },
+        {
+          "cardId": 71116,
+          "quantity": 2
+        },
+        {
+          "cardId": 93882,
+          "quantity": 2
+        },
+        {
+          "cardId": 93900,
+          "quantity": 3
+        },
+        {
+          "cardId": 94013,
+          "quantity": 1
+        },
+        {
+          "cardId": 96839,
+          "quantity": 7
+        },
+        {
+          "cardId": 96841,
+          "quantity": 8
+        },
+        {
+          "cardId": 88957,
+          "quantity": 1
+        },
+        {
+          "cardId": 86727,
+          "quantity": 1
+        },
+        {
+          "cardId": 91579,
+          "quantity": 1
+        },
+        {
+          "cardId": 93747,
+          "quantity": 1
+        },
+        {
+          "cardId": 97327,
+          "quantity": 1
+        },
+        {
+          "cardId": 86997,
+          "quantity": 1
+        },
+        {
+          "cardId": 91580,
+          "quantity": 1
+        },
+        {
+          "cardId": 92114,
+          "quantity": 1
+        },
+        {
+          "cardId": 100498,
+          "quantity": 1
+        },
+        {
+          "cardId": 97849,
+          "quantity": 1
+        },
+        {
+          "cardId": 88979,
+          "quantity": 1
+        },
+        {
+          "cardId": 98371,
+          "quantity": 1
+        },
+        {
+          "cardId": 93752,
+          "quantity": 1
+        },
+        {
+          "cardId": 95568,
+          "quantity": 1
+        },
+        {
+          "cardId": 92130,
+          "quantity": 1
+        },
+        {
+          "cardId": 96640,
+          "quantity": 1
+        },
+        {
+          "cardId": 98376,
+          "quantity": 1
+        },
+        {
+          "cardId": 97851,
+          "quantity": 1
+        },
+        {
+          "cardId": 87230,
+          "quantity": 1
+        },
+        {
+          "cardId": 87218,
+          "quantity": 1
+        },
+        {
+          "cardId": 98386,
+          "quantity": 1
+        },
+        {
+          "cardId": 93876,
+          "quantity": 1
+        },
+        {
+          "cardId": 91604,
+          "quantity": 1
+        },
+        {
+          "cardId": 90423,
+          "quantity": 1
+        },
+        {
+          "cardId": 88995,
+          "quantity": 1
+        },
+        {
+          "cardId": 97365,
+          "quantity": 1
+        },
+        {
+          "cardId": 94881,
+          "quantity": 1
+        },
+        {
+          "cardId": 91643,
+          "quantity": 1
+        },
+        {
+          "cardId": 89013,
+          "quantity": 1
+        },
+        {
+          "cardId": 92187,
+          "quantity": 1
+        },
+        {
+          "cardId": 94142,
+          "quantity": 1
+        },
+        {
+          "cardId": 92170,
+          "quantity": 1
+        },
+        {
+          "cardId": 92194,
+          "quantity": 1
+        },
+        {
+          "cardId": 97392,
+          "quantity": 1
+        },
+        {
+          "cardId": 89025,
+          "quantity": 1
+        },
+        {
+          "cardId": 95983,
+          "quantity": 1
+        },
+        {
+          "cardId": 91657,
+          "quantity": 1
+        },
+        {
+          "cardId": 95027,
+          "quantity": 1
+        },
+        {
+          "cardId": 89122,
+          "quantity": 1
+        },
+        {
+          "cardId": 89137,
+          "quantity": 1
+        },
+        {
+          "cardId": 97516,
+          "quantity": 1
+        },
+        {
+          "cardId": 93961,
+          "quantity": 1
+        },
+        {
+          "cardId": 98544,
+          "quantity": 1
+        },
+        {
+          "cardId": 100604,
+          "quantity": 1
+        },
+        {
+          "cardId": 98534,
+          "quantity": 1
+        },
+        {
+          "cardId": 97976,
+          "quantity": 1
+        },
+        {
+          "cardId": 93836,
+          "quantity": 1
+        },
+        {
+          "cardId": 89167,
+          "quantity": 1
+        },
+        {
+          "cardId": 89170,
+          "quantity": 1
+        },
+        {
+          "cardId": 89203,
+          "quantity": 1
+        },
+        {
+          "cardId": 94092,
+          "quantity": 1
+        },
+        {
+          "cardId": 90542,
+          "quantity": 1
+        },
+        {
+          "cardId": 95704,
+          "quantity": 1
+        },
+        {
+          "cardId": 95722,
+          "quantity": 1
+        },
+        {
+          "cardId": 95755,
+          "quantity": 1
+        },
+        {
+          "cardId": 89158,
+          "quantity": 1
+        },
+        {
+          "cardId": 95724,
+          "quantity": 1
+        },
+        {
+          "cardId": 89161,
+          "quantity": 1
+        },
+        {
+          "cardId": 95744,
+          "quantity": 1
+        },
+        {
+          "cardId": 95732,
+          "quantity": 1
+        },
+        {
+          "cardId": 89164,
+          "quantity": 1
+        },
+        {
+          "cardId": 95742,
+          "quantity": 1
+        },
+        {
+          "cardId": 67502,
+          "quantity": 1
+        },
+        {
+          "cardId": 95739,
+          "quantity": 1
+        },
+        {
+          "cardId": 82846,
+          "quantity": 1
+        },
+        {
+          "cardId": 96575,
+          "quantity": 1
+        },
+        {
+          "cardId": 87494,
+          "quantity": 1
+        },
+        {
+          "cardId": 87495,
+          "quantity": 1
+        },
+        {
+          "cardId": 97540,
+          "quantity": 1
+        },
+        {
+          "cardId": 90686,
+          "quantity": 1
+        },
+        {
+          "cardId": 92352,
+          "quantity": 1
+        },
+        {
+          "cardId": 98575,
+          "quantity": 1
+        },
+        {
+          "cardId": 96821,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 133,
+      "log_line": 0
+    },
+    {
+      "name": "Faerie Pranks",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 86754,
+          "quantity": 2
+        },
+        {
+          "cardId": 96841,
+          "quantity": 7
+        },
+        {
+          "cardId": 86759,
+          "quantity": 2
+        },
+        {
+          "cardId": 86751,
+          "quantity": 3
+        },
+        {
+          "cardId": 86764,
+          "quantity": 1
+        },
+        {
+          "cardId": 86783,
+          "quantity": 1
+        },
+        {
+          "cardId": 86774,
+          "quantity": 3
+        },
+        {
+          "cardId": 96839,
+          "quantity": 13
+        },
+        {
+          "cardId": 86920,
+          "quantity": 2
+        },
+        {
+          "cardId": 86925,
+          "quantity": 1
+        },
+        {
+          "cardId": 86997,
+          "quantity": 1
+        },
+        {
+          "cardId": 86757,
+          "quantity": 1
+        },
+        {
+          "cardId": 90421,
+          "quantity": 1
+        },
+        {
+          "cardId": 89112,
+          "quantity": 1
+        },
+        {
+          "cardId": 87421,
+          "quantity": 1
+        },
+        {
+          "cardId": 86758,
+          "quantity": 3
+        },
+        {
+          "cardId": 86760,
+          "quantity": 2
+        },
+        {
+          "cardId": 90610,
+          "quantity": 4
+        },
+        {
+          "cardId": 89192,
+          "quantity": 1
+        },
+        {
+          "cardId": 88971,
+          "quantity": 2
+        },
+        {
+          "cardId": 86784,
+          "quantity": 3
+        },
+        {
+          "cardId": 86756,
+          "quantity": 3
+        },
+        {
+          "cardId": 86737,
+          "quantity": 2
+        },
+        {
+          "cardId": 86964,
+          "quantity": 2
+        },
+        {
+          "cardId": 93751,
+          "quantity": 1
+        },
+        {
+          "cardId": 88968,
+          "quantity": 1
+        },
+        {
+          "cardId": 98366,
+          "quantity": 1
+        },
+        {
+          "cardId": 93760,
+          "quantity": 1
+        },
+        {
+          "cardId": 98368,
+          "quantity": 1
+        },
+        {
+          "cardId": 86968,
+          "quantity": 1
+        },
+        {
+          "cardId": 98381,
+          "quantity": 1
+        },
+        {
+          "cardId": 93753,
+          "quantity": 1
+        },
+        {
+          "cardId": 98369,
+          "quantity": 1
+        },
+        {
+          "cardId": 86970,
+          "quantity": 1
+        },
+        {
+          "cardId": 98372,
+          "quantity": 1
+        },
+        {
+          "cardId": 86746,
+          "quantity": 1
+        },
+        {
+          "cardId": 86752,
+          "quantity": 1
+        },
+        {
+          "cardId": 86779,
+          "quantity": 1
+        },
+        {
+          "cardId": 98420,
+          "quantity": 1
+        },
+        {
+          "cardId": 86805,
+          "quantity": 1
+        },
+        {
+          "cardId": 98434,
+          "quantity": 1
+        },
+        {
+          "cardId": 86780,
+          "quantity": 1
+        },
+        {
+          "cardId": 86790,
+          "quantity": 1
+        },
+        {
+          "cardId": 98572,
+          "quantity": 1
+        },
+        {
+          "cardId": 89116,
+          "quantity": 1
+        },
+        {
+          "cardId": 86918,
+          "quantity": 1
+        },
+        {
+          "cardId": 89125,
+          "quantity": 1
+        },
+        {
+          "cardId": 90559,
+          "quantity": 1
+        },
+        {
+          "cardId": 98555,
+          "quantity": 1
+        },
+        {
+          "cardId": 98576,
+          "quantity": 1
+        },
+        {
+          "cardId": 98585,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 89,
+      "log_line": 0
+    },
+    {
+      "name": "Draconic Dominance",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 93748,
+          "quantity": 1
+        },
+        {
+          "cardId": 72090,
+          "quantity": 8
+        },
+        {
+          "cardId": 93756,
+          "quantity": 2
+        },
+        {
+          "cardId": 93872,
+          "quantity": 2
+        },
+        {
+          "cardId": 93871,
+          "quantity": 1
+        },
+        {
+          "cardId": 93743,
+          "quantity": 1
+        },
+        {
+          "cardId": 93880,
+          "quantity": 3
+        },
+        {
+          "cardId": 94051,
+          "quantity": 2
+        },
+        {
+          "cardId": 96839,
+          "quantity": 9
+        },
+        {
+          "cardId": 93950,
+          "quantity": 2
+        },
+        {
+          "cardId": 94085,
+          "quantity": 2
+        },
+        {
+          "cardId": 93122,
+          "quantity": 3
+        },
+        {
+          "cardId": 93658,
+          "quantity": 2
+        },
+        {
+          "cardId": 94139,
+          "quantity": 1
+        },
+        {
+          "cardId": 93905,
+          "quantity": 3
+        },
+        {
+          "cardId": 94048,
+          "quantity": 3
+        },
+        {
+          "cardId": 93684,
+          "quantity": 2
+        },
+        {
+          "cardId": 93923,
+          "quantity": 2
+        },
+        {
+          "cardId": 93799,
+          "quantity": 2
+        },
+        {
+          "cardId": 93981,
+          "quantity": 4
+        },
+        {
+          "cardId": 93909,
+          "quantity": 2
+        },
+        {
+          "cardId": 93910,
+          "quantity": 2
+        },
+        {
+          "cardId": 94127,
+          "quantity": 1
+        },
+        {
+          "cardId": 88958,
+          "quantity": 1
+        },
+        {
+          "cardId": 93873,
+          "quantity": 1
+        },
+        {
+          "cardId": 95531,
+          "quantity": 1
+        },
+        {
+          "cardId": 86946,
+          "quantity": 1
+        },
+        {
+          "cardId": 90361,
+          "quantity": 1
+        },
+        {
+          "cardId": 93863,
+          "quantity": 1
+        },
+        {
+          "cardId": 75080,
+          "quantity": 1
+        },
+        {
+          "cardId": 88963,
+          "quantity": 1
+        },
+        {
+          "cardId": 88962,
+          "quantity": 1
+        },
+        {
+          "cardId": 97320,
+          "quantity": 1
+        },
+        {
+          "cardId": 91611,
+          "quantity": 1
+        },
+        {
+          "cardId": 86759,
+          "quantity": 1
+        },
+        {
+          "cardId": 91587,
+          "quantity": 1
+        },
+        {
+          "cardId": 91661,
+          "quantity": 1
+        },
+        {
+          "cardId": 91660,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 75,
+      "log_line": 0
+    },
+    {
+      "name": "Dino Might",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 87367,
+          "quantity": 1
+        },
+        {
+          "cardId": 72090,
+          "quantity": 9
+        },
+        {
+          "cardId": 87339,
+          "quantity": 1
+        },
+        {
+          "cardId": 87347,
+          "quantity": 1
+        },
+        {
+          "cardId": 87325,
+          "quantity": 1
+        },
+        {
+          "cardId": 95088,
+          "quantity": 11
+        },
+        {
+          "cardId": 89181,
+          "quantity": 1
+        },
+        {
+          "cardId": 87287,
+          "quantity": 3
+        },
+        {
+          "cardId": 87312,
+          "quantity": 2
+        },
+        {
+          "cardId": 87315,
+          "quantity": 2
+        },
+        {
+          "cardId": 87390,
+          "quantity": 2
+        },
+        {
+          "cardId": 87337,
+          "quantity": 1
+        },
+        {
+          "cardId": 87328,
+          "quantity": 3
+        },
+        {
+          "cardId": 87331,
+          "quantity": 2
+        },
+        {
+          "cardId": 87293,
+          "quantity": 3
+        },
+        {
+          "cardId": 89092,
+          "quantity": 2
+        },
+        {
+          "cardId": 87348,
+          "quantity": 2
+        },
+        {
+          "cardId": 87316,
+          "quantity": 2
+        },
+        {
+          "cardId": 86872,
+          "quantity": 2
+        },
+        {
+          "cardId": 86885,
+          "quantity": 2
+        },
+        {
+          "cardId": 89084,
+          "quantity": 1
+        },
+        {
+          "cardId": 90599,
+          "quantity": 4
+        },
+        {
+          "cardId": 89073,
+          "quantity": 2
+        },
+        {
+          "cardId": 87361,
+          "quantity": 1
+        },
+        {
+          "cardId": 86880,
+          "quantity": 1
+        },
+        {
+          "cardId": 89076,
+          "quantity": 1
+        },
+        {
+          "cardId": 91805,
+          "quantity": 1
+        },
+        {
+          "cardId": 92209,
+          "quantity": 1
+        },
+        {
+          "cardId": 93903,
+          "quantity": 1
+        },
+        {
+          "cardId": 93794,
+          "quantity": 2
+        },
+        {
+          "cardId": 87304,
+          "quantity": 2
+        },
+        {
+          "cardId": 92219,
+          "quantity": 1
+        },
+        {
+          "cardId": 92244,
+          "quantity": 1
+        },
+        {
+          "cardId": 92280,
+          "quantity": 1
+        },
+        {
+          "cardId": 92297,
+          "quantity": 1
+        },
+        {
+          "cardId": 86899,
+          "quantity": 1
+        },
+        {
+          "cardId": 97940,
+          "quantity": 1
+        },
+        {
+          "cardId": 87371,
+          "quantity": 1
+        },
+        {
+          "cardId": 93822,
+          "quantity": 1
+        },
+        {
+          "cardId": 90681,
+          "quantity": 1
+        },
+        {
+          "cardId": 98525,
+          "quantity": 1
+        },
+        {
+          "cardId": 72447,
+          "quantity": 1
+        },
+        {
+          "cardId": 92333,
+          "quantity": 1
+        },
+        {
+          "cardId": 92326,
+          "quantity": 1
+        },
+        {
+          "cardId": 94091,
+          "quantity": 1
+        },
+        {
+          "cardId": 93935,
+          "quantity": 1
+        },
+        {
+          "cardId": 89086,
+          "quantity": 1
+        },
+        {
+          "cardId": 89141,
+          "quantity": 1
+        },
+        {
+          "cardId": 97958,
+          "quantity": 1
+        },
+        {
+          "cardId": 89170,
+          "quantity": 1
+        },
+        {
+          "cardId": 89167,
+          "quantity": 1
+        },
+        {
+          "cardId": 89158,
+          "quantity": 1
+        },
+        {
+          "cardId": 93957,
+          "quantity": 1
+        },
+        {
+          "cardId": 95699,
+          "quantity": 1
+        },
+        {
+          "cardId": 89161,
+          "quantity": 1
+        },
+        {
+          "cardId": 95720,
+          "quantity": 1
+        },
+        {
+          "cardId": 89164,
+          "quantity": 1
+        },
+        {
+          "cardId": 93969,
+          "quantity": 1
+        },
+        {
+          "cardId": 97539,
+          "quantity": 1
+        },
+        {
+          "cardId": 96818,
+          "quantity": 1
+        },
+        {
+          "cardId": 93714,
+          "quantity": 1
+        },
+        {
+          "cardId": 87429,
+          "quantity": 1
+        },
+        {
+          "cardId": 100632,
+          "quantity": 1
+        },
+        {
+          "cardId": 97542,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 103,
+      "log_line": 0
+    },
+    {
+      "name": "Desert Oasis",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 90503,
+          "quantity": 1
+        },
+        {
+          "cardId": 96839,
+          "quantity": 7
+        },
+        {
+          "cardId": 89184,
+          "quantity": 1
+        },
+        {
+          "cardId": 90542,
+          "quantity": 1
+        },
+        {
+          "cardId": 95088,
+          "quantity": 13
+        },
+        {
+          "cardId": 87388,
+          "quantity": 1
+        },
+        {
+          "cardId": 87353,
+          "quantity": 1
+        },
+        {
+          "cardId": 90505,
+          "quantity": 1
+        },
+        {
+          "cardId": 89069,
+          "quantity": 1
+        },
+        {
+          "cardId": 87370,
+          "quantity": 1
+        },
+        {
+          "cardId": 90607,
+          "quantity": 4
+        },
+        {
+          "cardId": 87214,
+          "quantity": 2
+        },
+        {
+          "cardId": 90393,
+          "quantity": 2
+        },
+        {
+          "cardId": 90504,
+          "quantity": 2
+        },
+        {
+          "cardId": 90518,
+          "quantity": 2
+        },
+        {
+          "cardId": 90516,
+          "quantity": 2
+        },
+        {
+          "cardId": 87368,
+          "quantity": 2
+        },
+        {
+          "cardId": 87365,
+          "quantity": 2
+        },
+        {
+          "cardId": 89088,
+          "quantity": 2
+        },
+        {
+          "cardId": 90514,
+          "quantity": 2
+        },
+        {
+          "cardId": 86890,
+          "quantity": 3
+        },
+        {
+          "cardId": 86865,
+          "quantity": 2
+        },
+        {
+          "cardId": 87346,
+          "quantity": 3
+        },
+        {
+          "cardId": 87227,
+          "quantity": 2
+        },
+        {
+          "cardId": 86956,
+          "quantity": 1
+        },
+        {
+          "cardId": 87391,
+          "quantity": 1
+        },
+        {
+          "cardId": 86972,
+          "quantity": 1
+        },
+        {
+          "cardId": 90407,
+          "quantity": 1
+        },
+        {
+          "cardId": 92141,
+          "quantity": 1
+        },
+        {
+          "cardId": 87210,
+          "quantity": 1
+        },
+        {
+          "cardId": 88984,
+          "quantity": 1
+        },
+        {
+          "cardId": 90403,
+          "quantity": 1
+        },
+        {
+          "cardId": 97850,
+          "quantity": 1
+        },
+        {
+          "cardId": 90399,
+          "quantity": 1
+        },
+        {
+          "cardId": 91588,
+          "quantity": 1
+        },
+        {
+          "cardId": 97341,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 72,
+      "log_line": 0
+    },
+    {
+      "name": "Ancient Discovery",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 87300,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 8
+        },
+        {
+          "cardId": 87290,
+          "quantity": 2
+        },
+        {
+          "cardId": 87301,
+          "quantity": 2
+        },
+        {
+          "cardId": 87291,
+          "quantity": 2
+        },
+        {
+          "cardId": 87282,
+          "quantity": 1
+        },
+        {
+          "cardId": 72090,
+          "quantity": 8
+        },
+        {
+          "cardId": 90597,
+          "quantity": 4
+        },
+        {
+          "cardId": 87386,
+          "quantity": 1
+        },
+        {
+          "cardId": 87443,
+          "quantity": 2
+        },
+        {
+          "cardId": 87440,
+          "quantity": 2
+        },
+        {
+          "cardId": 86716,
+          "quantity": 2
+        },
+        {
+          "cardId": 87134,
+          "quantity": 2
+        },
+        {
+          "cardId": 87147,
+          "quantity": 2
+        },
+        {
+          "cardId": 87175,
+          "quantity": 2
+        },
+        {
+          "cardId": 87160,
+          "quantity": 2
+        },
+        {
+          "cardId": 87285,
+          "quantity": 2
+        },
+        {
+          "cardId": 87163,
+          "quantity": 2
+        },
+        {
+          "cardId": 90481,
+          "quantity": 2
+        },
+        {
+          "cardId": 88950,
+          "quantity": 2
+        },
+        {
+          "cardId": 90616,
+          "quantity": 1
+        },
+        {
+          "cardId": 89102,
+          "quantity": 1
+        },
+        {
+          "cardId": 87383,
+          "quantity": 1
+        },
+        {
+          "cardId": 89154,
+          "quantity": 1
+        },
+        {
+          "cardId": 89033,
+          "quantity": 1
+        },
+        {
+          "cardId": 87304,
+          "quantity": 1
+        },
+        {
+          "cardId": 87172,
+          "quantity": 1
+        },
+        {
+          "cardId": 97826,
+          "quantity": 1
+        },
+        {
+          "cardId": 98354,
+          "quantity": 1
+        },
+        {
+          "cardId": 93727,
+          "quantity": 1
+        },
+        {
+          "cardId": 92067,
+          "quantity": 1
+        },
+        {
+          "cardId": 88931,
+          "quantity": 1
+        },
+        {
+          "cardId": 90351,
+          "quantity": 1
+        },
+        {
+          "cardId": 97282,
+          "quantity": 1
+        },
+        {
+          "cardId": 87164,
+          "quantity": 1
+        },
+        {
+          "cardId": 95539,
+          "quantity": 1
+        },
+        {
+          "cardId": 92091,
+          "quantity": 1
+        },
+        {
+          "cardId": 87168,
+          "quantity": 1
+        },
+        {
+          "cardId": 92060,
+          "quantity": 1
+        },
+        {
+          "cardId": 92083,
+          "quantity": 1
+        },
+        {
+          "cardId": 93730,
+          "quantity": 1
+        },
+        {
+          "cardId": 98360,
+          "quantity": 1
+        },
+        {
+          "cardId": 96618,
+          "quantity": 1
+        },
+        {
+          "cardId": 92205,
+          "quantity": 1
+        },
+        {
+          "cardId": 89027,
+          "quantity": 1
+        },
+        {
+          "cardId": 90462,
+          "quantity": 1
+        },
+        {
+          "cardId": 94924,
+          "quantity": 1
+        },
+        {
+          "cardId": 93907,
+          "quantity": 1
+        },
+        {
+          "cardId": 93794,
+          "quantity": 1
+        },
+        {
+          "cardId": 93903,
+          "quantity": 1
+        },
+        {
+          "cardId": 87325,
+          "quantity": 1
+        },
+        {
+          "cardId": 92230,
+          "quantity": 1
+        },
+        {
+          "cardId": 86835,
+          "quantity": 1
+        },
+        {
+          "cardId": 89047,
+          "quantity": 1
+        },
+        {
+          "cardId": 97906,
+          "quantity": 1
+        },
+        {
+          "cardId": 98469,
+          "quantity": 1
+        },
+        {
+          "cardId": 97425,
+          "quantity": 1
+        },
+        {
+          "cardId": 93836,
+          "quantity": 1
+        },
+        {
+          "cardId": 96080,
+          "quantity": 1
+        },
+        {
+          "cardId": 92209,
+          "quantity": 1
+        },
+        {
+          "cardId": 92244,
+          "quantity": 2
+        },
+        {
+          "cardId": 92219,
+          "quantity": 1
+        },
+        {
+          "cardId": 98544,
+          "quantity": 1
+        },
+        {
+          "cardId": 100604,
+          "quantity": 1
+        },
+        {
+          "cardId": 93961,
+          "quantity": 1
+        },
+        {
+          "cardId": 92321,
+          "quantity": 1
+        },
+        {
+          "cardId": 91799,
+          "quantity": 1
+        },
+        {
+          "cardId": 98531,
+          "quantity": 1
+        },
+        {
+          "cardId": 94079,
+          "quantity": 1
+        },
+        {
+          "cardId": 97958,
+          "quantity": 1
+        },
+        {
+          "cardId": 89141,
+          "quantity": 1
+        },
+        {
+          "cardId": 94091,
+          "quantity": 1
+        },
+        {
+          "cardId": 92326,
+          "quantity": 1
+        },
+        {
+          "cardId": 92333,
+          "quantity": 1
+        },
+        {
+          "cardId": 97516,
+          "quantity": 1
+        },
+        {
+          "cardId": 89137,
+          "quantity": 1
+        },
+        {
+          "cardId": 95722,
+          "quantity": 1
+        },
+        {
+          "cardId": 95704,
+          "quantity": 1
+        },
+        {
+          "cardId": 90536,
+          "quantity": 1
+        },
+        {
+          "cardId": 95755,
+          "quantity": 1
+        },
+        {
+          "cardId": 89158,
+          "quantity": 1
+        },
+        {
+          "cardId": 95724,
+          "quantity": 1
+        },
+        {
+          "cardId": 95742,
+          "quantity": 1
+        },
+        {
+          "cardId": 89164,
+          "quantity": 1
+        },
+        {
+          "cardId": 93957,
+          "quantity": 1
+        },
+        {
+          "cardId": 82846,
+          "quantity": 1
+        },
+        {
+          "cardId": 95720,
+          "quantity": 1
+        },
+        {
+          "cardId": 95744,
+          "quantity": 1
+        },
+        {
+          "cardId": 95732,
+          "quantity": 1
+        },
+        {
+          "cardId": 96575,
+          "quantity": 1
+        },
+        {
+          "cardId": 98575,
+          "quantity": 1
+        },
+        {
+          "cardId": 92352,
+          "quantity": 1
+        },
+        {
+          "cardId": 90686,
+          "quantity": 1
+        },
+        {
+          "cardId": 97540,
+          "quantity": 1
+        },
+        {
+          "cardId": 87495,
+          "quantity": 1
+        },
+        {
+          "cardId": 96821,
+          "quantity": 1
+        },
+        {
+          "cardId": 93969,
+          "quantity": 1
+        },
+        {
+          "cardId": 97539,
+          "quantity": 1
+        },
+        {
+          "cardId": 100632,
+          "quantity": 1
+        },
+        {
+          "cardId": 97542,
+          "quantity": 1
+        },
+        {
+          "cardId": 87429,
+          "quantity": 1
+        },
+        {
+          "cardId": 93714,
+          "quantity": 1
+        },
+        {
+          "cardId": 96818,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 137,
+      "log_line": 0
+    },
+    {
+      "name": "Goblins Everywhere! (2)",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 75521,
+          "quantity": 2
+        },
+        {
+          "cardId": 79588,
+          "quantity": 2
+        },
+        {
+          "cardId": 75523,
+          "quantity": 2
+        },
+        {
+          "cardId": 75511,
+          "quantity": 2
+        },
+        {
+          "cardId": 75512,
+          "quantity": 4
+        },
+        {
+          "cardId": 75528,
+          "quantity": 3
+        },
+        {
+          "cardId": 75514,
+          "quantity": 2
+        },
+        {
+          "cardId": 75520,
+          "quantity": 1
+        },
+        {
+          "cardId": 75519,
+          "quantity": 2
+        },
+        {
+          "cardId": 89059,
+          "quantity": 4
+        },
+        {
+          "cardId": 75527,
+          "quantity": 2
+        },
+        {
+          "cardId": 75509,
+          "quantity": 2
+        },
+        {
+          "cardId": 75517,
+          "quantity": 2
+        },
+        {
+          "cardId": 72090,
+          "quantity": 6
+        },
+        {
+          "cardId": 75516,
+          "quantity": 1
+        },
+        {
+          "cardId": 75513,
+          "quantity": 3
+        },
+        {
+          "cardId": 71207,
+          "quantity": 1
+        },
+        {
+          "cardId": 90495,
+          "quantity": 2
+        },
+        {
+          "cardId": 70275,
+          "quantity": 1
+        },
+        {
+          "cardId": 72030,
+          "quantity": 1
+        },
+        {
+          "cardId": 79722,
+          "quantity": 4
+        },
+        {
+          "cardId": 79704,
+          "quantity": 4
+        },
+        {
+          "cardId": 72033,
+          "quantity": 4
+        },
+        {
+          "cardId": 72031,
+          "quantity": 4
+        },
+        {
+          "cardId": 72028,
+          "quantity": 2
+        },
+        {
+          "cardId": 70259,
+          "quantity": 1
+        },
+        {
+          "cardId": 73340,
+          "quantity": 2
+        },
+        {
+          "cardId": 71929,
+          "quantity": 2
+        },
+        {
+          "cardId": 73341,
+          "quantity": 2
+        },
+        {
+          "cardId": 75522,
+          "quantity": 2
+        },
+        {
+          "cardId": 83527,
+          "quantity": 1
+        },
+        {
+          "cardId": 70281,
+          "quantity": 2
+        },
+        {
+          "cardId": 71915,
+          "quantity": 2
+        },
+        {
+          "cardId": 75322,
+          "quantity": 3
+        },
+        {
+          "cardId": 78632,
+          "quantity": 1
+        },
+        {
+          "cardId": 82299,
+          "quantity": 1
+        },
+        {
+          "cardId": 77516,
+          "quantity": 1
+        },
+        {
+          "cardId": 92212,
+          "quantity": 1
+        },
+        {
+          "cardId": 87294,
+          "quantity": 1
+        },
+        {
+          "cardId": 94048,
+          "quantity": 1
+        },
+        {
+          "cardId": 87292,
+          "quantity": 1
+        },
+        {
+          "cardId": 98452,
+          "quantity": 1
+        },
+        {
+          "cardId": 94206,
+          "quantity": 1
+        },
+        {
+          "cardId": 83827,
+          "quantity": 1
+        },
+        {
+          "cardId": 84410,
+          "quantity": 1
+        },
+        {
+          "cardId": 89034,
+          "quantity": 1
+        },
+        {
+          "cardId": 69939,
+          "quantity": 1
+        },
+        {
+          "cardId": 90484,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 94,
+      "log_line": 0
+    },
+    {
+      "name": "Mutated Scute",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 71114,
+          "quantity": 3
+        },
+        {
+          "cardId": 73199,
+          "quantity": 2
+        },
+        {
+          "cardId": 71232,
+          "quantity": 2
+        },
+        {
+          "cardId": 71089,
+          "quantity": 2
+        },
+        {
+          "cardId": 72030,
+          "quantity": 4
+        },
+        {
+          "cardId": 71104,
+          "quantity": 2
+        },
+        {
+          "cardId": 71216,
+          "quantity": 4
+        },
+        {
+          "cardId": 71223,
+          "quantity": 2
+        },
+        {
+          "cardId": 87578,
+          "quantity": 4
+        },
+        {
+          "cardId": 71211,
+          "quantity": 4
+        },
+        {
+          "cardId": 73402,
+          "quantity": 3
+        },
+        {
+          "cardId": 70307,
+          "quantity": 1
+        },
+        {
+          "cardId": 70685,
+          "quantity": 3
+        },
+        {
+          "cardId": 95088,
+          "quantity": 8
+        },
+        {
+          "cardId": 70680,
+          "quantity": 3
+        },
+        {
+          "cardId": 75244,
+          "quantity": 3
+        },
+        {
+          "cardId": 96839,
+          "quantity": 2
+        },
+        {
+          "cardId": 70308,
+          "quantity": 4
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 60,
+      "log_line": 0
+    },
+    {
+      "name": "Blue black witch\u2019s token",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 81259,
+          "quantity": 4
+        },
+        {
+          "cardId": 71555,
+          "quantity": 4
+        },
+        {
+          "cardId": 96839,
+          "quantity": 9
+        },
+        {
+          "cardId": 96841,
+          "quantity": 12
+        },
+        {
+          "cardId": 87578,
+          "quantity": 3
+        },
+        {
+          "cardId": 82819,
+          "quantity": 4
+        },
+        {
+          "cardId": 70582,
+          "quantity": 1
+        },
+        {
+          "cardId": 70201,
+          "quantity": 1
+        },
+        {
+          "cardId": 83771,
+          "quantity": 1
+        },
+        {
+          "cardId": 71869,
+          "quantity": 3
+        },
+        {
+          "cardId": 79690,
+          "quantity": 2
+        },
+        {
+          "cardId": 82818,
+          "quantity": 2
+        },
+        {
+          "cardId": 71140,
+          "quantity": 1
+        },
+        {
+          "cardId": 82159,
+          "quantity": 1
+        },
+        {
+          "cardId": 82268,
+          "quantity": 2
+        },
+        {
+          "cardId": 78937,
+          "quantity": 1
+        },
+        {
+          "cardId": 86638,
+          "quantity": 1
+        },
+        {
+          "cardId": 72293,
+          "quantity": 2
+        },
+        {
+          "cardId": 73294,
+          "quantity": 2
+        },
+        {
+          "cardId": 71128,
+          "quantity": 2
+        },
+        {
+          "cardId": 75993,
+          "quantity": 2
+        },
+        {
+          "cardId": 93850,
+          "quantity": 1
+        },
+        {
+          "cardId": 94213,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 0
+    },
+    {
+      "name": "Mounts Rabbits",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 90567,
+          "quantity": 1
+        },
+        {
+          "cardId": 90546,
+          "quantity": 1
+        },
+        {
+          "cardId": 90515,
+          "quantity": 1
+        },
+        {
+          "cardId": 90374,
+          "quantity": 1
+        },
+        {
+          "cardId": 90359,
+          "quantity": 1
+        },
+        {
+          "cardId": 90578,
+          "quantity": 1
+        },
+        {
+          "cardId": 90377,
+          "quantity": 1
+        },
+        {
+          "cardId": 90356,
+          "quantity": 1
+        },
+        {
+          "cardId": 90378,
+          "quantity": 1
+        },
+        {
+          "cardId": 90384,
+          "quantity": 1
+        },
+        {
+          "cardId": 90507,
+          "quantity": 1
+        },
+        {
+          "cardId": 90601,
+          "quantity": 1
+        },
+        {
+          "cardId": 91542,
+          "quantity": 1
+        },
+        {
+          "cardId": 91551,
+          "quantity": 1
+        },
+        {
+          "cardId": 91552,
+          "quantity": 1
+        },
+        {
+          "cardId": 91566,
+          "quantity": 1
+        },
+        {
+          "cardId": 91541,
+          "quantity": 1
+        },
+        {
+          "cardId": 91562,
+          "quantity": 1
+        },
+        {
+          "cardId": 91573,
+          "quantity": 1
+        },
+        {
+          "cardId": 91553,
+          "quantity": 1
+        },
+        {
+          "cardId": 91537,
+          "quantity": 1
+        },
+        {
+          "cardId": 91547,
+          "quantity": 1
+        },
+        {
+          "cardId": 91543,
+          "quantity": 1
+        },
+        {
+          "cardId": 91783,
+          "quantity": 1
+        },
+        {
+          "cardId": 79705,
+          "quantity": 2
+        },
+        {
+          "cardId": 87578,
+          "quantity": 8
+        },
+        {
+          "cardId": 95088,
+          "quantity": 6
+        },
+        {
+          "cardId": 91539,
+          "quantity": 1
+        },
+        {
+          "cardId": 93636,
+          "quantity": 1
+        },
+        {
+          "cardId": 94194,
+          "quantity": 1
+        },
+        {
+          "cardId": 91572,
+          "quantity": 1
+        },
+        {
+          "cardId": 86709,
+          "quantity": 2
+        },
+        {
+          "cardId": 86956,
+          "quantity": 1
+        },
+        {
+          "cardId": 91723,
+          "quantity": 1
+        },
+        {
+          "cardId": 91792,
+          "quantity": 1
+        },
+        {
+          "cardId": 91565,
+          "quantity": 1
+        },
+        {
+          "cardId": 97306,
+          "quantity": 1
+        },
+        {
+          "cardId": 91574,
+          "quantity": 1
+        },
+        {
+          "cardId": 90354,
+          "quantity": 1
+        },
+        {
+          "cardId": 91748,
+          "quantity": 1
+        },
+        {
+          "cardId": 91742,
+          "quantity": 1
+        },
+        {
+          "cardId": 91794,
+          "quantity": 1
+        },
+        {
+          "cardId": 90141,
+          "quantity": 1
+        },
+        {
+          "cardId": 91736,
+          "quantity": 1
+        },
+        {
+          "cardId": 84491,
+          "quantity": 1
+        },
+        {
+          "cardId": 91738,
+          "quantity": 1
+        },
+        {
+          "cardId": 97932,
+          "quantity": 1
+        },
+        {
+          "cardId": 91706,
+          "quantity": 1
+        },
+        {
+          "cardId": 91710,
+          "quantity": 1
+        },
+        {
+          "cardId": 91741,
+          "quantity": 1
+        },
+        {
+          "cardId": 91799,
+          "quantity": 1
+        },
+        {
+          "cardId": 91752,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 66,
+      "log_line": 0
+    },
+    {
+      "name": "Historic Artisan Compete",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 67692,
+          "quantity": 2
+        },
+        {
+          "cardId": 95088,
+          "quantity": 5
+        },
+        {
+          "cardId": 79705,
+          "quantity": 4
+        },
+        {
+          "cardId": 75233,
+          "quantity": 1
+        },
+        {
+          "cardId": 87578,
+          "quantity": 11
+        },
+        {
+          "cardId": 77341,
+          "quantity": 2
+        },
+        {
+          "cardId": 77111,
+          "quantity": 2
+        },
+        {
+          "cardId": 78354,
+          "quantity": 2
+        },
+        {
+          "cardId": 69455,
+          "quantity": 2
+        },
+        {
+          "cardId": 32675,
+          "quantity": 4
+        },
+        {
+          "cardId": 85520,
+          "quantity": 2
+        },
+        {
+          "cardId": 75450,
+          "quantity": 2
+        },
+        {
+          "cardId": 75451,
+          "quantity": 2
+        },
+        {
+          "cardId": 73398,
+          "quantity": 2
+        },
+        {
+          "cardId": 83481,
+          "quantity": 4
+        },
+        {
+          "cardId": 71804,
+          "quantity": 2
+        },
+        {
+          "cardId": 73188,
+          "quantity": 2
+        },
+        {
+          "cardId": 75041,
+          "quantity": 1
+        },
+        {
+          "cardId": 68152,
+          "quantity": 4
+        },
+        {
+          "cardId": 72030,
+          "quantity": 4
+        },
+        {
+          "cardId": 94273,
+          "quantity": 1
+        },
+        {
+          "cardId": 84418,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 0
+    },
+    {
+      "name": "All the lifegain",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 32675,
+          "quantity": 4
+        },
+        {
+          "cardId": 71087,
+          "quantity": 4
+        },
+        {
+          "cardId": 85520,
+          "quantity": 3
+        },
+        {
+          "cardId": 71804,
+          "quantity": 4
+        },
+        {
+          "cardId": 75451,
+          "quantity": 3
+        },
+        {
+          "cardId": 75450,
+          "quantity": 4
+        },
+        {
+          "cardId": 69455,
+          "quantity": 3
+        },
+        {
+          "cardId": 87578,
+          "quantity": 29
+        },
+        {
+          "cardId": 75446,
+          "quantity": 4
+        },
+        {
+          "cardId": 77111,
+          "quantity": 2
+        },
+        {
+          "cardId": 66647,
+          "quantity": 1
+        },
+        {
+          "cardId": 78354,
+          "quantity": 2
+        },
+        {
+          "cardId": 69822,
+          "quantity": 1
+        },
+        {
+          "cardId": 70516,
+          "quantity": 3
+        },
+        {
+          "cardId": 76428,
+          "quantity": 1
+        },
+        {
+          "cardId": 78827,
+          "quantity": 3
+        },
+        {
+          "cardId": 75442,
+          "quantity": 2
+        },
+        {
+          "cardId": 77110,
+          "quantity": 2
+        },
+        {
+          "cardId": 75045,
+          "quantity": 2
+        },
+        {
+          "cardId": 70529,
+          "quantity": 2
+        },
+        {
+          "cardId": 73206,
+          "quantity": 4
+        },
+        {
+          "cardId": 70167,
+          "quantity": 1
+        },
+        {
+          "cardId": 71807,
+          "quantity": 4
+        },
+        {
+          "cardId": 75061,
+          "quantity": 3
+        },
+        {
+          "cardId": 71820,
+          "quantity": 4
+        },
+        {
+          "cardId": 71792,
+          "quantity": 2
+        },
+        {
+          "cardId": 73198,
+          "quantity": 2
+        },
+        {
+          "cardId": 80165,
+          "quantity": 2
+        },
+        {
+          "cardId": 80167,
+          "quantity": 3
+        },
+        {
+          "cardId": 76562,
+          "quantity": 2
+        },
+        {
+          "cardId": 78322,
+          "quantity": 1
+        },
+        {
+          "cardId": 73189,
+          "quantity": 2
+        },
+        {
+          "cardId": 73774,
+          "quantity": 2
+        },
+        {
+          "cardId": 73188,
+          "quantity": 4
+        },
+        {
+          "cardId": 70514,
+          "quantity": 1
+        },
+        {
+          "cardId": 71791,
+          "quantity": 1
+        },
+        {
+          "cardId": 73199,
+          "quantity": 2
+        },
+        {
+          "cardId": 71088,
+          "quantity": 2
+        },
+        {
+          "cardId": 75454,
+          "quantity": 2
+        },
+        {
+          "cardId": 73220,
+          "quantity": 2
+        },
+        {
+          "cardId": 70786,
+          "quantity": 2
+        },
+        {
+          "cardId": 75452,
+          "quantity": 2
+        },
+        {
+          "cardId": 75342,
+          "quantity": 4
+        },
+        {
+          "cardId": 68471,
+          "quantity": 2
+        },
+        {
+          "cardId": 73194,
+          "quantity": 2
+        },
+        {
+          "cardId": 70757,
+          "quantity": 2
+        },
+        {
+          "cardId": 72040,
+          "quantity": 4
+        },
+        {
+          "cardId": 79714,
+          "quantity": 4
+        },
+        {
+          "cardId": 79722,
+          "quantity": 4
+        },
+        {
+          "cardId": 79705,
+          "quantity": 4
+        },
+        {
+          "cardId": 80398,
+          "quantity": 2
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 80180,
+          "quantity": 3
+        },
+        {
+          "cardId": 76603,
+          "quantity": 1
+        },
+        {
+          "cardId": 76588,
+          "quantity": 1
+        },
+        {
+          "cardId": 75265,
+          "quantity": 2
+        },
+        {
+          "cardId": 70359,
+          "quantity": 4
+        },
+        {
+          "cardId": 75269,
+          "quantity": 2
+        },
+        {
+          "cardId": 80332,
+          "quantity": 3
+        },
+        {
+          "cardId": 79072,
+          "quantity": 2
+        },
+        {
+          "cardId": 82262,
+          "quantity": 1
+        },
+        {
+          "cardId": 95088,
+          "quantity": 4
+        },
+        {
+          "cardId": 93714,
+          "quantity": 1
+        },
+        {
+          "cardId": 83896,
+          "quantity": 2
+        },
+        {
+          "cardId": 84519,
+          "quantity": 1
+        },
+        {
+          "cardId": 92200,
+          "quantity": 2
+        },
+        {
+          "cardId": 82605,
+          "quantity": 2
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 192,
+      "log_line": 0
+    },
+    {
+      "name": "100 card lifegain (3)",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 80400,
+          "quantity": 4
+        },
+        {
+          "cardId": 71804,
+          "quantity": 2
+        },
+        {
+          "cardId": 71820,
+          "quantity": 2
+        },
+        {
+          "cardId": 82084,
+          "quantity": 1
+        },
+        {
+          "cardId": 70167,
+          "quantity": 1
+        },
+        {
+          "cardId": 87578,
+          "quantity": 12
+        },
+        {
+          "cardId": 73188,
+          "quantity": 4
+        },
+        {
+          "cardId": 70516,
+          "quantity": 2
+        },
+        {
+          "cardId": 72030,
+          "quantity": 4
+        },
+        {
+          "cardId": 85520,
+          "quantity": 2
+        },
+        {
+          "cardId": 75342,
+          "quantity": 4
+        },
+        {
+          "cardId": 71087,
+          "quantity": 2
+        },
+        {
+          "cardId": 71088,
+          "quantity": 2
+        },
+        {
+          "cardId": 77111,
+          "quantity": 4
+        },
+        {
+          "cardId": 32675,
+          "quantity": 4
+        },
+        {
+          "cardId": 78827,
+          "quantity": 4
+        },
+        {
+          "cardId": 80403,
+          "quantity": 4
+        },
+        {
+          "cardId": 75452,
+          "quantity": 1
+        },
+        {
+          "cardId": 75061,
+          "quantity": 3
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 75454,
+          "quantity": 2
+        },
+        {
+          "cardId": 75451,
+          "quantity": 3
+        },
+        {
+          "cardId": 75450,
+          "quantity": 4
+        },
+        {
+          "cardId": 72157,
+          "quantity": 2
+        },
+        {
+          "cardId": 75443,
+          "quantity": 1
+        },
+        {
+          "cardId": 70786,
+          "quantity": 1
+        },
+        {
+          "cardId": 79714,
+          "quantity": 4
+        },
+        {
+          "cardId": 75442,
+          "quantity": 2
+        },
+        {
+          "cardId": 71909,
+          "quantity": 2
+        },
+        {
+          "cardId": 70529,
+          "quantity": 2
+        },
+        {
+          "cardId": 69719,
+          "quantity": 4
+        },
+        {
+          "cardId": 82801,
+          "quantity": 2
+        },
+        {
+          "cardId": 81077,
+          "quantity": 1
+        },
+        {
+          "cardId": 80162,
+          "quantity": 2
+        },
+        {
+          "cardId": 73412,
+          "quantity": 2
+        },
+        {
+          "cardId": 83481,
+          "quantity": 2
+        },
+        {
+          "cardId": 71789,
+          "quantity": 1
+        },
+        {
+          "cardId": 73199,
+          "quantity": 2
+        },
+        {
+          "cardId": 73774,
+          "quantity": 2
+        },
+        {
+          "cardId": 79705,
+          "quantity": 4
+        },
+        {
+          "cardId": 97867,
+          "quantity": 1
+        },
+        {
+          "cardId": 76548,
+          "quantity": 1
+        },
+        {
+          "cardId": 92060,
+          "quantity": 1
+        },
+        {
+          "cardId": 86371,
+          "quantity": 1
+        },
+        {
+          "cardId": 70173,
+          "quantity": 1
+        },
+        {
+          "cardId": 77480,
+          "quantity": 1
+        },
+        {
+          "cardId": 85521,
+          "quantity": 1
+        },
+        {
+          "cardId": 73194,
+          "quantity": 1
+        },
+        {
+          "cardId": 93730,
+          "quantity": 1
+        },
+        {
+          "cardId": 92083,
+          "quantity": 1
+        },
+        {
+          "cardId": 92176,
+          "quantity": 1
+        },
+        {
+          "cardId": 93896,
+          "quantity": 1
+        },
+        {
+          "cardId": 86811,
+          "quantity": 1
+        },
+        {
+          "cardId": 82605,
+          "quantity": 1
+        },
+        {
+          "cardId": 79005,
+          "quantity": 1
+        },
+        {
+          "cardId": 73976,
+          "quantity": 1
+        },
+        {
+          "cardId": 70701,
+          "quantity": 1
+        },
+        {
+          "cardId": 77302,
+          "quantity": 1
+        },
+        {
+          "cardId": 80310,
+          "quantity": 1
+        },
+        {
+          "cardId": 87371,
+          "quantity": 1
+        },
+        {
+          "cardId": 87339,
+          "quantity": 1
+        },
+        {
+          "cardId": 72447,
+          "quantity": 1
+        },
+        {
+          "cardId": 90681,
+          "quantity": 1
+        },
+        {
+          "cardId": 81281,
+          "quantity": 1
+        },
+        {
+          "cardId": 85547,
+          "quantity": 1
+        },
+        {
+          "cardId": 92297,
+          "quantity": 1
+        },
+        {
+          "cardId": 70308,
+          "quantity": 1
+        },
+        {
+          "cardId": 68108,
+          "quantity": 1
+        },
+        {
+          "cardId": 75268,
+          "quantity": 1
+        },
+        {
+          "cardId": 76653,
+          "quantity": 1
+        },
+        {
+          "cardId": 94455,
+          "quantity": 1
+        },
+        {
+          "cardId": 76571,
+          "quantity": 1
+        },
+        {
+          "cardId": 77312,
+          "quantity": 1
+        },
+        {
+          "cardId": 89086,
+          "quantity": 1
+        },
+        {
+          "cardId": 96080,
+          "quantity": 1
+        },
+        {
+          "cardId": 97946,
+          "quantity": 1
+        },
+        {
+          "cardId": 98818,
+          "quantity": 1
+        },
+        {
+          "cardId": 95699,
+          "quantity": 1
+        },
+        {
+          "cardId": 95720,
+          "quantity": 1
+        },
+        {
+          "cardId": 90737,
+          "quantity": 1
+        },
+        {
+          "cardId": 91483,
+          "quantity": 1
+        },
+        {
+          "cardId": 74051,
+          "quantity": 1
+        },
+        {
+          "cardId": 83896,
+          "quantity": 1
+        },
+        {
+          "cardId": 49333,
+          "quantity": 1
+        },
+        {
+          "cardId": 72010,
+          "quantity": 1
+        },
+        {
+          "cardId": 76397,
+          "quantity": 1
+        },
+        {
+          "cardId": 71783,
+          "quantity": 1
+        },
+        {
+          "cardId": 97542,
+          "quantity": 1
+        },
+        {
+          "cardId": 82856,
+          "quantity": 1
+        },
+        {
+          "cardId": 98668,
+          "quantity": 1
+        },
+        {
+          "cardId": 93714,
+          "quantity": 1
+        },
+        {
+          "cardId": 100632,
+          "quantity": 1
+        },
+        {
+          "cardId": 90864,
+          "quantity": 1
+        },
+        {
+          "cardId": 90855,
+          "quantity": 1
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 165,
+      "log_line": 0
+    },
+    {
+      "name": "Rainbow Omniscience",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 88949,
+          "quantity": 4
+        },
+        {
+          "cardId": 91090,
+          "quantity": 4
+        },
+        {
+          "cardId": 73402,
+          "quantity": 2
+        },
+        {
+          "cardId": 95357,
+          "quantity": 4
+        },
+        {
+          "cardId": 72159,
+          "quantity": 4
+        },
+        {
+          "cardId": 86107,
+          "quantity": 2
+        },
+        {
+          "cardId": 71555,
+          "quantity": 1
+        },
+        {
           "cardId": 98815,
+          "quantity": 4
+        },
+        {
+          "cardId": 87062,
           "quantity": 2
         },
         {
-          "cardId": 83953,
+          "cardId": 70582,
+          "quantity": 1
+        },
+        {
+          "cardId": 83710,
+          "quantity": 1
+        },
+        {
+          "cardId": 71946,
           "quantity": 2
         },
         {
-          "cardId": 87442,
+          "cardId": 78850,
           "quantity": 1
-        }
-      ],
-      "sideboard": [
+        },
+        {
+          "cardId": 75268,
+          "quantity": 1
+        },
         {
           "cardId": 85582,
           "quantity": 1
-        }
-      ],
-      "companions": [
+        },
         {
-          "cardId": 85582,
+          "cardId": 85581,
+          "quantity": 1
+        },
+        {
+          "cardId": 76253,
+          "quantity": 2
+        },
+        {
+          "cardId": 81199,
+          "quantity": 1
+        },
+        {
+          "cardId": 69643,
+          "quantity": 1
+        },
+        {
+          "cardId": 67426,
+          "quantity": 2
+        },
+        {
+          "cardId": 69306,
+          "quantity": 1
+        },
+        {
+          "cardId": 75326,
+          "quantity": 4
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 80399,
+          "quantity": 4
+        },
+        {
+          "cardId": 71315,
+          "quantity": 2
+        },
+        {
+          "cardId": 71326,
+          "quantity": 1
+        },
+        {
+          "cardId": 71317,
+          "quantity": 1
+        },
+        {
+          "cardId": 96839,
+          "quantity": 2
+        },
+        {
+          "cardId": 87578,
+          "quantity": 1
+        },
+        {
+          "cardId": 95088,
           "quantity": 1
         }
       ],
-      "total_cards": 85,
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 62,
+      "log_line": 0
+    },
+    {
+      "name": "Orzhov Vito Drain",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 32675,
+          "quantity": 4
+        },
+        {
+          "cardId": 78354,
+          "quantity": 4
+        },
+        {
+          "cardId": 75587,
+          "quantity": 2
+        },
+        {
+          "cardId": 78934,
+          "quantity": 1
+        },
+        {
+          "cardId": 93677,
+          "quantity": 1
+        },
+        {
+          "cardId": 69545,
+          "quantity": 1
+        },
+        {
+          "cardId": 70512,
+          "quantity": 2
+        },
+        {
+          "cardId": 87246,
+          "quantity": 2
+        },
+        {
+          "cardId": 73310,
+          "quantity": 2
+        },
+        {
+          "cardId": 71909,
+          "quantity": 2
+        },
+        {
+          "cardId": 75061,
+          "quantity": 3
+        },
+        {
+          "cardId": 82159,
+          "quantity": 4
+        },
+        {
+          "cardId": 72293,
+          "quantity": 2
+        },
+        {
+          "cardId": 82141,
+          "quantity": 3
+        },
+        {
+          "cardId": 82586,
+          "quantity": 3
+        },
+        {
+          "cardId": 90615,
+          "quantity": 3
+        },
+        {
+          "cardId": 73472,
+          "quantity": 1
+        },
+        {
+          "cardId": 82296,
+          "quantity": 1
+        },
+        {
+          "cardId": 77363,
+          "quantity": 1
+        },
+        {
+          "cardId": 79714,
+          "quantity": 4
+        },
+        {
+          "cardId": 72028,
+          "quantity": 4
+        },
+        {
+          "cardId": 96841,
+          "quantity": 6
+        },
+        {
+          "cardId": 87578,
+          "quantity": 4
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 60,
+      "log_line": 0
+    },
+    {
+      "name": "Mono-Blue Tempo",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 96839,
+          "quantity": 19
+        },
+        {
+          "cardId": 77494,
+          "quantity": 4
+        },
+        {
+          "cardId": 73262,
+          "quantity": 2
+        },
+        {
+          "cardId": 66091,
+          "quantity": 1
+        },
+        {
+          "cardId": 70206,
+          "quantity": 1
+        },
+        {
+          "cardId": 71841,
+          "quantity": 2
+        },
+        {
+          "cardId": 94866,
+          "quantity": 1
+        },
+        {
+          "cardId": 66125,
+          "quantity": 3
+        },
+        {
+          "cardId": 78378,
+          "quantity": 4
+        },
+        {
+          "cardId": 66687,
+          "quantity": 4
+        },
+        {
+          "cardId": 93877,
+          "quantity": 3
+        },
+        {
+          "cardId": 78374,
+          "quantity": 4
+        },
+        {
+          "cardId": 78383,
+          "quantity": 2
+        },
+        {
+          "cardId": 79711,
+          "quantity": 2
+        },
+        {
+          "cardId": 82104,
+          "quantity": 1
+        },
+        {
+          "cardId": 82116,
+          "quantity": 1
+        },
+        {
+          "cardId": 82124,
+          "quantity": 3
+        },
+        {
+          "cardId": 93880,
+          "quantity": 1
+        },
+        {
+          "cardId": 84329,
+          "quantity": 2
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 60,
+      "log_line": 0
+    },
+    {
+      "name": "Mono-Blue Tempo UTGG",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 96839,
+          "quantity": 19
+        },
+        {
+          "cardId": 77494,
+          "quantity": 4
+        },
+        {
+          "cardId": 73262,
+          "quantity": 2
+        },
+        {
+          "cardId": 93122,
+          "quantity": 4
+        },
+        {
+          "cardId": 94866,
+          "quantity": 1
+        },
+        {
+          "cardId": 66125,
+          "quantity": 3
+        },
+        {
+          "cardId": 78378,
+          "quantity": 4
+        },
+        {
+          "cardId": 66687,
+          "quantity": 4
+        },
+        {
+          "cardId": 93877,
+          "quantity": 3
+        },
+        {
+          "cardId": 78374,
+          "quantity": 4
+        },
+        {
+          "cardId": 78383,
+          "quantity": 2
+        },
+        {
+          "cardId": 79711,
+          "quantity": 2
+        },
+        {
+          "cardId": 82104,
+          "quantity": 1
+        },
+        {
+          "cardId": 91605,
+          "quantity": 1
+        },
+        {
+          "cardId": 82124,
+          "quantity": 3
+        },
+        {
+          "cardId": 93880,
+          "quantity": 1
+        },
+        {
+          "cardId": 84329,
+          "quantity": 2
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 60,
+      "log_line": 0
+    },
+    {
+      "name": "PiDay Selesnya",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 32675,
+          "quantity": 4
+        },
+        {
+          "cardId": 78354,
+          "quantity": 4
+        },
+        {
+          "cardId": 70512,
+          "quantity": 2
+        },
+        {
+          "cardId": 71998,
+          "quantity": 4
+        },
+        {
+          "cardId": 77341,
+          "quantity": 3
+        },
+        {
+          "cardId": 78827,
+          "quantity": 2
+        },
+        {
+          "cardId": 76129,
+          "quantity": 4
+        },
+        {
+          "cardId": 97042,
+          "quantity": 4
+        },
+        {
+          "cardId": 70529,
+          "quantity": 2
+        },
+        {
+          "cardId": 67692,
+          "quantity": 2
+        },
+        {
+          "cardId": 96048,
+          "quantity": 4
+        },
+        {
+          "cardId": 90704,
+          "quantity": 2
+        },
+        {
+          "cardId": 71970,
+          "quantity": 1
+        },
+        {
+          "cardId": 98590,
+          "quantity": 2
+        },
+        {
+          "cardId": 83957,
+          "quantity": 3
+        },
+        {
+          "cardId": 73470,
+          "quantity": 1
+        },
+        {
+          "cardId": 70385,
+          "quantity": 1
+        },
+        {
+          "cardId": 79708,
+          "quantity": 1
+        },
+        {
+          "cardId": 79706,
+          "quantity": 1
+        },
+        {
+          "cardId": 77364,
+          "quantity": 1
+        },
+        {
+          "cardId": 87578,
+          "quantity": 8
+        },
+        {
+          "cardId": 95088,
+          "quantity": 4
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 60,
+      "log_line": 0
+    },
+    {
+      "name": "Izzet Slickspear 260314",
+      "format": "Historic",
+      "main_deck": [
+        {
+          "cardId": 82628,
+          "quantity": 4
+        },
+        {
+          "cardId": 90492,
+          "quantity": 4
+        },
+        {
+          "cardId": 71278,
+          "quantity": 4
+        },
+        {
+          "cardId": 79582,
+          "quantity": 4
+        },
+        {
+          "cardId": 93122,
+          "quantity": 4
+        },
+        {
+          "cardId": 78374,
+          "quantity": 3
+        },
+        {
+          "cardId": 78504,
+          "quantity": 4
+        },
+        {
+          "cardId": 89059,
+          "quantity": 4
+        },
+        {
+          "cardId": 67946,
+          "quantity": 1
+        },
+        {
+          "cardId": 94048,
+          "quantity": 3
+        },
+        {
+          "cardId": 76594,
+          "quantity": 3
+        },
+        {
+          "cardId": 77518,
+          "quantity": 2
+        },
+        {
+          "cardId": 98589,
+          "quantity": 1
+        },
+        {
+          "cardId": 90617,
+          "quantity": 2
+        },
+        {
+          "cardId": 79089,
+          "quantity": 1
+        },
+        {
+          "cardId": 82307,
+          "quantity": 1
+        },
+        {
+          "cardId": 76673,
+          "quantity": 2
+        },
+        {
+          "cardId": 72090,
+          "quantity": 7
+        },
+        {
+          "cardId": 96839,
+          "quantity": 4
+        },
+        {
+          "cardId": 72028,
+          "quantity": 2
+        }
+      ],
+      "sideboard": [],
+      "companions": [],
+      "total_cards": 60,
       "log_line": 0
     }
   ],
@@ -12536,27 +18067,40 @@
     21375,
     32675,
     35515,
+    49333,
     51691,
     58199,
+    58383,
     58427,
+    61231,
     61307,
     65633,
     65993,
+    66091,
+    66125,
     66199,
     66473,
+    66647,
     66667,
+    66687,
     66911,
     66933,
     67174,
     67410,
     67426,
     67450,
+    67502,
+    67568,
     67692,
     67928,
+    67946,
     68034,
+    68108,
     68128,
     68140,
     68152,
+    68471,
+    68474,
     68731,
     69261,
     69277,
@@ -12574,23 +18118,34 @@
     69670,
     69719,
     69788,
+    69793,
     69822,
     69890,
     69933,
     69938,
+    69939,
     69990,
+    70002,
     70011,
+    70013,
     70031,
     70158,
     70163,
+    70167,
+    70173,
+    70201,
     70205,
+    70206,
     70215,
     70221,
     70222,
     70223,
     70244,
     70251,
+    70259,
+    70275,
     70280,
+    70281,
     70297,
     70300,
     70307,
@@ -12600,10 +18155,20 @@
     70332,
     70342,
     70358,
+    70359,
+    70366,
+    70367,
+    70370,
+    70376,
+    70379,
+    70384,
+    70385,
     70392,
     70395,
     70396,
     70512,
+    70514,
+    70516,
     70520,
     70524,
     70527,
@@ -12621,49 +18186,82 @@
     70680,
     70681,
     70683,
+    70685,
     70696,
+    70701,
     70707,
     70709,
     70722,
+    70725,
     70727,
     70730,
+    70742,
+    70743,
     70745,
+    70747,
+    70751,
+    70752,
+    70757,
     70759,
     70786,
+    71070,
     71071,
     71081,
     71082,
     71087,
+    71088,
+    71089,
+    71104,
+    71114,
+    71116,
+    71128,
     71134,
+    71140,
     71150,
     71174,
+    71207,
+    71211,
+    71216,
+    71223,
+    71232,
     71267,
     71278,
+    71307,
+    71308,
     71315,
     71317,
     71318,
     71320,
     71326,
     71555,
+    71576,
     71783,
+    71785,
     71786,
     71788,
     71789,
     71791,
+    71792,
     71804,
     71807,
     71815,
     71820,
+    71841,
     71850,
     71863,
+    71869,
     71902,
     71909,
+    71915,
     71928,
+    71929,
     71933,
     71936,
     71940,
+    71941,
     71946,
     71959,
+    71961,
     71962,
     71970,
     71974,
@@ -12672,11 +18270,16 @@
     71998,
     72000,
     72007,
+    72010,
+    72018,
+    72019,
     72026,
     72027,
     72028,
     72029,
     72030,
+    72031,
+    72033,
     72040,
     72090,
     72104,
@@ -12688,14 +18291,25 @@
     72480,
     72510,
     73187,
+    73188,
+    73189,
+    73194,
+    73198,
     73199,
     73206,
+    73220,
+    73226,
+    73227,
+    73262,
     73290,
+    73294,
     73298,
     73304,
     73310,
     73318,
     73331,
+    73340,
+    73341,
     73383,
     73384,
     73385,
@@ -12703,7 +18317,17 @@
     73402,
     73409,
     73412,
+    73413,
+    73445,
     73452,
+    73455,
+    73459,
+    73460,
+    73464,
+    73465,
+    73466,
+    73467,
+    73468,
     73470,
     73472,
     73774,
@@ -12712,13 +18336,16 @@
     73903,
     73909,
     73913,
-    73966,
+    73976,
     74051,
     74091,
     74099,
     75039,
+    75041,
     75044,
+    75045,
     75052,
+    75061,
     75067,
     75080,
     75095,
@@ -12741,10 +18368,15 @@
     75253,
     75258,
     75265,
+    75268,
     75269,
     75273,
     75276,
     75282,
+    75285,
+    75288,
+    75290,
+    75294,
     75306,
     75307,
     75309,
@@ -12758,18 +18390,41 @@
     75328,
     75329,
     75336,
+    75342,
+    75442,
+    75443,
+    75446,
     75450,
     75451,
+    75452,
+    75454,
     75460,
     75488,
+    75509,
+    75511,
+    75512,
+    75513,
+    75514,
+    75516,
+    75517,
+    75519,
+    75520,
+    75521,
+    75522,
+    75523,
+    75525,
     75526,
+    75527,
+    75528,
     75529,
     75533,
     75587,
     75719,
     75732,
     75796,
+    75832,
     75955,
+    75993,
     76109,
     76129,
     76131,
@@ -12777,9 +18432,12 @@
     76166,
     76172,
     76253,
+    76393,
+    76397,
     76406,
     76412,
     76420,
+    76428,
     76432,
     76447,
     76489,
@@ -12790,18 +18448,27 @@
     76529,
     76535,
     76542,
+    76548,
     76554,
+    76562,
     76568,
     76570,
+    76571,
     76586,
     76588,
+    76594,
     76596,
     76597,
     76600,
+    76603,
     76622,
     76626,
     76630,
     76638,
+    76653,
+    76663,
+    76668,
+    76669,
     76673,
     76678,
     76682,
@@ -12809,6 +18476,7 @@
     77009,
     77021,
     77109,
+    77110,
     77111,
     77125,
     77144,
@@ -12833,6 +18501,7 @@
     77298,
     77302,
     77305,
+    77312,
     77315,
     77318,
     77321,
@@ -12840,33 +18509,61 @@
     77330,
     77333,
     77341,
+    77349,
+    77353,
+    77355,
     77356,
     77363,
+    77364,
     77480,
     77482,
     77488,
     77492,
+    77494,
     77508,
+    77516,
+    77518,
     77527,
+    78322,
+    78329,
     78354,
+    78374,
+    78378,
+    78383,
     78397,
     78429,
     78458,
     78469,
+    78504,
     78510,
     78563,
     78570,
     78592,
     78598,
+    78622,
+    78623,
+    78624,
+    78627,
     78629,
     78632,
+    78635,
     78637,
     78815,
+    78827,
+    78850,
     78887,
+    78934,
+    78937,
+    79005,
     79011,
     79021,
     79030,
     79066,
+    79072,
+    79076,
+    79077,
+    79083,
+    79084,
     79089,
     79327,
     79332,
@@ -12900,6 +18597,7 @@
     79574,
     79575,
     79582,
+    79588,
     79603,
     79604,
     79610,
@@ -12912,23 +18610,38 @@
     79657,
     79664,
     79677,
+    79679,
+    79680,
+    79685,
+    79686,
+    79687,
     79690,
+    79693,
+    79694,
     79695,
     79699,
     79704,
     79705,
     79706,
     79707,
+    79708,
+    79711,
     79714,
     79719,
+    79722,
     79961,
     80156,
     80157,
+    80159,
     80161,
+    80162,
+    80165,
     80166,
+    80167,
     80168,
     80176,
     80177,
+    80180,
     80196,
     80197,
     80210,
@@ -12940,7 +18653,9 @@
     80299,
     80302,
     80305,
+    80310,
     80321,
+    80332,
     80364,
     80389,
     80395,
@@ -12966,10 +18681,12 @@
     81260,
     81275,
     81279,
+    81281,
     81288,
     81507,
     81549,
     81669,
+    81676,
     81701,
     81714,
     81715,
@@ -12980,6 +18697,7 @@
     81823,
     81828,
     81853,
+    81862,
     81916,
     81917,
     81918,
@@ -12997,7 +18715,10 @@
     82076,
     82077,
     82083,
+    82084,
     82094,
+    82104,
+    82116,
     82124,
     82141,
     82144,
@@ -13007,13 +18728,19 @@
     82212,
     82227,
     82255,
+    82262,
     82266,
     82268,
     82271,
     82273,
+    82283,
+    82284,
     82285,
     82291,
+    82292,
+    82293,
     82296,
+    82299,
     82301,
     82303,
     82307,
@@ -13021,10 +18748,15 @@
     82327,
     82492,
     82500,
+    82504,
+    82513,
     82543,
+    82560,
     82569,
     82586,
     82595,
+    82605,
+    82628,
     82647,
     82654,
     82659,
@@ -13032,31 +18764,57 @@
     82678,
     82701,
     82709,
+    82716,
+    82720,
+    82721,
+    82725,
     82730,
+    82733,
+    82739,
     82742,
     82746,
     82749,
     82754,
     82758,
+    82800,
     82801,
+    82806,
+    82810,
     82813,
+    82814,
     82818,
     82819,
     82820,
+    82822,
     82823,
+    82827,
+    82830,
+    82831,
+    82834,
+    82839,
     82846,
+    82847,
+    82852,
+    82854,
+    82856,
+    82859,
     83157,
     83481,
     83491,
     83517,
     83521,
+    83527,
     83539,
+    83671,
     83701,
     83708,
     83710,
+    83717,
+    83719,
     83749,
     83769,
     83770,
+    83771,
     83783,
     83792,
     83795,
@@ -13064,16 +18822,26 @@
     83808,
     83809,
     83815,
+    83827,
     83828,
     83885,
     83886,
+    83896,
     83905,
     83922,
+    83926,
+    83927,
+    83933,
+    83934,
+    83939,
+    83941,
+    83945,
     83946,
     83950,
     83951,
     83952,
     83953,
+    83957,
     84096,
     84121,
     84174,
@@ -13087,15 +18855,19 @@
     84275,
     84287,
     84305,
+    84329,
     84330,
     84331,
     84334,
+    84342,
     84365,
     84367,
     84390,
     84398,
     84405,
+    84410,
     84416,
+    84418,
     84421,
     84429,
     84448,
@@ -13122,6 +18894,9 @@
     84559,
     84560,
     84565,
+    84566,
+    84568,
+    84573,
     84704,
     84705,
     84707,
@@ -13148,10 +18923,13 @@
     84877,
     84916,
     84923,
+    84933,
     84934,
     84936,
     84939,
+    84944,
     84945,
+    84968,
     84977,
     85060,
     85062,
@@ -13161,6 +18939,8 @@
     85096,
     85102,
     85103,
+    85519,
+    85520,
     85521,
     85522,
     85536,
@@ -13173,9 +18953,15 @@
     85581,
     85582,
     86079,
+    86083,
     86095,
     86107,
     86302,
+    86305,
+    86309,
+    86310,
+    86316,
+    86322,
     86333,
     86334,
     86371,
@@ -13183,6 +18969,7 @@
     86468,
     86469,
     86477,
+    86638,
     86641,
     86688,
     86690,
@@ -13193,54 +18980,94 @@
     86704,
     86706,
     86707,
+    86709,
     86715,
+    86716,
     86725,
     86727,
+    86737,
+    86746,
+    86751,
+    86752,
+    86754,
+    86756,
+    86757,
+    86758,
+    86759,
+    86760,
+    86764,
     86765,
     86774,
     86777,
+    86779,
+    86780,
+    86783,
+    86784,
     86785,
     86788,
+    86790,
     86792,
     86796,
     86798,
     86801,
     86802,
+    86805,
     86806,
     86807,
+    86811,
     86816,
     86822,
     86826,
     86831,
+    86835,
     86839,
     86849,
+    86865,
     86868,
     86871,
+    86872,
     86879,
+    86880,
     86881,
     86884,
+    86885,
     86886,
     86887,
     86889,
+    86890,
     86893,
     86894,
+    86899,
     86900,
     86902,
     86908,
     86915,
     86917,
+    86918,
+    86920,
+    86925,
+    86942,
     86944,
     86946,
     86952,
     86956,
     86960,
+    86964,
+    86968,
     86970,
     86972,
+    86974,
     86976,
+    86982,
+    86983,
+    86984,
+    86985,
     86990,
+    86997,
     87000,
     87008,
     87009,
+    87040,
     87042,
     87044,
     87048,
@@ -13251,17 +19078,32 @@
     87079,
     87083,
     87089,
+    87091,
     87094,
     87099,
+    87122,
     87132,
+    87134,
     87135,
     87136,
     87142,
+    87145,
     87146,
+    87147,
     87149,
+    87160,
+    87163,
+    87164,
     87167,
+    87168,
     87172,
+    87175,
     87178,
+    87210,
+    87214,
+    87218,
+    87227,
+    87230,
     87231,
     87246,
     87254,
@@ -13270,34 +19112,76 @@
     87278,
     87279,
     87282,
+    87285,
     87286,
+    87287,
+    87290,
+    87291,
     87292,
+    87293,
+    87294,
     87299,
+    87300,
+    87301,
     87304,
+    87312,
     87313,
     87314,
+    87315,
+    87316,
+    87325,
+    87328,
+    87331,
+    87337,
+    87339,
     87342,
     87344,
+    87346,
+    87347,
+    87348,
+    87353,
+    87361,
+    87365,
+    87367,
+    87368,
+    87370,
+    87371,
+    87383,
     87384,
+    87386,
+    87388,
+    87390,
     87391,
     87405,
+    87408,
     87409,
+    87412,
     87413,
+    87417,
+    87421,
+    87424,
+    87427,
+    87429,
     87439,
     87440,
     87441,
     87442,
+    87443,
     87488,
     87489,
     87494,
+    87495,
     87578,
     87585,
     87604,
+    88922,
     88924,
     88926,
     88929,
+    88931,
     88932,
     88937,
+    88941,
     88942,
     88943,
     88944,
@@ -13313,6 +19197,7 @@
     88962,
     88963,
     88965,
+    88968,
     88970,
     88971,
     88973,
@@ -13326,32 +19211,46 @@
     88993,
     88995,
     88996,
+    88997,
     89003,
     89006,
     89007,
     89010,
     89011,
+    89013,
     89019,
     89020,
     89025,
+    89027,
     89029,
+    89033,
+    89034,
     89037,
     89047,
     89052,
     89059,
+    89069,
     89070,
+    89073,
+    89076,
     89081,
+    89084,
+    89086,
+    89088,
     89092,
     89099,
     89101,
+    89102,
     89107,
     89109,
     89112,
     89113,
     89115,
+    89116,
     89118,
     89119,
     89120,
+    89122,
     89125,
     89129,
     89130,
@@ -13359,16 +19258,28 @@
     89133,
     89135,
     89136,
+    89137,
+    89141,
     89143,
     89147,
     89154,
     89155,
+    89158,
     89161,
+    89164,
+    89167,
+    89170,
+    89173,
+    89174,
     89177,
+    89178,
     89179,
+    89181,
     89183,
+    89184,
     89185,
     89186,
+    89188,
     89190,
     89191,
     89192,
@@ -13378,47 +19289,83 @@
     89199,
     89203,
     89219,
+    90141,
     90293,
     90348,
     90349,
     90351,
+    90352,
+    90354,
+    90356,
     90358,
+    90359,
     90360,
     90361,
     90362,
     90369,
     90370,
+    90374,
     90377,
+    90378,
     90383,
+    90384,
     90385,
     90392,
+    90393,
+    90398,
+    90399,
+    90403,
+    90407,
     90409,
     90410,
+    90421,
+    90423,
     90426,
     90427,
     90429,
     90432,
+    90438,
     90441,
+    90442,
+    90445,
     90449,
+    90452,
     90454,
+    90455,
     90456,
     90459,
+    90460,
+    90462,
+    90465,
     90471,
     90472,
+    90473,
+    90474,
     90479,
     90481,
+    90482,
+    90484,
     90486,
     90489,
+    90491,
+    90492,
     90493,
     90495,
     90496,
+    90497,
     90499,
     90502,
+    90503,
+    90504,
+    90505,
     90507,
     90511,
     90512,
+    90514,
     90515,
+    90516,
     90517,
+    90518,
     90519,
     90520,
     90521,
@@ -13426,28 +19373,43 @@
     90531,
     90536,
     90541,
+    90542,
     90543,
     90546,
     90551,
     90556,
     90557,
+    90559,
     90560,
+    90561,
     90563,
     90565,
+    90567,
     90575,
     90578,
     90579,
+    90581,
     90583,
     90585,
+    90586,
+    90587,
     90588,
+    90589,
     90590,
+    90591,
     90593,
+    90594,
+    90596,
+    90597,
+    90599,
     90601,
     90602,
     90604,
     90606,
+    90607,
     90610,
     90615,
+    90616,
     90617,
     90623,
     90624,
@@ -13456,15 +19418,24 @@
     90630,
     90672,
     90678,
+    90681,
+    90686,
     90687,
+    90688,
     90701,
     90704,
     90712,
     90718,
+    90737,
     90743,
+    90762,
     90832,
     90842,
     90848,
+    90855,
+    90858,
+    90861,
+    90864,
     90904,
     90921,
     90957,
@@ -13472,6 +19443,7 @@
     90991,
     91006,
     91054,
+    91061,
     91068,
     91069,
     91070,
@@ -13482,13 +19454,19 @@
     91082,
     91083,
     91090,
+    91118,
+    91120,
+    91364,
+    91369,
     91377,
     91378,
     91379,
     91386,
     91389,
+    91395,
     91480,
     91481,
+    91483,
     91520,
     91537,
     91538,
@@ -13497,22 +19475,42 @@
     91542,
     91543,
     91544,
+    91547,
     91548,
+    91551,
+    91552,
+    91553,
     91560,
+    91562,
     91564,
+    91565,
+    91566,
+    91572,
+    91573,
+    91574,
+    91579,
+    91580,
     91587,
+    91588,
     91593,
+    91604,
+    91605,
     91610,
+    91611,
     91617,
     91620,
     91621,
     91625,
     91626,
     91639,
+    91643,
     91645,
     91647,
     91649,
     91655,
+    91657,
+    91660,
+    91661,
     91671,
     91688,
     91698,
@@ -13520,10 +19518,13 @@
     91703,
     91705,
     91706,
+    91710,
     91714,
     91716,
     91722,
+    91723,
     91733,
+    91736,
     91737,
     91738,
     91741,
@@ -13531,17 +19532,24 @@
     91743,
     91746,
     91748,
+    91752,
     91754,
     91758,
     91774,
+    91779,
     91780,
     91781,
+    91782,
     91783,
+    91784,
+    91787,
     91789,
     91792,
     91793,
     91794,
     91796,
+    91799,
+    91805,
     91831,
     91833,
     91835,
@@ -13550,37 +19558,74 @@
     92064,
     92065,
     92066,
+    92067,
     92078,
     92081,
+    92083,
     92090,
+    92091,
     92097,
+    92114,
+    92118,
+    92130,
     92141,
     92145,
     92162,
+    92170,
     92171,
     92173,
+    92176,
     92184,
+    92187,
+    92194,
+    92200,
+    92205,
+    92209,
+    92212,
+    92219,
     92227,
+    92230,
     92243,
+    92244,
     92278,
     92280,
     92291,
     92293,
+    92297,
     92315,
     92317,
     92318,
     92319,
+    92321,
+    92326,
+    92331,
+    92333,
+    92342,
+    92343,
+    92346,
+    92347,
+    92348,
+    92350,
+    92351,
+    92352,
     92355,
     92363,
     92364,
     92365,
     92369,
     93122,
+    93243,
+    93271,
     93636,
+    93641,
     93645,
     93649,
     93652,
+    93657,
+    93658,
+    93659,
     93661,
+    93662,
     93666,
     93668,
     93669,
@@ -13593,24 +19638,42 @@
     93688,
     93693,
     93694,
+    93696,
+    93705,
+    93708,
+    93714,
     93715,
     93717,
+    93718,
+    93721,
     93722,
+    93727,
     93728,
     93729,
     93730,
     93734,
     93738,
+    93741,
     93742,
     93743,
+    93744,
+    93747,
     93748,
+    93751,
+    93752,
+    93753,
     93756,
     93758,
     93760,
+    93767,
+    93768,
+    93769,
     93772,
     93773,
     93774,
     93775,
+    93776,
+    93777,
     93781,
     93784,
     93786,
@@ -13619,29 +19682,59 @@
     93789,
     93790,
     93791,
+    93793,
+    93794,
+    93795,
     93797,
     93799,
     93800,
     93802,
+    93806,
     93809,
+    93812,
+    93813,
+    93814,
     93815,
     93816,
+    93818,
     93819,
+    93820,
+    93821,
+    93822,
+    93824,
+    93825,
     93828,
+    93830,
     93831,
     93832,
     93833,
     93836,
     93837,
+    93838,
+    93841,
     93842,
+    93843,
+    93844,
     93845,
     93847,
     93848,
+    93849,
     93850,
+    93854,
     93855,
+    93858,
+    93860,
+    93862,
     93863,
     93864,
+    93865,
+    93868,
+    93871,
+    93872,
     93873,
+    93876,
+    93877,
+    93880,
     93882,
     93883,
     93884,
@@ -13653,56 +19746,112 @@
     93895,
     93896,
     93899,
+    93900,
+    93902,
     93903,
     93905,
     93907,
     93908,
+    93909,
     93910,
     93912,
+    93913,
     93914,
     93916,
+    93917,
     93923,
     93928,
     93931,
     93934,
+    93935,
+    93937,
+    93940,
+    93941,
+    93942,
+    93945,
+    93948,
     93950,
+    93952,
+    93954,
     93957,
+    93958,
+    93960,
+    93961,
+    93962,
+    93964,
     93965,
     93966,
+    93969,
+    93971,
     93981,
+    93984,
     93996,
+    93997,
+    93998,
+    94002,
+    94008,
+    94009,
+    94011,
+    94013,
     94014,
     94016,
+    94019,
+    94031,
+    94037,
     94039,
     94040,
     94042,
+    94043,
+    94048,
     94051,
+    94052,
+    94063,
     94072,
+    94073,
+    94079,
+    94081,
     94085,
     94086,
+    94087,
     94088,
+    94089,
     94090,
     94091,
+    94092,
     94111,
+    94112,
+    94116,
+    94117,
     94119,
     94120,
     94121,
     94122,
+    94123,
+    94124,
     94125,
     94126,
     94127,
+    94128,
     94129,
+    94130,
     94132,
+    94133,
+    94135,
+    94139,
     94142,
+    94194,
     94201,
     94203,
     94206,
     94209,
+    94213,
     94261,
     94270,
+    94273,
     94350,
     94365,
     94453,
+    94455,
     94456,
     94475,
     94479,
@@ -13713,26 +19862,37 @@
     94604,
     94606,
     94840,
+    94866,
+    94881,
     94899,
     94924,
     94932,
     95022,
+    95027,
     95032,
+    95035,
+    95040,
     95052,
     95062,
     95088,
     95107,
+    95162,
+    95192,
     95193,
     95195,
     95197,
+    95198,
+    95199,
     95342,
     95351,
     95357,
     95359,
     95531,
     95536,
+    95539,
     95546,
     95558,
+    95565,
     95567,
     95568,
     95592,
@@ -13740,9 +19900,17 @@
     95633,
     95662,
     95679,
+    95699,
     95704,
+    95720,
     95721,
     95722,
+    95724,
+    95732,
+    95739,
+    95742,
+    95744,
+    95755,
     95761,
     95767,
     95770,
@@ -13751,19 +19919,31 @@
     95792,
     95794,
     95865,
+    95872,
     95898,
     95967,
+    95983,
     95985,
     96013,
     96048,
     96079,
+    96080,
+    96137,
     96171,
     96355,
     96390,
     96395,
+    96575,
+    96618,
+    96632,
+    96640,
     96681,
     96683,
     96775,
+    96818,
+    96820,
+    96821,
+    96823,
     96824,
     96833,
     96839,
@@ -13774,19 +19954,32 @@
     97048,
     97051,
     97274,
+    97275,
     97276,
     97279,
+    97282,
     97287,
+    97297,
+    97304,
+    97305,
+    97306,
     97310,
+    97320,
     97325,
+    97327,
+    97328,
+    97329,
     97334,
     97337,
     97339,
+    97341,
     97347,
     97364,
     97365,
     97386,
+    97392,
     97405,
+    97425,
     97427,
     97442,
     97452,
@@ -13795,10 +19988,16 @@
     97486,
     97496,
     97515,
+    97516,
     97526,
     97534,
+    97535,
+    97536,
     97537,
+    97538,
+    97539,
     97540,
+    97541,
     97542,
     97546,
     97548,
@@ -13806,28 +20005,42 @@
     97555,
     97560,
     97562,
+    97818,
     97821,
+    97823,
     97826,
     97845,
+    97849,
+    97850,
+    97851,
     97854,
     97863,
+    97867,
     97869,
     97876,
     97881,
     97899,
+    97906,
     97916,
     97927,
     97928,
     97932,
     97939,
     97940,
+    97946,
     97954,
     97955,
     97956,
+    97958,
     97966,
     97971,
+    97976,
+    97980,
     97982,
     97986,
+    97991,
+    97993,
+    97994,
     98000,
     98002,
     98004,
@@ -13836,13 +20049,26 @@
     98329,
     98335,
     98344,
+    98354,
+    98360,
     98363,
+    98366,
+    98368,
+    98369,
+    98371,
+    98372,
+    98376,
     98381,
     98386,
+    98406,
     98414,
+    98420,
+    98434,
     98451,
+    98452,
     98457,
     98461,
+    98469,
     98473,
     98474,
     98480,
@@ -13853,15 +20079,28 @@
     98518,
     98525,
     98527,
+    98531,
+    98534,
+    98544,
+    98555,
     98559,
     98563,
     98572,
+    98575,
+    98576,
+    98578,
+    98581,
+    98583,
     98584,
+    98585,
     98586,
     98587,
     98589,
     98590,
+    98617,
+    98668,
     98815,
+    98818,
     98821,
     100464,
     100465,
@@ -13907,6 +20146,7 @@
     100622,
     100625,
     100630,
+    100632,
     100633,
     101319
   ]
